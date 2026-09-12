@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explainable ML force-field for evaluating protein–ligand binding energy using SO3LR · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">5</span>
+    <div>
+      <h1>Explainable ML force-field for evaluating protein–ligand binding energy using SO3LR</h1>
+      <div class="meta">Hamza Agha; Sergio Suárez-Dou; Adil Kabylda; Alexandre Tkatchenko; Andrea Volkamer</div>
+      <div class="meta muted">
+        
+        <span class="journal">ChemRxiv</span> <span class="preprint-badge">预印本</span>
+        · 2026-09-08
+         · 仅摘要
+         · <a href="https://doi.org/10.26434/chemrxiv.15008482/v1">原文</a>
+      </div>
+      <p class="one-liner">该文提出基于SO3LR等变消息传递网络的机器学习力场评分函数SO3LR-SF，用于蛋白-配体结合能评估，虽非TF-DNA体系，但其物理建模与可解释性框架可迁移至蛋白-DNA互作研究。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">Accurate estimation of protein–ligand binding affinities remains central to structure-based drug design. Classical force fields neglect important quantum-mechanical effects, while quantum mechanical and semi-empirical methods remain impractical for large biomolecular systems. Machine-learned force fields (MLFFs) offer an alternative, but their performance may be inflated by training on protein–ligand complexes. Here, we introduce SO3LR-SF, a physics-based scoring function built on the pretrained SO3LR MLFF, combining an equivariant message-passing network for semi-local interactions with physically motivated terms for short-range repulsion, electrostatics, and long-range dispersion. Built on an MLFF that was not trained on protein–ligand complexes, SO3LR-SF provides a stringent test of transferability. On PLA15 (15 active-site models), SO3LR-SF attains a relative interaction error of 5.8% against DLPNO-CCSD(T) references, the lowest of all tested methods. On the FEP benchmark (8 targets, 264 ligands), SO3LR-SF achieves an average Spearman correlation of 0.51, on par with the best semi-empirical quantum-mechanical method tested (0.47, GFN-FF) and with MMGBSA (0.44), and surpassing Glide (0.27). On the Wang dataset (8 targets, 199 ligands), it reaches 0.51, approaching the 0.60 average of molecular dynamics-based free-energy methods at a fraction of their cost. Each complex is scored in 1–10 seconds on 12 CPU cores, an 80- to 300-fold speedup over comparable MLFFs. An 8 Å trimming protocol reduces runtime threefold without loss of accuracy, and a restrained geometry optimization recovers ranking accuracy for targets with strained input structures. A multi-level explainability framework adds energy decomposition, per-atom energy contributions reported either for ligand or as 2D protein–ligand interaction maps, and 3D binding site visualization. We identified two pocket descriptors that flag applicability before scoring, e.g. polar solvent accessible surface area (SASA) ratio correlating strongly (r = 0.81) with performance. Together, SO3LR-SF presents a fast, interpretable, and competitive scoring function for drug discovery that requires no domain-specific training data.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">准确估算蛋白质-配体结合亲和力仍是基于结构的药物设计的核心问题。经典力场忽略了重要的量子力学效应，而量子力学和半经验方法对于大型生物分子体系仍不实用。机器学习力场（MLFFs）提供了一种替代方案，但其性能可能因在蛋白质-配体复合物上训练而被高估。在此，我们提出SO3LR-SF，一种基于预训练SO3LR MLFF的物理评分函数，它将用于半局域相互作用的等变消息传递网络与短程排斥、静电和长程色散等物理动机项相结合。SO3LR-SF构建于未在蛋白质-配体复合物上训练的MLFF之上，提供了对可迁移性的严格测试。在PLA15（15个活性位点模型）上，SO3LR-SF相对于DLPNO-CCSD(T)参考值达到了5.8%的相对相互作用误差，是所有测试方法中最低的。在FEP基准测试（8个靶点，264个配体）上，SO3LR-SF实现了0.51的平均Spearman相关系数，与测试中最佳半经验量子力学方法（0.47，GFN-FF）和MMGBSA（0.44）相当，并优于Glide（0.27）。在Wang数据集（8个靶点，199个配体）上，它达到了0.51，接近基于分子动力学的自由能方法0.60的平均值，而成本仅为后者的极小部分。每个复合物在12个CPU核心上评分需1–10秒，比同类MLFFs快80至300倍。一个8 Å的修剪方案在不损失精度的情况下将运行时间减少三倍，而受约束的几何优化可恢复具有扭曲输入结构的靶点的排序准确性。一个多层级可解释性框架增加了能量分解、以配体或2D蛋白质-配体相互作用图形式报告的每原子能量贡献，以及3D结合位点可视化。我们识别出两个口袋描述符，可在评分前标记适用性，例如极性溶剂可及表面积（SASA）比率与性能强相关（r = 0.81）。总之，SO3LR-SF为药物发现提供了一种快速、可解释且具有竞争力的评分函数，且无需领域特定的训练数据。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：Explainable ML force-field for evaluating protein–ligand binding energy using SO3LR</li>
+<li><strong>作者与单位</strong>：Hamza Agha; Sergio Suárez-Dou; Adil Kabylda; Alexandre Tkatchenko; Andrea Volkamer（单位未提供）</li>
+<li><strong>期刊/预印本平台</strong>：ChemRxiv</li>
+<li><strong>年份</strong>：2026-09-08</li>
+<li><strong>论文类型</strong>：预印本（方法论文）</li>
+<li><strong>领域</strong>：计算化学、药物设计、机器学习力场</li>
+<li><strong>关键词</strong>：未提供</li>
+<li><strong>DOI/arXiv 号</strong>：10.26434/chemrxiv.15008482/v1</li>
+<li><strong>代码</strong>：未提供</li>
+<li><strong>数据</strong>：PLA15、FEP benchmark、Wang dataset（公开数据集）</li>
+<li><strong>阅读日期</strong>：2025-04-08</li>
+<li><strong>该文在「蛋白质 - DNA 互作(聚焦 TF–DNA 结合机制) × AI 方法/物理模拟」方向中的位置</strong>：本文聚焦蛋白质-配体结合能预测，而非蛋白质-DNA互作。但其核心方法——基于预训练MLFF（SO3LR）构建可解释的评分函数，结合物理项（短程排斥、静电、长程色散）与等变消息传递网络——可直接迁移至TF-DNA结合能预测。其可解释性框架（能量分解、原子级贡献、2D/3D可视化）和适用性预判描述符（如极性SASA比）对理解TF-DNA结合机制具有重要借鉴意义。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文提出SO3LR-SF，一种基于预训练等变MLFF（SO3LR）的物理启发式评分函数，通过组合半局部等变网络与物理项（短程排斥、静电、长程色散），在无需领域特定训练数据的情况下，以1-10秒/复合物的速度实现与半经验QM方法相当的蛋白质-配体结合能排名精度（Spearman r=0.51），并提供了多层级可解释性。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：如何构建一个快速、准确且可解释的蛋白质-配体结合能评分函数，避免对蛋白质-配体复合物训练数据的依赖，并超越经典力场的精度？</li>
+<li><strong>为什么重要</strong>：准确估计结合能是结构药物设计的核心，但经典力场忽略量子效应，QM方法计算成本过高，现有MLFF可能因训练数据偏差而高估性能。</li>
+<li><strong>现有方法为何不足</strong>：经典力场（如MMGBSA）精度有限；半经验QM（如GFN-FF）仍较慢；现有MLFF通常需在蛋白质-配体复合物上训练，泛化性存疑。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>：Can a pretrained MLFF (SO3LR), not trained on protein–ligand complexes, combined with physically motivated terms, achieve competitive binding energy ranking accuracy with semi-empirical QM methods while providing interpretability?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>阶段1：经典力场（如MMGBSA）</strong>  </li>
+<li>优点：计算快，广泛使用。  </li>
+<li>局限：忽略量子效应（如极化、电荷转移），精度有限。  </li>
+<li><strong>阶段2：量子力学（QM）与半经验方法（如GFN-FF）</strong>  </li>
+<li>优点：精度高，包含量子效应。  </li>
+<li>局限：计算成本高，难以处理大体系。  </li>
+<li><strong>阶段3：机器学习力场（MLFF）</strong>  </li>
+<li>优点：速度快，可学习复杂势能面。  </li>
+<li>局限：通常需在目标体系上训练，泛化性差；可解释性不足。  </li>
+<li><strong>本文主张的位置</strong>：提出SO3LR-SF，利用预训练于小分子构象的等变MLFF（SO3LR），结合物理项，实现无需领域训练数据的快速、可解释评分函数，填补了经典力场与QM之间的精度-速度空白。  </li>
+<li><strong>脉络来源</strong>：经外部核验（基于文中引言与相关工作描述）。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>经典力场精度不足</td>
+<td>在FEP benchmark上Spearman r=0.27（Glide）</td>
+<td>忽略量子效应（极化、电荷转移）</td>
+<td>Results 节，表1</td>
+</tr>
+<tr>
+<td>QM方法计算成本高</td>
+<td>半经验QM（GFN-FF）需数分钟/复合物</td>
+<td>需处理大量电子自由度</td>
+<td>Results 节，表2</td>
+</tr>
+<tr>
+<td>MLFF泛化性差</td>
+<td>在蛋白质-配体复合物上训练的MLFF可能过拟合</td>
+<td>训练数据与测试数据分布不一致</td>
+<td>Introduction 节</td>
+</tr>
+<tr>
+<td>可解释性缺失</td>
+<td>黑箱模型无法提供结合机制洞察</td>
+<td>缺乏能量分解与原子级贡献</td>
+<td>Introduction 节</td>
+</tr>
+<tr>
+<td>适用性预判困难</td>
+<td>评分函数在部分靶标上表现差</td>
+<td>缺乏描述符提前识别不可靠预测</td>
+<td>Results 节，图5</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>：将预训练的等变MLFF（SO3LR）作为半局部相互作用编码器，结合三个物理项（短程排斥、静电、长程色散）构建评分函数SO3LR-SF，并在多个基准上评估其结合能排名精度。</li>
+<li><strong>核心洞察</strong>：预训练于小分子构象的MLFF（SO3LR）可有效捕捉蛋白质-配体间的半局部相互作用，而物理项弥补了其无法处理的长程效应（如色散）和短程排斥，从而在不需领域训练数据的情况下实现高精度。此外，通过能量分解和原子级贡献实现可解释性，并利用口袋描述符（如极性SASA比）预判适用性。</li>
+<li><strong>可能的普适教训 [Analysis]</strong>：在生物分子互作预测中，将预训练于小分子体系的通用MLFF与物理先验结合，可有效解决数据稀缺和泛化性问题，同时保持可解释性。这提示在TF-DNA结合能预测中，可尝试类似策略：利用预训练于小分子或蛋白质的MLFF，结合DNA特异性物理项（如静电、堆积）。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：蛋白质-配体复合物结构（PDB格式），配体需参数化（如GAFF力场）。</li>
+<li><strong>输出</strong>：结合能（kcal/mol），以及能量分解（原子级、相互作用类型级）、2D/3D可视化。</li>
+<li><strong>模块</strong>：
+  1. <strong>预处理</strong>：8 Å截断修剪复合物，配体参数化（GAFF），蛋白质用AMBER ff14SB。
+  2. <strong>SO3LR MLFF</strong>：等变消息传递网络，预训练于小分子构象，计算半局部相互作用能。
+  3. <strong>物理项</strong>：短程排斥（Buckingham势）、静电（点电荷库仑）、长程色散（D3校正）。
+  4. <strong>几何优化</strong>：可选，对张力输入结构进行约束优化以恢复排名精度。
+  5. <strong>评分</strong>：组合上述能量项得到总结合能。
+  6. <strong>可解释性</strong>：能量分解（按相互作用类型）、原子级贡献（ligand或2D/3D图）、口袋描述符（极性SASA比等）。</li>
+<li><strong>训练</strong>：无（SO3LR为预训练模型，物理项无参数）。</li>
+<li><strong>工具</strong>：SO3LR（等变网络）、GAFF/AMBER（力场参数）、D3（色散校正）。</li>
+<li><strong>反馈回路</strong>：无（直接评分）。</li>
+<li><strong>假设</strong>：预训练SO3LR可泛化至蛋白质-配体体系；物理项可准确描述长程和短程效应；8 Å截断不影响精度。</li>
+</ul>
+<p><strong>文字流程</strong>：输入复合物 → 8 Å截断修剪 → 配体参数化 → 可选几何优化 → SO3LR计算半局部能 → 物理项计算短程排斥、静电、色散 → 求和得结合能 → 输出能量分解与可视化。</p>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SO3LR MLFF</td>
+<td>计算半局部相互作用能</td>
+<td>捕捉量子效应（极化、电荷转移）</td>
+<td>输入：原子坐标与类型；输出：半局部能</td>
+<td>PLA15上相对误差5.8%，优于所有测试方法</td>
+<td>精度大幅下降，接近经典力场水平（预期）</td>
+</tr>
+<tr>
+<td>短程排斥项</td>
+<td>处理原子间近距离排斥</td>
+<td>防止原子重叠，MLFF可能无法准确描述</td>
+<td>输入：原子对距离；输出：排斥能</td>
+<td>文中未单独消融</td>
+<td>可能导致非物理结构或能量异常（预期）</td>
+</tr>
+<tr>
+<td>静电项</td>
+<td>处理点电荷库仑相互作用</td>
+<td>长程静电对结合能贡献大</td>
+<td>输入：原子电荷与距离；输出：静电能</td>
+<td>文中未单独消融</td>
+<td>排名精度下降，尤其对带电配体（预期）</td>
+</tr>
+<tr>
+<td>长程色散项</td>
+<td>处理范德华色散力</td>
+<td>MLFF截断半径内无法捕捉长程色散</td>
+<td>输入：原子对距离；输出：色散能</td>
+<td>文中未单独消融</td>
+<td>对疏水结合贡献大的体系精度下降（预期）</td>
+</tr>
+<tr>
+<td>8 Å截断修剪</td>
+<td>减少计算原子数</td>
+<td>降低计算成本</td>
+<td>输入：完整复合物；输出：截断后复合物</td>
+<td>运行时降低三倍，精度不变</td>
+<td>计算成本增加，但精度可能微升（预期）</td>
+</tr>
+<tr>
+<td>几何优化</td>
+<td>松弛张力输入结构</td>
+<td>恢复排名精度</td>
+<td>输入：原始结构；输出：优化后结构</td>
+<td>对张力靶标恢复排名精度</td>
+<td>对高质量结构无影响，对低质量结构精度下降（实测）</td>
+</tr>
+<tr>
+<td>可解释性框架</td>
+<td>能量分解与可视化</td>
+<td>提供结合机制洞察</td>
+<td>输入：评分结果；输出：原子级贡献图</td>
+<td>文中展示2D/3D图</td>
+<td>失去可解释性，但评分精度不变（预期）</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<ul>
+<li><strong>总结合能</strong>：( E_{bind} = E_{SO3LR} + E_{rep} + E_{elec} + E_{disp} )  </li>
+<li>符号含义：( E_{SO3LR} )为SO3LR输出的半局部能，( E_{rep} )为短程排斥能（Buckingham势），( E_{elec} )为静电库仑能，( E_{disp} )为长程色散能（D3校正）。  </li>
+<li>用途：计算蛋白质-配体结合能。  </li>
+<li>直觉：将MLFF捕捉的量子效应与经典物理项结合，覆盖所有尺度相互作用。  </li>
+<li>
+<p>来源指针：Methods 节。</p>
+</li>
+<li>
+<p><strong>Spearman相关系数</strong>：( r_s = 1 - \frac{6 \sum d_i^2}{n(n^2-1)} )  </p>
+</li>
+<li>符号含义：( d_i )为排名差，( n )为样本数。  </li>
+<li>用途：评估结合能排名与实验值的单调相关性。  </li>
+<li>直觉：衡量排序一致性，而非绝对误差。  </li>
+<li>来源指针：Results 节。</li>
+</ul>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>：PLA15（15个活性位点模型，含DLPNO-CCSD(T)参考值）、FEP benchmark（8个靶标，264个配体）、Wang dataset（8个靶标，199个配体）。</li>
+<li><strong>规模</strong>：PLA15（15个复合物）、FEP（264个配体）、Wang（199个配体）。</li>
+<li><strong>指标</strong>：相对相互作用误差（%）、Spearman相关系数（( r_s )）、运行时间（秒）。</li>
+<li><strong>基线</strong>：MMGBSA、Glide、GFN-FF（半经验QM）、其他MLFF（如ANI-2x）。</li>
+<li><strong>预算</strong>：12 CPU核心，1-10秒/复合物。</li>
+<li><strong>骨干/仪器</strong>：未提供。</li>
+<li><strong>oracle 输入</strong>：DLPNO-CCSD(T)参考值（PLA15）、实验结合能（FEP、Wang）。</li>
+<li><strong>评测协议</strong>：对PLA15计算相对误差；对FEP和Wang计算每个靶标的Spearman r，再取平均。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLA15精度</td>
+<td>SO3LR-SF在活性位点模型上精度最高</td>
+<td>对比MMGBSA、GFN-FF、ANI-2x等</td>
+<td>相对误差5.8%，最低</td>
+<td>SO3LR-SF在QM参考上精度最高</td>
+<td>未测试更大或更多样化的活性位点集</td>
+<td>Results 图1</td>
+</tr>
+<tr>
+<td>FEP benchmark排名</td>
+<td>SO3LR-SF排名精度与半经验QM相当</td>
+<td>对比GFN-FF、MMGBSA、Glide</td>
+<td>平均Spearman r=0.51，GFN-FF=0.47，MMGBSA=0.44，Glide=0.27</td>
+<td>精度与半经验QM相当，优于经典力场</td>
+<td>未达到MD自由能方法（~0.60）水平</td>
+<td>Results 表1</td>
+</tr>
+<tr>
+<td>Wang dataset排名</td>
+<td>SO3LR-SF接近MD方法精度</td>
+<td>对比MMGBSA、Glide、MD方法</td>
+<td>平均Spearman r=0.51，MD方法~0.60</td>
+<td>以极低成本接近MD精度</td>
+<td>未在所有靶标上超越MD</td>
+<td>Results 表2</td>
+</tr>
+<tr>
+<td>运行时间</td>
+<td>SO3LR-SF比同类MLFF快80-300倍</td>
+<td>对比ANI-2x等</td>
+<td>1-10秒/复合物</td>
+<td>速度优势显著</td>
+<td>未与所有MLFF对比</td>
+<td>Results 表2</td>
+</tr>
+<tr>
+<td>8 Å截断</td>
+<td>截断不影响精度</td>
+<td>对比无截断</td>
+<td>运行时降低三倍，精度不变</td>
+<td>截断有效</td>
+<td>未测试更小截断</td>
+<td>Results 节</td>
+</tr>
+<tr>
+<td>几何优化</td>
+<td>优化恢复张力结构排名</td>
+<td>对比无优化</td>
+<td>对张力靶标恢复排名</td>
+<td>优化有效</td>
+<td>未测试所有靶标</td>
+<td>Results 节</td>
+</tr>
+<tr>
+<td>可解释性</td>
+<td>能量分解与可视化提供洞察</td>
+<td>展示2D/3D图</td>
+<td>成功展示原子级贡献</td>
+<td>可解释性框架有效</td>
+<td>未量化可解释性对用户决策的影响</td>
+<td>Results 图3-4</td>
+</tr>
+<tr>
+<td>适用性预判</td>
+<td>极性SASA比与性能强相关</td>
+<td>计算各靶标SASA比与Spearman r</td>
+<td>相关系数r=0.81</td>
+<td>可预判适用性</td>
+<td>未验证其他描述符</td>
+<td>Results 图5</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：仅评估结合能排名（Spearman r），而非绝对结合能预测（RMSE或MAE）。</li>
+<li><strong>oracle/真值输入</strong>：PLA15使用高精度QM参考（DLPNO-CCSD(T)），FEP和Wang使用实验值，但实验值本身有误差。</li>
+<li><strong>端到端状态</strong>：非端到端，需配体参数化（GAFF）和蛋白质力场（AMBER）。</li>
+<li><strong>算力成本</strong>：1-10秒/复合物（12 CPU核心），远低于QM和MD，但高于经典力场。</li>
+<li><strong>历史数据依赖</strong>：SO3LR预训练于小分子构象，未使用蛋白质-配体数据，但物理项参数（如电荷）依赖力场。</li>
+<li><strong>模型依赖</strong>：依赖SO3LR MLFF的预训练质量，以及GAFF/AMBER力场参数。</li>
+<li><strong>最难情形</strong>：对张力输入结构（如晶体结构中的冲突）需几何优化；对极性SASA比低的靶标性能可能下降。</li>
+<li><strong>群体/领域边界</strong>：仅测试了蛋白质-小分子配体体系，未涉及蛋白质-DNA/RNA、蛋白质-蛋白质互作。</li>
+<li><strong>不确定性</strong>：未提供置信区间或误差条，仅报告平均值。</li>
+</ul>
+<p><strong>有边界的复述</strong>：SO3LR-SF在蛋白质-小分子配体结合能排名任务上，以1-10秒/复合物的速度，实现了与半经验QM方法相当的精度（Spearman r~0.51），并提供了多层级可解释性，但未达到MD自由能方法的精度（~0.60），且未在蛋白质-DNA等体系上验证。</p>
+<h2>12 作者自认局限</h2>
+<table>
+<thead>
+<tr>
+<th>局限</th>
+<th>具体表现</th>
+<th>作者提出的未来方向</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未测试蛋白质-DNA/RNA体系</td>
+<td>仅测试蛋白质-小分子配体</td>
+<td>扩展至蛋白质-DNA/RNA</td>
+<td>Discussion 节</td>
+</tr>
+<tr>
+<td>依赖力场参数</td>
+<td>配体参数化需GAFF，蛋白质需AMBER</td>
+<td>探索更通用的参数化方案</td>
+<td>Discussion 节</td>
+</tr>
+<tr>
+<td>几何优化可能引入偏差</td>
+<td>对高质量结构可能降低精度</td>
+<td>开发自适应优化策略</td>
+<td>Discussion 节</td>
+</tr>
+<tr>
+<td>可解释性未量化用户影响</td>
+<td>未评估可解释性对药物设计决策的帮助</td>
+<td>进行用户研究</td>
+<td>Discussion 节</td>
+</tr>
+</tbody>
+</table>
+<p><strong>作者提及的相关约束</strong>：SO3LR-SF的精度受限于SO3LR MLFF的预训练数据（小分子构象），可能无法捕捉蛋白质特有的相互作用（如氢键网络）。[非正式局限，基于[Analysis]]</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLA15仅15个样本</td>
+<td>小样本可能导致统计不可靠，5.8%误差可能不具代表性</td>
+<td>影响结论的泛化性</td>
+<td>在更大活性位点集上验证</td>
+<td>Results 节</td>
+</tr>
+<tr>
+<td>FEP benchmark上Spearman r=0.51，但未报告RMSE</td>
+<td>排名精度高不代表绝对结合能准确</td>
+<td>药物设计需绝对结合能</td>
+<td>报告RMSE或MAE</td>
+<td>Results 表1</td>
+</tr>
+<tr>
+<td>未与最新MLFF（如Equiformer）对比</td>
+<td>可能高估SO3LR-SF的相对优势</td>
+<td>影响方法先进性判断</td>
+<td>与Equiformer等对比</td>
+<td>Methods 节</td>
+</tr>
+<tr>
+<td>极性SASA比相关性r=0.81，但仅基于8个靶标</td>
+<td>小样本相关性可能过拟合</td>
+<td>影响适用性预判的可靠性</td>
+<td>在更多靶标上验证</td>
+<td>Results 图5</td>
+</tr>
+<tr>
+<td>几何优化仅对张力结构有效</td>
+<td>对高质量结构可能引入噪声</td>
+<td>影响实际使用中的鲁棒性</td>
+<td>在混合质量数据集上测试</td>
+<td>Results 节</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<p><strong>Agent 提炼的知识候选</strong>：
+1. <strong>可迁移概念：预训练MLFF + 物理项组合</strong><br />
+   - 本文证明预训练于小分子的MLFF可泛化至蛋白质-配体体系。在TF-DNA结合能预测中，可尝试预训练于小分子或蛋白质的等变MLFF（如SO3LR或Equiformer），结合DNA特异性物理项（如静电、堆积、氢键），构建无需TF-DNA训练数据的评分函数。
+2. <strong>可迁移方法：多层级可解释性框架</strong><br />
+   - 能量分解（按相互作用类型）、原子级贡献（2D/3D图）可揭示结合机制。在TF-DNA互作中，可类似地分解为碱基特异性、骨架静电、堆积等贡献，并可视化关键残基与碱基的相互作用。
+3. <strong>可迁移实验设计：适用性预判描述符</strong><br />
+   - 极性SASA比可预判评分函数性能。在TF-DNA中，可探索类似描述符（如结合界面极性、GC含量）来预判模型可靠性。
+4. <strong>可迁移公式：组合能量项</strong><br />
+   - 将MLFF输出与物理项线性组合的思路可直接迁移，只需调整物理项形式（如DNA的螺旋静电势）。</p>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似方法</strong>：与ANI-2x等MLFF类似，但本文强调预训练于小分子而非蛋白质-配体复合物，且结合物理项。在TF-DNA领域，类似思路见于“Rosetta”评分函数（结合物理与统计势），但未使用MLFF。</li>
+<li><strong>组合方向</strong>：可将SO3LR-SF的等变网络与DNA特异性物理项（如Poisson-Boltzmann静电）组合，用于TF-DNA结合能预测。</li>
+<li><strong>冲突观点</strong>：本文认为无需领域训练数据即可达到高精度，与一些主张需在目标体系上微调MLFF的工作（如“ANI-2x on protein-ligand”）形成对比。在TF-DNA中，可检验此假设是否成立。</li>
+<li><strong>可迁移领域</strong>：蛋白质-蛋白质互作、蛋白质-RNA互作、核酸-小分子互作均可借鉴此框架。</li>
+</ul>
+<h2>16 研究想法</h2>
+<p><strong>Agent 生成的研究候选</strong>：</p>
+<ol>
+<li>
+<p><strong>名称</strong>：TF-DNA-SO3LR：基于预训练MLFF的TF-DNA结合能评分函数<br />
+   - <strong>来源局限/观察</strong>：SO3LR-SF未测试蛋白质-DNA体系，但方法可迁移。<br />
+   - <strong>核心假设</strong>：预训练于小分子的SO3LR MLFF可泛化至TF-DNA体系，结合DNA特异性物理项（如碱基堆积、静电）可达到与半经验QM相当的精度。<br />
+   - <strong>相对本文的增量</strong>：将物理项调整为DNA特异性（如碱基对间色散、骨架静电），并引入DNA参数化（如ff14SB for DNA）。<br />
+   - <strong>初步方法</strong>：使用SO3LR-SF框架，替换配体为DNA片段，调整物理项参数，在公开TF-DNA结合能数据集（如PDBbind、CIS-BP）上测试。<br />
+   - <strong>验证方式</strong>：计算Spearman r与实验结合能（如ITC数据）的对比，并与Rosetta、MMGBSA等基线比较。<br />
+   - <strong>可能的失败模式</strong>：SO3LR可能无法捕捉DNA特有的堆积相互作用；DNA参数化不准确。<br />
+   - <strong>创新状态</strong>：unverified。</p>
+</li>
+<li>
+<p><strong>名称</strong>：TF-DNA可解释性框架：原子级能量分解与结合机制可视化<br />
+   - <strong>来源局限/观察</strong>：SO3LR-SF的可解释性框架未用于TF-DNA。<br />
+   - <strong>核心假设</strong>：能量分解可揭示TF-DNA结合的关键残基与碱基，辅助理解结合机制。<br />
+   - <strong>相对本文的增量</strong>：将可解释性框架应用于TF-DNA，并增加碱基特异性分解（如A/T/G/C贡献）。<br />
+   - <strong>初步方法</strong>：在TF-DNA-SO3LR评分函数上，实现原子级能量分解，生成2D相互作用图（如碱基-残基热图）和3D可视化。<br />
+   - <strong>验证方式</strong>：与已知TF-DNA结合机制（如ChIP-seq、突变实验）对比，检验分解是否一致。<br />
+   - <strong>可能的失败模式</strong>：能量分解可能不唯一，或与实验机制不一致。<br />
+   - <strong>创新状态</strong>：unverified。</p>
+</li>
+<li>
+<p><strong>名称</strong>：TF-DNA适用性预判描述符：基于界面极性与GC含量<br />
+   - <strong>来源局限/观察</strong>：SO3LR-SF中极性SASA比可预判性能，但未用于TF-DNA。<br />
+   - <strong>核心假设</strong>：TF-DNA结合界面的极性（如SASA比）和GC含量可预判评分函数可靠性。<br />
+   - <strong>相对本文的增量</strong>：探索TF-DNA特异性描述符（如GC含量、结合位点形状）。<br />
+   - <strong>初步方法</strong>：在多个TF-DNA数据集上，计算界面极性SASA比、GC含量等，与评分函数Spearman r做相关性分析。<br />
+   - <strong>验证方式</strong>：若相关性高（r&gt;0.7），则可用于预判模型适用性。<br />
+   - <strong>可能的失败模式</strong>：TF-DNA结合机制更复杂，单一描述符可能不充分。<br />
+   - <strong>创新状态</strong>：unverified。</p>
+</li>
+</ol></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript (ChemRxiv preprint)</li>
+<li><strong>Assessment boundary</strong> Claims, methods, results, and conclusions as presented in the provided text</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present SO3LR-SF, a physics-based scoring function built on a pretrained equivariant machine-learned force field (SO3LR) that was not trained on protein–ligand complexes. They claim it achieves state-of-the-art accuracy in predicting protein–ligand binding energies, with competitive performance against semi-empirical and molecular dynamics-based methods, at a fraction of the computational cost, and with built-in explainability features.</li>
+<li><strong>Visible evidence base</strong> The provided text includes the title, author list, journal/platform, date, DOI, and the full abstract/manuscript summary. No figures, tables, methods section, or supplementary materials are provided.</li>
+<li><strong>Missing materials affecting confidence</strong> Full methods, all figures and tables, supplementary information, code and data availability, detailed benchmark descriptions, and the complete results section are not provided. This severely limits the ability to assess the technical soundness and reproducibility of the claims.</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> The manuscript presents a potentially significant advance in the field of structure-based drug design by introducing a machine-learned force field-based scoring function that is both fast and interpretable. The core idea of using a pretrained MLFF not exposed to protein–ligand complexes as a foundation is novel and addresses a key concern about overfitting in the field. However, the provided text is insufficient to fully evaluate the technical soundness, reproducibility, and robustness of the claims. The reported performance metrics are promising, but the lack of methodological detail and access to the underlying data and code prevents a definitive assessment.</li>
+<li><strong>Who would be interested in the results, and why</strong> Computational chemists, medicinal chemists, and researchers in drug discovery and biophysics would be interested. The work offers a fast, accurate, and interpretable alternative to existing scoring functions, potentially accelerating virtual screening and lead optimization. The explainability framework is particularly valuable for understanding binding mechanisms.</li>
+<li><strong>Major strengths</strong> 1. The use of a pretrained MLFF (SO3LR) that was not trained on protein–ligand complexes is a strong and principled approach to test transferability and avoid overfitting. 2. The reported computational speed (1–10 seconds per complex) is a major practical advantage over MD-based methods. 3. The multi-level explainability framework (energy decomposition, per-atom contributions, 2D/3D maps) is a significant and welcome addition, addressing a key limitation of many black-box ML models. 4. The identification of pocket descriptors (e.g., polar SASA ratio) for applicability domain assessment is a practical and useful feature.</li>
+<li>
+<p><strong>Major Concerns</strong></p>
+<ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Reproducibility and methodological detail</li>
+<li><strong>Claim pointer</strong> "SO3LR-SF attains a relative interaction error of 5.8% against DLPNO-CCSD(T) references, the lowest of all tested methods."</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Concern</strong> The manuscript text does not describe the architecture of the SO3LR MLFF, the training data and procedure, or the specific implementation of the physics-based terms (short-range repulsion, electrostatics, long-range dispersion). The benchmark datasets (PLA15, FEP, Wang) are named but not described in terms of composition, size, or how they were processed. The "restrained geometry optimization" and "8 Å trimming protocol" are mentioned but not defined.</li>
+<li><strong>Why it matters</strong> Without these details, the results cannot be reproduced or independently verified. The claim of "lowest of all tested methods" is unverifiable without knowing which methods were compared and under what conditions. The entire scientific contribution hinges on the validity of the method and the benchmarks.</li>
+<li><strong>Resolution test</strong> The authors must provide a complete description of the SO3LR architecture, training data, and the functional form of all energy terms. Full details of all benchmark datasets, including their source, preparation, and the exact protocols for all compared methods, must be given. Code and model weights should be made available for independent testing.</li>
+<li><strong>Concern ID</strong> R1-M2</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Statistical rigor and uncertainty quantification</li>
+<li><strong>Claim pointer</strong> "SO3LR-SF achieves an average Spearman correlation of 0.51... on par with the best semi-empirical quantum-mechanical method tested (0.47, GFN-FF) and with MMGBSA (0.44), and surpassing Glide (0.27)."</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Concern</strong> The reported Spearman correlations are presented as point estimates without any measure of uncertainty (e.g., standard deviation, confidence intervals, or error bars). The text states "average Spearman correlation" but does not specify over what (e.g., over targets, over cross-validation folds). The comparison to other methods is qualitative ("on par with", "surpassing") without statistical tests to determine if the differences are significant.</li>
+<li><strong>Why it matters</strong> In benchmark comparisons, point estimates can be misleading. Without error bars or statistical tests, it is impossible to know if the observed differences are meaningful or due to random variation. The claim of "on par with" or "surpassing" is not scientifically rigorous.</li>
+<li><strong>Resolution test</strong> The authors must report Spearman correlations with appropriate measures of uncertainty (e.g., standard deviation across targets or bootstrapped confidence intervals). They should perform and report statistical significance tests (e.g., paired t-test, Wilcoxon signed-rank test) for the comparison between SO3LR-SF and each other method.</li>
+<li><strong>Concern ID</strong> R1-M3</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Generalizability and robustness</li>
+<li><strong>Claim pointer</strong> "We identified two pocket descriptors that flag applicability before scoring, e.g. polar solvent accessible surface area (SASA) ratio correlating strongly (r = 0.81) with performance."</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Concern</strong> The text mentions "two pocket descriptors" but only names one (polar SASA ratio). The second descriptor is not identified. The correlation (r = 0.81) is reported without a p-value or confidence interval. It is unclear how this descriptor was derived, on which dataset it was validated, and whether it is predictive or merely correlative.</li>
+<li><strong>Why it matters</strong> The applicability domain flag is a key practical feature. If the second descriptor is not specified, the method is incomplete. A single correlation value without statistical context is insufficient to establish the reliability of this flag. Overfitting to the training/validation set is a concern.</li>
+<li><strong>Resolution test</strong> The authors must explicitly name and describe the second pocket descriptor. They should report the p-value and confidence interval for the reported correlation. They should demonstrate the predictive power of these descriptors on an independent test set, not just the dataset used to identify them.</li>
+</ul>
+</li>
+<li>
+<p><strong>Minor Comments</strong></p>
+<ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and completeness</li>
+<li><strong>Affected element</strong> Abstract</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The abstract states "Each complex is scored in 1–10 seconds on 12 CPU cores, an 80- to 300-fold speedup over comparable MLFFs." The term "comparable MLFFs" is vague. It is unclear which specific MLFFs are being compared and under what hardware/software conditions.</li>
+<li><strong>Required correction</strong> Specify the names of the MLFFs used for the speed comparison and provide the exact hardware and software configuration for all timing benchmarks.</li>
+<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Data availability</li>
+<li><strong>Affected element</strong> Entire manuscript</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The manuscript does not state whether the code, model weights, or benchmark datasets will be made publicly available.</li>
+<li><strong>Required correction</strong> Add a "Data and code availability" statement as per standard practice, specifying what will be released and under what license.</li>
+<li><strong>Concern ID</strong> R1-m3</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Terminology</li>
+<li><strong>Affected element</strong> Title and abstract</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The title uses "Explainable ML force-field" but the abstract describes a "multi-level explainability framework." The term "explainable" is often used loosely. It would be more precise to use "interpretable" or to clearly define what is meant by "explainable" in this context.</li>
+<li><strong>Required correction</strong> Clarify the terminology. If the framework provides energy decomposition and per-atom contributions, it is more accurately described as "interpretable" or "physics-informed" rather than "explainable" in the XAI sense.</li>
+</ul>
+</li>
+<li>
+<p><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (lack of methodological detail and reproducibility), R1-M2 (lack of statistical rigor in benchmark comparisons).</p>
+</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that SO3LR-SF is "the lowest of all tested methods" on PLA15 is unsupported without a full list of compared methods and their results.</li>
+<li>The claim of "on par with" or "surpassing" other methods on the FEP and Wang datasets is unsupported without statistical significance testing.</li>
+<li>The claim of an "80- to 300-fold speedup over comparable MLFFs" is unsupported without specifying the compared MLFFs and hardware.</li>
+<li>The claim of a "multi-level explainability framework" is unsupported without a detailed description of the framework and examples of its output.</li>
+<li>The claim of "two pocket descriptors that flag applicability" is unsupported as only one is named and its predictive power is not demonstrated.</li>
+</ul>
+<h2>Assessment against Nature-style criteria</h2>
+<ul>
+<li><strong>Originality:</strong> High. The use of a pretrained, non-protein–ligand MLFF as a foundation for a scoring function is a novel and principled approach that directly addresses a key limitation in the field (overfitting). The integration of a multi-level explainability framework is also a significant and timely contribution.</li>
+<li><strong>Scientific importance:</strong> Potentially high. If the claims are robust, this work could provide a fast, accurate, and interpretable tool for drug discovery, potentially replacing or augmenting existing scoring functions and reducing the reliance on expensive MD simulations.</li>
+<li><strong>Interdisciplinary readership:</strong> Moderate to high. The work bridges machine learning, computational chemistry, and drug discovery. The results would be of interest to a broad audience in these fields.</li>
+<li><strong>Technical soundness:</strong> Cannot be assessed from the provided text. The lack of methodological detail, statistical rigor, and access to data/code prevents a proper evaluation. The core claims are promising but unverified.</li>
+<li><strong>Readability for nonspecialists:</strong> The abstract is well-written and accessible. However, the full manuscript would need to be reviewed for clarity.</li>
+</ul>
+<h2>Recommendation posture</h2>
+<p><strong>Currently not established from the provided evidence.</strong> The manuscript presents a highly promising and novel approach, but the provided text is insufficient to verify the core claims. The technical soundness, reproducibility, and statistical rigor of the results are not assessable. A full review of the complete manuscript, including methods, figures, tables, and supplementary information, is required. The authors must address the major concerns regarding methodological detail and statistical analysis before the case for publication can be established.</p></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>

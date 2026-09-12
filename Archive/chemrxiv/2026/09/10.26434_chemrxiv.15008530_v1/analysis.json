@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15008530/v1",
+  "title": "Plasma Protein Binding Prediction under Scaffold Split: Tree Models, ChemBERTa, Graph Networks, and Late Fusion",
+  "authors": "Pradyumna Kumar Pradhan",
+  "journal": "ChemRxiv",
+  "published_date": "2026-09-09",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究小分子血浆蛋白结合预测，使用图神经网络和ChemBERTa等模型，不涉及蛋白质-DNA互作或转录因子结合，与本课题无关。",
+  "abstract": "From idea generation to testing, drug discovery is a lengthy and expensive process. Rather than chasing all of their molecule ideas, scientists prioritize certain molecules that are more likely to be successful, from synthesis to safety to therapeutic use. Machine learning and AI enable researchers to narrow their candidate choices by predicting important properties such as ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity). This study uses the Plasma Protein Binding (PPB) dataset from DeepChem’s MoleculeNet, with several graph neural networks (GNNs), ChemBERTa (a language model for SMILES strings of molecules), and fusions of these models. The performance of these neural models is compared against two standard tree-based models: Random Forest (RF) and XGBoost. Instead of random splitting of the dataset, this study evaluates the models based on scaffold splitting that separates molecules by the Bemis–Murcko scaffold and puts the entire group into only the training, validation, or test set. This study demonstrates that for the PPB dataset, GNNs and ChemBERTa models perform better than the tree models. On a mean basis, the fusion models perform better than the individual GNNs or ChemBERTa-only models. Random splitting on the RF model exhibits a better R2 score than on a scaffold-split dataset. Because under scaffold splitting the model predicts on unseen cores, the task becomes more difficult than under regular random splitting.",
+  "abstract_zh": "从想法生成到测试，药物发现是一个漫长且昂贵的过程。科学家们并非追逐所有分子想法，而是优先选择那些从合成、安全性到治疗用途更可能成功的特定分子。机器学习和人工智能使研究人员能够通过预测重要性质（如ADMET（吸收、分布、代谢、排泄和毒性））来缩小候选范围。本研究使用来自DeepChem的MoleculeNet的血浆蛋白结合（PPB）数据集，结合多种图神经网络（GNNs）、ChemBERTa（一种用于分子SMILES字符串的语言模型）以及这些模型的融合。这些神经模型的性能与两种基于树的基准模型——随机森林（RF）和XGBoost——进行了比较。本研究未采用数据集的随机划分，而是基于支架划分（scaffold splitting）评估模型，该划分根据Bemis–Murcko支架分离分子，并将整个组仅放入训练集、验证集或测试集。研究表明，对于PPB数据集，GNNs和ChemBERTa模型的性能优于树模型。在均值基础上，融合模型的性能优于单独的GNNs或仅ChemBERTa模型。RF模型在随机划分下的R2分数优于支架划分数据集。由于在支架划分下，模型需对未见核心进行预测，该任务比常规随机划分更为困难。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15008530/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15008530/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15008530_v1/index.html"
+}

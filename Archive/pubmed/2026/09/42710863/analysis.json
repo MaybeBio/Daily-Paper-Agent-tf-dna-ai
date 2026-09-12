@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42710863",
+  "title": "transfactor: transcription factor activity estimation via probabilistic gene expression deconvolution.",
+  "authors": "Van den Berge, Koen; Bickel, Peter; Dudoit, Sandrine",
+  "journal": "Biostatistics (Oxford, England)",
+  "published_date": "2026-09-08",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出一种基于概率基因表达解卷积的转录因子活性估计方法，虽涉及TF与基因调控，但核心是统计推断而非蛋白质-DNA互作建模，且未使用AI或物理模拟方法，与课题聚焦的TF-DNA结合机制研究关联较弱。",
+  "abstract": "Gene expression is a primary modality being studied to differentiate between biological cells. Contemporary single-cell studies simultaneously measure genome-wide transcription levels for thousands of individual cells in a single experiment. While the characterization of cell population differences has often occurred through differential gene expression analysis, tiny effect sizes become statistically significant when thousands of cells are available for each population, compromising biological interpretation. Moreover, these large studies have spurred the development of methods to infer gene regulatory networks (GRNs) directly from the data, and GRN databases are becoming more comprehensive. In this work, we propose a statistical model for gene expression measures and an inference method that leverage GRNs to deconvolve transcription factor (TF) activity from gene expression, by probabilistically assigning mRNA molecules to TFs. This shifts the paradigm from investigating gene expression differences to regulatory differences at the level of TF activity, aiding interpretation and allowing prioritization of a limited number of TFs responsible for significant contributions to the observed gene expression differences. The inferred TF activities result in intuitive prioritization of TFs in terms of the (difference in) estimated number of molecules they produce, in contrast to other widely used methods relying on arbitrary enrichment scores. Our model allows the incorporation of prior information on the regulatory potential between each TF and target gene and is able to deal with both repressing and activating interactions. We compare our approach to other TF activity estimation methods using two simulation experiments and two case studies. Single-cell RNA-sequencing; TF activity; bioinformatics; GRN.",
+  "abstract_zh": "基因表达是研究生物细胞差异的主要手段。当代单细胞研究在一次实验中同时测量数千个个体细胞的基因组-wide转录水平。虽然细胞群体差异的表征通常通过差异基因表达分析实现，但当每个群体有数千个细胞可用时，微小的效应量变得统计显著，从而影响生物学解释。此外，这些大规模研究推动了直接从数据中推断基因调控网络（GRN）的方法发展，且GRN数据库正变得更加全面。在本工作中，我们提出一个针对基因表达测量的统计模型及一种推断方法，利用GRN通过概率性地将mRNA分子分配给转录因子（TF），从基因表达中解卷积转录因子活性。这将研究范式从探究基因表达差异转向TF活性层面的调控差异，有助于解释，并允许优先考虑对观察到的基因表达差异有显著贡献的有限数量的TF。推断出的TF活性在估计产生的分子数量（差异）方面提供了直观的TF优先排序，这与依赖任意富集分数的其他广泛使用的方法形成对比。我们的模型允许纳入每个TF与靶基因之间调控潜力的先验信息，并能处理抑制性和激活性的相互作用。我们通过两个模拟实验和两个案例研究，将我们的方法与其他TF活性估计方法进行比较。单细胞RNA测序；TF活性；生物信息学；GRN。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42710863/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42710863/",
+  "paper_page_path": "papers/pubmed/42710863/index.html"
+}

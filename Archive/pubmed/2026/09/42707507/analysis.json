@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42707507",
+  "title": "Interpretable prediction of nucleic acid-binding proteins using a protein language model.",
+  "authors": "Kim, Hanjin; Lee, Sung-Gwon; Oh, Jooseong; Kim, Kee K; Kim, Eun-Mi; Park, Chungoo",
+  "journal": "Bioinformatics advances",
+  "published_date": "2026-09-08",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用ESM-2蛋白语言模型预测DNA/RNA结合蛋白，虽聚焦蛋白-核酸互作识别，但仅做序列级分类，未涉及TF-DNA结合位点或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "MOTIVATION: Accurate identification of DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) is critical for elucidating transcriptional and post-transcriptional regulatory mechanisms. However, existing computational approaches often rely on inferred labels or domain-specific annotations, which limit the subsequent generalizability. RESULTS: This study aimed to introduce transformer-based classifiers for human DBPs and RBPs that rely solely on protein sequence information without engineered features or domain constraints. The models were implemented using ESM-2 with low-rank adaptation (LoRA) fine-tuning and trained on experimentally validated datasets, including chromatin immunoprecipitation sequencing (ChIP-seq) annotations for DBPs and eCLIP annotations for RBPs. Next, to evaluate biological relevance, we computed value-aware attention (VAT) scores aggregated across transformer layers to interpret model focus. In 20-fold cross-validation, the DBP model achieved an area under the receiver operating characteristic curve (AUROC) of 0.84 with a Matthews correlation coefficient (MCC) of 0.40, while the RBP model achieved an AUROC of 0.92 with an MCC of 0.46. Proteins predicted as nucleic acid-binding were enriched for known binding domains, and inspection of attention distributions revealed preferential focus on annotated functional regions rather than non-binding segments. These results demonstrate that attention-based protein language models can accurately identify nucleic acid-binding proteins directly from sequence data. Moreover, these models reveal biologically meaningful sequence determinants of binding, establishing an interpretable and scalable framework for proteome-wide characterization of protein-nucleic acid interactions. AVAILABILITY AND IMPLEMENTATION: Code is available on GitHub (https://github.com/CSB-hub/DRBP).",
+  "abstract_zh": "动机：准确识别DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs）对于阐明转录和转录后调控机制至关重要。然而，现有计算方法通常依赖推断标签或领域特异性注释，这限制了后续的泛化能力。结果：本研究旨在引入基于transformer的分类器，用于人类DBPs和RBPs，这些分类器仅依赖蛋白质序列信息，无需工程化特征或领域约束。模型使用ESM-2结合低秩适应（LoRA）微调实现，并在实验验证的数据集上训练，包括用于DBPs的染色质免疫沉淀测序（ChIP-seq）注释和用于RBPs的eCLIP注释。接下来，为评估生物学相关性，我们计算了跨transformer层聚合的值感知注意力（VAT）分数，以解释模型关注点。在20折交叉验证中，DBP模型实现了0.84的受试者工作特征曲线下面积（AUROC）和0.40的马修斯相关系数（MCC），而RBP模型实现了0.92的AUROC和0.46的MCC。被预测为核酸结合的蛋白质富集了已知结合结构域，注意力分布检查显示，模型优先关注注释的功能区域而非非结合片段。这些结果表明，基于注意力的蛋白质语言模型能够直接从序列数据中准确识别核酸结合蛋白。此外，这些模型揭示了具有生物学意义的结合序列决定因素，为蛋白质-核酸相互作用的蛋白质组范围表征建立了一个可解释且可扩展的框架。可用性与实现：代码可在GitHub上获取（https://github.com/CSB-hub/DRBP）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42707507/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42707507/",
+  "paper_page_path": "papers/pubmed/42707507/index.html"
+}

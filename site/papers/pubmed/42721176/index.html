@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DMGRN: Enhancing Diffusion Models for Gene Regulatory Network Inference. · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-low">4</span>
+    <div>
+      <h1>DMGRN: Enhancing Diffusion Models for Gene Regulatory Network Inference.</h1>
+      <div class="meta">Li, Rongyuan; Wu, Jingli; Chen, Chunfeng; Li, Gaoshi; Liu, Jiafei; Hu, Haize; Xuan, Junbo; Liu, Jinlu; Deng, Zheng; Gong, Daoqing</div>
+      <div class="meta muted">
+        
+        <span class="journal">IEEE transactions on computational biology and bioinformatics</span>
+        · 2026-09-10
+         · 仅摘要
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42721176/">原文</a>
+      </div>
+      <p class="one-liner">该文利用扩散模型从scRNA-seq数据推断基因调控网络，虽涉及TF-靶基因关系，但核心是表达数据降噪与网络推断，而非TF-DNA分子互作建模或结合位点预测，方法上无三维结构或物理模拟，属于间接相关。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">Gene regulatory networks (GRNs) encode the intricate interactions between transcription factors (TFs) and their target genes, playing a pivotal role in orchestrating cellular metabolism, proliferation, and differentiation, thereby illuminating the molecular mechanisms underlying disease onset and progression. The increasing availability of single-cell RNA sequencing (scRNA-seq) data offers unprecedented opportunities for computational GRN inference. However, the inherent high noise and sparsity of scRNA-seq data considerably impair the performance of existing inference methods. To overcome these limitations, we propose DMGRN, a novel GRN inference frame work built upon an improved Denoising Diffusion Probabilistic Model (DDPM). Our approach first applies a forward diffusion process to progressively introduce Gaussian noise into the raw expression data, and subsequently employs a reverse process integrated with a structural equation model (SEM) to predict the noise, thereby accurately recovering gene regulatory relationships. To further enhance inference fidelity, we introduce a gene similarity alignment loss that encourages correlation consistency between the predicted noise and the perturbed data at the gene level, enabling the model to simultaneously capture cellular-level noise residuals and gene-level regulatory co-expression patterns. Experimental results on 28 BEELINE benchmark datasets demonstrate that DMGRN achieves the highest Early Precision Ratio (EPR) on 18 out of 28 BEELINE benchmark configurations, demonstrating superior stability and computational efficiency compared to state-of-the-art methods.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">基因调控网络（Gene Regulatory Networks, GRNs）编码了转录因子（Transcription Factors, TFs）与其靶基因之间的复杂相互作用，在协调细胞代谢、增殖和分化中发挥关键作用，从而揭示疾病发生与进展的分子机制。单细胞RNA测序（single-cell RNA sequencing, scRNA-seq）数据日益丰富的可用性为计算GRN推断提供了前所未有的机遇。然而，scRNA-seq数据固有的高噪声和稀疏性显著削弱了现有推断方法的性能。为克服这些局限，我们提出DMGRN，一种基于改进去噪扩散概率模型（Denoising Diffusion Probabilistic Model, DDPM）的新型GRN推断框架。我们的方法首先应用前向扩散过程逐步向原始表达数据引入高斯噪声，随后采用结合结构方程模型（Structural Equation Model, SEM）的反向过程预测噪声，从而准确恢复基因调控关系。为进一步提升推断保真度，我们引入基因相似性对齐损失，促使预测噪声与扰动数据在基因水平上的相关性一致性，使模型能够同时捕获细胞水平的噪声残差和基因水平的调控共表达模式。在28个BEELINE基准数据集上的实验结果表明，DMGRN在28个BEELINE基准配置中的18个上取得了最高的早期精确率（Early Precision Ratio, EPR），与最先进方法相比展现出卓越的稳定性和计算效率。</div>
+  </section>
+  
+  
+  
+</article>
+</main>
+</body>
+</html>

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, or supporting data
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics to show that three post-translational modifications (acetylation, phosphorylation, methylation) on a p53 peptide fragment differentially alter translocation dynamics through a bilayer graphene nanopore, with dwell-time statistics being more sensitive than mean current blockade, and that a linear SVM classifier can distinguish modified states using combined dwell time and blockade features.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary material provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, system setup, convergence criteria, statistical analysis, classifier implementation and validation, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on PTM detection using solid-state nanopores, a topic of relevance to nanopore proteomics. The central claim that PTMs reshape translocation dynamics in a modification-specific manner is plausible and mechanistically motivated. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the statistical claims, or the validity of the machine learning classification. The work may be of interest to the nanopore and computational biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nanopore sensing, single-molecule biophysics, and computational chemistry would be interested in the mechanistic insights into how PTMs alter peptide translocation through graphene nanopores. The work also speaks to the broader nanopore proteomics community seeking to expand detection capabilities beyond unmodified analytes. The design principles proposed could inform experimental efforts in solid-state nanopore-based PTM detection.
+- **Major strengths** The study addresses a timely and underexplored question, namely the microscopic mechanisms of PTM effects in solid-state nanopores. The choice of three common PTMs with distinct physicochemical properties (charge, hydrophobicity, size) provides a reasonable comparative framework. The claim that dwell-time statistics are more sensitive than mean blockade is a useful and non-obvious insight. The inclusion of a machine learning classifier to demonstrate practical distinguishability adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PTMs remodel the translocation landscape at the level of dwell-time statistics and that specific PTMs produce distinct dwell-time behaviors.
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract reports qualitative differences in dwell-time statistics (e.g., "longest residence times," "broader, heterogeneous dynamics," "electrostatic tug-of-war") without any quantitative values, error bars, or statistical significance measures. It is impossible to assess whether the observed differences are robust or within simulation noise.
+  - **Why it matters** Dwell-time distributions from molecular dynamics simulations are notoriously sensitive to simulation length, sampling convergence, and choice of collective variables. Without quantitative reporting and statistical validation, the central mechanistic claims cannot be evaluated.
+  - **Resolution test** Provide dwell-time distributions with mean, median, and variance for each PTM state, along with statistical tests (e.g., bootstrap or Kolmogorov-Smirnov) demonstrating significant differences. Report the number of independent translocation events and simulation lengths.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a linear SVM classifier can reliably distinguish unmodified, acetylated, and phosphorylated states using dwell time and relative blockade features.
+  - **Evidence pointer** Abstract only; no methods or results provided
+  - **Concern** No details are given on the dataset size, feature extraction, cross-validation scheme, class balance, or classification performance metrics (accuracy, precision, recall, confusion matrix). The claim of "reliably distinguish" is unsupported without these details.
+  - **Why it matters** Machine learning claims in small-sample computational studies are prone to overfitting, especially when features are few and classes are few. Without proper validation, the classifier result may not generalize.
+  - **Resolution test** Report dataset size, cross-validation strategy, and performance metrics with confidence intervals. Show confusion matrices and, if possible, test on held-out data or independent simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that all-atom molecular dynamics was used to investigate PTM effects on translocation.
+  - **Evidence pointer** Abstract only; no methods section provided
+  - **Concern** No information is provided on the force field, water model, graphene parameters, ion conditions, applied electric field, temperature coupling, or simulation box dimensions. These parameters critically affect translocation dynamics and dwell times.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, the results cannot be replicated or compared with existing literature.
+  - **Resolution test** Provide a complete methods section with all simulation parameters, including software version, force field parameters, and system preparation protocols.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "electrostatic tug-of-war"
+  - **Issue** The phrase "electrostatic tug-of-war" is evocative but imprecise. It is unclear what exactly is competing (e.g., peptide-pore interactions versus peptide-solvent interactions, or attractive versus repulsive forces).
+  - **Required correction** Define the specific electrostatic interactions at play and provide quantitative evidence (e.g., interaction energy decomposition) to support the description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** PTM selection rationale
+  - **Evidence pointer** Abstract, "three common PTMs"
+  - **Issue** The abstract does not explain why these three PTMs were chosen beyond being "common." The relevance to p53 function or cancer biology is mentioned but not elaborated.
+  - **Required correction** Briefly justify the choice of acetylation, phosphorylation, and methylation in terms of their biological relevance to p53 and their distinct physicochemical properties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract, "design principles for PTM detection"
+  - **Issue** The conclusions are drawn from a single peptide fragment and a single nanopore geometry. The generalizability to other peptides, pore sizes, or materials is not discussed.
+  - **Required correction** Acknowledge the limited scope and discuss which aspects of the findings are likely transferable and which may be system-specific.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative dwell-time statistics), R1-M2 (classifier validation), R1-M3 (simulation parameters)
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of PTM effects in solid-state nanopores is relatively underexplored, and the comparative approach across three PTM types is a reasonable contribution. However, the conceptual framework is not radically new.
+  - Scientific importance: The topic is relevant to nanopore proteomics, but the significance for a broad readership is moderate. The findings are more likely to interest specialists.
+  - Interdisciplinary readership: The work bridges computational biophysics and nanoscale sensing, which may attract readers from both communities, but the appeal beyond these fields is limited.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of quantitative results and methodological details is a major barrier.
+  - Readability for nonspecialists: The abstract is generally clear and accessible, though some phrases (e.g., "electrostatic tug-of-war") could be more precise.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting study, but the absence of quantitative results, statistical validation, and methodological details prevents a supportive assessment. The authors should be encouraged to provide the full manuscript with complete data and methods for a proper evaluation.
+
+## Risk / unsupported claims
+- The claim that acetylation "substantially slows transport" is unsupported without quantitative dwell-time data.
+- The claim that "adjacent acetylations produce the longest residence times due to cooperative interfacial interactions" is unsupported without interaction energy analysis.
+- The claim that phosphorylation "increases dwell time through an electrostatic tug-of-war" is unsupported without electrostatic decomposition.
+- The claim that methylation "minimally perturbs translocation" is unsupported without comparative quantitative data.
+- The claim that a linear SVM classifier "reliably distinguish[es]" states is unsupported without performance metrics and validation details.
+- The claim that the results "establish mechanistic design principles" is premature given the limited scope and lack of quantitative evidence.

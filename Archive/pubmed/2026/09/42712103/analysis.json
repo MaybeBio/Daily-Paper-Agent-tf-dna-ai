@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42712103",
+  "title": "An MRI-Based Intratumoral and Peritumoral 2.5D Deep Learning Model for Predicting P53-Mutated Hepatocellular Carcinoma: A Two-Center Study.",
+  "authors": "Weng, Jingfei; Li, Pinxiong; Yao, Dinghua; He, Yuqing; Yang, Chun; Yang, Bin",
+  "journal": "Technology in cancer research & treatment",
+  "published_date": "2026-09-09",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用MRI影像深度学习模型预测肝癌P53突变状态，属于临床诊断应用，不涉及蛋白质-DNA互作、转录因子结合或分子机制建模，与本课题无关。",
+  "abstract": "IntroductionHepatocellular carcinoma (HCC) is the most common primary liver cancer with high mortality. TP53 is the most frequently mutated tumor-suppressor gene in HCC, and P53 mutations are associated with poor differentiation, vascular invasion, and lower survival. Preoperative noninvasive detection of P53-mutated HCC is critical for treatment planning and prognostic assessment. This study aimed to develop and validate a deep learning (DL) model for predicting P53 mutation status in HCC.MethodsIn this retrospective two-center study, 373 patients with pathologically confirmed HCC were enrolled from two institutions (Center 1: n=320; Center 2: n=53). The Center 1 cohort was randomly partitioned into a training cohort (n=256) and an internal test cohort (n=64). Patients from Center 2 constituted an independent external test cohort (n=53). We employed a 2.5D ResNet34 architecture to process three-channel dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI). Separate deep learning models were constructed for intratumoral and peritumoral regions using both single-phase and multiphase (arterial, portal venous, and delayed) fusion sequences. Significant clinical variables were selected to build a Clinical model, which was subsequently integrated with the optimal deep learning model to create a Combined model. Model performance was assessed by the area under the curve (AUC), calibration curves, and decision curve analysis (DCA).ResultsMultiphase fusion models consistently outperformed their single-phase models. The peritumoral (5mm) fusion model (IntraPeri5mm_Fusion) outperformed the intratumoral fusion model, achieving AUCs of 0.881 (95% CI: 0.836-0.926), 0.772 (95% CI: 0.651-0.893), and 0.757 (95% CI: 0.624-0.891) on the training cohort, internal test cohort, and external test cohort, respectively. The Combined model yielded further incremental improvement, with AUCs reaching 0.886 (95% CI: 0.842-0.930), 0.805 (95% CI: 0.691-0.918), and 0.793 (95% CI: 0.668-0.918) across the respective cohorts.ConclusionsThe proposed 2.5D DL model based on DCE-MRI effectively predicts P53-mutated HCC. Integrating peritumoral features with clinical variables yields the best performance, offering a promising noninvasive tool for prognostic stratification and individualized therapeutic planning.",
+  "abstract_zh": "引言肝细胞癌（HCC）是最常见的原发性肝癌，死亡率高。TP53是HCC中最常突变的肿瘤抑制基因，P53突变与低分化、血管侵犯及较低生存率相关。术前无创检测P53突变型HCC对治疗规划和预后评估至关重要。本研究旨在开发并验证一种深度学习（DL）模型，用于预测HCC中的P53突变状态。方法在这项回顾性双中心研究中，共纳入来自两个机构的373例经病理确诊的HCC患者（中心1：n=320；中心2：n=53）。中心1队列被随机分为训练队列（n=256）和内部测试队列（n=64）。中心2的患者构成独立的外部测试队列（n=53）。我们采用2.5D ResNet34架构处理三通道动态对比增强磁共振成像（DCE-MRI）。分别针对瘤内和瘤周区域构建了使用单期和多期（动脉期、门静脉期和延迟期）融合序列的深度学习模型。选择显著的临床变量构建临床模型，随后将其与最优深度学习模型整合，形成联合模型。模型性能通过曲线下面积（AUC）、校准曲线和决策曲线分析（DCA）进行评估。结果多期融合模型始终优于其单期模型。瘤周（5mm）融合模型（IntraPeri5mm_Fusion）优于瘤内融合模型，在训练队列、内部测试队列和外部测试队列上的AUC分别为0.881（95% CI：0.836-0.926）、0.772（95% CI：0.651-0.893）和0.757（95% CI：0.624-0.891）。联合模型进一步带来增量改进，在相应队列中的AUC分别达到0.886（95% CI：0.842-0.930）、0.805（95% CI：0.691-0.918）和0.793（95% CI：0.668-0.918）。结论所提出的基于DCE-MRI的2.5D DL模型能有效预测P53突变型HCC。将瘤周特征与临床变量整合可获得最佳性能，为预后分层和个体化治疗规划提供了一种有前景的无创工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42712103/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42712103/",
+  "paper_page_path": "papers/pubmed/42712103/index.html"
+}

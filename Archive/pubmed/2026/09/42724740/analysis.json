@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42724740",
+  "title": "Single-cell and machine learning identify a trihydroxybutyrylation-related prognostic signature in esophageal cancer.",
+  "authors": "Zhang, Qun; Li, Duojie; Yin, Hongmei; Zhu, Chaomang; Huang, Jie; Zhou, Shixiang",
+  "journal": "Journal of thoracic disease",
+  "published_date": "2026-09-11",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究利用单细胞转录组和机器学习构建食管癌预后模型，虽涉及转录因子SOX11，但核心是预后标志物而非TF-DNA互作机制，且无AI/物理模拟方法用于蛋白-DNA结合建模。",
+  "abstract": "BACKGROUND: Esophageal squamous cell carcinoma (ESCC) is a highly aggressive malignancy with a poor prognosis. This study identifies malignant epithelial subtypes and establishes prognostic biomarkers through single-cell transcriptomics and integrative machine learning approaches. METHODS: We re-analyzed the single-cell RNA sequencing data (GSE188900) and identified malignant epithelial cells using inferCNV. Differentially expressed genes (DEGs) among malignant epithelial subtypes were identified and intersected with lysine beta-hydroxybutyrylation (Kbhb)-related genes. Candidate genes were screened using Cox, least absolute shrinkage and selection operator (LASSO), and extreme gradient boosting (XGBoost) to construct a random survival forest (RSF) prognostic model. Model performance was validated in GSE53625, TCGA-ESCC, and GSE53624 cohorts. Finally, the expression of prognostic genes was detected by quantitative polymerase chain reaction (qPCR). RESULTS: Single-cell RNA sequencing identified three distinct malignant epithelial cells in ESCC. Among them, the Malignant2 subtype exhibited stemness-related characteristics, initiated tumor differentiation, and was potentially regulated by the transcription factor (TF) SOX11. There were 659 genes identified by intersecting Malignant2-related DEGs with Kbhb-related genes. Based on these genes, a seven-gene prognostic model was constructed, and a corresponding risk score was calculated. Correlation analysis showed that the risk score was positively associated with tumor stage. qPCR results confirmed that the expression patterns of the prognostic genes were consistent with the computational analysis. The enrichment of Kbhb-related genes in the Malignant2 subtype suggests a potential link between metabolic reprogramming and epigenetic regulation in ESCC progression. CONCLUSIONS: We identified distinct malignant epithelial subtypes in ESCC and developed a seven-gene prognostic signature based on Kbhb-related genes. This model demonstrated robust predictive performance and was significantly associated with tumor stages.",
+  "abstract_zh": "背景：食管鳞状细胞癌（ESCC）是一种高度侵袭性的恶性肿瘤，预后不良。本研究通过单细胞转录组学和整合机器学习方法，识别恶性上皮细胞亚型并建立预后生物标志物。方法：我们重新分析了单细胞RNA测序数据（GSE188900），并使用inferCNV识别恶性上皮细胞。在恶性上皮细胞亚型中鉴定差异表达基因（DEGs），并与赖氨酸β-羟基丁酰化（Kbhb）相关基因取交集。通过Cox、最小绝对收缩和选择算子（LASSO）以及极端梯度提升（XGBoost）筛选候选基因，构建随机生存森林（RSF）预后模型。在GSE53625、TCGA-ESCC和GSE53624队列中验证模型性能。最后，通过定量聚合酶链反应（qPCR）检测预后基因的表达。结果：单细胞RNA测序在ESCC中识别出三种不同的恶性上皮细胞。其中，Malignant2亚型表现出干性相关特征，启动肿瘤分化，并可能受转录因子（TF）SOX11调控。通过将Malignant2相关DEGs与Kbhb相关基因取交集，鉴定出659个基因。基于这些基因，构建了一个七基因预后模型，并计算相应的风险评分。相关性分析显示，风险评分与肿瘤分期呈正相关。qPCR结果证实，预后基因的表达模式与计算分析一致。Kbhb相关基因在Malignant2亚型中的富集提示，代谢重编程与表观遗传调控在ESCC进展中可能存在潜在联系。结论：我们在ESCC中识别出不同的恶性上皮细胞亚型，并基于Kbhb相关基因开发了一个七基因预后特征。该模型表现出稳健的预测性能，并与肿瘤分期显著相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42724740/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42724740/",
+  "paper_page_path": "papers/pubmed/42724740/index.html"
+}

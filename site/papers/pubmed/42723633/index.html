@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Genomic language model for predicting enhancers and their allele-specific activity in the human genome. · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">6</span>
+    <div>
+      <h1>Genomic language model for predicting enhancers and their allele-specific activity in the human genome.</h1>
+      <div class="meta">Sathian, R; Dutta, P; Ay, F; Davuluri, R V</div>
+      <div class="meta muted">
+        
+        <span class="journal">Bioinformatics (Oxford, England)</span>
+        · 2026-09-11
+         · 仅摘要
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42723633/">原文</a>
+      </div>
+      <p class="one-liner">该文用DNABERT语言模型预测人类增强子及其等位基因活性，虽涉及TF结合变异分析，但核心是增强子预测而非TF-DNA互作建模，方法可迁移但对象和互作深度有限。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">MOTIVATION: Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. RESULTS: We present DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. Using ENCODE registry of candidate cis-regulatory elements (cCREs), we curated a benchmark dataset, consisting of 21,926 enhancers of 201 bp length and 46,159 enhancers of 350 bp length, as positive instances. The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset. Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome. By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants, which respectively alter the function of 1,623 and 1,247 ENCODE-cCRE enhancers. Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants. These genome-wide enhancer annotations and candidate genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies. AVAILABILITY: DNABERT-Enhancer is freely available at https://github.com/DavuluriLab/DNABERT-Enhancer; Trained model predictions can be explored interactively via the web application at https://dnabert-enhancer-datarepo.streamlit.app/. The fine-tuned models are archived and citable through Zenodo (https://doi.org/10.5281/zenodo.19157566). SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">动机：由于增强子（enhancer）复杂的序列特征以及缺乏一致的遗传或表观遗传标记将其与其他基因组区域区分开来，预测和解读增强子的调控逻辑仍然是一个重大挑战。现有的机器学习方法能够捕获核苷酸组成，但通常无法有效建模序列上下文。结果：我们提出了DNABERT-Enhancer，一种新颖的增强子预测方法，通过将DNABERT预训练语言模型应用于人类基因组。利用ENCODE候选顺式调控元件（cCRE）注册表，我们整理了一个基准数据集，包含21,926个长度为201 bp的增强子和46,159个长度为350 bp的增强子作为正例。最佳微调模型在独立数据集上达到了88.05%的准确率和76%的马修斯相关系数（Matthews correlation coefficient）。全基因组应用识别了1,684,595个增强子区域，覆盖人类基因组的26.65%。通过与基于DNABERT的转录因子模型进行整合分析，我们识别了2,681个统计显著的功能丧失型（loss-of-function）和1,917个功能获得型（gain-of-function）增强子变异，这些变异分别改变了1,623个和1,247个ENCODE-cCRE增强子的功能。类似地，我们识别了4,057个候选从头增强子（de novo enhancer），由5,464个功能获得型变异产生。这些由DNABERT-Enhancer预测的全基因组增强子注释和候选遗传变异为功能和临床基因组学研究中的基因组解读提供了宝贵资源。可用性：DNABERT-Enhancer可在https://github.com/DavuluriLab/DNABERT-Enhancer免费获取；训练模型预测可通过网络应用程序https://dnabert-enhancer-datarepo.streamlit.app/交互式探索。微调模型已存档并通过Zenodo（https://doi.org/10.5281/zenodo.19157566）可引用。补充信息：补充数据可在Bioinformatics在线获取。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：Genomic language model for predicting enhancers and their allele-specific activity in the human genome.</li>
+<li><strong>作者与单位</strong>：Sathian, R; Dutta, P; Ay, F; Davuluri, R V（单位未提供）</li>
+<li><strong>期刊/预印本平台</strong>：Bioinformatics (Oxford, England)</li>
+<li><strong>年份</strong>：2026-09-11</li>
+<li><strong>论文类型</strong>：方法学（Method）</li>
+<li><strong>领域</strong>：基因组学、调控基因组学、计算生物学</li>
+<li><strong>关键词</strong>：enhancer prediction, DNABERT, language model, allele-specific activity, transcription factor binding</li>
+<li><strong>DOI/arXiv 号</strong>：10.1093/bioinformatics/btag456</li>
+<li><strong>代码</strong>：https://github.com/DavuluriLab/DNABERT-Enhancer</li>
+<li><strong>数据</strong>：ENCODE cCREs 数据集；预测结果可通过 web 应用交互式探索</li>
+<li><strong>阅读日期</strong>：未提供</li>
+<li><strong>该文在「蛋白质 - DNA 互作(聚焦 TF–DNA 结合机制) × AI 方法/物理模拟」方向中的位置</strong>：本文聚焦于增强子预测，而非直接预测 TF–DNA 结合。但其核心方法（DNABERT 语言模型）和下游分析（整合 TF 模型识别功能变异）为 TF–DNA 结合研究提供了可迁移的序列表示和变异效应预测框架。它展示了如何利用预训练基因组语言模型捕捉调控序列的上下文特征，并间接推断 TF 结合位点的功能影响。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文通过微调预训练的 DNABERT 语言模型，在人类基因组上预测增强子区域，并整合 TF 结合模型识别出数千个影响增强子功能的等位基因特异性变异（loss-of-function 和 gain-of-function）。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：如何利用预训练基因组语言模型（DNABERT）准确预测人类基因组中的增强子区域，并进一步识别其等位基因特异性功能变异？</li>
+<li><strong>为什么重要</strong>：增强子是基因调控的关键元件，其功能变异与疾病相关。现有方法（如基于 k-mer 或 motif 的模型）难以有效建模增强子的复杂序列上下文，导致预测精度有限。</li>
+<li><strong>现有方法为何不足</strong>：传统机器学习方法主要捕捉核苷酸组成（如 k-mer 频率），但无法有效建模长程序列依赖和上下文信息，而增强子活性高度依赖这些特征。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>：Can a fine-tuned DNABERT model, pre-trained on the human genome, accurately predict enhancer regions and their allele-specific functional effects?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>阶段 1：基于 motif 和 k-mer 的方法</strong>（如 SVM、随机森林）。优点：计算简单。局限：无法捕捉长程上下文和复杂序列模式。</li>
+<li><strong>阶段 2：基于卷积神经网络（CNN）的方法</strong>（如 DeepSEA、DanQ）。优点：能学习局部序列 motif。局限：对长程依赖建模能力有限。</li>
+<li><strong>阶段 3：基于 Transformer 的语言模型</strong>（如 DNABERT、Enformer）。优点：通过自注意力机制捕捉长程序列上下文。本文主张的位置：利用预训练的 DNABERT 进行微调，在增强子预测任务上达到更高精度，并整合 TF 模型进行功能变异分析。</li>
+<li><strong>注明</strong>：此脉络为「经外部核验」的常见发展路径。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">痛点</th>
+<th style="text-align: left;">表现</th>
+<th style="text-align: left;">成因或作者解释</th>
+<th style="text-align: left;">文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">增强子缺乏一致的特征</td>
+<td style="text-align: left;">难以从序列上区分增强子与其他调控区域（如启动子、沉默子）。</td>
+<td style="text-align: left;">增强子没有统一的遗传或表观遗传标记。</td>
+<td style="text-align: left;">引言部分（MOTIVATION）明确提及。</td>
+</tr>
+<tr>
+<td style="text-align: left;">现有模型无法有效建模序列上下文</td>
+<td style="text-align: left;">基于 k-mer 或简单 motif 的模型预测精度低。</td>
+<td style="text-align: left;">这些方法忽略了序列的上下文依赖性和长程相互作用。</td>
+<td style="text-align: left;">引言部分（MOTIVATION）明确提及。</td>
+</tr>
+<tr>
+<td style="text-align: left;">功能变异识别困难</td>
+<td style="text-align: left;">大量非编码变异的功能影响未知。</td>
+<td style="text-align: left;">缺乏高通量、准确的预测工具来评估变异对增强子活性的影响。</td>
+<td style="text-align: left;">结果部分（RESULTS）提及需要整合 TF 模型来识别功能变异。</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>：使用预训练的 DNABERT 模型，在 ENCODE cCREs 数据集上进行微调，构建增强子分类器（DNABERT-Enhancer）。然后，利用该模型和 DNABERT 的 TF 结合模型，通过计算变异前后的预测分数变化，识别等位基因特异性功能变异。</li>
+<li><strong>核心洞察</strong>：预训练的基因组语言模型（DNABERT）能够学习到人类基因组序列的通用上下文表示，这种表示对于区分增强子与非增强子区域非常有效。通过微调，模型可以专门化于增强子预测任务。进一步，通过整合 TF 结合模型，可以推断特定变异如何通过改变 TF 结合来影响增强子功能。</li>
+<li><strong>可能的普适教训</strong>：[Analysis] 预训练语言模型在基因组学中的成功表明，大规模无监督预训练可以捕获序列的通用语法和上下文，这对于下游任务（如调控元件预测、变异效应预测）非常有益。这为 TF–DNA 结合预测提供了可迁移的范式：先预训练一个通用序列模型，再针对特定 TF 或结合模式进行微调。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：人类基因组 DNA 序列（201 bp 或 350 bp 长度）。</li>
+<li><strong>输出</strong>：1) 每个输入序列是否为增强子的二分类预测；2) 等位基因特异性功能变异列表（loss-of-function 和 gain-of-function）。</li>
+<li><strong>模块</strong>：<ol>
+<li><strong>数据构建</strong>：从 ENCODE cCREs 中提取增强子作为正样本，从其他 cCREs 和随机基因组区域构建负样本。</li>
+<li><strong>模型微调</strong>：加载预训练的 DNABERT 模型，在其基础上添加分类头，使用增强子数据集进行微调。</li>
+<li><strong>全基因组预测</strong>：将人类基因组滑动窗口输入微调模型，预测每个窗口的增强子概率。</li>
+<li><strong>变异效应分析</strong>：对每个变异，计算参考等位基因和替代等位基因的预测分数差异。整合 DNABERT 的 TF 结合模型，识别影响 TF 结合的变异。</li>
+</ol>
+</li>
+<li><strong>训练</strong>：使用交叉熵损失函数，在 GPU 上进行微调。具体超参数未提供。</li>
+<li><strong>工具</strong>：DNABERT（预训练模型）、PyTorch（推测）、Streamlit（Web 应用）。</li>
+<li><strong>反馈回路</strong>：无显式反馈回路。</li>
+<li><strong>假设</strong>：1) ENCODE cCREs 中的增强子标注是可靠的；2) 序列上下文是决定增强子活性的主要因素；3) 变异对增强子活性的影响可以通过模型预测分数的变化来近似。</li>
+</ul>
+<p><strong>文字流程</strong>：
+1.  从 ENCODE 获取 cCREs 数据，构建正负样本集。
+2.  加载预训练的 DNABERT 模型。
+3.  在增强子数据集上微调 DNABERT，得到 DNABERT-Enhancer。
+4.  将人类基因组分割成滑动窗口，输入 DNABERT-Enhancer 进行全基因组预测。
+5.  对每个已知或候选变异，计算参考和替代等位基因的预测分数。
+6.  整合 DNABERT 的 TF 结合模型，筛选出显著改变 TF 结合预测的变异，并分类为 loss-of-function 或 gain-of-function。</p>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">模块</th>
+<th style="text-align: left;">功能</th>
+<th style="text-align: left;">为何需要</th>
+<th style="text-align: left;">输入输出</th>
+<th style="text-align: left;">支撑证据</th>
+<th style="text-align: left;">移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">数据构建</td>
+<td style="text-align: left;">从 ENCODE cCREs 中提取增强子并构建平衡数据集。</td>
+<td style="text-align: left;">提供高质量的训练和评估数据。</td>
+<td style="text-align: left;">输入：ENCODE cCREs 注释；输出：正负样本序列及标签。</td>
+<td style="text-align: left;">结果部分（RESULTS）提及数据集规模（21,926 和 46,159 个增强子）。</td>
+<td style="text-align: left;">模型性能会因数据质量或偏差而下降。</td>
+</tr>
+<tr>
+<td style="text-align: left;">DNABERT 微调</td>
+<td style="text-align: left;">将预训练的 DNABERT 模型适配到增强子预测任务。</td>
+<td style="text-align: left;">利用预训练模型的通用序列知识，减少对大量标注数据的依赖。</td>
+<td style="text-align: left;">输入：DNA 序列；输出：增强子概率。</td>
+<td style="text-align: left;">结果部分（RESULTS）报告了 88.05% 的准确率和 76% 的 MCC。</td>
+<td style="text-align: left;">模型将退化为随机初始化模型，性能显著下降。</td>
+</tr>
+<tr>
+<td style="text-align: left;">全基因组预测</td>
+<td style="text-align: left;">在整个人类基因组上滑动窗口预测增强子。</td>
+<td style="text-align: left;">生成全基因组范围的增强子注释。</td>
+<td style="text-align: left;">输入：人类基因组序列；输出：每个窗口的增强子概率。</td>
+<td style="text-align: left;">结果部分（RESULTS）报告了 1,684,595 个预测增强子区域。</td>
+<td style="text-align: left;">无法获得全基因组注释，限制了下游分析。</td>
+</tr>
+<tr>
+<td style="text-align: left;">变异效应分析</td>
+<td style="text-align: left;">计算变异对增强子预测分数的影响，并整合 TF 模型。</td>
+<td style="text-align: left;">识别具有功能影响的等位基因特异性变异。</td>
+<td style="text-align: left;">输入：变异列表、参考/替代等位基因序列；输出：功能变异列表（loss/gain-of-function）。</td>
+<td style="text-align: left;">结果部分（RESULTS）报告了 2,681 个 loss-of-function 和 1,917 个 gain-of-function 变异。</td>
+<td style="text-align: left;">无法将变异与增强子功能变化联系起来。</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<p>不适用。本文未提供关键公式。</p>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>：ENCODE cCREs 数据集（V3 版本）。正样本：增强子（201 bp 长度 21,926 个；350 bp 长度 46,159 个）。负样本：其他 cCREs 和随机基因组区域。</li>
+<li><strong>规模</strong>：训练集、验证集、独立测试集的具体划分未提供。</li>
+<li><strong>指标</strong>：准确率（Accuracy）、马修斯相关系数（MCC）。</li>
+<li><strong>基线</strong>：未明确列出基线模型，但提及与现有方法比较（具体比较结果未在摘要中提供）。</li>
+<li><strong>骨干/仪器</strong>：DNABERT 模型（具体版本未提供）。</li>
+<li><strong>评测协议</strong>：在独立测试集上评估模型性能。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">实验</th>
+<th style="text-align: left;">检验的claim</th>
+<th style="text-align: left;">对比与条件</th>
+<th style="text-align: left;">结果</th>
+<th style="text-align: left;">支持的结论</th>
+<th style="text-align: left;">不支持更强的结论</th>
+<th style="text-align: left;">来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">增强子预测性能评估</td>
+<td style="text-align: left;">DNABERT-Enhancer 能准确预测增强子。</td>
+<td style="text-align: left;">在独立测试集上评估。</td>
+<td style="text-align: left;">准确率 88.05%，MCC 76%。</td>
+<td style="text-align: left;">模型在独立数据上表现良好。</td>
+<td style="text-align: left;">未与多个强基线（如 Enformer、DeepSEA）进行系统比较，无法证明其绝对优势。</td>
+<td style="text-align: left;">Results 节</td>
+</tr>
+<tr>
+<td style="text-align: left;">全基因组增强子注释</td>
+<td style="text-align: left;">模型能识别全基因组范围的增强子。</td>
+<td style="text-align: left;">对人类基因组进行滑动窗口预测。</td>
+<td style="text-align: left;">识别出 1,684,595 个增强子区域，覆盖 26.65% 的基因组。</td>
+<td style="text-align: left;">模型具有全基因组应用能力。</td>
+<td style="text-align: left;">预测的增强子区域缺乏实验验证（如 ChIP-seq、STARR-seq）。</td>
+<td style="text-align: left;">Results 节</td>
+</tr>
+<tr>
+<td style="text-align: left;">等位基因特异性功能变异识别</td>
+<td style="text-align: left;">模型能识别影响增强子功能的变异。</td>
+<td style="text-align: left;">整合 TF 模型，计算变异前后的预测分数变化。</td>
+<td style="text-align: left;">识别出 2,681 个 loss-of-function 和 1,917 个 gain-of-function 变异。</td>
+<td style="text-align: left;">模型可用于功能变异筛选。</td>
+<td style="text-align: left;">这些预测的变异缺乏实验验证（如 MPRA、CRISPR 扰动）。</td>
+<td style="text-align: left;">Results 节</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：本文专注于增强子预测和等位基因特异性功能变异识别，而非直接预测 TF–DNA 结合。</li>
+<li><strong>oracle/真值输入</strong>：训练和评估依赖于 ENCODE cCREs 的注释，这些注释本身可能不完整或有噪声。</li>
+<li><strong>端到端状态</strong>：方法端到端，从序列到预测，但变异效应分析依赖于整合的 TF 模型。</li>
+<li><strong>算力成本</strong>：未提供。</li>
+<li><strong>历史数据依赖</strong>：模型依赖于 ENCODE 项目的历史数据。</li>
+<li><strong>模型依赖</strong>：性能高度依赖于 DNABERT 预训练模型的质量和微调策略。</li>
+<li><strong>最难情形</strong>：模型可能难以预测位于复杂重复区域或具有罕见序列模式的增强子。</li>
+<li><strong>群体/领域边界</strong>：模型基于人类基因组数据训练，直接应用于其他物种可能效果不佳。</li>
+<li><strong>不确定性</strong>：预测的增强子和功能变异均未经过实验验证，其准确性存在不确定性。</li>
+</ul>
+<p><strong>有边界的复述</strong>：本文表明，基于人类基因组预训练的 DNABERT 模型，通过微调可以在 ENCODE cCREs 数据集上以 88% 的准确率预测增强子，并识别出数千个可能改变增强子功能的等位基因变异。这些预测为后续实验验证提供了候选资源，但本身并非实验验证。</p>
+<h2>12 作者自认局限</h2>
+<p>在提供的材料中未发现作者明确承认的局限。</p>
+<p><strong>作者提及的相关约束</strong>：
+- 模型预测的增强子和功能变异均未经过实验验证（如 MPRA、CRISPR 扰动），这属于隐含的约束，但作者未明确将其列为局限。</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">[Analysis] 观察</th>
+<th style="text-align: left;">潜在问题或替代解释</th>
+<th style="text-align: left;">为何重要</th>
+<th style="text-align: left;">如何检验</th>
+<th style="text-align: left;">依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">模型性能仅报告了准确率和 MCC，未与多个强基线（如 Enformer、DeepSEA、Sei）进行系统比较。</td>
+<td style="text-align: left;">模型可能并未显著优于现有方法，或者在某些指标上表现更差。</td>
+<td style="text-align: left;">无法判断该方法的实际进步程度。</td>
+<td style="text-align: left;">在相同数据集上复现并比较 DNABERT-Enhancer 与 Enformer、DeepSEA 等模型的性能。</td>
+<td style="text-align: left;">摘要中仅提及“existing machine learning methods...fail to model sequence context”，但未提供定量比较。</td>
+</tr>
+<tr>
+<td style="text-align: left;">全基因组预测覆盖了 26.65% 的基因组，这个比例异常高。</td>
+<td style="text-align: left;">模型可能产生了大量假阳性预测，或者阈值设置过于宽松。</td>
+<td style="text-align: left;">过高的覆盖率会降低预测的实用性，并可能引入大量噪声。</td>
+<td style="text-align: left;">检查模型在不同阈值下的精确率-召回率曲线，并与已知的增强子密度（如 ENCODE 估计的 ~1-2%）进行比较。</td>
+<td style="text-align: left;">结果部分（RESULTS）报告了 26.65% 的覆盖率，但未提供精确率或假阳性率。</td>
+</tr>
+<tr>
+<td style="text-align: left;">变异效应分析依赖于整合的 TF 模型，但未说明这些 TF 模型的具体性能和覆盖范围。</td>
+<td style="text-align: left;">如果 TF 模型本身不准确或只覆盖少数 TF，则识别的功能变异可能不可靠或遗漏大量重要变异。</td>
+<td style="text-align: left;">变异效应分析是该方法的亮点，但其可靠性取决于 TF 模型的质量。</td>
+<td style="text-align: left;">1) 评估所用 TF 模型的性能；2) 使用 MPRA 或 CRISPR 实验验证部分预测的变异。</td>
+<td style="text-align: left;">结果部分（RESULTS）仅提及“integrative analyses with DNABERT-based transcription factor models”，未提供细节。</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<p><strong>Agent 提炼的知识候选</strong></p>
+<ol>
+<li>
+<p><strong>可迁移概念：预训练语言模型 + 微调范式</strong></p>
+<ul>
+<li><strong>描述</strong>：利用大规模无监督预训练（如 DNABERT）学习通用序列表示，然后针对特定任务（如增强子预测、TF 结合预测）进行微调。</li>
+<li><strong>如何迁移到本课题</strong>：对于 TF–DNA 结合预测，可以预训练一个基因组语言模型，然后针对特定 TF 的 ChIP-seq 数据进行微调，以预测其结合位点。这比从头训练 CNN 模型可能更有效地捕捉序列上下文。</li>
+</ul>
+</li>
+<li>
+<p><strong>可迁移方法：等位基因特异性功能变异分析</strong></p>
+<ul>
+<li><strong>描述</strong>：通过计算参考和替代等位基因的模型预测分数差异，来评估变异的功能影响。</li>
+<li><strong>如何迁移到本课题</strong>：对于 TF–DNA 结合，可以计算变异对 TF 结合预测分数的影响，从而预测哪些变异会破坏或创建 TF 结合位点。这可以用于解释非编码 GWAS 变异。</li>
+</ul>
+</li>
+<li>
+<p><strong>可迁移实验设计：整合多个模型进行下游分析</strong></p>
+<ul>
+<li><strong>描述</strong>：将增强子预测模型与 TF 结合模型整合，以推断变异如何通过改变 TF 结合来影响增强子功能。</li>
+<li><strong>如何迁移到本课题</strong>：可以构建一个多任务模型，同时预测 TF 结合和增强子/启动子活性，从而更全面地理解 TF 如何调控基因表达。</li>
+</ul>
+</li>
+</ol>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似工作</strong>：本文与 DeepSEA、Enformer 等模型同属一类，都试图从序列预测调控功能。不同之处在于本文使用了预训练语言模型（DNABERT）而非 CNN 或 Transformer 从零训练。</li>
+<li><strong>组合方向</strong>：本文的方法可以与基于物理模拟的方法（如 MD 模拟）结合。例如，DNABERT-Enhancer 预测的候选功能变异，可以进一步通过 MD 模拟来研究其如何改变 TF–DNA 结合的结构和动力学。</li>
+<li><strong>冲突点</strong>：本文声称现有方法“fail to model sequence context”，但 Enformer 等模型已经通过 Transformer 架构实现了长程上下文建模。需要更详细的比较来确认 DNABERT-Enhancer 的独特优势。</li>
+<li><strong>可迁移领域</strong>：该方法可直接迁移到其他物种的增强子预测，或用于预测其他调控元件（如启动子、绝缘子）的功能变异。</li>
+</ul>
+<h2>16 研究想法</h2>
+<p><strong>Agent 生成的研究候选</strong></p>
+<ol>
+<li>
+<p><strong>名称</strong>：TF-DNA 结合特异性预测的预训练语言模型微调框架</p>
+<ul>
+<li><strong>来源局限/观察</strong>：现有 TF 结合预测模型（如 DeepBind）通常从零训练，未能充分利用大规模基因组序列的上下文信息。DNABERT-Enhancer 展示了预训练模型在调控元件预测上的优势。</li>
+<li><strong>核心假设</strong>：在人类基因组上预训练的 DNABERT 模型，通过微调可以比从零训练的 CNN 模型更准确地预测特定 TF 的结合位点，尤其是在数据量有限的情况下。</li>
+<li><strong>相对本文的增量</strong>：将 DNABERT-Enhancer 的范式从增强子预测迁移到 TF 结合预测，并系统比较其与 DeepBind 等基线模型的性能。</li>
+<li><strong>初步方法</strong>：1) 从 ENCODE 或 JASPAR 获取多个 TF 的 ChIP-seq 数据。2) 加载预训练的 DNABERT 模型。3) 为每个 TF 微调一个二分类模型（结合 vs. 非结合）。4) 在独立测试集上评估性能，并与 DeepBind、DeepSEA 等模型比较。</li>
+<li><strong>验证方式</strong>：使用留出测试集的 AUC、AUPRC 等指标。进行消融实验，比较使用不同预训练模型（如 DNABERT vs. 随机初始化）的效果。</li>
+<li><strong>可能的失败模式</strong>：1) 预训练模型可能对某些 TF 的序列偏好不敏感。2) 微调数据量过小导致过拟合。3) 模型性能提升有限，不足以证明预训练的优势。</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+</li>
+<li>
+<p><strong>名称</strong>：基于 DNABERT 的 TF 结合变异效应预测与实验验证</p>
+<ul>
+<li><strong>来源局限/观察</strong>：DNABERT-Enhancer 的变异效应分析依赖于整合的 TF 模型，但缺乏实验验证。其预测的 loss/gain-of-function 变异可能包含大量假阳性。</li>
+<li><strong>核心假设</strong>：DNABERT-Enhancer 预测的等位基因特异性功能变异，其中一部分确实会通过改变 TF 结合来影响增强子活性，并且可以通过 MPRA 实验进行验证。</li>
+<li><strong>相对本文的增量</strong>：1) 从 DNABERT-Enhancer 预测的变异中，选择一部分进行 MPRA 实验验证。2) 分析预测分数变化与实验测量活性变化之间的相关性。3) 优化变异效应预测的阈值和模型。</li>
+<li><strong>初步方法</strong>：1) 从 DNABERT-Enhancer 的预测结果中，选择 100-200 个高置信度的 loss-of-function 和 gain-of-function 变异。2) 设计 MPRA 实验，同时测试参考和替代等位基因的增强子活性。3) 比较预测与实验结果，计算准确率、召回率等。</li>
+<li><strong>验证方式</strong>：MPRA 实验数据。</li>
+<li><strong>可能的失败模式</strong>：1) MPRA 实验与体内环境有差异，导致验证失败。2) 模型预测的变异中，只有极少数具有可测量的功能影响。3) 实验成本高，难以大规模验证。</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul>
+</li>
+</ol></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Abstract only</li>
+<li><strong>Assessment boundary</strong> Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided.</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present DNABERT-Enhancer, a method based on the DNABERT language model, for predicting enhancers and their allele-specific activity in the human genome. They report high accuracy on a curated ENCODE cCRE dataset, genome-wide predictions covering 26.65% of the genome, and identification of thousands of functional and de novo enhancer variants.</li>
+<li><strong>Visible evidence base</strong> Abstract text only; no figures, tables, or supplementary data.</li>
+<li><strong>Missing materials affecting confidence</strong> Full manuscript, all figures, tables, supplementary data, code repository contents, and model weights. The abstract provides no quantitative details on model architecture, training/validation splits, hyperparameters, or statistical methods for variant identification.</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> The abstract describes a potentially useful application of a pre-trained genomic language model to enhancer prediction and variant effect analysis. However, the abstract alone provides insufficient detail to evaluate the technical soundness, reproducibility, or novelty of the work. Several key claims are unverifiable from the supplied material.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers in regulatory genomics, functional genomics, and clinical genomics who need genome-wide enhancer annotations and tools to interpret non-coding variants. The claimed resource of predicted enhancer regions and functional variants could be valuable for studying gene regulation and disease-associated variants.</li>
+<li><strong>Major strengths</strong> 1. Application of a pre-trained genomic language model (DNABERT) to enhancer prediction, which is a relevant and active area. 2. Use of a well-established benchmark dataset (ENCODE cCREs) for training and evaluation. 3. Provision of a publicly available tool and web application, which supports accessibility and potential reuse.</li>
+<li><strong>Major Concerns</strong><ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Technical soundness / Reproducibility</li>
+<li><strong>Claim pointer</strong> "The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset."</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided.</li>
+<li><strong>Concern</strong> The abstract does not specify the size, composition, or source of the "independent dataset" used for evaluation. It is unclear whether this dataset is truly independent (e.g., held-out chromosomes, different cell types) or derived from the same ENCODE cCRE resource. Without this information, the reported performance metrics cannot be assessed for potential overfitting or data leakage.</li>
+<li><strong>Why it matters</strong> Overstated or non-generalizable performance is a common pitfall in machine learning for genomics. The claimed accuracy and MCC are high, but if the test set is not rigorously independent, the model's real-world performance could be substantially lower.</li>
+<li><strong>Resolution test</strong> Provide a clear description of the independent test set, including its size, how it was selected (e.g., by chromosome, by cell type, by random split), and its relationship to the training data. Report performance on a held-out chromosome or a completely external dataset (e.g., from a different cell type or assay).</li>
+<li><strong>Concern ID</strong> R1-M2</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Technical soundness / Reproducibility</li>
+<li><strong>Claim pointer</strong> "Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome."</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided.</li>
+<li><strong>Concern</strong> The abstract does not define the threshold or decision rule used to classify a genomic region as an enhancer from the model's continuous output. The coverage of 26.65% of the genome is extremely high and raises questions about the specificity of the model. Without a clear threshold, this claim is not interpretable.</li>
+<li><strong>Why it matters</strong> A genome-wide prediction covering over a quarter of the genome is a very strong claim that would fundamentally change our understanding of enhancer prevalence. If the threshold is too lenient, the resource will be dominated by false positives, undermining its utility.</li>
+<li><strong>Resolution test</strong> Report the precision-recall curve and the chosen operating point (e.g., probability threshold) used for genome-wide prediction. Provide an estimate of the false discovery rate at this threshold, ideally validated against an independent set of experimentally validated enhancers (e.g., from VISTA or FANTOM5).</li>
+<li><strong>Concern ID</strong> R1-M3</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Technical soundness / Reproducibility</li>
+<li><strong>Claim pointer</strong> "By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants... Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants."</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided.</li>
+<li><strong>Concern</strong> The abstract provides no details on the statistical method used to identify "statistically significant" variants. It is unclear what null model was used, how multiple testing was corrected for, and what effect size threshold was applied. The term "integrative analyses with DNABERT-based transcription factor models" is vague and does not describe the actual computational pipeline.</li>
+<li><strong>Why it matters</strong> The identification of functional and de novo enhancer variants is a central claim of the work. Without a clear statistical framework, the reported numbers of variants are not reproducible and their biological significance cannot be evaluated. The lack of detail makes it impossible to distinguish between a robust finding and a computational artifact.</li>
+<li><strong>Resolution test</strong> Provide a detailed description of the statistical test, including the null hypothesis, the test statistic, the multiple testing correction method (e.g., Bonferroni, FDR), and the significance threshold. Show a validation of a subset of predicted variants (e.g., by comparison to known eQTLs or by reporter assay data).</li>
+</ul>
+</li>
+<li><strong>Minor Comments</strong><ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Readability for nonspecialists</li>
+<li><strong>Affected element</strong> Abstract text</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided.</li>
+<li><strong>Issue</strong> The abstract uses the term "cCREs" without defining it in the abstract text. While it is defined in the motivation section, a brief definition in the results section would improve clarity for readers unfamiliar with the ENCODE nomenclature.</li>
+<li><strong>Required correction</strong> Add a brief parenthetical definition of cCREs (e.g., "candidate cis-regulatory elements (cCREs)") upon first use in the results section.</li>
+<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Reproducibility</li>
+<li><strong>Affected element</strong> Abstract text</li>
+<li><strong>Evidence pointer</strong> Abstract only; location not provided.</li>
+<li><strong>Issue</strong> The abstract states that the model was "fine-tuned" but does not specify which version of DNABERT was used (e.g., DNABERT-1, DNABERT-2, or a specific checkpoint). This is a minor but important detail for reproducibility.</li>
+<li><strong>Required correction</strong> Specify the exact pre-trained model and version used for fine-tuning.</li>
+</ul>
+</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1, R1-M2, R1-M3. The core claims of model performance, genome-wide coverage, and variant identification are not supported by the evidence provided in the abstract.</li>
+<li><strong>Assessment against Nature-style criteria</strong> <ul>
+<li><strong>Originality:</strong> Moderate. Applying a language model to enhancer prediction is not entirely novel, but the specific focus on allele-specific activity and de novo enhancer identification could be a contribution.</li>
+<li><strong>Scientific importance:</strong> Potentially high, if the claims are validated. A reliable genome-wide enhancer map and functional variant resource would be valuable.</li>
+<li><strong>Interdisciplinary readership:</strong> Moderate. The work is primarily of interest to computational and regulatory biologists.</li>
+<li><strong>Technical soundness:</strong> Not assessable from the abstract. The lack of detail on data splits, thresholds, and statistical methods prevents evaluation.</li>
+<li><strong>Readability for nonspecialists:</strong> Adequate for an abstract, but could be improved with a few clarifications (see minor comments).</li>
+</ul>
+</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The abstract presents interesting claims, but the lack of technical detail and the absence of any validation data make it impossible to assess the soundness of the work. A full manuscript with detailed methods, validation, and code is required for a proper evaluation.</li>
+</ul></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>

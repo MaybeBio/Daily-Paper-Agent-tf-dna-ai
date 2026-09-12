@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interpretable prediction of nucleic acid-binding proteins using a protein language model. · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">6</span>
+    <div>
+      <h1>Interpretable prediction of nucleic acid-binding proteins using a protein language model.</h1>
+      <div class="meta">Kim, Hanjin; Lee, Sung-Gwon; Oh, Jooseong; Kim, Kee K; Kim, Eun-Mi; Park, Chungoo</div>
+      <div class="meta muted">
+        
+        <span class="journal">Bioinformatics advances</span>
+        · 2026-09-08
+         · 全文(pmc)
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42707507/">原文</a>
+      </div>
+      <p class="one-liner">该文用ESM-2蛋白语言模型预测DNA/RNA结合蛋白，虽聚焦蛋白-核酸互作识别，但仅做序列级分类，未涉及TF-DNA结合位点或三维互作机制建模，方法可迁移但深度有限。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">MOTIVATION: Accurate identification of DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) is critical for elucidating transcriptional and post-transcriptional regulatory mechanisms. However, existing computational approaches often rely on inferred labels or domain-specific annotations, which limit the subsequent generalizability. RESULTS: This study aimed to introduce transformer-based classifiers for human DBPs and RBPs that rely solely on protein sequence information without engineered features or domain constraints. The models were implemented using ESM-2 with low-rank adaptation (LoRA) fine-tuning and trained on experimentally validated datasets, including chromatin immunoprecipitation sequencing (ChIP-seq) annotations for DBPs and eCLIP annotations for RBPs. Next, to evaluate biological relevance, we computed value-aware attention (VAT) scores aggregated across transformer layers to interpret model focus. In 20-fold cross-validation, the DBP model achieved an area under the receiver operating characteristic curve (AUROC) of 0.84 with a Matthews correlation coefficient (MCC) of 0.40, while the RBP model achieved an AUROC of 0.92 with an MCC of 0.46. Proteins predicted as nucleic acid-binding were enriched for known binding domains, and inspection of attention distributions revealed preferential focus on annotated functional regions rather than non-binding segments. These results demonstrate that attention-based protein language models can accurately identify nucleic acid-binding proteins directly from sequence data. Moreover, these models reveal biologically meaningful sequence determinants of binding, establishing an interpretable and scalable framework for proteome-wide characterization of protein-nucleic acid interactions. AVAILABILITY AND IMPLEMENTATION: Code is available on GitHub (https://github.com/CSB-hub/DRBP).</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">动机：准确识别DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs）对于阐明转录和转录后调控机制至关重要。然而，现有计算方法通常依赖推断标签或领域特异性注释，这限制了后续的泛化能力。结果：本研究旨在引入基于transformer的分类器，用于人类DBPs和RBPs，这些分类器仅依赖蛋白质序列信息，无需工程化特征或领域约束。模型使用ESM-2结合低秩适应（LoRA）微调实现，并在实验验证的数据集上训练，包括用于DBPs的染色质免疫沉淀测序（ChIP-seq）注释和用于RBPs的eCLIP注释。接下来，为评估生物学相关性，我们计算了跨transformer层聚合的值感知注意力（VAT）分数，以解释模型关注点。在20折交叉验证中，DBP模型实现了0.84的受试者工作特征曲线下面积（AUROC）和0.40的马修斯相关系数（MCC），而RBP模型实现了0.92的AUROC和0.46的MCC。被预测为核酸结合的蛋白质富集了已知结合结构域，注意力分布检查显示，模型优先关注注释的功能区域而非非结合片段。这些结果表明，基于注意力的蛋白质语言模型能够直接从序列数据中准确识别核酸结合蛋白。此外，这些模型揭示了具有生物学意义的结合序列决定因素，为蛋白质-核酸相互作用的蛋白质组范围表征建立了一个可解释且可扩展的框架。可用性与实现：代码可在GitHub上获取（https://github.com/CSB-hub/DRBP）。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>: Interpretable prediction of nucleic acid-binding proteins using a protein language model</li>
+<li><strong>作者与单位</strong>: Kim, Hanjin; Lee, Sung-Gwon; Oh, Jooseong; Kim, Kee K; Kim, Eun-Mi; Park, Chungoo (School of Biological Sciences and Technology, Chonnam National University, Gwangju, Republic of Korea)</li>
+<li><strong>期刊/预印本平台</strong>: Bioinformatics advances</li>
+<li><strong>年份</strong>: 2026-09-08</li>
+<li><strong>论文类型</strong>: 研究论文</li>
+<li><strong>领域</strong>: 计算生物学，蛋白质功能预测，蛋白质语言模型</li>
+<li><strong>关键词</strong>: 未提供</li>
+<li><strong>DOI/arXiv 号</strong>: 10.1093/bioadv/vbag235</li>
+<li><strong>代码</strong>: https://github.com/CSB-hub/DRBP</li>
+<li><strong>数据</strong>: 人类蛋白质组 (GRCh38.p12)，DBP 数据来自 hPDI 和 hTFtarget，RBP 数据来自 ENCODE eCLIP</li>
+<li><strong>阅读日期</strong>: 2024-05-24</li>
+<li><strong>该文在「蛋白质 - DNA 互作(聚焦 TF–DNA 结合机制) × AI 方法/物理模拟」方向中的位置</strong>: 本文属于蛋白质-DNA/RNA 结合蛋白的<strong>蛋白级别分类</strong>任务，使用<strong>蛋白质语言模型 (ESM-2)</strong> 进行预测，并利用<strong>注意力机制 (VAT)</strong> 提供<strong>可解释性</strong>。它不直接预测 TF 与特定 DNA 序列的结合，而是预测一个蛋白质是否具有 DNA 或 RNA 结合能力。对于 TF-DNA 结合机制研究，本文提供了一个<strong>可迁移的框架</strong>：利用 PLM 和注意力机制，从序列中识别出对结合功能重要的区域（如 DNA 结合域），可作为发现新 TF 或预测 TF 功能域的起点。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文使用 ESM-2 蛋白质语言模型，通过 LoRA 微调，仅基于序列信息预测人类蛋白质是否具有 DNA 或 RNA 结合能力，并利用注意力分数 (VAT) 定位到已知的功能域，实现了可解释的蛋白级别分类。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>: 如何仅从蛋白质序列信息出发，准确且可解释地预测一个蛋白质是否具有 DNA 或 RNA 结合能力？</li>
+<li><strong>为什么重要</strong>: 准确识别核酸结合蛋白（如转录因子）是理解转录调控和疾病机制的关键。实验方法通量低，现有计算方法依赖手工特征或计算推断的标签，泛化性差且缺乏可解释性。</li>
+<li><strong>现有方法为何不足</strong>: 1) 传统方法依赖手工特征（如氨基酸组成、理化性质）或功能域注释，性能受限于特征质量。2) 许多深度学习方法使用从 Gene Ontology 或同源性推断的标签，可能引入噪声和偏差。3) 蛋白级别分类器缺乏区域级可解释性，而残基级别预测器又忽略了蛋白整体结合能力的判断。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>: Can a transformer-based protein language model, fine-tuned with LoRA on experimentally validated data, accurately classify human DNA- and RNA-binding proteins and provide interpretable, region-level attribution of its predictions?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>脉络来源</strong>: 经外部核验（基于文中引用和领域常识）。</li>
+<li><strong>阶段一: 传统特征工程方法</strong><ul>
+<li><strong>代表性方法</strong>: 使用氨基酸组成、理化性质、PSSM、功能域注释等作为特征，结合 SVM、随机森林等分类器 (Chen et al. 2014, Si et al. 2015, Pan et al. 2020)。</li>
+<li><strong>优点</strong>: 计算成本低，可解释性相对较好。</li>
+<li><strong>局限</strong>: 性能受限于手工特征的质量和完整性，难以捕捉复杂的序列-功能关系。</li>
+</ul>
+</li>
+<li><strong>阶段二: 基于蛋白质语言模型 (PLM) 的预测</strong><ul>
+<li><strong>代表性方法</strong>: 使用 ESM、ProtTrans 等 PLM 提取序列嵌入，然后训练分类头 (Zeng et al. 2024, Mu et al. 2025)。</li>
+<li><strong>优点</strong>: 无需手工特征，能学习到更丰富的序列模式，性能通常优于传统方法。</li>
+<li><strong>局限</strong>: 1) 许多方法仍依赖计算推断的标签（如 GO 注释）。2) 蛋白级别分类器缺乏可解释性，无法指出哪些区域对预测重要。3) 残基级别预测器（如 EquiPNAS）不回答蛋白整体是否结合的问题。</li>
+</ul>
+</li>
+<li><strong>本文主张的位置</strong>: 本文试图填补上述空白，提出一个<strong>统一的框架</strong>，同时实现：1) 基于<strong>实验验证数据</strong>的蛋白级别分类；2) 通过<strong>注意力分析 (VAT)</strong> 提供区域级别的可解释性，且该解释与已知功能域高度一致。该方法使用<strong>参数高效微调 (LoRA)</strong>，在有限数据上也能有效训练。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">痛点</th>
+<th style="text-align: left;">表现</th>
+<th style="text-align: left;">成因或作者解释</th>
+<th style="text-align: left;">文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">训练标签噪声</td>
+<td style="text-align: left;">许多现有方法使用从 GO 注释或同源性推断的标签，导致模型学习到计算偏差而非真实生物学模式。</td>
+<td style="text-align: left;">计算推断的标签会传播早期预测工具的误差，导致循环验证。</td>
+<td style="text-align: left;">Introduction 节: “...training labels derived from Gene Ontology (GO) annotations or homology-based inference, which can propagate errors from earlier computational predictions...”</td>
+</tr>
+<tr>
+<td style="text-align: left;">预测粒度与可解释性缺失</td>
+<td style="text-align: left;">蛋白级别分类器无法指出哪些序列区域驱动了预测；残基级别预测器不回答蛋白整体是否结合。</td>
+<td style="text-align: left;">现有 PLM 方法通常只解决其中一个方面，缺乏统一实现。</td>
+<td style="text-align: left;">Introduction 节: “...protein-level classifiers assign a global binding label but lack the granularity...residue-level predictors...bypass the prerequisite question of overall nucleic acid-binding capability.”</td>
+</tr>
+<tr>
+<td style="text-align: left;">数据不平衡与正样本稀缺</td>
+<td style="text-align: left;">RBP 正样本仅 351 个，远少于负样本 (17,870)，导致模型难以学习到结合机制的多样性。</td>
+<td style="text-align: left;">严格使用实验验证数据（如 ENCODE eCLIP）导致正样本数量有限。</td>
+<td style="text-align: left;">Methods 节: “The smaller size of the RBP positive set reflects its reliance on a single experimental repository (ENCODE eCLIP)...”</td>
+</tr>
+<tr>
+<td style="text-align: left;">负样本不确定性</td>
+<td style="text-align: left;">负样本是“无实验证据”的蛋白，而非“被证实不结合”的蛋白，其中可能包含未表征的结合蛋白。</td>
+<td style="text-align: left;">实验资源有限，许多蛋白的结合活性尚未被表征。</td>
+<td style="text-align: left;">Discussion 节: “...the negative class...comprises proteins for which there is no experimental evidence...rather than proteins conclusively shown to lack binding activity...”</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>: 使用预训练的 ESM-2 蛋白质语言模型作为特征提取器，通过 LoRA 进行参数高效微调，并在其顶部添加一个简单的分类头，对蛋白质序列进行二分类（是否结合 DNA/RNA）。最后，通过计算 Value-Aware Attention (VAT) 分数并去除位置偏差，来定位对预测重要的残基区域。</li>
+<li><strong>核心洞察</strong>: <strong>预训练的 ESM-2 模型本身已经在其注意力模式中编码了关于功能域（如锌指、RRM）的信息</strong>。LoRA 微调并非从头学习这些功能域特征，而是校准这些预存的特征，使其更好地服务于蛋白级别的分类任务。因此，模型的可解释性（注意力集中在功能域上）是 ESM-2 的固有属性，而非微调过程引入的。</li>
+<li><strong>可能的普适教训 [Analysis]</strong>: 对于许多蛋白质功能预测任务，<strong>使用大型预训练模型（如 PLM）时，其内部表示（如注意力）可能已经包含了与任务高度相关的结构或功能先验知识</strong>。下游微调的主要作用不是学习新特征，而是将这些先验知识“对齐”到具体的分类或回归目标上。这提示我们，在探索新任务时，应首先分析预训练模型本身的能力，而不是盲目地从头训练。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>: 人类蛋白质的氨基酸序列（最长 1024 个残基，超出则从 C 端截断，不足则零填充）。</li>
+<li><strong>输出</strong>: 一个介于 0 和 1 之间的概率值，表示该蛋白质是 DNA 结合蛋白 (DBP) 或 RNA 结合蛋白 (RBP) 的可能性。</li>
+<li><strong>模块</strong>:<ol>
+<li><strong>序列编码器</strong>: 预训练的 ESM-2 (esm2_t33_650M_UR50D) 模型，一个 33 层的 encoder-only transformer。</li>
+<li><strong>参数高效微调 (LoRA)</strong>: 在 ESM-2 的 query, key, value 投影层上应用低秩适配 (r=8, alpha=32)。</li>
+<li><strong>分类头</strong>: 一个全连接层，后接 sigmoid 激活函数，将 ESM-2 的 [CLS] token 表示映射为二分类概率。</li>
+</ol>
+</li>
+<li><strong>训练</strong>:<ul>
+<li><strong>损失函数</strong>: Binary Cross-Entropy with logits。</li>
+<li><strong>优化器</strong>: AdamW，学习率 1e-5。</li>
+<li><strong>数据增强</strong>: 对正样本进行过采样（DBP: 12倍, RBP: 50倍）以缓解类别不平衡。</li>
+<li><strong>验证</strong>: 20 折交叉验证。</li>
+</ul>
+</li>
+<li><strong>工具</strong>: PyTorch, Hugging Face Transformers, PEFT (LoRA), InterProScan。</li>
+<li><strong>反馈回路</strong>: 无显式反馈回路。模型是前馈式的，训练完成后用于预测。</li>
+<li><strong>假设</strong>:<ol>
+<li>ESM-2 的预训练表示能够捕捉到与核酸结合功能相关的序列模式。</li>
+<li>实验验证的标签（ChIP-seq, eCLIP）是可靠的 ground truth。</li>
+<li>注意力分数 (VAT) 能够反映残基对模型预测的重要性。</li>
+</ol>
+</li>
+<li><strong>文字流程</strong>:<ol>
+<li><strong>数据准备</strong>: 从公共数据库获取人类蛋白质序列和实验验证的 DBP/RBP 标签。</li>
+<li><strong>序列处理</strong>: 将蛋白质序列截断/填充至 1024 个残基，并使用 ESM-2 tokenizer 进行 tokenize。</li>
+<li><strong>特征提取与微调</strong>: 将 tokenized 序列输入 ESM-2 模型，通过 LoRA 微调所有 transformer 层，并训练分类头。</li>
+<li><strong>预测</strong>: 对于新序列，通过微调后的模型得到结合概率。</li>
+<li><strong>可解释性分析</strong>: 从所有 transformer 层提取 VAT 分数，进行平滑和 z-score 归一化，得到每个残基的重要性分数，并映射到已知的 InterPro 功能域上。</li>
+</ol>
+</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">模块</th>
+<th style="text-align: left;">功能</th>
+<th style="text-align: left;">为何需要</th>
+<th style="text-align: left;">输入输出</th>
+<th style="text-align: left;">支撑证据</th>
+<th style="text-align: left;">移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>ESM-2 编码器</strong></td>
+<td style="text-align: left;">将氨基酸序列转换为上下文相关的嵌入向量。</td>
+<td style="text-align: left;">提供强大的、预训练的序列表示，无需手工特征。</td>
+<td style="text-align: left;">输入: tokenized 序列。输出: 每个 token 的嵌入向量。</td>
+<td style="text-align: left;">模型在 DBP 和 RBP 任务上均取得有竞争力的 AUROC (0.84, 0.92)。</td>
+<td style="text-align: left;">模型性能将严重下降，因为失去了从大规模序列数据中学到的先验知识。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>LoRA 微调</strong></td>
+<td style="text-align: left;">以参数高效的方式微调 ESM-2 的注意力层。</td>
+<td style="text-align: left;">在有限数据上防止过拟合，降低计算成本，同时保持预训练知识。</td>
+<td style="text-align: left;">输入: ESM-2 的 Q, K, V 权重矩阵。输出: 更新后的低秩适配矩阵。</td>
+<td style="text-align: left;">模型在 351 个 RBP 正样本上成功训练，未出现过拟合迹象。</td>
+<td style="text-align: left;">全参数微调可能导致过拟合，尤其是在 RBP 任务上；或需要更多计算资源。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>分类头</strong></td>
+<td style="text-align: left;">将 [CLS] token 的嵌入映射为二分类概率。</td>
+<td style="text-align: left;">将序列级别的表示转化为具体的预测任务。</td>
+<td style="text-align: left;">输入: [CLS] token 的嵌入 (1280维)。输出: 一个标量概率值。</td>
+<td style="text-align: left;">模型在 20 折交叉验证中表现稳定。</td>
+<td style="text-align: left;">模型无法输出分类结果。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>VAT 分数计算与后处理</strong></td>
+<td style="text-align: left;">计算并归一化注意力分数，以定位对预测重要的残基。</td>
+<td style="text-align: left;">提供模型预测的可解释性，揭示模型关注的序列区域。</td>
+<td style="text-align: left;">输入: 所有层的注意力权重和 value 向量。输出: 每个残基的 z-score 归一化 VAT 分数。</td>
+<td style="text-align: left;">VAT 分数峰值与已知的 DNA/RNA 结合域（如锌指、RRM）高度重合。</td>
+<td style="text-align: left;">模型将成为一个“黑箱”，无法解释其预测依据，降低生物学可信度。</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<ul>
+<li>
+<p><strong>公式</strong>: Matthews Correlation Coefficient (MCC)
+    $$MCC = \frac{TP \times TN - FP \times FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}}$$</p>
+<ul>
+<li><strong>符号含义</strong>: TP (True Positives), TN (True Negatives), FP (False Positives), FN (False Negatives)。</li>
+<li><strong>用途</strong>: 作为模型性能的主要评估指标，特别适用于类别不平衡的数据集。</li>
+<li><strong>直觉</strong>: 一个平衡的相关系数，值为 +1 表示完美预测，0 表示随机预测，-1 表示完全反向预测。</li>
+<li><strong>来源指针</strong>: Methods 节，公式 (1)。</li>
+</ul>
+</li>
+<li>
+<p><strong>公式</strong>: Value-Aware Attention (VAT)
+    $$VAT_{i} = \sum_{h} \sum_{l} \alpha_{i}^{(h,l)} \cdot ||v_{i}^{(h,l)}||_2$$</p>
+<ul>
+<li><strong>符号含义</strong>: $VAT_{i}$ 是第 i 个 token 的 VAT 分数。$\alpha_{i}^{(h,l)}$ 是第 l 层第 h 个注意力头中，其他 token 对第 i 个 token 的注意力权重。$v_{i}^{(h,l)}$ 是第 l 层第 h 个注意力头中第 i 个 token 的 value 向量。$||\cdot||_2$ 是 L2 范数。</li>
+<li><strong>用途</strong>: 衡量每个 token 在模型中的重要性，用于模型解释。</li>
+<li><strong>直觉</strong>: 不仅考虑了一个 token 被“关注”的程度（注意力权重），还考虑了该 token 所携带的“信息量”（value 向量的 L2 范数），从而更准确地反映其对模型决策的贡献。</li>
+<li><strong>来源指针</strong>: Methods 节，2.7 Attention-based interpretation analysis。</li>
+</ul>
+</li>
+</ul>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>: 人类蛋白质组 (18,221 个蛋白)。DBP 正样本: 1447 (来自 hPDI, hTFtarget)。RBP 正样本: 351 (来自 ENCODE eCLIP)。负样本: 其余所有蛋白。</li>
+<li><strong>规模</strong>: 18,221 个序列。</li>
+<li><strong>指标</strong>: 主要指标: MCC。其他指标: AUROC, Accuracy, Precision, Recall, F1-score, Specificity。</li>
+<li><strong>基线</strong>: DBP: ESM-DBP, TransBind。RBP: DRBP-EDP, HydRA。</li>
+<li><strong>骨干/仪器</strong>: ESM-2 (esm2_t33_650M_UR50D), NVIDIA GeForce RTX4090 GPU。</li>
+<li><strong>评测协议</strong>: 20 折交叉验证。正样本在训练集中过采样，测试集保持原始分布。最优阈值通过最大化 MCC 确定。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">实验</th>
+<th style="text-align: left;">检验的claim</th>
+<th style="text-align: left;">对比与条件</th>
+<th style="text-align: left;">结果</th>
+<th style="text-align: left;">支持的结论</th>
+<th style="text-align: left;">不支持更强的结论</th>
+<th style="text-align: left;">来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>模型性能评估</strong></td>
+<td style="text-align: left;">本文模型在 DBP/RBP 分类上优于现有方法。</td>
+<td style="text-align: left;">在相同数据集上，与 ESM-DBP, TransBind (DBP) 和 DRBP-EDP, HydRA (RBP) 比较。</td>
+<td style="text-align: left;">DBP: MCC=0.40, AUROC=0.84。RBP: MCC=0.46, AUROC=0.92。优于或持平于基线。</td>
+<td style="text-align: left;">模型在实验验证数据上表现良好，优于或与现有方法相当。</td>
+<td style="text-align: left;">模型性能可能受限于正样本数量，尤其是在 RBP 任务上。AUROC 略低于 DRBP-EDP。</td>
+<td style="text-align: left;">Table 1, Results 节 3.2</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>域富集分析</strong></td>
+<td style="text-align: left;">模型预测的结合蛋白富集了已知的核酸结合域。</td>
+<td style="text-align: left;">比较预测阳性组和阴性组中 InterPro 域的分布。</td>
+<td style="text-align: left;">预测阳性组中，锌指、同源框 (DBP) 和 RRM、KH 域 (RBP) 显著富集。</td>
+<td style="text-align: left;">模型的预测结果在生物学上是合理的，与已知知识一致。</td>
+<td style="text-align: left;">富集分析是相关性，不能证明模型因果地使用了这些域。</td>
+<td style="text-align: left;">Results 节 3.3, Fig. 3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>注意力 (VAT) 分析</strong></td>
+<td style="text-align: left;">模型注意力集中在已知的核酸结合域上。</td>
+<td style="text-align: left;">比较微调后模型在 TRIM24, RHOXF2, U2SURP, HNRNPH3 等蛋白上的 VAT 分数与功能域注释。</td>
+<td style="text-align: left;">VAT 分数峰值与锌指、同源框、RRM 等域的位置高度重合。</td>
+<td style="text-align: left;">模型的可解释性分析揭示了其预测的生物学基础。</td>
+<td style="text-align: left;">注意力是相关性，非因果性。高注意力区域不一定是功能必需的。</td>
+<td style="text-align: left;">Results 节 3.4, Fig. 4</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>与未微调模型比较</strong></td>
+<td style="text-align: left;">注意力模式是 ESM-2 的固有属性，而非微调引入。</td>
+<td style="text-align: left;">比较微调后模型与未微调 ESM-2 在相同蛋白上的 VAT 分数分布。</td>
+<td style="text-align: left;">未微调模型在相同功能域上也显示出相似的注意力峰值。</td>
+<td style="text-align: left;">预训练的 ESM-2 已经编码了功能域信息，微调只是校准了这些信息。</td>
+<td style="text-align: left;">未微调模型的分类性能远低于微调模型，说明微调对分类任务是必要的。</td>
+<td style="text-align: left;">Results 节 3.4, Fig. 4</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>: 本文解决的是<strong>蛋白级别</strong>的<strong>二分类</strong>问题（是否结合 DNA/RNA），而非预测蛋白与特定 DNA 序列的结合位点或亲和力。</li>
+<li><strong>Oracle/真值输入</strong>: 训练标签来自<strong>实验验证</strong>的数据库（ChIP-seq, eCLIP），但负样本是“无实验证据”的蛋白，并非“被证实不结合”的蛋白。</li>
+<li><strong>端到端状态</strong>: 模型是端到端的，输入是原始序列，输出是结合概率和注意力分数。</li>
+<li><strong>算力成本</strong>: 使用单张 RTX4090 GPU 即可完成训练，得益于 LoRA 的参数高效性。</li>
+<li><strong>历史数据依赖</strong>: 模型性能高度依赖于 ESM-2 的预训练数据和本研究中使用的实验验证标签的质量与覆盖度。</li>
+<li><strong>模型依赖</strong>: 结论基于 ESM-2 架构，迁移到其他 PLM（如 ProtTrans）可能需要重新验证。</li>
+<li><strong>最难情形</strong>: 对于<strong>缺乏已知功能域</strong>、<strong>具有上下文依赖性结合</strong>或<strong>属于未充分研究家族</strong>的蛋白质，模型可能表现不佳。</li>
+<li><strong>群体/领域边界</strong>: 模型仅在<strong>人类蛋白质</strong>上训练和验证，直接应用于其他物种需要额外验证。</li>
+<li><strong>不确定性</strong>: 模型预测的高概率蛋白中，可能包含<strong>假阳性</strong>（即实际不结合但被预测为结合），也可能包含<strong>未被实验验证的真阳性</strong>。注意力分数指示的是<strong>相关性</strong>，而非<strong>因果性</strong>。</li>
+<li><strong>有边界的复述</strong>: 本文证明，在人类蛋白质组范围内，使用 ESM-2 和 LoRA 微调，可以仅从序列信息出发，以 0.84 (DBP) 和 0.92 (RBP) 的 AUROC 预测一个蛋白是否具有核酸结合能力，并且模型学到的注意力模式与已知的核酸结合功能域高度一致，为预测提供了生物学上合理的解释。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">局限</th>
+<th style="text-align: left;">具体表现</th>
+<th style="text-align: left;">作者提出的未来方向</th>
+<th style="text-align: left;">来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">正样本数量有限</td>
+<td style="text-align: left;">RBP 正样本仅 351 个，可能限制模型学习结合机制的多样性。</td>
+<td style="text-align: left;">未明确提及，但隐含在“多任务学习”和“整合更多数据”的讨论中。</td>
+<td style="text-align: left;">Discussion 节</td>
+</tr>
+<tr>
+<td style="text-align: left;">对已知蛋白的偏好</td>
+<td style="text-align: left;">实验验证数据偏向于研究充分的蛋白，导致模型对未充分表征的蛋白泛化能力可能不足。</td>
+<td style="text-align: left;">未明确提及。</td>
+<td style="text-align: left;">Discussion 节</td>
+</tr>
+<tr>
+<td style="text-align: left;">负样本不确定性</td>
+<td style="text-align: left;">负样本包含可能具有结合活性但尚未被表征的蛋白，导致标签噪声。</td>
+<td style="text-align: left;">使用 20 折交叉验证来缓解影响。</td>
+<td style="text-align: left;">Discussion 节</td>
+</tr>
+<tr>
+<td style="text-align: left;">序列长度限制</td>
+<td style="text-align: left;">1024 个残基的截断导致 9%-13% 的蛋白信息丢失。</td>
+<td style="text-align: left;">未明确提及。</td>
+<td style="text-align: left;">Discussion 节</td>
+</tr>
+<tr>
+<td style="text-align: left;">物种限制</td>
+<td style="text-align: left;">模型仅在人类蛋白上训练，直接应用于其他物种需额外验证。</td>
+<td style="text-align: left;">未明确提及。</td>
+<td style="text-align: left;">Discussion 节</td>
+</tr>
+</tbody>
+</table>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">[Analysis] 观察</th>
+<th style="text-align: left;">潜在问题或替代解释</th>
+<th style="text-align: left;">为何重要</th>
+<th style="text-align: left;">如何检验</th>
+<th style="text-align: left;">依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">负样本的构建方式（无实验证据即视为负样本）可能导致严重的标签噪声。</td>
+<td style="text-align: left;">许多“假阳性”预测可能实际上是未被实验验证的真阳性。作者在讨论中也承认了这一点。</td>
+<td style="text-align: left;">这会系统性低估模型性能，并使得 MCC 等指标不可靠。模型可能比报告的要好，但评估基准本身有缺陷。</td>
+<td style="text-align: left;">1. 从 UniProt 等数据库中检索“假阳性”蛋白，看是否有独立证据（如文献、结构）支持其结合活性。2. 构建一个更严格的负样本集，例如使用实验证明确实不结合的蛋白（如果存在）。</td>
+<td style="text-align: left;">Discussion 节: “...a subset of proteins classified as false positives by the model was independently annotated as DNA- or RNA-binding in UniProt.”</td>
+</tr>
+<tr>
+<td style="text-align: left;">注意力 (VAT) 与功能域的重合是相关性，而非因果性。</td>
+<td style="text-align: left;">模型可能因为其他原因（如序列的保守性、结构稳定性）而关注这些区域，而非直接因为它们是结合域。</td>
+<td style="text-align: left;">过度解读注意力为“因果机制”会误导后续实验设计（如突变验证）。</td>
+<td style="text-align: left;">1. 进行<strong>注意力扰动实验</strong>：在推理时，将高注意力区域的嵌入向量替换为随机向量或掩码，观察预测概率的下降程度。2. 进行<strong>因果追踪</strong>：定位对预测最关键的具体层和注意力头。</td>
+<td style="text-align: left;">Discussion 节: “...attention weights should be interpreted with caution, as these weights reflect correlation rather than causation.”</td>
+</tr>
+<tr>
+<td style="text-align: left;">模型性能与基线比较不够公平。</td>
+<td style="text-align: left;">基线模型（如 ESM-DBP）可能是在不同数据集上训练的，而本文在<strong>自己的数据集</strong>上重新训练了它们。这可能导致基线模型性能不佳，因为它们可能针对不同的数据分布进行了优化。</td>
+<td style="text-align: left;">这削弱了“本文模型优于现有方法”的结论。</td>
+<td style="text-align: left;">1. 在基线模型的<strong>原始数据集</strong>上评估本文模型。2. 使用<strong>相同的超参数搜索</strong>为所有模型（包括基线）寻找最优配置。</td>
+<td style="text-align: left;">Methods 节: “These alternative methods were evaluated under the same computational framework using the complete dataset constructed in this study...”</td>
+</tr>
+<tr>
+<td style="text-align: left;">LoRA 的超参数 (r=8, alpha=32) 是直接采用先前研究，未进行任务特定优化。</td>
+<td style="text-align: left;">可能存在更优的 LoRA 配置，能进一步提升模型性能。</td>
+<td style="text-align: left;">模型性能可能不是最优的，存在提升空间。</td>
+<td style="text-align: left;">对 LoRA 的 rank (r) 和 scaling factor (alpha) 进行网格搜索，观察 MCC 的变化。</td>
+<td style="text-align: left;">Methods 节: “These rank and scaling parameters were selected based on established configurations in previous protein language model studies...rather than through task-specific hyperparameter optimization.”</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<p><strong>Agent 提炼的知识候选</strong></p>
+<ol>
+<li>
+<p><strong>可迁移概念: 预训练模型固有先验知识</strong></p>
+<ul>
+<li><strong>内容</strong>: 预训练的 ESM-2 模型，即使未经微调，其注意力模式已经能识别出功能域（如锌指、RRM）。微调只是校准这些先验知识以服务于特定任务。</li>
+<li><strong>如何迁移到本课题 (TF-DNA 结合机制)</strong>: 在研究 TF 与 DNA 的相互作用时，可以直接使用预训练的 ESM-2 或类似 PLM 来分析 TF 序列。其注意力分布可能<strong>无需任何微调</strong>就能揭示出潜在的 DNA 结合域（DBD）或对结合重要的其他区域。这可以作为<strong>零样本</strong>的功能域预测工具，尤其适用于研究较少的 TF。</li>
+</ul>
+</li>
+<li>
+<p><strong>可迁移方法: 参数高效微调 (LoRA) 处理小样本数据</strong></p>
+<ul>
+<li><strong>内容</strong>: 在正样本数量有限（如 RBP 仅 351 个）的情况下，使用 LoRA 进行微调可以有效防止过拟合，并降低计算成本。</li>
+<li><strong>如何迁移到本课题 (TF-DNA 结合机制)</strong>: 许多 TF 的特定结合机制（如与特定 DNA 基序的结合）的实验数据可能非常稀缺。当需要为特定 TF 家族或结合模式训练一个预测模型时，可以采用 LoRA 微调一个大型 PLM，而不是从头训练或全参数微调，从而在小数据上获得更鲁棒的模型。</li>
+</ul>
+</li>
+<li>
+<p><strong>可迁移方法: Value-Aware Attention (VAT) 用于模型解释</strong></p>
+<ul>
+<li><strong>内容</strong>: VAT 通过结合注意力权重和 value 向量的范数，提供了一种比纯注意力权重更鲁棒的残基重要性度量。</li>
+<li><strong>如何迁移到本课题 (TF-DNA 结合机制)</strong>: 在构建预测 TF 与特定 DNA 序列结合亲和力的模型时，可以使用 VAT 来分析模型关注 TF 序列的哪些部分。这可以揭示模型是否学到了关键的 DBD 区域，或者是否发现了新的、对结合重要的非经典区域。</li>
+</ul>
+</li>
+<li>
+<p><strong>可迁移实验设计: 与未微调模型对比以揭示模型行为</strong></p>
+<ul>
+<li><strong>内容</strong>: 通过比较微调后模型与未微调模型的注意力模式，作者证明了其可解释性是预训练模型的固有属性。</li>
+<li><strong>如何迁移到本课题 (TF-DNA 结合机制)</strong>: 在开发任何基于 PLM 的 TF-DNA 互作模型时，都应该进行类似的对比实验。例如，比较一个预测 TF 结合位点的模型与未微调 PLM 的注意力模式，可以判断模型是学习了新的结合逻辑，还是仅仅放大了 PLM 中已有的结构信息。</li>
+</ul>
+</li>
+</ol>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似工作</strong>: 本文与 <strong>ESM-DBP</strong> (Zeng et al. 2024) 和 <strong>TransBind</strong> (Tahmid et al. 2025) 等 PLM 方法同属一个方向。本文的独特贡献在于：1) 严格使用实验验证数据；2) 提供了系统的可解释性分析；3) 证明了可解释性是预训练模型的固有属性。</li>
+<li><strong>组合方向</strong>: 本文的<strong>蛋白级别分类</strong>可以与<strong>残基级别结合位点预测</strong>方法（如 <strong>EquiPNAS</strong> (Roche et al. 2024)）组合。先用本文模型筛选出候选结合蛋白，再用 EquiPNAS 预测其具体的结合位点，形成一个更完整的分析流程。</li>
+<li><strong>冲突观点</strong>: 本文强调<strong>实验验证数据</strong>的重要性，并批评了使用 GO 注释等计算推断标签的方法。这与一些依赖大规模计算注释来构建训练集的方法（如许多早期的 DBP 预测器）存在冲突。本文的观点是，虽然数据量小，但数据质量更高，能带来更可靠的模型。</li>
+<li><strong>可迁移领域</strong>: 本文的框架（PLM + LoRA + 注意力解释）可以<strong>直接迁移</strong>到其他蛋白质功能预测任务，例如预测<strong>酶活性、蛋白质-蛋白质相互作用、亚细胞定位</strong>等。只要存在实验验证的标签，该方法就能提供一个准确且可解释的解决方案。</li>
+</ul>
+<h2>16 研究想法</h2>
+<p><strong>Agent 生成的研究候选</strong></p>
+<ol>
+<li>
+<p><strong>名称</strong>: 基于 PLM 注意力先验的 TF 结合域零样本预测器</p>
+<ul>
+<li><strong>来源局限/观察</strong>: 本文发现未微调的 ESM-2 注意力已能定位功能域。对于许多未充分研究的 TF，其 DBD 可能未知或注释不完整。</li>
+<li><strong>核心假设</strong>: 预训练的 PLM（如 ESM-2）的注意力模式，无需任何微调，即可在 TF 序列上准确识别出 DNA 结合域 (DBD)。</li>
+<li><strong>相对本文的增量</strong>: 本文需要微调来分类，而此想法旨在<strong>零样本</strong>预测 DBD，完全不需要标签数据。</li>
+<li><strong>初步方法</strong>: 1) 收集一组已知 DBD 的 TF 作为基准。2) 对每个 TF 序列，使用预训练 ESM-2 计算 VAT 分数。3) 设计一个算法（如峰值检测、滑动窗口阈值）从 VAT 分数曲线中自动识别候选 DBD 区域。4) 与 Pfam 等数据库中的已知 DBD 注释进行比较，评估召回率和精确率。</li>
+<li><strong>验证方式</strong>: 在多个物种的 TF 数据集上，比较预测的 DBD 区域与 Pfam 注释的 DBD 区域的重叠度（如 Jaccard 指数）。对于无注释的 TF，可通过文献挖掘或结构预测（如 AlphaFold2）进行人工验证。</li>
+<li><strong>可能的失败模式</strong>: PLM 的注意力可能更关注结构域边界或保守基序，而非完整的 DBD。对于具有多个分散结合位点的 TF，注意力可能无法覆盖所有区域。</li>
+<li><strong>创新状态</strong>: unverified</li>
+</ul>
+</li>
+<li>
+<p><strong>名称</strong>: 结合蛋白分类与结合位点预测的联合模型</p>
+<ul>
+<li><strong>来源局限/观察</strong>: 本文只做蛋白级别分类，不预测结合位点。而现有结合位点预测器（如 EquiPNAS）不回答蛋白是否结合的问题。</li>
+<li><strong>核心假设</strong>: 一个多任务学习框架可以同时学习蛋白级别的结合能力（是否结合）和残基级别的结合位点（哪里结合），并且这两个任务可以互相促进。</li>
+<li><strong>相对本文的增量</strong>: 在本文的 ESM-2 + 分类头的基础上，增加一个<strong>残基级别的预测头</strong>（如一个 MLP 或线性层），输出每个残基是结合位点的概率。损失函数为分类损失和残基预测损失的加权和。</li>
+<li><strong>初步方法</strong>: 1) 使用本文的 DBP/RBP 数据集作为蛋白级别标签。2) 从 BioLiP 或 PDB 中提取这些蛋白的 DNA/RNA 结合位点作为残基级别标签。3) 构建多任务模型，共享 ESM-2 编码器。4) 在 20 折交叉验证下评估两个任务的性能。</li>
+<li><strong>验证方式</strong>: 比较联合模型与单独训练的分类模型和结合位点预测模型的性能。检查残基预测头是否比单独训练的模型更准确，以及分类性能是否得到提升。</li>
+<li><strong>可能的失败模式</strong>: 两个任务的标签来源不同（实验 vs 结构），可能存在冲突。残基级别标签的稀疏性可能导致训练困难。多任务学习可能引入负迁移。</li>
+<li><strong>创新状态</strong>: partially checked (已有类似概念，但本文提供了一个清晰的实验框架)</li>
+</ul>
+</li>
+<li>
+<p><strong>名称</strong>: 基于注意力因果追踪的 TF 结合关键残基鉴定</p>
+<ul>
+<li><strong>来源局限/观察</strong>: 本文的 VAT 分析只展示了相关性，无法证明注意力高的残基对结合功能是必需的。</li>
+<li><strong>核心假设</strong>: 通过因果追踪技术，可以定位到对模型预测“该蛋白是 DBP”这一决策<strong>因果上最重要</strong>的特定注意力头和残基。</li>
+<li><strong>相对本文的增量</strong>: 从<strong>相关性分析</strong>（VAT）升级到<strong>因果性分析</strong>（因果追踪）。</li>
+<li><strong>初步方法</strong>: 1) 使用本文微调好的 DBP 模型。2) 对于每个被正确预测为 DBP 的蛋白，应用因果追踪：在推理过程中，干扰（如替换为均值）特定层、特定注意力头的输出，观察模型预测概率的下降程度。3) 识别出导致预测概率下降最大的“关键路径”和“关键节点”（残基）。4) 将这些关键残基与已知的 DBD 和实验验证的关键位点进行比较。</li>
+<li><strong>验证方式</strong>: 对于有突变实验数据的 TF，检查因果追踪鉴定的关键残基是否与实验验证的功能关键残基（如点突变后结合亲和力显著下降）高度重合。</li>
+<li><strong>可能的失败模式</strong>: 因果追踪计算成本高，且对模型架构敏感。对于长序列，可能难以定位到精确的残基。模型可能通过多条冗余路径做出决策，导致因果信号分散。</li>
+<li><strong>创新状态</strong>: unverified</li>
+</ul>
+</li>
+</ol></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript</li>
+<li><strong>Assessment boundary</strong> The manuscript as provided, including main text, figures referenced in text, and supplementary materials referenced in text. No supplementary data files were provided for independent review.</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present a transformer-based classifier (ESM-2 with LoRA fine-tuning) for predicting DNA-binding and RNA-binding proteins from human protein sequences. They claim that the model achieves high predictive performance (AUROC 0.84 for DBPs, 0.92 for RBPs) using only sequence information, and that attention-based analysis (VAT scores) reveals biologically meaningful focus on annotated functional domains.</li>
+<li><strong>Visible evidence base</strong> Main text, figures referenced in text (Figures 1-4 and supplementary figures), tables (Table 1), and methods sections.</li>
+<li><strong>Missing materials affecting confidence</strong> Supplementary data files (supplementary figures, tables, and data) were not provided. The GitHub repository was not reviewed. The full set of performance metrics across all 20 folds was not provided.</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> This manuscript presents a well-motivated and methodologically sound approach to predicting nucleic acid-binding proteins using a protein language model. The use of experimentally validated training data and the integration of attention-based interpretability are notable strengths. However, several technical concerns regarding the evaluation framework, the handling of negative labels, and the interpretation of attention scores need to be addressed before the claims can be fully supported.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers in computational biology, bioinformatics, and functional genomics, particularly those working on protein function prediction, protein-nucleic acid interactions, and interpretable machine learning. The work is also relevant to experimental biologists interested in identifying candidate nucleic acid-binding proteins for validation.</li>
+<li><strong>Major strengths</strong> 1) Use of exclusively experimentally validated training data (ChIP-seq, eCLIP) rather than computationally inferred annotations, which reduces the risk of propagating biases. 2) Integration of protein-level classification with residue-level interpretability via VAT scores, addressing a known gap in the field. 3) Parameter-efficient fine-tuning (LoRA) that preserves the pretrained representations while enabling task-specific adaptation. 4) Systematic domain enrichment and attention-based analyses that demonstrate biological relevance.</li>
+<li><strong>Major Concerns</strong> </li>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Data quality and label definition</li>
+<li><strong>Claim pointer</strong> "Proteins without experimental evidence for DNA binding (n = 16,774) and RNA binding (n = 17,870) were designated as negative classes for the DBP and RBP models, respectively."</li>
+<li><strong>Evidence pointer</strong> Section 2.1, Section 3.1</li>
+<li><strong>Concern</strong> The negative class is defined as proteins lacking experimental evidence of binding, not as proteins experimentally confirmed to be non-binding. This is a critical distinction. The authors acknowledge this limitation in the Discussion, but the impact on model evaluation is not adequately addressed. The 20-fold cross-validation distributes potential hidden positives across folds, but this does not eliminate the bias. The model may be learning to distinguish "well-studied" from "poorly-studied" proteins rather than binding from non-binding. The authors report that some false positives are independently annotated as binding in UniProt, which supports this concern.</li>
+<li><strong>Why it matters</strong> If the negative set contains a substantial number of unannotated true binders, the reported performance metrics (MCC, AUROC) are likely underestimates of the true performance on a clean dataset, but the model's ability to generalize to truly non-binding proteins is unknown. More importantly, the model's predictions on novel proteins cannot be interpreted as evidence of binding without experimental validation, which limits the practical utility of the framework.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should provide an estimate of the proportion of the negative set that is likely to contain hidden positives (e.g., based on UniProt annotations or literature mining). They should also evaluate the model on a held-out set of proteins that have been experimentally confirmed as non-binding, if such a set can be constructed. Alternatively, they could perform a sensitivity analysis by removing proteins with any evidence of binding (even weak or indirect) from the negative set and re-evaluating performance.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M2</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Model evaluation and benchmarking</li>
+<li><strong>Claim pointer</strong> "The DBP model outperformed the baselines across major metrics, achieving an MCC of 0.40 and AUROC of 0.84, which exceeded the values obtained by ESM-DBP (0.343 and 0.812, respectively) and TransBind."</li>
+<li><strong>Evidence pointer</strong> Table 1, Section 3.2</li>
+<li><strong>Concern</strong> The benchmarking is performed on the authors' own dataset, which uses a different definition of negatives (absence of experimental evidence) than the original studies for the baseline methods. ESM-DBP and TransBind were trained on datasets with different label definitions (e.g., GO annotations, BioLiP). Comparing methods on a dataset with a different label distribution and definition is not a fair comparison. The baseline methods may perform differently on this dataset because they were optimized for a different task. Furthermore, the authors do not report whether the baseline methods were retrained or used as pre-trained models. If they were retrained, the hyperparameters may not be optimal for this dataset.</li>
+<li><strong>Why it matters</strong> The claim of "outperforming" existing methods is central to the paper's narrative. If the comparison is not fair, the conclusion is not supported. The reader cannot determine whether the proposed model is genuinely better or simply benefits from a different data definition.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should either: (1) evaluate all methods on a common, independent benchmark dataset with experimentally confirmed labels for both positive and negative classes, or (2) clearly state that the comparison is on their own dataset and acknowledge that the label definitions differ, and discuss how this might affect the comparison. They should also report whether the baseline methods were retrained and, if so, provide details on the retraining procedure and hyperparameter selection.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M3</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Interpretability and causality</li>
+<li><strong>Claim pointer</strong> "These results demonstrate that attention-based protein language models can accurately identify nucleic acid-binding proteins directly from sequence data. Moreover, these models reveal biologically meaningful sequence determinants of binding."</li>
+<li><strong>Evidence pointer</strong> Section 3.3, Section 3.4, Section 4</li>
+<li><strong>Concern</strong> The authors correctly note that attention weights reflect correlation, not causation. However, the manuscript's language often implies a causal relationship (e.g., "the model relies on structural signatures," "the model assigns greater attention to regions of the domain associated with nucleic acid-binding functions"). The VAT score analysis shows that attention is concentrated on known binding domains, but this does not demonstrate that these regions are necessary or sufficient for the model's prediction. The untuned ESM-2 model also shows this pattern, suggesting that the attention patterns are a property of the pretrained model, not of the fine-tuned classifier. The claim that the model "reveals" sequence determinants of binding is therefore overstated.</li>
+<li><strong>Why it matters</strong> Overstating the interpretability claims could mislead readers into thinking that the model can be used to discover novel binding motifs or mechanisms. The current analysis only shows that the model's attention correlates with known annotations, which is a useful sanity check but not a discovery.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should temper the language throughout the manuscript to reflect that the attention analysis shows correlation with known domains, not causal evidence. They should explicitly state that the model does not "reveal" new sequence determinants but rather recapitulates known ones. They could also perform an ablation study (e.g., masking high-attention residues and measuring the drop in prediction score) to provide stronger evidence for the functional importance of these regions.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M4</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Statistical rigor and reporting</li>
+<li><strong>Claim pointer</strong> "In 20-fold cross-validation, the DBP model achieved an AUROC of 0.84 with an MCC of 0.40, while the RBP model achieved an AUROC of 0.92 with an MCC of 0.46."</li>
+<li><strong>Evidence pointer</strong> Section 3.2, Table 1</li>
+<li><strong>Concern</strong> The authors report only mean performance metrics across 20 folds. They do not report standard deviations, confidence intervals, or the distribution of metrics across folds. This is important for assessing the stability and reliability of the model. The 20-fold cross-validation uses a 95/5 split, which means each test set contains only ~911 proteins (5% of 18,221). With a small positive class (especially for RBPs, n=351), the performance in individual folds could be highly variable. The authors also do not report the performance on the training set, which would help assess overfitting.</li>
+<li><strong>Why it matters</strong> Without measures of variability, the reader cannot assess the robustness of the reported performance. A model with high mean performance but high variance across folds is less reliable than one with lower but more consistent performance.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should report the standard deviation or 95% confidence interval for all reported metrics (MCC, AUROC, accuracy, precision, recall, F1) across the 20 folds. They should also report the range of values observed. Additionally, they should report the training set performance to assess overfitting.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M5</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Data leakage and sequence similarity</li>
+<li><strong>Claim pointer</strong> "For genes encoding multiple protein isoforms, the longest isoform was selected as the representative sequence."</li>
+<li><strong>Evidence pointer</strong> Section 2.1</li>
+<li><strong>Concern</strong> The authors do not address the issue of sequence similarity between training and test sets. If highly similar proteins (e.g., isoforms of the same gene, or paralogs) are present in both training and test sets within a cross-validation fold, the model's performance may be inflated due to data leakage. The 20-fold cross-validation splits the data randomly, which does not guarantee that similar sequences are separated. The authors should perform a sequence-similarity-based split (e.g., clustering at 30-40% identity) to ensure that the test set contains proteins that are not highly similar to training proteins.</li>
+<li><strong>Why it matters</strong> If the model is evaluated on proteins that are very similar to training proteins, the reported performance may not generalize to truly novel sequences. This is a common issue in protein function prediction and should be addressed.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should perform a sequence-similarity-based cross-validation (e.g., using CD-HIT or MMseqs2 to cluster sequences at 30-40% identity and splitting by cluster) and report the performance. They should also report the maximum sequence identity between training and test sets in their current 20-fold cross-validation.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M6</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Model architecture and hyperparameter selection</li>
+<li><strong>Claim pointer</strong> "These rank and scaling parameters were selected based on established configurations in previous protein language model studies rather than through task-specific hyperparameter optimization."</li>
+<li><strong>Evidence pointer</strong> Section 2.3</li>
+<li><strong>Concern</strong> The LoRA hyperparameters (rank=8, alpha=32, dropout=0.1) were taken from previous studies without task-specific optimization. While this is a common practice, it is not justified for this specific task. The performance of LoRA can be sensitive to these parameters, and the authors do not demonstrate that the chosen configuration is optimal or even near-optimal for their dataset. Similarly, the learning rate (1e-5), batch size (16), and number of epochs (5) were not optimized.</li>
+<li><strong>Why it matters</strong> The reported performance may not reflect the true potential of the model. A more thorough hyperparameter search could yield better results, or conversely, the current configuration might be suboptimal. The lack of optimization weakens the claim that the model "achieves high performance."</li>
+<li>
+<p><strong>Resolution test</strong> The authors should either: (1) perform a systematic hyperparameter search (e.g., for LoRA rank, alpha, learning rate) and report the best configuration, or (2) provide a justification for why the chosen parameters are expected to be near-optimal for this task (e.g., based on theoretical considerations or empirical evidence from similar tasks). They should also report the sensitivity of the results to these parameters.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M7</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Reproducibility and data availability</li>
+<li><strong>Claim pointer</strong> "Code is available on GitHub (https://github.com/CSB-hub/DRBP)."</li>
+<li><strong>Evidence pointer</strong> Availability and implementation section</li>
+<li><strong>Concern</strong> The GitHub repository was not reviewed. The authors state that trained model weights are provided, but it is unclear whether the repository contains all necessary code, data, and instructions to reproduce the results. The manuscript does not provide a detailed description of the computational environment (e.g., software versions, dependencies). The data sources (hPDI, hTFtarget, ENCODE) are publicly available, but the exact versions and processing steps are not fully specified.</li>
+<li><strong>Why it matters</strong> Reproducibility is a cornerstone of scientific research. Without access to the code and data, the results cannot be independently verified.</li>
+<li>
+<p><strong>Resolution test</strong> The authors should ensure that the GitHub repository contains: (1) all code for data preprocessing, model training, and evaluation, (2) a requirements file with exact software versions, (3) a README with detailed instructions for reproducing the results, (4) the trained model weights, and (5) a script to download and preprocess the data. The authors should also provide a DOI for the repository (e.g., via Zenodo) to ensure long-term access.</p>
+</li>
+<li>
+<p><strong>Minor Comments</strong></p>
+</li>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 2.5</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The MCC formula is presented in the text but is not rendered correctly (the equation is missing). The authors should ensure that the equation is properly formatted.</li>
+<li>
+<p><strong>Required correction</strong> Ensure the MCC equation is correctly rendered in the final manuscript.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m2</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 2.2</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The authors state that "The input sequence length was set to 1024 amino acids based on constraints imposed by the ESM-2 model and sequence coverage analysis (Fig. 1, available as supplementary data at Bioinformatics Advances online)." The reference to "Fig. 1" is ambiguous, as Figure 1 in the main text shows the data collection and model training workflow. The supplementary figure should be clearly labeled.</li>
+<li>
+<p><strong>Required correction</strong> Clarify the reference to the supplementary figure (e.g., "Supplementary Fig. S1").</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m3</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 3.2</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The authors state that "The DBP model identified 2412 proteins with predicted binding probabilities above 0.7, and the RBP model predicted 529 proteins with predicted binding probabilities above 0.9 as potential binding proteins." It is unclear whether these numbers are from the full dataset predictions or from the cross-validation. The context suggests they are from applying the trained models to the full dataset, but this should be explicitly stated.</li>
+<li>
+<p><strong>Required correction</strong> Clarify that these numbers are from applying the final model to the full dataset of 18,221 proteins.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m4</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 3.3</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The authors state that "Comparison between binding and non-binding predicted groups showed no consistent pattern for proteins with fewer than six IPR domains; however, proteins containing six or more domains were notably more prevalent in the binding groups for both models (Fig. 3A)." This observation is interesting but not explained. Why would proteins with more domains be more likely to be predicted as binding? This could be an artifact of the model or a genuine biological signal.</li>
+<li>
+<p><strong>Required correction</strong> Provide a brief explanation or hypothesis for this observation.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m5</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 3.4</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The authors state that "The untuned model displayed a similar preference for annotated DNA- or RNA-binding domains prior to optimization." This is a key observation, but the authors do not discuss its implications in detail. If the untuned model already focuses on binding domains, then the fine-tuning is only calibrating the classification head, not learning new features. This supports the claim that the model is interpretable, but it also suggests that the model is not learning anything new about binding.</li>
+<li>
+<p><strong>Required correction</strong> Expand the discussion of this finding, including its implications for the novelty of the approach.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m6</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 4</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The Discussion section is well-written but somewhat repetitive. Some points (e.g., the use of experimentally validated data, the advantages of LoRA) are mentioned multiple times.</li>
+<li>
+<p><strong>Required correction</strong> Condense the Discussion to avoid redundancy.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m7</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 2.4</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The authors state that "positive samples were up-sampled by each sample 12-fold for DBP prediction and 50-fold for RBP prediction to approximate the size of the negative set." The phrase "by each sample 12-fold" is awkward. It should be "positive samples were up-sampled by a factor of 12 for DBP prediction and 50 for RBP prediction."</li>
+<li>
+<p><strong>Required correction</strong> Rephrase for clarity.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m8</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity and presentation</li>
+<li><strong>Affected element</strong> Section 2.7</li>
+<li><strong>Evidence pointer</strong> Location not provided</li>
+<li><strong>Issue</strong> The description of the VAT score calculation and normalization is somewhat technical and could be clarified. Specifically, the authors state that "a cubic smoothing spline was applied to the model to remove the position-dependent baseline bias." It is unclear what "the model" refers to here. Is the spline applied to the VAT scores or to the model's attention weights?</li>
+<li>
+<p><strong>Required correction</strong> Clarify that the spline is applied to the VAT scores, not to the model itself.</p>
+</li>
+<li>
+<p><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (negative label definition), R1-M2 (benchmarking fairness), R1-M4 (statistical reporting), R1-M5 (sequence similarity leakage), R1-M7 (reproducibility)</p>
+</li>
+<li><strong>Assessment against Nature-style criteria</strong> </li>
+<li><strong>Originality:</strong> Moderate. The application of ESM-2 with LoRA to nucleic acid-binding protein prediction is not entirely novel, as similar approaches have been reported. The main novelty lies in the exclusive use of experimentally validated data and the integration of VAT-based interpretability. However, the finding that the untuned model already focuses on binding domains reduces the novelty of the interpretability aspect.</li>
+<li><strong>Scientific importance:</strong> Moderate to high. Accurate prediction of nucleic acid-binding proteins is important for understanding gene regulation and disease. The use of high-quality experimental data is a significant strength. However, the limitations of the negative label definition and the lack of causal evidence for the attention analysis reduce the immediate impact.</li>
+<li><strong>Interdisciplinary readership:</strong> Moderate. The work is primarily of interest to computational biologists and bioinformaticians. The biological implications are discussed but not experimentally validated, which may limit its appeal to experimental biologists.</li>
+<li><strong>Technical soundness:</strong> Moderate. The methodology is generally sound, but several technical concerns (label definition, benchmarking, statistical reporting, data leakage) need to be addressed. The lack of hyperparameter optimization and the reliance on a single model architecture (ESM-2) are also limitations.</li>
+<li><strong>Readability for nonspecialists:</strong> Good. The manuscript is well-written and clearly structured. The authors explain technical concepts (e.g., LoRA, VAT) in an accessible manner. The figures are informative, although the supplementary figures were not reviewed.</li>
+<li><strong>Recommendation posture</strong> Supportive if technical concerns are resolved. The core idea is promising, and the use of experimentally validated data is commendable. However, the major concerns regarding the negative label definition, benchmarking fairness, and statistical rigor must be addressed before the claims can be fully supported. The authors should also provide a more nuanced discussion of the interpretability claims and the limitations of the attention analysis.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that the model "outperforms" existing methods is not fully supported due to the unfair benchmarking comparison (R1-M2).</li>
+<li>The claim that the model "reveals biologically meaningful sequence determinants of binding" is overstated, as the attention analysis only shows correlation with known domains, not causation (R1-M3).</li>
+<li>The claim that the model can be used for "proteome-wide characterization of protein–nucleic acid interactions" is not supported, as the model was trained only on human proteins and has not been validated on other species.</li>
+<li>The claim that the model "reduces the risk of false positives that are common in models trained on purely computational predictions" is not directly tested, as the authors do not compare the false positive rates of their model with those of other models on a common benchmark.</li>
+</ul></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>

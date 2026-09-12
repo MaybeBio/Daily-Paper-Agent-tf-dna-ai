@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.10.750674",
+  "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
+  "authors": "Yunong Melody Wu; Junjie Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-11",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习从RNA局部几何特征预测衣壳蛋白结合位点，虽非TF-DNA体系，但属于蛋白质-RNA互作，方法（几何特征+ML）可迁移至TF-DNA结合位点预测，互作机制研究深度有限。",
+  "abstract": "Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses. However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites. Using the Qbeta; bacteriophage as a proof-of-concept system, we constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments. We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone. When repeatedly trained and tested with these geometric descriptors on different subsets of the benchmark dataset, the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation. To evaluate whether the model can predict RNA binding sites without experimental structures, we applied it to local geometric features derived from AlphaFold-predicted RNA structures. Despite substantial structural differences between predicted and experimentally determined models, the classifier retained considerable predictive performance (AUC = 0.75), indicating that approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction. Furthermore, the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors beyond static RNA conformations. In summary, our findings provide new mechanistic insights into RNA-capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses.",
+  "abstract_zh": "衣壳蛋白对病毒RNA的选择性识别是单链RNA（ssRNA）病毒组装过程中基因组包装的关键。然而，由于现有实验技术劳动密集且通量低，RNA基因组中衣壳蛋白结合位点的鉴定仍具挑战性，这推动了计算方法的发展。在此，我们提出一个基于序列的框架，整合RNA三级结构建模、局部几何特征提取和机器学习，以预测衣壳蛋白结合位点。以Qbeta噬菌体作为概念验证系统，我们构建了一个实验鉴定的结合和非结合RNA片段的基准数据集。我们设计了一组几何描述符来表征RNA骨架的局部结构特征。当使用这些几何描述符在基准数据集的不同子集上反复训练和测试时，神经网络展现出区分衣壳蛋白结合位点与非结合RNA片段的强大能力，在5折交叉验证中实现了接收者操作特征曲线下面积（AUC）为0.88。为评估模型是否能在无实验结构的情况下预测RNA结合位点，我们将其应用于从AlphaFold预测的RNA结构衍生的局部几何特征。尽管预测模型与实验确定模型之间存在显著结构差异，分类器仍保持了相当的预测性能（AUC = 0.75），表明近似的RNA三级结构可能仍保留了对衣壳结合位点预测具有生物学意义的信息。此外，失败的预测提示病毒基因组包装不仅受RNA内在结构特征调控，还受静态RNA构象之外的额外动态因素影响。总之，我们的发现为RNA-衣壳相互作用提供了新的机制见解，并为将该方法扩展到多种ssRNA病毒奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750674",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750674",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.10.750674/index.html"
+}

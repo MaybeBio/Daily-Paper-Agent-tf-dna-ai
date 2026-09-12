@@ -1,0 +1,48 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors report that the response regulator NarL protein from *Salmonella* Typhimurium binds specifically to the promoter of the *ogt* gene (encoding O⁶-methylguanine DNA methyltransferase) and positively regulates its expression, thereby linking nitrogen metabolism to DNA repair.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided.
+- **Missing materials affecting confidence** Full manuscript, all figures (EMSA gels, ITC thermograms, RT-qPCR bar charts, β-galactosidase assay data), detailed methods (cloning, protein purification, binding conditions, in vivo strain construction), statistical analysis details, and raw data.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that connects a two-component regulatory system (NarL) to the regulation of a DNA repair gene in *Salmonella*. However, the evidence as presented in the abstract is insufficient to evaluate the rigor, specificity, or physiological relevance of the claimed interaction. Several critical technical details and controls are missing, and the quantitative data are reported in a manner that prevents independent assessment.
+- **Who would be interested in the results, and why** Researchers in bacterial gene regulation, two-component signal transduction, DNA repair mechanisms, and *Salmonella* pathogenesis would be interested. The proposed link between nitrogen metabolism (NarL) and alkylation damage repair (Ogt) is a novel conceptual connection that could have implications for bacterial survival under host-associated stress.
+- **Major strengths** 1. The study addresses a poorly characterized aspect of *ogt* gene regulation in *Salmonella*. 2. The use of multiple complementary approaches (EMSA, ITC, RT-qPCR, β-galactosidase assay) is a strength in principle. 3. The inclusion of both in vitro binding and in vivo expression data (deletion mutant and complementation) provides a more complete picture.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Data interpretation
+    - **Claim pointer** "NarL protein interacts specifically with the ogt promoter, as confirmed by EMSA and ITC, with DeltaG of -9.42 kcal mol(-)(1)."
+    - **Evidence pointer** Abstract (Results section)
+    - **Concern** The abstract reports a single ΔG value from ITC but provides no information on the binding stoichiometry (N), the dissociation constant (Kd), or the thermodynamic parameters (ΔH, -TΔS). A ΔG value alone is insufficient to characterize a binding interaction. Furthermore, the specificity of the interaction is claimed but no controls are mentioned (e.g., competition with unlabeled specific or non-specific DNA, use of a mutated promoter, or a negative control protein). The EMSA result is stated but no gel image or quantification is provided.
+    - **Why it matters** Without these details, the reader cannot assess whether the observed binding is specific, high-affinity, or physiologically relevant. A single ΔG value could arise from non-specific electrostatic interactions. The lack of specificity controls undermines the central claim of the paper.
+    - **Resolution test** Provide the full ITC data (thermogram, binding isotherm, fitted parameters including Kd, N, ΔH, ΔS). Show representative EMSA gels with appropriate controls (e.g., unlabeled specific competitor, non-specific competitor DNA, protein-free DNA, and a non-DNA-binding protein control). Report the Kd from EMSA if quantified.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Data interpretation
+    - **Claim pointer** "deletion of narl significantly (P ≤ 0.01) decreased ogt transcript levels and promoter activity than wild Salmonella Typhimurium, whereas exogenous supplementation of recombinant NarL protein restored the expression."
+    - **Evidence pointer** Abstract (Results section)
+    - **Concern** The abstract states that "exogenous supplementation of recombinant NarL protein restored the expression." This is a critical experiment, but the abstract provides no details on how this was achieved. NarL is a cytoplasmic response regulator; exogenous addition of purified protein to bacterial cultures is not a standard method for complementation, as the protein would not be expected to enter cells. The authors likely mean they complemented the *narl* deletion mutant with a plasmid expressing *narl* in *trans*, but the wording is ambiguous. Furthermore, the magnitude of the effect (fold-change) and the number of biological replicates are not reported.
+    - **Why it matters** The complementation experiment is essential to demonstrate that the observed effect is specifically due to *narl* deletion and not a polar or secondary effect. The ambiguous description raises serious questions about the experimental design and the validity of the conclusion. Without clear methods and quantitative data, the in vivo claim is not established.
+    - **Resolution test** Clarify the complementation strategy (e.g., plasmid-borne *narl* expression). Provide the fold-change in *ogt* transcript and promoter activity for wild-type, *Δnarl*, and complemented strains, with error bars and statistical tests. Report the number of independent biological replicates.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity / Reporting
+    - **Affected element** Abstract (Results)
+    - **Evidence pointer** Abstract
+    - **Issue** The phrase "This study resulted that NarL protein interacts specifically..." is grammatically awkward and should be rephrased for clarity.
+    - **Required correction** Revise to "This study demonstrates that NarL protein interacts specifically..."
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Abstract (Conclusion)
+    - **Evidence pointer** Abstract
+    - **Issue** The conclusion states the finding "may contribute to the bacterial survival under nitrosative stress." This is a plausible but unsupported speculation in the abstract. While acceptable as a concluding remark, it should be clearly framed as a hypothesis, not a direct outcome of the data presented.
+    - **Required correction** Rephrase to "suggesting a potential role in bacterial survival under nitrosative stress that warrants further investigation."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding specificity and quantitative characterization) and R1-M2 (in vivo complementation and quantitative data) are blocking concerns. The central claims of specific binding and regulatory function are not supported by the evidence provided in the abstract.
+- **Assessment against Nature-style criteria** **Originality:** Moderate. The link between NarL and *ogt* is novel, but the general concept of two-component regulators controlling DNA repair is not unprecedented. **Scientific importance:** Potentially moderate, but the physiological relevance (e.g., under nitrosative stress) is not demonstrated. **Interdisciplinary readership:** Low. The topic is specialized for bacterial gene regulation and DNA repair. **Technical soundness:** Not assessable from the abstract. The reported data are insufficient to evaluate rigor. **Readability for nonspecialists:** The abstract is generally understandable but uses jargon without clear context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract raises interesting questions but lacks the quantitative data and experimental controls necessary to support the core claims. A full manuscript review is required, but based on the abstract alone, the case is not made.

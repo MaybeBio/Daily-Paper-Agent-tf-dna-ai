@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with reference to the stated supplementary material
+- **Shared manuscript claim summary** The authors propose that computationally designed peptide ligands targeting the RpoC-SigA interface in Helicobacter pylori can inhibit RNA polymerase holoenzyme formation and serve as potential therapeutic agents against H. pylori infection
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript, structural models, docking or binding affinity data, experimental validation, supplementary information, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational strategy for peptide inhibitor design against a clinically relevant target. However, the evidence base is limited to a summary of methods and qualitative outcomes. The central claims of binding affinity and functional inhibition are not supported by quantitative data or experimental validation within the provided material. The work may be of interest to computational biologists and infectious disease researchers, but the current evidence is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Computational drug designers and structural biologists working on protein-protein interaction inhibitors would find the template-based modeling approach relevant. Researchers studying H. pylori pathogenesis and antibiotic resistance may also be interested in alternative therapeutic strategies, though they would require experimental confirmation before considering these peptides as viable leads.
+- **Major strengths** The abstract identifies a specific and biologically meaningful target, the RpoC-SigA interaction, which is essential for transcription initiation. The use of structure-based computational methods in the absence of experimental structures is a reasonable approach. The design of peptides derived from both interaction partners is a logical strategy for disrupting the interface.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that P1, P3, and P5 exhibit significant binding affinity, indicating potential hindrance to RNAP interaction with transcription factors prior to holoenzyme formation
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of significant binding affinity is presented without any quantitative metrics, such as binding free energies, dissociation constants, or comparison to controls. The functional inference that these peptides hinder RNAP interaction is speculative without experimental or rigorous computational validation.
+  - **Why it matters** The central therapeutic premise depends on the peptides actually disrupting the RpoC-SigA interaction. Without quantitative affinity data or functional assays, the claim cannot be evaluated, and the proposed inhibitors remain unsubstantiated.
+  - **Resolution test** Provide binding affinity values (e.g., calculated ΔG or IC50) for all five peptides, include appropriate positive and negative controls, and ideally present experimental validation such as surface plasmon resonance, pull-down assays, or bacterial growth inhibition studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model reliability
+  - **Claim pointer** The abstract states that structural models for Hp RpoC, Hp SigA, and the Hp RpoC-SigA complex were generated using hybrid template-based modeling
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given on template selection, sequence identity, model quality metrics (e.g., RMSD, MolProbity scores, or DOPE scores), or validation of the complex model. The reliability of the interface predictions is unknown.
+  - **Why it matters** The entire peptide design is based on these models. If the models are inaccurate, particularly at the interface, the designed peptides may not bind the intended target in reality.
+  - **Resolution test** Include model quality assessments, template information, and validation of the complex structure, such as cross-validation with known homologous structures or molecular dynamics simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The abstract concludes that these peptides may serve as promising inhibitors against H. pylori infection
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The conclusion extends beyond the computational evidence presented. No experimental data on antimicrobial activity, cell permeability, toxicity, or in vivo efficacy are provided. The term "promising inhibitors" implies a level of validation not demonstrated.
+  - **Why it matters** Therapeutic claims require experimental support. Overstating conclusions from in silico work alone can mislead readers and future research directions.
+  - **Resolution test** Reframe conclusions as preliminary computational predictions, or provide experimental evidence of peptide activity against H. pylori in vitro or in vivo.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Peptide nomenclature
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that three peptides are from SigA and two from RpoC, but the rationale for selecting these specific sequences is not explained.
+  - **Required correction** Briefly describe the selection criteria, such as interface residue conservation, solvent accessibility, or predicted binding hotspots.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "hybrid template-based modeling" but does not specify which software or algorithms were used.
+  - **Required correction** Name the key tools and versions used for modeling, docking, and affinity prediction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "significant affinity"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "significant" is used without statistical context or comparison thresholds.
+  - **Required correction** Replace with quantitative descriptors or specify the statistical or energetic criteria used to define significance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of targeting the RpoC-SigA interface with peptides is not entirely novel, as similar strategies have been explored for other bacterial systems. The specific application to H. pylori is a modest extension.
+  - Scientific importance: The clinical relevance of H. pylori and antibiotic resistance is high, but the current work does not demonstrate a functional impact, limiting its immediate importance.
+  - Interdisciplinary readership: The work may appeal to computational biologists and microbiologists, but the lack of experimental validation narrows its broader appeal.
+  - Technical soundness: The methods are not described in sufficient detail to assess soundness. Model quality and affinity calculations are unverified.
+  - Readability for nonspecialists: The abstract is generally clear, but technical terms such as "holoenzyme formation" and "template-based modeling" are used without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The computational approach is reasonable, but the central claims require substantial additional data, including model validation, quantitative affinity measurements, and ideally experimental confirmation, before the case for these peptides as inhibitors can be supported.
+
+## Risk / unsupported claims
+- The claim that P1, P3, and P5 exhibit "significant affinity" is unsupported without quantitative data.
+- The inference that these peptides hinder RNAP interaction prior to holoenzyme formation is speculative and not directly tested.
+- The conclusion that the peptides "may serve as promising inhibitors against H. pylori infection" is not supported by any experimental evidence.
+- The reliability of the structural models and the complex interface is unassessable from the abstract alone.

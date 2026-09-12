@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided.
+- **Shared manuscript claim summary** The authors present DNABERT-Enhancer, a method based on the DNABERT language model, for predicting enhancers and their allele-specific activity in the human genome. They report high accuracy on a curated ENCODE cCRE dataset, genome-wide predictions covering 26.65% of the genome, and identification of thousands of functional and de novo enhancer variants.
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary data.
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, supplementary data, code repository contents, and model weights. The abstract provides no quantitative details on model architecture, training/validation splits, hyperparameters, or statistical methods for variant identification.
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful application of a pre-trained genomic language model to enhancer prediction and variant effect analysis. However, the abstract alone provides insufficient detail to evaluate the technical soundness, reproducibility, or novelty of the work. Several key claims are unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, functional genomics, and clinical genomics who need genome-wide enhancer annotations and tools to interpret non-coding variants. The claimed resource of predicted enhancer regions and functional variants could be valuable for studying gene regulation and disease-associated variants.
+- **Major strengths** 1. Application of a pre-trained genomic language model (DNABERT) to enhancer prediction, which is a relevant and active area. 2. Use of a well-established benchmark dataset (ENCODE cCREs) for training and evaluation. 3. Provision of a publicly available tool and web application, which supports accessibility and potential reuse.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Reproducibility
+    - **Claim pointer** "The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset."
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract does not specify the size, composition, or source of the "independent dataset" used for evaluation. It is unclear whether this dataset is truly independent (e.g., held-out chromosomes, different cell types) or derived from the same ENCODE cCRE resource. Without this information, the reported performance metrics cannot be assessed for potential overfitting or data leakage.
+    - **Why it matters** Overstated or non-generalizable performance is a common pitfall in machine learning for genomics. The claimed accuracy and MCC are high, but if the test set is not rigorously independent, the model's real-world performance could be substantially lower.
+    - **Resolution test** Provide a clear description of the independent test set, including its size, how it was selected (e.g., by chromosome, by cell type, by random split), and its relationship to the training data. Report performance on a held-out chromosome or a completely external dataset (e.g., from a different cell type or assay).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Reproducibility
+    - **Claim pointer** "Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome."
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract does not define the threshold or decision rule used to classify a genomic region as an enhancer from the model's continuous output. The coverage of 26.65% of the genome is extremely high and raises questions about the specificity of the model. Without a clear threshold, this claim is not interpretable.
+    - **Why it matters** A genome-wide prediction covering over a quarter of the genome is a very strong claim that would fundamentally change our understanding of enhancer prevalence. If the threshold is too lenient, the resource will be dominated by false positives, undermining its utility.
+    - **Resolution test** Report the precision-recall curve and the chosen operating point (e.g., probability threshold) used for genome-wide prediction. Provide an estimate of the false discovery rate at this threshold, ideally validated against an independent set of experimentally validated enhancers (e.g., from VISTA or FANTOM5).
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Reproducibility
+    - **Claim pointer** "By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants... Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants."
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract provides no details on the statistical method used to identify "statistically significant" variants. It is unclear what null model was used, how multiple testing was corrected for, and what effect size threshold was applied. The term "integrative analyses with DNABERT-based transcription factor models" is vague and does not describe the actual computational pipeline.
+    - **Why it matters** The identification of functional and de novo enhancer variants is a central claim of the work. Without a clear statistical framework, the reported numbers of variants are not reproducible and their biological significance cannot be evaluated. The lack of detail makes it impossible to distinguish between a robust finding and a computational artifact.
+    - **Resolution test** Provide a detailed description of the statistical test, including the null hypothesis, the test statistic, the multiple testing correction method (e.g., Bonferroni, FDR), and the significance threshold. Show a validation of a subset of predicted variants (e.g., by comparison to known eQTLs or by reporter assay data).
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Issue** The abstract uses the term "cCREs" without defining it in the abstract text. While it is defined in the motivation section, a brief definition in the results section would improve clarity for readers unfamiliar with the ENCODE nomenclature.
+    - **Required correction** Add a brief parenthetical definition of cCREs (e.g., "candidate cis-regulatory elements (cCREs)") upon first use in the results section.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Issue** The abstract states that the model was "fine-tuned" but does not specify which version of DNABERT was used (e.g., DNABERT-1, DNABERT-2, or a specific checkpoint). This is a minor but important detail for reproducibility.
+    - **Required correction** Specify the exact pre-trained model and version used for fine-tuning.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of model performance, genome-wide coverage, and variant identification are not supported by the evidence provided in the abstract.
+- **Assessment against Nature-style criteria** 
+    - **Originality:** Moderate. Applying a language model to enhancer prediction is not entirely novel, but the specific focus on allele-specific activity and de novo enhancer identification could be a contribution.
+    - **Scientific importance:** Potentially high, if the claims are validated. A reliable genome-wide enhancer map and functional variant resource would be valuable.
+    - **Interdisciplinary readership:** Moderate. The work is primarily of interest to computational and regulatory biologists.
+    - **Technical soundness:** Not assessable from the abstract. The lack of detail on data splits, thresholds, and statistical methods prevents evaluation.
+    - **Readability for nonspecialists:** Adequate for an abstract, but could be improved with a few clarifications (see minor comments).
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting claims, but the lack of technical detail and the absence of any validation data make it impossible to assess the soundness of the work. A full manuscript with detailed methods, validation, and code is required for a proper evaluation.
