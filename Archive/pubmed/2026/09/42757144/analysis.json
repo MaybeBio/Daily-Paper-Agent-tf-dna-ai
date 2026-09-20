@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42757144",
+  "title": "BAN-SDBPred: Improving Single-Stranded and Double-Stranded DNA-Binding Protein Prediction Using an Attention Network with Bilinear Convolution and Adaptive Sampling Strategy.",
+  "authors": "Arshad, Kamran; Arif, Muhammad; Worachartcheewan, Apilak; Yu, Dong-Jun",
+  "journal": "ACS omega",
+  "published_date": "2026-09-18",
+  "window": {
+    "start": "2026-09-13",
+    "end": "2026-09-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用双线性注意力网络结合蛋白语言模型特征预测单/双链DNA结合蛋白，属于广义蛋白-DNA互作分类预测，方法可迁移至TF-DNA结合位点预测，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "DNA binding proteins play essential roles in numerous biological mechanisms. The DBPs can be either single-stranded binding (SSBs) or double-stranded binding (DSBs) to a DNA molecule. The in-depth identification of SSBs and DSBs has been a hot topic in bioinformatics and is involved in the drug discovery process. Traditional experimental methods failed to characterize the types of DBPs because of high cost and time constraints. While computational prediction of novel SSBs and DSBs has made significant progress, there are still challenges remaining in enhancing overall prediction performance. Methods: Here, we develop a novel BAN-SDBPred (Bilinear Attention Network for Single and Double Stranded DNA-Binding Protein Prediction) method. BAN-SDBPred leverages the evolutionary features by protein language model-based Evolutionary Scale Modeling 2 (ESM2), ProtT5, and a histogram of oriented gradient-based residue pairwise energy content matrix (RECM-HOG)-transformed energy estimation features from sequence alone. Then, the adaptive neighborhood-based sampling (ANBS) algorithm was adopted to solve the imbalance issue. Compared to other deep learning models, the bilinear attention network (BAN) learns the local and global enriched features from the sequences. Extensive experimental results anticipate that BAN-SDBPred outperforms the existing predictors in terms of all performance measures, such as Acc, F1, MCC, etc., on the training and independent test data. Our designed model has significant advantages in discriminating SSBs and DSBs from DBPs with an improved Acc of 2%, Precision of 4.5%, F1 of 21%, MCC of 9%, and area under curve (AUC) of 20%, respectively. We expect this research will help to predict large-scale novel SSBs and DSBs in particular and other binding problems in general. All data and models are available at 10.5281/zenodo.18718092.",
+  "abstract_zh": "DNA结合蛋白在众多生物机制中发挥着重要作用。DBPs可以是单链结合蛋白（SSBs）或双链结合蛋白（DSBs），与DNA分子结合。对SSBs和DSBs的深入识别一直是生物信息学领域的热点课题，并涉及药物发现过程。传统实验方法因成本高和时间限制，未能表征DBPs的类型。虽然新型SSBs和DSBs的计算预测已取得显著进展，但在提升整体预测性能方面仍存在挑战。方法：在此，我们开发了一种新颖的BAN-SDBPred（双线性注意力网络用于单链和双链DNA结合蛋白预测）方法。BAN-SDBPred利用基于蛋白质语言模型的进化尺度建模2（ESM2）、ProtT5的进化特征，以及基于方向梯度直方图的残基对能量含量矩阵（RECM-HOG）转换的能量估计特征，这些均仅从序列中获得。随后，采用自适应邻域采样（ANBS）算法解决不平衡问题。与其他深度学习模型相比，双线性注意力网络（BAN）从序列中学习局部和全局富集特征。大量实验结果表明，BAN-SDBPred在训练和独立测试数据上，在各项性能指标（如Acc、F1、MCC等）方面均优于现有预测器。我们设计的模型在区分DBPs中的SSBs和DSBs方面具有显著优势，分别提高了Acc 2%、Precision 4.5%、F1 21%、MCC 9%和曲线下面积（AUC）20%。我们期望这项研究将有助于预测大规模的新型SSBs和DSBs，并普遍适用于其他结合问题。所有数据和模型可在10.5281/zenodo.18718092获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42757144/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42757144/",
+  "paper_page_path": "papers/pubmed/42757144/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present GenoME, a Mixture of Experts (MoE)-based generative model that integrates DNA sequence and cell-type-specific ATAC-seq signals to predict unified genomic profiles spanning epigenomics, transcriptomics, and chromatin architecture. The model is claimed to enable multiscale predictions for held-out regions, generalize to unseen or individualized cell types from a single ATAC-seq input, support in silico perturbation for forecasting multimodal consequences of genetic perturbations, identify functional enhancer-promoter connections with performance exceeding Activity-by-Contact, and decipher transcription factor grammar of cell-type-specific enhancers.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, model architecture descriptions, or validation procedures are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, benchmark definitions, dataset descriptions, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract describes an ambitious and potentially impactful generative framework for modeling the multiscale regulatory genome. The scope of outputs, including epigenomics, transcriptomics, and chromatin architecture, combined with cross-cell-type generalization and perturbation capabilities, is scientifically compelling. However, the abstract provides no quantitative evidence, no benchmark specifications, and no methodological detail. The central claims, particularly those of outperforming specialized models and achieving accurate perturbation forecasting, cannot be evaluated from the supplied material. The work is likely of interest to a broad computational genomics audience, but the current evidence base is insufficient to assess technical soundness or establish the stated advantages.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing generative models for regulatory genomics would be primary readers. Researchers studying gene regulation, enhancer-promoter interactions, and transcription factor grammar would also find the perturbation and interpretability features relevant. The cross-cell-type generalization claim may attract those working on personalized genomics or rare cell types where experimental data are limited.
+- **Major strengths** The proposed model integrates multiple regulatory modalities into a single generative framework, which is conceptually novel relative to specialized predictors. The emphasis on generalization to unseen cell types from a single ATAC-seq input addresses a practical bottleneck in genomic profiling. The in silico perturbation capability, if validated, would provide a causal investigation tool that goes beyond correlation-based models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** GenoME enables multiscale predictions for held-out genomic regions and generalizes to predict the full regulatory landscape of unseen or individualized cell types from a single ATAC-seq input.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims accurate prediction of unified genomic profiles at base-pair to kilobase resolutions across multiple modalities, but no performance metrics, baseline comparisons, or validation strategies are reported. The claim of generalizing to unseen cell types from a single ATAC-seq input is central to the model's value proposition, yet no evidence is presented to support this capability.
+  - **Why it matters** Without quantitative evidence of prediction accuracy and generalization performance, the core utility of the model cannot be assessed. The claim of cross-cell-type generalization is particularly strong and requires demonstration on held-out cell types with appropriate controls.
+  - **Resolution test** Provide prediction accuracy metrics (e.g., correlation, AUROC) for each modality on held-out genomic regions and held-out cell types, with comparisons to appropriate baselines and statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** GenoME accurately forecasts the multimodal consequences of genetic perturbations and identifies functional enhancer-promoter connections, outperforming specialized models like Activity-by-Contact.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that GenoME outperforms Activity-by-Contact, a specialized and widely used model, but no quantitative comparison is provided. The perturbation forecasting claim implies causal validity, which requires experimental validation or at least rigorous benchmarking against known perturbation outcomes.
+  - **Why it matters** The claim of outperforming a specialized model is a strong comparative statement that requires explicit metrics, datasets, and evaluation protocols. Without these, the advantage cannot be verified, and the causal interpretation of perturbation predictions remains unsupported.
+  - **Resolution test** Present benchmark results with defined metrics (e.g., precision-recall for enhancer-promoter links, accuracy of perturbation effect direction and magnitude) and include comparisons to Activity-by-Contact and other relevant baselines on standard datasets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** GenoME is a Mixture of Experts (MoE)-based generative model that uses DNA sequence and cell-type-specific ATAC-seq signals.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are provided on the model architecture, training data, loss functions, or hyperparameters. The MoE design is mentioned but not described in terms of expert count, routing mechanism, or computational cost.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology tools. Without architectural and training details, other groups cannot implement or adapt the model, and reviewers cannot assess design choices or potential limitations.
+  - **Resolution test** Include a detailed methods section describing the model architecture, training procedure, data sources, and code availability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "individualized cell types" is ambiguous. It could mean cell types from individual donors, rare cell types, or de novo cell states. The intended meaning is not clear from the abstract.
+  - **Required correction** Define "individualized cell types" explicitly in the abstract or introduction, and clarify how they differ from standard cell-type annotations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of "all-in-one platform"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract describes GenoME as an "all-in-one platform" for generative modeling, cross-cell-type generalization, and causal investigation. This phrasing overstates the scope, as causal claims require experimental validation that is not described.
+  - **Required correction** Soften the "all-in-one" and "causal" language to reflect that perturbation predictions are in silico and require further validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmarking
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "held-out genomic regions" and "unseen cell types" but does not specify the number of cell types, genomic regions, or datasets used for evaluation.
+  - **Required correction** Provide dataset sizes and evaluation splits in the abstract or methods to contextualize the claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, benchmark details, and model description means the central claims of prediction accuracy, cross-cell-type generalization, and outperformance of specialized models are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The integration of multiple regulatory modalities into a single MoE-based generative model is conceptually original, though the abstract does not clarify how this differs from existing multimodal models. Scientific importance: The potential to predict full regulatory landscapes from a single ATAC-seq input and to perform in silico perturbation is of high importance for regulatory genomics and personalized medicine. Interdisciplinary readership: The work would appeal to computational biologists, genomicists, and possibly clinicians interested in personalized genomics, but the abstract is too technical for a broad nonspecialist audience. Technical soundness: Not assessable from the abstract; no metrics, baselines, or validation are provided. Readability for nonspecialists: The abstract is dense and assumes familiarity with epigenomics, ATAC-seq, and MoE architectures, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the potential impact is high, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A full manuscript with detailed methods, benchmarks, and validation would be required to assess whether the case is established.
+
+## Risk / unsupported claims
+- The claim that GenoME "accurately forecasts the multimodal consequences of genetic perturbations" is unsupported without experimental validation or benchmark comparisons.
+- The claim of outperforming Activity-by-Contact is unsupported without quantitative comparison data.
+- The claim of generalizing to "unseen or individualized cell types" is unsupported without demonstration on held-out cell types.
+- The claim of deciphering "transcription factor grammar" is vague and unsupported without specific interpretability analyses.
+- The overall claim of being an "all-in-one platform" for causal investigation is overstated given the lack of causal validation evidence.

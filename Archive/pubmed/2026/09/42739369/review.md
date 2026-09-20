@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review article as presented
+- **Shared manuscript claim summary** The manuscript is a review article that surveys deep learning methods applied to deciphering the plant cis-regulatory code. It compares convolutional, Transformer-based, and graph neural network architectures for representing sequence, chromatin state, and 3D genome organisation, and assesses their applications to transcription-factor binding, chromatin accessibility, gene expression, variant prioritisation, and regulatory sequence design. The authors emphasise distinctions between prediction, causality, and biological function, and highlight limitations in generalisation and validation.
+- **Visible evidence base** Full text of the manuscript, including abstract, introduction, sections on regulatory landscape, encoding methods, architectures, applications, challenges, and conclusions. No figures or tables were provided.
+- **Missing materials affecting confidence** Figures 1-4 and Tables 1-2 are referenced but not included. Reference list is not provided. Publication status and resource availability checks are mentioned but cannot be verified.
+
+## Reviewer
+- **Overall assessment** This is a well-organised and thoughtful review that addresses an important and rapidly evolving topic. The authors make a commendable effort to distinguish between statistical prediction, physical contact, and causal regulatory function, which is a crucial and often overlooked distinction in this field. The coverage of architecture families and their applications is broad and generally accurate. However, the review would benefit from a more critical and quantitative comparison of the models discussed, and the absence of figures and tables limits the ability to fully assess the clarity of the presentation. The discussion of plant-specific challenges, such as polyploidy and transposable elements, is valuable but could be deepened with more concrete examples of how these challenges manifest in model performance.
+- **Who would be interested in the results, and why** Researchers in plant genomics, computational biology, and regulatory genomics would find this review useful as an entry point to the field. It would also be of interest to deep learning practitioners seeking to understand the specific challenges of applying their methods to plant genomes. The emphasis on evaluation pitfalls and the distinction between prediction and causality is relevant to a broad audience in genomics.
+- **Major strengths**
+  - Clear conceptual framework organised around sequence, chromatin state, and 3D architecture.
+  - Consistent and disciplined use of terminology distinguishing prediction, contact, and causality.
+  - Honest assessment of the limitations of current models, including the lack of independent evaluation and experimental validation.
+  - Good coverage of plant-specific issues such as polyploidy, transposable elements, and the absence of a CTCF ortholog.
+  - The discussion of evaluation axes (internal partitioning, distribution shift, external data, independent teams, experimental evidence) is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "Plant-specific benchmarks and pangenome-aware representations will be most informative when they yield predictions that can be tested experimentally" and implies that current benchmarks are insufficient.
+  - **Evidence pointer** Section 6.1, Section 6.3
+  - **Concern** The review does not provide a concrete, critical comparison of the predictive performance of the models it discusses. While it correctly notes that cross-paper metrics are not directly comparable, it stops short of synthesising what is known about relative model strengths and weaknesses. For example, are there any head-to-head comparisons of CharPlant, PlantDeepSEA, and Predmoter on similar tasks? The review would be strengthened by a table or detailed discussion that attempts to extract qualitative or quantitative lessons from the available literature, even with caveats about comparability.
+  - **Why it matters** A review that merely lists models and their reported performances without critical synthesis is less useful to readers who need guidance on model selection for their own work. The stated goal of the review is to "assess their applications," which implies a critical evaluation that is currently lacking in specificity.
+  - **Resolution test** The authors should add a section or expand Table 2 to include a critical discussion of model performance, including any known failure cases, computational cost, and practical usability. They should explicitly state what is known and what is unknown about relative model performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that "deep learning models use DNA sequences and multi-omics data to examine components of this cis-regulatory information" and that they have been applied to "non-coding variant prioritisation."
+  - **Evidence pointer** Section 5.2
+  - **Concern** The section on variant-effect prediction is thin. It mentions PlantDeepSEA, LOGOWheat, and DeepWheat, but does not discuss the critical issue of how these models are evaluated for variant effects. Specifically, are there any benchmarks using known causal variants (e.g., from GWAS or QTL studies)? The review correctly notes that computational prioritisation is not the same as causality, but it does not discuss the state of the art in validating these predictions, such as the use of massively parallel reporter assays (MPRAs) or STARR-seq in plants. The IPA1 example is useful but is explicitly noted as not being a deep learning prediction.
+  - **Why it matters** Variant prioritisation is a key claimed application, and the review should give readers a realistic sense of how well these models perform in practice, not just that they exist. The lack of discussion of validation strategies for variant effect predictions is a significant gap.
+  - **Resolution test** The authors should expand Section 5.2 to include a discussion of how variant effect predictions are validated, including any available benchmarks, and explicitly state the current evidence for the utility of these models in prioritising causal variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to be a review accessible to a broad audience, as implied by its structure and introductory sections.
+  - **Evidence pointer** Section 3, Section 4
+  - **Concern** The sections on encoding and architectures are dense and assume significant prior knowledge. For example, the distinction between "early fusion," "intermediate fusion," and "late fusion" is mentioned but not explained clearly. The description of graph neural networks is brief and may not be sufficient for a reader unfamiliar with the concept. The review would benefit from a more pedagogical approach, perhaps with a glossary of key terms or a more explicit explanation of the advantages and disadvantages of each architecture family in the context of plant regulatory genomics.
+  - **Why it matters** The review is published in a plant science journal, and a significant portion of the readership may be experimental biologists who are not deeply familiar with deep learning architectures. The review should be accessible to this audience to be impactful.
+  - **Resolution test** The authors should revise Sections 3 and 4 to include more intuitive explanations of the key concepts, perhaps with simple diagrams or analogies. They should ensure that a reader with a basic background in molecular biology but limited computational background can follow the main arguments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The sentence "AssayingThe assay for transposase-accessible chromatin using sequencing (ATAC-seq) profiles transposase-accessible chromatin without antibodies" contains a typo ("AssayingThe").
+  - **Required correction** Correct the typo to "The assay for transposase-accessible chromatin using sequencing (ATAC-seq) profiles transposase-accessible chromatin without antibodies."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 5.2
+  - **Evidence pointer** Section 5.2
+  - **Issue** The sentence "A reference-versus-alternative score can prioritise a candidate regulatory variant but A reference-versus-alternative score can prioritise a candidate regulatory variant but does not establish causality" contains a duplicated phrase.
+  - **Required correction** Remove the duplicated phrase: "A reference-versus-alternative score can prioritise a candidate regulatory variant but does not establish causality."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Table 1
+  - **Issue** The text refers to Table 1 for documentation of "biological provenance and coverage of six widely used resources," but the table is not provided. It is unclear which resources are included and what criteria were used for selection.
+  - **Required correction** Ensure Table 1 is included in the final version and that the text clearly explains the selection criteria for the resources listed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2
+  - **Issue** The manuscript mentions "PlantCAD2" and its publication in Cell Genomics in 2026, but does not provide a citation or reference. Given the emphasis on verifying publication status, this should be properly cited.
+  - **Required correction** Add the full citation for the PlantCAD2 paper.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 6.3
+  - **Evidence pointer** Section 6.3
+  - **Issue** The term "digital twin" is introduced in the context of "multiscale virtual plants" and "cis-regulatory digital twins." This is a potentially useful concept, but it is not defined clearly.
+  - **Required correction** Provide a brief definition or explanation of what is meant by a "digital twin" in this context.
+- **Technical failings that need to be addressed before the case is established** The manuscript is a review, not a primary research article, so the standard of "case established" applies to the strength of its synthesis and arguments. The main technical failing is the lack of a critical, comparative synthesis of model performance. The review is descriptive rather than evaluative in its core sections. The missing figures and tables are a significant issue for assessment.
+- **Assessment against Nature-style criteria**
+  - **Originality** The conceptual framework (sequence, chromatin, 3D architecture) is not entirely novel, but the explicit focus on the distinction between prediction, contact, and causality, and the proposed evaluation axes, provides a useful and somewhat original perspective.
+  - **Scientific importance** The topic is of high importance. The review correctly identifies key challenges, such as generalisation and validation, that are central to the field's progress.
+  - **Interdisciplinary readership** The review is relevant to both computational and experimental plant scientists, but the dense technical sections may limit its accessibility to the latter group.
+  - **Technical soundness** The technical descriptions are generally accurate, but the lack of critical synthesis and the absence of figures/tables prevent a full assessment.
+  - **Readability for nonspecialists** The review is not consistently accessible to nonspecialists. The introduction and conclusion are clear, but the middle sections require significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review addresses an important topic and has a sound conceptual structure. However, it needs to be more critical and evaluative in its comparison of models, and it must be made more accessible to its likely readership. The missing figures and tables must be provided for a complete assessment.

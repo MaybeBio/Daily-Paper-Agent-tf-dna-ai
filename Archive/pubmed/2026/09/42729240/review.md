@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and data availability statements. No figures, tables, or supplementary material were provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and clarity of presentation. Editorial and stylistic issues are noted only where they affect scientific comprehension.
+- **Shared manuscript claim summary** The authors present DBP-CanPred, a machine learning model trained to distinguish cancer driver missense mutations from neutral missense mutations in DNA-binding proteins (DBPs), using sequence-derived evolutionary features and AlphaFold structure-based features. They report a test set AU-ROC of 0.86 and balanced accuracy of 0.79, outperforming several existing variant effect predictors. They further report enrichment of driver mutations at protein-DNA interfaces, within DNA-binding domains, and in structurally dense regions, and demonstrate model utility through a CTCF case study and an independent COSMIC application.
+- **Visible evidence base** Text descriptions of dataset curation (COSMIC v97, UniProtKB, gnomAD, ClinVar, dbSNP, HuVarBase, dbCPM), feature extraction (conservation, PSSM, disorder, substitution matrices, physicochemical properties, structural perturbations), model development (CatBoost, forward feature selection, Optuna hyperparameter optimization), and evaluation metrics. References to Figures 1–7, Tables 1–5, and Supplementary Tables S1–S14 and Figure S1 are made but their contents are not visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. This includes the dataset composition table, the ROC curves, the SHAP summary plots, the ablation results, the comparison tables with existing methods, and the detailed feature lists. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-served problem: cancer mutation prediction specifically for DNA-binding proteins. The motivation is well-argued, and the methodological pipeline is reasonable in outline. However, the current submission has several critical gaps. The most serious issue is the definition and curation of the "driver" and "neutral" labels, which relies on recurrence in COSMIC and absence in gnomAD. This operationalization conflates driver status with somatic recurrence and may introduce substantial label noise, as recurrent somatic mutations are not necessarily drivers, and absence from gnomAD does not guarantee pathogenicity. The model evaluation is also weakened by the absence of a rigorous comparison to a baseline trained on generic variant effect predictors using the same features, and by the lack of calibration or decision-curve analysis. The claim that the model "outperformed most methods" is not supported by visible data. The case study on CTCF is descriptive and does not include experimental validation. The application section reports that 80% of mutations received higher scores, but the baseline for comparison is unclear. Overall, the work is potentially useful but the evidence as presented is insufficient to establish the model's validity and utility.
+- **Who would be interested in the results, and why** Computational biologists and cancer genomics researchers working on variant effect prediction, particularly those interested in protein-family-specific models. The work may also be of interest to clinicians or researchers interpreting variants in DNA-binding proteins, though the lack of prospective validation limits immediate clinical applicability. The methodological framework, if properly validated, could serve as a template for similar family-specific predictors.
+- **Major strengths** The problem is well-motivated and addresses a genuine gap in the field. The use of AlphaFold structures for feature extraction is timely. The protein-level splitting strategy is appropriate and reduces information leakage. The inclusion of both sequence and structure features is sensible. The authors have made the tool and data publicly available, which supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Label definition and dataset validity
+  - **Claim pointer** "We removed background germline variation by retaining only mutations unobserved in gnomAD, as demonstrated in previous studies, which are designated as driver mutations."
+  - **Evidence pointer** Methods, Dataset section; location not provided
+  - **Concern** The operational definition of "driver" as a somatic mutation observed in at least three independent tumor samples and absent from gnomAD is problematic. Somatic recurrence is a proxy for positive selection, but many recurrent somatic mutations are passengers. Conversely, absence from gnomAD does not establish pathogenicity, as gnomAD is a germline database and somatic mutations are not expected to be present regardless of driver status. This label definition likely introduces substantial misclassification, which could bias model training and inflate performance estimates. The authors do not provide any orthogonal evidence (e.g., functional assays, known driver annotations from Cancer Gene Census, or computational driver prediction tools) to support the driver label.
+  - **Why it matters** If the labels are noisy, the model may be learning to distinguish recurrent somatic mutations from rare germline variants rather than drivers from neutral mutations. This would undermine the central claim of the paper and limit the model's utility for variant interpretation.
+  - **Resolution test** The authors should provide a detailed breakdown of the label curation process, including the number of mutations excluded at each step. They should validate a subset of driver calls against established driver databases (e.g., Cancer Gene Census, IntOGen, or known driver mutation annotations). They should also perform a sensitivity analysis using alternative driver definitions (e.g., only mutations in known cancer genes, or mutations with functional evidence) to show that model performance is robust to label definition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation and comparison methodology
+  - **Claim pointer** "In comparison, DBP-CanPred outperformed most methods, including SIFT, PolyPhen, MutPred, and MutScore, achieving a balanced accuracy of 0.79."
+  - **Evidence pointer** Results, Comparison with existing methods; Table 2; location not provided
+  - **Concern** The comparison with existing methods is described only in text. The actual performance metrics for each tool are not visible. It is unclear whether the comparison was performed on the same test set, whether the same threshold criteria were applied to all tools, and whether the comparison accounts for the fact that many of these tools were not designed for cancer driver prediction. Furthermore, the authors do not report confidence intervals or statistical significance tests for the performance differences. The claim of "outperforming" is therefore not supported by the visible evidence.
+  - **Why it matters** A central claim of the paper is that a DBP-specific model outperforms generic predictors. Without a rigorous, visible comparison, this claim cannot be evaluated. If the comparison is not apples-to-apples, the conclusion may be misleading.
+  - **Resolution test** Provide the full comparison table with all metrics (AU-ROC, balanced accuracy, sensitivity, specificity, F1) for all tools on the same test set. Report confidence intervals and perform a statistical test (e.g., DeLong test for AU-ROC differences). Clarify how thresholds were chosen for each tool. Consider also comparing against a model trained on the same features but without DBP-specific labels, to isolate the contribution of the DBP-specific training data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and external validation
+  - **Claim pointer** "We applied the model on an independent dataset and identified potential driver mutations with high confidence scores."
+  - **Evidence pointer** Results, Application section; location not provided
+  - **Concern** The independent application is described qualitatively. The authors state that approximately 80% of confidently classified variants were predicted as drivers, but the baseline expectation is not defined. If the model is well-calibrated and the dataset is enriched for cancer mutations, a high driver fraction may be expected. Without a comparison to a null model or to the predictions of existing tools on the same dataset, this result does not demonstrate added value. Furthermore, the exclusion of proteins with ≥40% sequence identity to training proteins is a reasonable step, but the resulting dataset size and composition are not reported.
+  - **Why it matters** External validation is essential to establish that the model generalizes beyond the training distribution. The current description does not provide sufficient evidence of generalizability.
+  - **Resolution test** Provide a detailed description of the independent dataset, including the number of mutations, the number of proteins, and the distribution of prediction scores. Compare the model's predictions on this dataset to those of existing tools. Report calibration metrics (e.g., reliability curves) and, if possible, validate a subset of high-confidence predictions against functional or clinical annotations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Feature importance and biological interpretability
+  - **Claim pointer** "From SHAP analysis, we observed that sequence-derived evolutionary features contributed predominantly, followed by structural features."
+  - **Evidence pointer** Results, Model interpretation and ablation analysis; Figure 4; location not provided
+  - **Concern** The SHAP analysis and ablation study are described in text, but the actual results are not visible. The claim that sequence features dominate is plausible but not verifiable. More importantly, the ablation study is described as removing feature groups one at a time, but the authors do not report whether the performance drop was statistically significant. The interpretation of the SHAP values is also superficial; the authors do not discuss which specific features are most informative or whether the structural features provide unique information beyond what sequence features already capture.
+  - **Why it matters** Understanding which features drive predictions is important for biological insight and for building trust in the model. If structural features add little, the justification for using AlphaFold structures is weakened.
+  - **Resolution test** Provide the SHAP summary plot and the full ablation results with confidence intervals. Discuss the top contributing features in the context of known biology of DNA-binding proteins. Consider a more rigorous ablation design, such as removing all structural features at once and comparing to the full model, and vice versa.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of dataset description
+  - **Affected element** Dataset section
+  - **Evidence pointer** Methods, Dataset section; location not provided
+  - **Issue** The manuscript states that 624,442 missense mutations were collected from COSMIC v97, but the filtering steps are described only in aggregate. The number of mutations excluded at each step (recurrence filter, gnomAD filter, structural mapping, pLDDT filter, CD-HIT) is not reported.
+  - **Required correction** Provide a flow diagram or table showing the number of mutations and proteins remaining after each filtering step.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Threshold selection
+  - **Affected element** Dual-threshold classification
+  - **Evidence pointer** Methods, Model development; location not provided
+  - **Issue** The dual-threshold approach (0.46 and 0.60) is described, but the rationale for these specific values is not given. It is unclear whether these were chosen based on the training set distribution, and how the uncertain fraction affects the reported performance metrics.
+  - **Required correction** Explain how the thresholds were selected and report the proportion of test set predictions falling into the uncertain category. Clarify whether the reported balanced accuracy and AU-ROC are computed on the confident subset only or on all predictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison of training and test performance
+  - **Affected element** Table 1
+  - **Evidence pointer** Results, Model performance; Table 1; location not provided
+  - **Issue** The text states that balanced accuracy was 0.78 on training and 0.79 on test, and AU-ROC was 0.84 and 0.86, respectively. The test performance being slightly higher than training is unusual and may indicate that the test set is not representative or that the model is underfit. This is not discussed.
+  - **Required correction** Address the near-identical training and test performance. Discuss potential reasons, such as the protein-level split reducing the difficulty of the test set, or the possibility of label leakage.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Web server availability
+  - **Affected element** Web server section
+  - **Evidence pointer** Web server and data availability; location not provided
+  - **Issue** The web server URL is provided, but it is not stated whether the server is currently functional and whether the full prediction results for the independent dataset are accessible.
+  - **Required correction** State the current status of the web server and confirm that the independent dataset predictions are downloadable.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (label definition) and R1-M2 (comparison methodology) are the most critical. Without addressing these, the central claims of the paper are not established. R1-M3 (external validation) is also important for establishing generalizability.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The idea of a DBP-specific cancer mutation predictor is not entirely novel, as similar family-specific predictors exist (e.g., for zinc-finger proteins, as cited by the authors). The combination of AlphaFold structures with sequence features is a reasonable extension, but the methodological novelty is limited.
+  - **Scientific importance** Potentially high. DNA-binding proteins are frequently mutated in cancer, and improved prediction for this class could aid variant interpretation. However, the importance is contingent on the model being genuinely better than existing tools, which is not yet demonstrated.
+  - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational biologists and cancer genomics researchers. The clinical relevance is mentioned but not developed.
+  - **Technical soundness** Currently insufficient. The label definition is a major concern, and the evaluation methodology is incomplete. The lack of visible data for key claims further weakens the technical case.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and the logic is easy to follow, but the methods section assumes familiarity with machine learning and structural biology concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the methodological pipeline is reasonable, but the label definition and evaluation methodology need substantial revision. The authors should provide the missing data, validate their labels, and strengthen their comparisons before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that DBP-CanPred "outperformed most methods" is unsupported without the actual comparison table and statistical tests.
+- The claim that "80% of mutations received higher scores" in the independent application is ambiguous without a defined baseline.
+- The claim that driver mutations are enriched at protein-DNA interfaces, DNA-binding domains, and structurally dense regions is based on odds ratios reported in text, but the underlying data and statistical significance are not visible.
+- The claim that the model "captures patterns associated with cancer-causing variants" is an interpretation that goes beyond the presented evidence, given the label definition concerns.
+- The claim that the model's performance is "robust and generalizable" is not supported by the near-identical training and test performance, which is unusual and unexplained.

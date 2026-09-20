@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DBP-CanPred: a machine learning model for predicting cancer-causing mutations in DNA-binding proteins. · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">6</span>
+    <div>
+      <h1>DBP-CanPred: a machine learning model for predicting cancer-causing mutations in DNA-binding proteins.</h1>
+      <div class="meta">Phogat, Amit; Krishnan, Sowmya Ramaswamy; Pandey, Medha; Gromiha, M Michael</div>
+      <div class="meta muted">
+        
+        <span class="journal">Frontiers in bioinformatics</span>
+        · 2026-09-13
+         · 全文(pmc)
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42729240/">原文</a>
+      </div>
+      <p class="one-liner">该文用机器学习预测DNA结合蛋白中的致癌突变，虽涉及蛋白-DNA互作但聚焦突变效应而非TF-DNA结合机制，方法可迁移但深度有限。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">INTRODUCTION: The fundamental cellular processes, including transcriptional regulation, chromatin organization, and genome maintenance, are regulated by DNA-binding proteins (DBPs). Mutations in DBPs can alter protein-DNA interactions, leading to tumor development. However, identifying such driver mutations remains a major challenge due to limitations of experimental approaches. METHODS: We have trained a machine learning model, DBP-CanPred, to identify driver mutations in DBPs. We used the sequence-derived evolutionary features, as well as structure-based features such as mutation-perturbed structural descriptors. RESULTS: We evaluated DBP-CanPred using a curated test set, achieving an AU-ROC of 0.86 and a balanced accuracy of 0.79. Further analysis based on substitution-type showed consistent performance across different categories, especially higher performance on charged residues. In addition, we applied the model on an independent dataset and identified potential driver mutations with high confidence scores. DISCUSSION: The study contributes to understanding mutation patterns in DNA-binding proteins and supports variant interpretation in cancer research.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">引言：包括转录调控、染色质组织和基因组维护在内的基本细胞过程，由DNA结合蛋白（DBPs）调控。DBPs中的突变可改变蛋白质-DNA相互作用，导致肿瘤发展。然而，由于实验方法的局限性，识别此类驱动突变仍是一项重大挑战。方法：我们训练了一个机器学习模型DBP-CanPred，用于识别DBPs中的驱动突变。我们使用了序列衍生的进化特征，以及基于结构的特征，如突变扰动的结构描述符。结果：我们使用一个精选测试集评估了DBP-CanPred，实现了0.86的AU-ROC和0.79的平衡准确率。基于替换类型的进一步分析显示，在不同类别中性能一致，尤其是在带电残基上表现更高。此外，我们将该模型应用于一个独立数据集，并识别出具有高置信度评分的潜在驱动突变。讨论：本研究有助于理解DNA结合蛋白中的突变模式，并支持癌症研究中的变异解读。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：DBP-CanPred: a machine learning model for predicting cancer-causing mutations in DNA-binding proteins</li>
+<li><strong>作者与单位</strong>：Phogat, Amit; Krishnan, Sowmya Ramaswamy; Pandey, Medha; Gromiha, M Michael（印度理工学院马德拉斯分校，Protein Bioinformatics Laboratory）</li>
+<li><strong>期刊/预印本平台</strong>：Frontiers in Bioinformatics</li>
+<li><strong>年份</strong>：2026</li>
+<li><strong>论文类型</strong>：方法学（机器学习模型开发 + 应用）</li>
+<li><strong>领域</strong>：蛋白质-DNA互作（DNA结合蛋白突变致病性预测）× 机器学习</li>
+<li><strong>关键词</strong>：DNA-binding proteins, cancer driver mutations, machine learning, CatBoost, AlphaFold, protein-DNA interface</li>
+<li><strong>DOI/arXiv 号</strong>：10.3389/fbinf.2026.1920228</li>
+<li><strong>代码</strong>：未提供（仅提供Web服务器：https://web.iitm.ac.in/bioinfo3/DBP-CanPred/）</li>
+<li><strong>数据</strong>：训练/测试数据集通过Web服务器公开提供</li>
+<li><strong>阅读日期</strong>：未提供</li>
+<li><strong>在课题方向中的位置</strong>：该文聚焦DNA结合蛋白（DBP）中癌症驱动错义突变的预测，属于「蛋白质-DNA互作 × 机器学习」交叉方向。其核心贡献在于：(1) 针对DBP这一特定蛋白类别构建专用预测模型，而非通用变异效应预测器；(2) 利用AlphaFold预测结构提取结构特征，与序列进化特征融合；(3) 通过蛋白-DNA界面富集分析揭示驱动突变的空间分布规律。对TF-DNA结合机制研究具有直接参考价值，尤其是其结构特征提取策略和界面富集分析方法可迁移至转录因子突变功能预测。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>该文构建了DBP-CanPred模型，使用CatBoost算法整合序列进化特征（保守性、PSSM、置换矩阵）与AlphaFold预测结构衍生的结构特征（理化性质、溶剂可及性、二级结构、突变扰动），在蛋白层面划分的训练/测试集上以0.86 AU-ROC和0.79平衡准确率区分DBP中的癌症驱动突变与中性突变，并发现驱动突变富集于蛋白-DNA界面及结构致密区域。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：如何准确预测DNA结合蛋白（DBP）中的癌症驱动错义突变，区别于中性突变？</li>
+<li><strong>为什么重要</strong>：DBP调控转录、染色质组织和基因组维持等核心过程，其突变可破坏蛋白-DNA互作导致肿瘤发生。实验鉴定驱动突变昂贵且耗时，亟需可靠的计算预测工具。现有通用变异效应预测器在DBP上表现不佳，因为DBP在常用训练数据集中代表性不足。</li>
+<li><strong>现有方法不足</strong>：(1) 通用预测器（如SIFT、PolyPhen、CADD、AlphaMissense等）未针对DBP的特定功能约束（如DNA结合界面、结构域）建模；(2) 多数方法依赖序列信息，未充分利用结构上下文；(3) 在DBP类别上性能参差不齐，缺乏平衡的灵敏度-特异性权衡。</li>
+<li><strong>精确研究问题</strong>：Can a machine learning model trained on DBP-specific sequence and structure features accurately distinguish cancer driver mutations from neutral mutations in DNA-binding proteins?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<p>（注：以下脉络基于本文引言及参考文献构建，属「经外部核验」的领域发展概述，结合本文定位）</p>
+<ol>
+<li><strong>早期规则/进化保守性方法</strong>：SIFT4G、PROVEAN、MutationAssessor等基于序列保守性和氨基酸置换矩阵，计算快但忽略结构上下文，对DBP界面突变识别能力有限。</li>
+<li><strong>通用机器学习/深度学习方法</strong>：PolyPhen-2、CADD、M-CAP、PrimateAI、AlphaMissense、ESM1b、MutFormer等整合多源特征或蛋白质语言模型，整体性能提升，但训练数据中DBP代表性不足，且未显式建模DNA结合功能约束。</li>
+<li><strong>蛋白家族/类别专用预测器</strong>：如TMSNP（膜蛋白）、ZFP-CanPred（锌指蛋白）等，表明针对特定蛋白类别的专用模型可超越通用方法。本文延续此思路，首次系统性地针对DBP构建专用预测模型。</li>
+<li><strong>结构信息引入</strong>：AlphaFold预测结构的可用性使大规模结构特征提取成为可能。本文利用AlphaFold结构计算溶剂可及性、二级结构、接触网络等特征，并创新性地引入突变扰动的结构描述符。</li>
+<li><strong>本文主张的位置</strong>：在「蛋白类别专用预测」脉络中，DBP-CanPred是首个针对DNA结合蛋白的驱动突变预测模型，整合序列进化与AlphaFold结构特征，并通过蛋白-DNA界面富集分析提供生物学可解释性。</li>
+</ol>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>通用预测器在DBP上性能不足</td>
+<td>现有方法在DBP突变预测中灵敏度-特异性权衡不佳，部分方法偏向某一类预测</td>
+<td>DBP在通用训练数据集中代表性不足，且通用模型未捕获DBP特有的功能约束（如DNA结合界面）</td>
+<td>Introduction: "DNA-binding proteins are underrepresented in the datasets commonly used for model training, which can reduce predictive accuracy for this protein class"</td>
+</tr>
+<tr>
+<td>实验鉴定驱动突变成本高</td>
+<td>实验方法昂贵、耗时，难以大规模应用</td>
+<td>驱动突变鉴定需要功能实验验证，通量有限</td>
+<td>Introduction: "identifying such driver mutations remains a major challenge due to limitations of experimental approaches"</td>
+</tr>
+<tr>
+<td>结构信息未充分利用</td>
+<td>多数现有预测器主要依赖序列特征，忽略突变对局部结构环境的扰动</td>
+<td>缺乏大规模高质量结构数据，且结构特征提取计算复杂</td>
+<td>Methods: 结构特征基于AlphaFold预测结构计算，包括溶剂可及性、二级结构、突变扰动描述符</td>
+</tr>
+<tr>
+<td>蛋白-DNA界面突变识别困难</td>
+<td>界面残基突变对结合亲和力和特异性影响复杂，难以仅凭序列特征判断</td>
+<td>界面识别需要结构信息，且界面残基的功能约束与蛋白核心区域不同</td>
+<td>Results: 界面富集分析显示驱动突变在蛋白-DNA界面显著富集（OR=3.37@3.5Å），但这一信息未被通用模型利用</td>
+</tr>
+<tr>
+<td>类别不平衡与数据偏差</td>
+<td>驱动突变远少于中性突变，且不同基因突变频率差异大</td>
+<td>癌症基因组中驱动突变稀疏，阴性样本（中性突变）来源多样</td>
+<td>Methods: 数据集构建中驱动突变来自COSMIC（≥3样本复发），中性突变来自ClinVar/dbSNP等，需严格去重和互斥处理</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li>
+<p><strong>表面方法</strong>：构建CatBoost分类器，输入127维特征（18个保守性分数、6个PSSM特征、4个无序特征、49个理化性质z-score、4个溶剂可及性、10个二级结构特征、突变扰动描述符等），经前向特征选择后保留31个特征，在蛋白层面划分的训练集上训练，测试集上评估。</p>
+</li>
+<li>
+<p><strong>核心洞察</strong>：
+   - <strong>DBP类别特异性建模的必要性</strong>：DBP的功能约束（DNA结合界面、结构域组织）与一般蛋白不同，通用模型无法捕获这些类别特异信号。通过蛋白层面划分和严格去冗余，确保模型学习的是DBP特异的突变模式而非序列同源性偏差。
+   - <strong>结构上下文的关键补充作用</strong>：虽然序列进化特征（保守性、PSSM）主导预测，但结构特征（特别是突变扰动的二级结构变化、界面邻近性）提供正交信息，尤其在序列信号模糊时（如保守性低的界面残基）发挥区分作用。
+   - <strong>驱动突变的可识别空间模式</strong>：驱动突变富集于蛋白-DNA界面（OR=3.37@3.5Å）和结构致密区域，且倾向于带电残基置换，这一生物学先验可被模型隐式学习。</p>
+</li>
+<li>
+<p><strong>可能的普适教训</strong> [Analysis]：
+   - 针对特定功能类别蛋白构建专用预测器，比通用模型更能捕获类别特异的突变效应模式，这一策略可推广至其他功能类别（如RNA结合蛋白、蛋白激酶等）。
+   - AlphaFold预测结构虽非实验结构，但在大规模突变效应预测中可作为可靠的结构特征来源，前提是设置合理的质量阈值（pLDDT≥60）。
+   - 序列与结构特征的融合不是简单拼接，而是需要通过消融实验和SHAP分析理解各自贡献，避免冗余特征稀释模型性能。</p>
+</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：蛋白序列（UniProtKB）、错义突变信息（氨基酸置换）、AlphaFold预测结构（PDB格式）</li>
+<li><strong>输出</strong>：二分类预测（驱动突变 vs 中性突变），输出概率分数</li>
+<li><strong>模块</strong>：
+  1. <strong>数据收集与过滤</strong>：COSMIC v97收集驱动突变（≥3独立肿瘤样本复发），ClinVar/dbSNP/HuVarBase/dbCPM收集中性突变；UniProtKB注释筛选DBP；AlphaFold获取结构（pLDDT≥60）
+  2. <strong>特征提取</strong>：序列特征（保守性、PSSM、无序性、置换矩阵）+ 结构特征（理化性质z-score、溶剂可及性、二级结构、突变扰动描述符）
+  3. <strong>特征选择</strong>：前向特征选择（基于5折交叉验证AU-ROC），从127维降至31维
+  4. <strong>模型训练</strong>：CatBoost分类器，Optuna超参数优化
+  5. <strong>评估</strong>：蛋白层面划分训练/测试集，多指标评估（AU-ROC、平衡准确率、灵敏度、特异性）
+  6. <strong>解释与验证</strong>：SHAP值分析、消融实验、与现有方法对比、案例研究</li>
+<li><strong>训练</strong>：5折交叉验证（训练集内），最终模型在独立测试集评估</li>
+<li><strong>反馈回路</strong>：无显式主动学习或迭代优化回路；特征选择和超参数优化均在训练集内完成</li>
+<li><strong>假设</strong>：(1) COSMIC中≥3样本复发的错义突变为驱动突变；(2) ClinVar等数据库中标记为良性/可能良性的突变为中性突变；(3) AlphaFold预测结构在pLDDT≥60时可用于结构特征提取；(4) 蛋白层面划分可防止数据泄漏</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数据收集与过滤</td>
+<td>从COSMIC/ClinVar等数据库收集突变，UniProt筛选DBP，AlphaFold获取结构</td>
+<td>构建高质量、类别特异的训练数据</td>
+<td>输入：数据库原始突变记录；输出：带标签的突变-蛋白对</td>
+<td>Methods "Dataset" 节；Results 数据集统计（624,442→41,436→28,839→9,807/7,167→6,246/3,908→4,095/3,045）</td>
+<td>移除后无法构建训练集；过滤标准放宽（如降低复发阈值）可能引入假阳性驱动突变</td>
+</tr>
+<tr>
+<td>序列特征提取</td>
+<td>计算保守性（18个）、PSSM（6个）、无序性（4个）、置换矩阵（24个）</td>
+<td>捕获进化约束和序列上下文</td>
+<td>输入：蛋白序列+突变位点；输出：序列特征向量</td>
+<td>Methods "Sequence-based features" 节；SHAP分析显示保守性特征贡献最大</td>
+<td>移除后模型性能显著下降（预期，因进化保守性是突变致病性的最强预测因子之一）</td>
+</tr>
+<tr>
+<td>结构特征提取</td>
+<td>计算理化性质z-score（49个）、溶剂可及性（4个）、二级结构（10个）、突变扰动描述符</td>
+<td>捕获突变对局部结构环境的扰动</td>
+<td>输入：AlphaFold结构+突变位点；输出：结构特征向量</td>
+<td>Methods "Structure-based features" 节；消融实验显示结构特征贡献约0.05 AU-ROC</td>
+<td>移除后性能下降（实测ΔAU-ROC≈0.05），但序列特征仍可维持基础性能</td>
+</tr>
+<tr>
+<td>前向特征选择</td>
+<td>从127维中筛选31个最优特征</td>
+<td>降低维度、减少过拟合、提升可解释性</td>
+<td>输入：全特征集；输出：31维特征子集</td>
+<td>Methods "Feature selection" 节；Supplementary Table S7</td>
+<td>移除后可能过拟合，泛化性能下降（预期）</td>
+</tr>
+<tr>
+<td>CatBoost分类器</td>
+<td>梯度提升树模型，二分类预测</td>
+<td>处理混合类型特征、非线性关系、稳健泛化</td>
+<td>输入：31维特征向量；输出：驱动突变概率</td>
+<td>Methods "Model development" 节；Results 表1</td>
+<td>替换为其他模型（如XGBoost/LightGBM）性能略降（Supplementary Table S10）</td>
+</tr>
+<tr>
+<td>双阈值分类策略</td>
+<td>概率&lt;0.46为中性，&gt;0.60为驱动，中间为不确定</td>
+<td>提高预测可靠性，减少误分类</td>
+<td>输入：模型概率分数；输出：三分类（驱动/中性/不确定）</td>
+<td>Methods "dual-threshold" 节；表1</td>
+<td>移除后平衡准确率下降，但覆盖率增加（预期权衡）</td>
+</tr>
+<tr>
+<td>SHAP解释模块</td>
+<td>计算特征贡献值，识别关键预测因子</td>
+<td>模型可解释性，生物学洞察</td>
+<td>输入：模型+数据；输出：特征重要性排序</td>
+<td>Results "Model interpretation" 节；图4</td>
+<td>移除后不影响预测性能，但丧失生物学可解释性</td>
+</tr>
+<tr>
+<td>界面富集分析</td>
+<td>计算蛋白-DNA界面驱动突变富集的OR值</td>
+<td>验证驱动突变的空间分布规律</td>
+<td>输入：突变+蛋白-DNA复合物结构；输出：OR值</td>
+<td>Results 图2A；OR=3.37@3.5Å</td>
+<td>移除后不影响模型预测，但丧失生物学验证维度</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<ol>
+<li>
+<p><strong>理化性质z-score标准化</strong>（Methods 式1-3）：
+   - μ_p = (1/N) Σᵢ xᵢᵖ：接触残基上性质p的均值
+   - σ_p = √[(1/N) Σᵢ (xᵢᵖ - μ_p)²]：接触残基上性质p的标准差
+   - z_p = (x_mutᵖ - μ_p) / σ_p：突变残基性质p相对局部环境的标准化偏差
+   - 用途：量化突变残基与周围结构环境的理化性质差异；σ_p=0时z_p置0</p>
+</li>
+<li>
+<p><strong>突变扰动描述符</strong>（Methods 式4-7）：
+   - ΔH_shift = (H_mut - H_wt) × RSA_side_chain：疏水性变化，按侧链相对溶剂可及性加权
+   - ΔC_shift = (C_mut - C_wt) × RSA_side_chain：电荷变化，按侧链相对溶剂可及性加权
+   - ΔV_shift = (V_mut - V_wt) × (1 - RSA_side_chain)：体积变化，按侧链埋藏程度加权
+   - ΔI_t = I_t^mut - I_t^wt：第t类相互作用（疏水、盐桥、芳香、氢键）的数量变化
+   - 用途：量化突变对局部结构相互作用的扰动；暴露残基的疏水/电荷变化权重更高，埋藏残基的体积变化权重更高</p>
+</li>
+<li>
+<p><strong>富集分析OR值</strong>（Methods 式13）：
+   - Odds ratio = (N_d / N_d_total) / (N_n / N_n_total)
+   - N_d：指定区域内驱动突变数；N_d_total：驱动突变总数；N_n：指定区域内中性突变数；N_n_total：中性突变总数
+   - 用途：评估驱动突变在蛋白-DNA界面等区域的相对富集程度</p>
+</li>
+<li>
+<p><strong>评估指标</strong>（Methods 式8-12）：
+   - Accuracy = (TP+TN) / (TP+FN+FP+TN)
+   - Sensitivity = TP / (TP+FN)
+   - Specificity = TN / (TN+FP)
+   - Balanced accuracy = (Sensitivity + Specificity) / 2
+   - F1-score = TP / [TP + (FP+FN)/2]</p>
+</li>
+</ol>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集</strong>：</li>
+<li>驱动突变：COSMIC v97，≥3独立肿瘤样本复发，经gnomAD过滤去除种系变异</li>
+<li>中性突变：ClinVar（良性/可能良性）、dbSNP、HuVarBase、dbCPM</li>
+<li>蛋白集合：UniProtKB注释的DBP（1,955个蛋白）</li>
+<li>最终数据集：7,140个突变（4,095驱动 + 3,045中性），578个蛋白</li>
+<li>划分：蛋白层面划分（81%训练/19%测试），测试集含517驱动 + 816中性</li>
+<li>结构：AlphaFold预测结构，pLDDT≥60阈值</li>
+<li><strong>指标</strong>：AU-ROC、平衡准确率、灵敏度、特异性、F1-score</li>
+<li><strong>基线</strong>：SIFT4G、PolyPhen-2、MetaSVM、DEOGEN2、M-CAP、FATHMM-XF、ClinPred、CADD、MutScore、PHACTboost、DANN、PrimateAI、MutPred、AlphaMissense、ESM1b、MutFormer（共16种）</li>
+<li><strong>评测协议</strong>：测试集上统一比较，CADD以15为阈值分类</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主模型性能</td>
+<td>DBP-CanPred能有效区分驱动/中性突变</td>
+<td>测试集，与16种现有方法对比</td>
+<td>AU-ROC=0.86，平衡准确率=0.79，灵敏度=0.84-0.85，特异性=0.73</td>
+<td>DBP-CanPred在DBP突变预测上优于多数通用方法，且保持平衡的灵敏度-特异性权衡</td>
+<td>未证明在所有DBP亚家族上均最优；部分方法（如AlphaMissense）在特定指标上接近</td>
+<td>Results 表1、表2</td>
+</tr>
+<tr>
+<td>特征消融</td>
+<td>各特征类别的贡献</td>
+<td>逐一移除特征组，测试集AU-ROC变化</td>
+<td>保守性特征移除ΔAU-ROC≈0.118；PSSM≈0.084；置换矩阵≈0.059；二级结构≈0.056；无序性≈0.054；理化性质≈0.046；突变扰动≈0.047；全部序列特征移除Δ≈0.23；全部结构特征移除Δ≈0.05</td>
+<td>序列进化特征主导预测，结构特征提供互补信息</td>
+<td>未单独评估各结构特征子类的独立贡献</td>
+<td>Results 图5</td>
+</tr>
+<tr>
+<td>SHAP分析</td>
+<td>特征贡献方向与生物学一致性</td>
+<td>测试集SHAP值</td>
+<td>保守性得分高→驱动突变；带电残基置换→驱动突变；芳香族变化→驱动突变；脯氨酸参与→中性突变</td>
+<td>模型学习到与已知生物学一致的信号（保守残基扰动、电荷改变破坏DNA结合）</td>
+<td>SHAP相关性不等于因果性</td>
+<td>Results 图4</td>
+</tr>
+<tr>
+<td>界面富集分析</td>
+<td>驱动突变在蛋白-DNA界面富集</td>
+<td>3.5Å和6Å距离截断</td>
+<td>OR=3.37（3.5Å）、3.28（6Å）；结构接触重叠界面OR=2.40/2.23</td>
+<td>驱动突变优先定位于DNA结合界面及其邻近结构区域</td>
+<td>未区分直接界面接触与间接结构扰动效应</td>
+<td>Results 图2A</td>
+</tr>
+<tr>
+<td>置换类型分析</td>
+<td>不同氨基酸置换类别的性能</td>
+<td>按置换类别分层评估</td>
+<td>带电残基置换性能最高（平衡准确率0.84）；疏水-疏水置换性能较低（0.75）</td>
+<td>模型对破坏电荷相互作用的突变更敏感</td>
+<td>未分析具体残基对（如Arg→His vs Arg→Cys）的差异</td>
+<td>Results 图2B、表S13</td>
+</tr>
+<tr>
+<td>基因突变频率分层</td>
+<td>不同突变频率基因上的性能</td>
+<td>罕见突变基因（1-20）vs 频繁突变基因（&gt;20）</td>
+<td>频繁突变基因平衡准确率0.79，罕见突变基因0.70</td>
+<td>模型在频繁突变基因上更可靠，可能因训练数据更充分</td>
+<td>罕见突变基因的预测仍需谨慎</td>
+<td>Results 表4</td>
+</tr>
+<tr>
+<td>AlphaMissense不确定区域对比</td>
+<td>DBP-CanPred在AlphaMissense不确定预测上的表现</td>
+<td>AlphaMissense标记为不确定的突变子集</td>
+<td>DBP-CanPred平衡准确率0.72，AU-ROC=0.77</td>
+<td>DBP-CanPred可为通用模型的不确定预测提供补充信息</td>
+<td>未与AlphaMissense在确定区域上的性能做直接对比</td>
+<td>Results 表3</td>
+</tr>
+<tr>
+<td>独立数据集应用</td>
+<td>模型泛化性</td>
+<td>COSMIC v102独立数据集（≥5样本，排除训练集同源蛋白≥40%序列同一性）</td>
+<td>约80%的置信预测被分类为驱动突变</td>
+<td>模型可扩展到新数据，且预测分布合理</td>
+<td>独立数据集缺乏实验验证标签，无法计算真实准确率</td>
+<td>Results "Application" 节</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：该模型仅针对DNA结合蛋白（DBP）中的错义突变，预测其是否为癌症驱动突变（正类）或中性突变（负类）。不涵盖插入/缺失、剪接位点突变、非编码区突变，也不适用于非DBP蛋白。</li>
+<li><strong>Oracle/真值输入</strong>：训练标签来自COSMIC（驱动）和ClinVar等（中性），本质上是数据库注释的代理标签，非实验功能验证。COSMIC的"驱动"定义基于肿瘤样本复发频率，可能遗漏低频驱动突变。</li>
+<li><strong>端到端状态</strong>：模型输入为蛋白序列+突变信息+AlphaFold预测结构，输出为概率分数。特征提取和预测全自动，但需要预先获取AlphaFold结构。</li>
+<li><strong>算力成本</strong>：CatBoost训练和推理计算成本低，特征提取（特别是结构特征）为主要计算开销，但AlphaFold结构可预先计算。</li>
+<li><strong>历史数据依赖</strong>：训练数据来自COSMIC v97（2021年左右），新发现的驱动突变可能不在训练分布内。模型对罕见突变基因的预测性能较低（平衡准确率0.70）。</li>
+<li><strong>模型依赖</strong>：性能依赖AlphaFold结构质量（pLDDT≥60阈值），低质量结构区域的预测可靠性下降。</li>
+<li><strong>最难情形</strong>：罕见突变基因上的预测、疏水-疏水置换类型、低pLDDT结构区域的突变。</li>
+<li><strong>群体/领域边界</strong>：模型在DBP上训练，迁移至其他蛋白类别（如RNA结合蛋白）需重新训练。癌症类型覆盖广泛，但某些癌症类型的驱动突变模式可能不同。</li>
+<li><strong>不确定性</strong>：模型使用双阈值分类，约20-30%的预测被标记为"不确定"，这些情况需要额外证据支持。</li>
+<li><strong>有边界的复述</strong>：DBP-CanPred是一个针对DNA结合蛋白的错义突变驱动/中性分类器，在蛋白层面独立测试集上达到0.86 AU-ROC，优于多数通用变异效应预测器，其预测主要依赖序列进化保守性，结构特征提供补充信息，且驱动突变在蛋白-DNA界面显著富集。该模型适用于DBP突变优先级排序和候选驱动突变筛选，但不能替代实验验证。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<table>
+<thead>
+<tr>
+<th>局限</th>
+<th>具体表现</th>
+<th>作者提出的未来方向</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>依赖AlphaFold预测结构</td>
+<td>结构特征基于预测结构而非实验结构，预测误差可能传播至特征计算</td>
+<td>未明确提及</td>
+<td>Discussion 节（隐含）</td>
+</tr>
+<tr>
+<td>罕见突变基因性能较低</td>
+<td>罕见突变基因（1-20突变）上平衡准确率仅0.70，低于频繁突变基因的0.79</td>
+<td>未明确提及</td>
+<td>Results 表4</td>
+</tr>
+<tr>
+<td>训练数据时间窗口</td>
+<td>训练数据来自COSMIC v97，新发现的驱动突变可能不在训练分布内</td>
+<td>未明确提及</td>
+<td>Discussion 节（隐含）</td>
+</tr>
+<tr>
+<td>未覆盖所有DBP类型</td>
+<td>模型基于UniProt注释的DBP，某些特殊DBP亚类（如含非经典DNA结合结构域的蛋白）可能代表性不足</td>
+<td>未明确提及</td>
+<td>Discussion 节（隐含）</td>
+</tr>
+<tr>
+<td>中性突变标签的可靠性</td>
+<td>中性突变来自ClinVar等数据库，可能包含未表征的功能性突变</td>
+<td>未明确提及</td>
+<td>Methods "Dataset" 节（隐含）</td>
+</tr>
+<tr>
+<td>未进行实验验证</td>
+<td>预测结果未通过湿实验（如EMSA、报告基因）验证</td>
+<td>未明确提及</td>
+<td>Discussion 节（隐含）</td>
+</tr>
+</tbody>
+</table>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>训练/测试集蛋白层面划分，但测试集突变数（1,333）远小于训练集（5,807），且测试集蛋白数未报告</td>
+<td>测试集可能包含少量蛋白的大量突变，导致评估方差大；蛋白层面划分虽防止泄漏，但可能使测试集蛋白与训练集蛋白在功能类别上分布不均</td>
+<td>影响模型泛化性评估的可靠性</td>
+<td>报告测试集蛋白数及每蛋白突变数分布；按蛋白数而非突变数进行bootstrap评估</td>
+<td>Results "Dataset" 节</td>
+</tr>
+<tr>
+<td>与16种方法对比，但未报告这些方法在DBP子集上的重训练或阈值优化</td>
+<td>通用方法可能因默认阈值不适合DBP而表现不佳，对比可能不公平</td>
+<td>影响"DBP-CanPred优于通用方法"结论的强度</td>
+<td>对通用方法在训练集上优化阈值后重新对比</td>
+<td>Results 表2</td>
+</tr>
+<tr>
+<td>消融实验仅报告ΔAU-ROC，未报告统计显著性</td>
+<td>0.05的AU-ROC差异可能不显著，特别是测试集有限时</td>
+<td>影响结构特征"互补贡献"结论的可靠性</td>
+<td>报告置信区间或进行统计检验（如DeLong test）</td>
+<td>Results 图5</td>
+</tr>
+<tr>
+<td>界面富集分析使用PDB复合物结构，但仅覆盖207个蛋白</td>
+<td>207个蛋白可能偏向有复合物结构的DBP，存在选择偏差；且预测模型本身未使用界面信息，富集分析是事后验证</td>
+<td>影响"驱动突变富集于界面"这一生物学结论的普适性</td>
+<td>在更大规模复合物结构集合上验证；或使用无偏的界面预测方法</td>
+<td>Results 图2A</td>
+</tr>
+<tr>
+<td>独立数据集应用仅报告预测分布（80%为驱动），无真实标签验证</td>
+<td>高驱动比例可能反映模型偏差而非真实生物学信号</td>
+<td>影响模型泛化性的证据强度</td>
+<td>在具有实验验证标签的独立数据集（如Cancer Genome Interpreter）上评估</td>
+<td>Results "Application" 节</td>
+</tr>
+<tr>
+<td>特征工程依赖手工设计的结构描述符，未与端到端深度学习方法（如基于AlphaFold结构的图神经网络）对比</td>
+<td>深度学习方法可能自动学习更优的结构表示</td>
+<td>影响方法先进性的判断</td>
+<td>与GNN-based变异效应预测器（如ESM-IF、MIF-NN）在相同数据上对比</td>
+<td>Methods 节</td>
+</tr>
+<tr>
+<td>模型仅输出二分类，未提供突变对DNA结合亲和力影响的定量预测</td>
+<td>驱动突变预测与结合亲和力变化不完全等价，临床解释需要定量信息</td>
+<td>影响模型在机制研究中的实用性</td>
+<td>在已知结合亲和力变化的数据集（如ProTherm、ddg）上评估预测与ΔΔG的相关性</td>
+<td>Discussion 节</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<p><strong>Agent 提炼的知识候选</strong>：</p>
+<ol>
+<li>
+<p><strong>类别特异性预测器的构建策略</strong>：针对功能类别蛋白（如DBP、TF）构建专用预测器时，应：(a) 从COSMIC等数据库按复发频率筛选驱动突变，用gnomAD过滤种系变异；(b) 从ClinVar/dbSNP等多源收集中性突变并确保与驱动突变互斥；(c) 使用蛋白层面划分防止同源蛋白泄漏。此流程可直接迁移至TF-DNA结合突变的预测任务。</p>
+</li>
+<li>
+<p><strong>序列-结构特征融合框架</strong>：该文展示了如何将序列进化特征（保守性、PSSM）与AlphaFold结构特征（理化性质z-score、溶剂可及性、二级结构、突变扰动）系统融合。关键设计是：结构特征以突变位点为中心、以5Å接触残基为上下文计算z-score，捕捉突变对局部结构环境的扰动。这一"局部结构上下文"思想可迁移至TF-DNA界面突变分析，特别是评估突变对DNA结合界面的扰动。</p>
+</li>
+<li>
+<p><strong>突变扰动描述符的设计</strong>：ΔH_shift、ΔC_shift、ΔV_shift分别用侧链溶剂可及性加权疏水/电荷变化、用埋藏程度加权体积变化，体现了"暴露残基的理化性质改变更关键、埋藏残基的体积改变更关键"的物理直觉。这一加权策略可推广至TF-DNA界面残基，其中界面残基的溶剂可及性变化与DNA结合直接相关。</p>
+</li>
+<li>
+<p><strong>双阈值分类策略</strong>：将连续概率分数转化为三分类（驱动/中性/不确定），避免强制分类导致的误判。对于TF突变优先级排序，可设置高置信阈值筛选候选驱动突变，将不确定结果留给实验验证。</p>
+</li>
+<li>
+<p><strong>界面富集分析作为生物学验证</strong>：利用PDB复合物结构计算驱动突变在蛋白-DNA界面的OR值（3.37@3.5Å），为模型预测提供独立生物学验证。这一分析框架可直接用于TF-DNA结合突变研究，检验预测的驱动突变是否优先定位于DNA结合界面。</p>
+</li>
+<li>
+<p><strong>SHAP+消融的双重可解释性</strong>：SHAP提供特征贡献方向（如保守性高→驱动），消融提供特征组重要性排序（保守性&gt;PSSM&gt;结构特征）。两者结合可识别模型依赖的生物学信号，对TF突变研究可揭示哪些序列/结构特征最能预测DNA结合破坏。</p>
+</li>
+<li>
+<p><strong>AlphaFold结构在突变预测中的适用性</strong>：该文使用AlphaFold预测结构（pLDDT≥60）而非实验结构，验证了预测结构在突变效应预测中的可用性。对TF研究，当缺乏实验结构时，AlphaFold结构+质量过滤是可行的替代方案。</p>
+</li>
+<li>
+<p><strong>置换类型分层评估</strong>：按氨基酸置换类别（带电、疏水、极性等）分层报告性能，可识别模型的偏好和盲区。TF-DNA结合主要依赖静电和氢键相互作用，带电残基置换的性能优势提示模型可能捕获了DNA结合的关键物理化学决定因素。</p>
+</li>
+</ol>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>与TF-DNA结合机制研究的连接</strong>：该文确认了驱动突变在蛋白-DNA界面的富集（OR=3.37@3.5Å），与已知的TF突变致病机制一致——TP53的R175、R248、R273等热点突变均位于DNA结合界面。该文的特征框架（特别是带电残基置换和结构扰动）可直接用于TF-DNA结合突变的机制解释。</li>
+<li><strong>与变异效应预测工具谱系</strong>：该文对比了SIFT4G、PolyPhen-2、CADD、AlphaMissense等主流工具，其DBP专用模型在平衡准确率上更优。这与"类别专用预测器优于通用预测器"的趋势一致（如TMSNP之于膜蛋白、ZFP-CanPred之于锌指蛋白）。</li>
+<li><strong>与AlphaFold结构预测的应用</strong>：该文是AlphaFold预测结构用于突变效应预测的又一实例，与AlphaMissense（使用AlphaFold结构上下文的语言模型）形成互补——前者使用手工特征+传统ML，后者使用深度学习。两者在DBP上的对比值得进一步探索。</li>
+<li><strong>与蛋白质-DNA相互作用能量学的连接</strong>：该文的突变扰动描述符（ΔH、ΔC、ΔV）与分子力学/泊松-玻尔兹曼方法中的去溶剂化能和静电效应概念相关。未来可将该文特征与基于物理的DNA结合亲和力预测（如FoldX、Rosetta）结合，提升预测的可解释性。</li>
+<li><strong>与癌症基因组学数据库的连接</strong>：该文使用COSMIC和gnomAD的过滤策略（复发≥3次、排除种系变异）与TCGA驱动基因鉴定流程一致。可进一步与ClinVar的致病性注释交叉验证。</li>
+<li><strong>与TF-DNA结合特异性预测的连接</strong>：该文聚焦突变对蛋白功能的影响，而TF-DNA结合特异性预测（如DeepSEA、BPNet）关注序列基序。两者可结合：该文预测的驱动突变可映射到TF结合基序位置，检验突变是否破坏基序识别。</li>
+</ul>
+<h2>16 研究想法</h2>
+<p><strong>Agent 生成的研究候选</strong>：</p>
+<ol>
+<li>
+<p><strong>TF-DNA界面突变预测的物理增强模型</strong>
+   - <strong>名称</strong>：TF-InterfaceCanPred
+   - <strong>来源局限/观察</strong>：DBP-CanPred使用通用结构特征，未显式建模DNA结合界面；TF-DNA结合依赖静电互补和形状匹配，通用特征可能未充分捕获
+   - <strong>核心假设</strong>：将蛋白-DNA界面残基的静电势、氢键供体/受体模式、DNA形状特征（滚转角、螺旋参数）作为额外特征，可提升TF突变预测性能
+   - <strong>初步方法</strong>：在DBP-CanPred框架基础上，对TF类蛋白提取界面特异性特征（如DNA结合残基注释、界面静电互补分数），与原有特征融合后重新训练
+   - <strong>验证方式</strong>：在TF子集上对比DBP-CanPred与增强模型的AU-ROC；用已知TF热点突变（TP53、FOXA1）做案例验证
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>基于AlphaFold结构的TF-DNA结合亲和力变化预测</strong>
+   - <strong>名称</strong>：AffinityDelta-TF
+   - <strong>来源局限/观察</strong>：DBP-CanPred输出二分类，无法定量预测突变对DNA结合亲和力的影响；临床解释需要ΔΔG级别的定量信息
+   - <strong>核心假设</strong>：AlphaFold结构+突变扰动特征可回归预测TF-DNA结合亲和力变化（ΔΔG）
+   - <strong>初步方法</strong>：收集TF-DNA结合亲和力实验数据（如ProTherm、CIS-BP），以DBP-CanPred特征+界面残基接触网络为输入，训练回归模型预测ΔΔG
+   - <strong>验证方式</strong>：与FoldX、Rosetta等物理方法的预测相关性；在独立实验数据集上评估RMSE
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>TF-DNA共折叠复合物的突变效应评估</strong>
+   - <strong>名称</strong>：ComplexAware-TF
+   - <strong>来源局限/观察</strong>：DBP-CanPred仅使用单体蛋白结构，未考虑DNA结合诱导的构象变化；TF-DNA结合常伴随诱导拟合
+   - <strong>核心假设</strong>：使用AlphaFold3预测的TF-DNA复合物结构替代单体结构，可更准确评估突变对结合界面的扰动
+   - <strong>初步方法</strong>：对TF突变体进行AlphaFold3复合物预测，提取界面接触变化、结合能变化特征，与DBP-CanPred特征融合
+   - <strong>验证方式</strong>：在已知TF突变数据集上对比单体vs复合物特征的预测性能；检查预测的构象变化是否与实验一致
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>TF-DNA结合突变的跨物种保守性增强预测</strong>
+   - <strong>名称</strong>：ConservationBoost-TF
+   - <strong>来源局限/观察</strong>：DBP-CanPred使用单序列保守性分数，未利用跨物种TF-DNA结合位点的共进化信息
+   - <strong>核心假设</strong>：TF-DNA结合界面的共进化信号（残基-残基协变）可增强突变致病性预测
+   - <strong>初步方法</strong>：对TF家族进行多序列比对，计算界面残基的共进化分数（如EVcouplings），作为额外特征
+   - <strong>验证方式</strong>：在TF突变数据集上对比有无共进化特征的性能；检验共进化分数是否与已知热点突变相关
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>TF突变驱动的DNA结合特异性重编程预测</strong>
+   - <strong>名称</strong>：SpecificitySwitch-TF
+   - <strong>来源局限/观察</strong>：DBP-CanPred仅预测突变是否致病，未考虑突变可能改变DNA结合特异性（而非完全丧失结合）
+   - <strong>核心假设</strong>：部分TF突变不破坏DNA结合，而是改变序列偏好，这类突变在癌症中具有独特功能
+   - <strong>初步方法</strong>：对TF突变体进行高通量SELEX或ChIP-seq数据收集，训练模型预测突变对DNA基序偏好的改变
+   - <strong>验证方式</strong>：在已知特异性转换突变（如FOXA1）上验证；与DBP-CanPred预测结果对比，识别"非破坏性"驱动突变
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>DBP-CanPred与MD模拟的混合框架</strong>
+   - <strong>名称</strong>：HybridMD-TF
+   - <strong>来源局限/观察</strong>：DBP-CanPred为静态预测，无法捕捉突变对DNA结合动力学的动态影响；MD模拟可提供结合自由能、解离路径等信息
+   - <strong>核心假设</strong>：将DBP-CanPred预测的高置信驱动突变进行MD模拟验证，可提高预测特异性并揭示机制
+   - <strong>初步方法</strong>：对DBP-CanPred预测的驱动突变进行短时MD模拟（如100ns），计算结合自由能变化（MM-PBSA），与预测分数融合
+   - <strong>验证方式</strong>：在已知实验验证的TF突变上评估混合框架的精确率；比较MD特征与静态特征的增量贡献
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+</ol></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and data availability statements. No figures, tables, or supplementary material were provided.</li>
+<li><strong>Assessment boundary</strong> Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and clarity of presentation. Editorial and stylistic issues are noted only where they affect scientific comprehension.</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present DBP-CanPred, a machine learning model trained to distinguish cancer driver missense mutations from neutral missense mutations in DNA-binding proteins (DBPs), using sequence-derived evolutionary features and AlphaFold structure-based features. They report a test set AU-ROC of 0.86 and balanced accuracy of 0.79, outperforming several existing variant effect predictors. They further report enrichment of driver mutations at protein-DNA interfaces, within DNA-binding domains, and in structurally dense regions, and demonstrate model utility through a CTCF case study and an independent COSMIC application.</li>
+<li><strong>Visible evidence base</strong> Text descriptions of dataset curation (COSMIC v97, UniProtKB, gnomAD, ClinVar, dbSNP, HuVarBase, dbCPM), feature extraction (conservation, PSSM, disorder, substitution matrices, physicochemical properties, structural perturbations), model development (CatBoost, forward feature selection, Optuna hyperparameter optimization), and evaluation metrics. References to Figures 1–7, Tables 1–5, and Supplementary Tables S1–S14 and Figure S1 are made but their contents are not visible.</li>
+<li><strong>Missing materials affecting confidence</strong> All figures, tables, and supplementary materials are absent. This includes the dataset composition table, the ROC curves, the SHAP summary plots, the ablation results, the comparison tables with existing methods, and the detailed feature lists. Without these, quantitative claims cannot be independently verified.</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> The manuscript addresses a relevant and under-served problem: cancer mutation prediction specifically for DNA-binding proteins. The motivation is well-argued, and the methodological pipeline is reasonable in outline. However, the current submission has several critical gaps. The most serious issue is the definition and curation of the "driver" and "neutral" labels, which relies on recurrence in COSMIC and absence in gnomAD. This operationalization conflates driver status with somatic recurrence and may introduce substantial label noise, as recurrent somatic mutations are not necessarily drivers, and absence from gnomAD does not guarantee pathogenicity. The model evaluation is also weakened by the absence of a rigorous comparison to a baseline trained on generic variant effect predictors using the same features, and by the lack of calibration or decision-curve analysis. The claim that the model "outperformed most methods" is not supported by visible data. The case study on CTCF is descriptive and does not include experimental validation. The application section reports that 80% of mutations received higher scores, but the baseline for comparison is unclear. Overall, the work is potentially useful but the evidence as presented is insufficient to establish the model's validity and utility.</li>
+<li><strong>Who would be interested in the results, and why</strong> Computational biologists and cancer genomics researchers working on variant effect prediction, particularly those interested in protein-family-specific models. The work may also be of interest to clinicians or researchers interpreting variants in DNA-binding proteins, though the lack of prospective validation limits immediate clinical applicability. The methodological framework, if properly validated, could serve as a template for similar family-specific predictors.</li>
+<li><strong>Major strengths</strong> The problem is well-motivated and addresses a genuine gap in the field. The use of AlphaFold structures for feature extraction is timely. The protein-level splitting strategy is appropriate and reduces information leakage. The inclusion of both sequence and structure features is sensible. The authors have made the tool and data publicly available, which supports reproducibility.</li>
+<li><strong>Major Concerns</strong></li>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Label definition and dataset validity</li>
+<li><strong>Claim pointer</strong> "We removed background germline variation by retaining only mutations unobserved in gnomAD, as demonstrated in previous studies, which are designated as driver mutations."</li>
+<li><strong>Evidence pointer</strong> Methods, Dataset section; location not provided</li>
+<li><strong>Concern</strong> The operational definition of "driver" as a somatic mutation observed in at least three independent tumor samples and absent from gnomAD is problematic. Somatic recurrence is a proxy for positive selection, but many recurrent somatic mutations are passengers. Conversely, absence from gnomAD does not establish pathogenicity, as gnomAD is a germline database and somatic mutations are not expected to be present regardless of driver status. This label definition likely introduces substantial misclassification, which could bias model training and inflate performance estimates. The authors do not provide any orthogonal evidence (e.g., functional assays, known driver annotations from Cancer Gene Census, or computational driver prediction tools) to support the driver label.</li>
+<li><strong>Why it matters</strong> If the labels are noisy, the model may be learning to distinguish recurrent somatic mutations from rare germline variants rather than drivers from neutral mutations. This would undermine the central claim of the paper and limit the model's utility for variant interpretation.</li>
+<li><strong>Resolution test</strong> The authors should provide a detailed breakdown of the label curation process, including the number of mutations excluded at each step. They should validate a subset of driver calls against established driver databases (e.g., Cancer Gene Census, IntOGen, or known driver mutation annotations). They should also perform a sensitivity analysis using alternative driver definitions (e.g., only mutations in known cancer genes, or mutations with functional evidence) to show that model performance is robust to label definition.</li>
+<li><strong>Concern ID</strong> R1-M2</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Evaluation and comparison methodology</li>
+<li><strong>Claim pointer</strong> "In comparison, DBP-CanPred outperformed most methods, including SIFT, PolyPhen, MutPred, and MutScore, achieving a balanced accuracy of 0.79."</li>
+<li><strong>Evidence pointer</strong> Results, Comparison with existing methods; Table 2; location not provided</li>
+<li><strong>Concern</strong> The comparison with existing methods is described only in text. The actual performance metrics for each tool are not visible. It is unclear whether the comparison was performed on the same test set, whether the same threshold criteria were applied to all tools, and whether the comparison accounts for the fact that many of these tools were not designed for cancer driver prediction. Furthermore, the authors do not report confidence intervals or statistical significance tests for the performance differences. The claim of "outperforming" is therefore not supported by the visible evidence.</li>
+<li><strong>Why it matters</strong> A central claim of the paper is that a DBP-specific model outperforms generic predictors. Without a rigorous, visible comparison, this claim cannot be evaluated. If the comparison is not apples-to-apples, the conclusion may be misleading.</li>
+<li><strong>Resolution test</strong> Provide the full comparison table with all metrics (AU-ROC, balanced accuracy, sensitivity, specificity, F1) for all tools on the same test set. Report confidence intervals and perform a statistical test (e.g., DeLong test for AU-ROC differences). Clarify how thresholds were chosen for each tool. Consider also comparing against a model trained on the same features but without DBP-specific labels, to isolate the contribution of the DBP-specific training data.</li>
+<li><strong>Concern ID</strong> R1-M3</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Generalizability and external validation</li>
+<li><strong>Claim pointer</strong> "We applied the model on an independent dataset and identified potential driver mutations with high confidence scores."</li>
+<li><strong>Evidence pointer</strong> Results, Application section; location not provided</li>
+<li><strong>Concern</strong> The independent application is described qualitatively. The authors state that approximately 80% of confidently classified variants were predicted as drivers, but the baseline expectation is not defined. If the model is well-calibrated and the dataset is enriched for cancer mutations, a high driver fraction may be expected. Without a comparison to a null model or to the predictions of existing tools on the same dataset, this result does not demonstrate added value. Furthermore, the exclusion of proteins with ≥40% sequence identity to training proteins is a reasonable step, but the resulting dataset size and composition are not reported.</li>
+<li><strong>Why it matters</strong> External validation is essential to establish that the model generalizes beyond the training distribution. The current description does not provide sufficient evidence of generalizability.</li>
+<li><strong>Resolution test</strong> Provide a detailed description of the independent dataset, including the number of mutations, the number of proteins, and the distribution of prediction scores. Compare the model's predictions on this dataset to those of existing tools. Report calibration metrics (e.g., reliability curves) and, if possible, validate a subset of high-confidence predictions against functional or clinical annotations.</li>
+<li><strong>Concern ID</strong> R1-M4</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Feature importance and biological interpretability</li>
+<li><strong>Claim pointer</strong> "From SHAP analysis, we observed that sequence-derived evolutionary features contributed predominantly, followed by structural features."</li>
+<li><strong>Evidence pointer</strong> Results, Model interpretation and ablation analysis; Figure 4; location not provided</li>
+<li><strong>Concern</strong> The SHAP analysis and ablation study are described in text, but the actual results are not visible. The claim that sequence features dominate is plausible but not verifiable. More importantly, the ablation study is described as removing feature groups one at a time, but the authors do not report whether the performance drop was statistically significant. The interpretation of the SHAP values is also superficial; the authors do not discuss which specific features are most informative or whether the structural features provide unique information beyond what sequence features already capture.</li>
+<li><strong>Why it matters</strong> Understanding which features drive predictions is important for biological insight and for building trust in the model. If structural features add little, the justification for using AlphaFold structures is weakened.</li>
+<li><strong>Resolution test</strong> Provide the SHAP summary plot and the full ablation results with confidence intervals. Discuss the top contributing features in the context of known biology of DNA-binding proteins. Consider a more rigorous ablation design, such as removing all structural features at once and comparing to the full model, and vice versa.</li>
+<li><strong>Minor Comments</strong></li>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity of dataset description</li>
+<li><strong>Affected element</strong> Dataset section</li>
+<li><strong>Evidence pointer</strong> Methods, Dataset section; location not provided</li>
+<li><strong>Issue</strong> The manuscript states that 624,442 missense mutations were collected from COSMIC v97, but the filtering steps are described only in aggregate. The number of mutations excluded at each step (recurrence filter, gnomAD filter, structural mapping, pLDDT filter, CD-HIT) is not reported.</li>
+<li><strong>Required correction</strong> Provide a flow diagram or table showing the number of mutations and proteins remaining after each filtering step.</li>
+<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Threshold selection</li>
+<li><strong>Affected element</strong> Dual-threshold classification</li>
+<li><strong>Evidence pointer</strong> Methods, Model development; location not provided</li>
+<li><strong>Issue</strong> The dual-threshold approach (0.46 and 0.60) is described, but the rationale for these specific values is not given. It is unclear whether these were chosen based on the training set distribution, and how the uncertain fraction affects the reported performance metrics.</li>
+<li><strong>Required correction</strong> Explain how the thresholds were selected and report the proportion of test set predictions falling into the uncertain category. Clarify whether the reported balanced accuracy and AU-ROC are computed on the confident subset only or on all predictions.</li>
+<li><strong>Concern ID</strong> R1-m3</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Comparison of training and test performance</li>
+<li><strong>Affected element</strong> Table 1</li>
+<li><strong>Evidence pointer</strong> Results, Model performance; Table 1; location not provided</li>
+<li><strong>Issue</strong> The text states that balanced accuracy was 0.78 on training and 0.79 on test, and AU-ROC was 0.84 and 0.86, respectively. The test performance being slightly higher than training is unusual and may indicate that the test set is not representative or that the model is underfit. This is not discussed.</li>
+<li><strong>Required correction</strong> Address the near-identical training and test performance. Discuss potential reasons, such as the protein-level split reducing the difficulty of the test set, or the possibility of label leakage.</li>
+<li><strong>Concern ID</strong> R1-m4</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Web server availability</li>
+<li><strong>Affected element</strong> Web server section</li>
+<li><strong>Evidence pointer</strong> Web server and data availability; location not provided</li>
+<li><strong>Issue</strong> The web server URL is provided, but it is not stated whether the server is currently functional and whether the full prediction results for the independent dataset are accessible.</li>
+<li><strong>Required correction</strong> State the current status of the web server and confirm that the independent dataset predictions are downloadable.</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (label definition) and R1-M2 (comparison methodology) are the most critical. Without addressing these, the central claims of the paper are not established. R1-M3 (external validation) is also important for establishing generalizability.</li>
+<li><strong>Assessment against Nature-style criteria</strong></li>
+<li><strong>Originality</strong> Moderate. The idea of a DBP-specific cancer mutation predictor is not entirely novel, as similar family-specific predictors exist (e.g., for zinc-finger proteins, as cited by the authors). The combination of AlphaFold structures with sequence features is a reasonable extension, but the methodological novelty is limited.</li>
+<li><strong>Scientific importance</strong> Potentially high. DNA-binding proteins are frequently mutated in cancer, and improved prediction for this class could aid variant interpretation. However, the importance is contingent on the model being genuinely better than existing tools, which is not yet demonstrated.</li>
+<li><strong>Interdisciplinary readership</strong> Moderate. The work is primarily of interest to computational biologists and cancer genomics researchers. The clinical relevance is mentioned but not developed.</li>
+<li><strong>Technical soundness</strong> Currently insufficient. The label definition is a major concern, and the evaluation methodology is incomplete. The lack of visible data for key claims further weakens the technical case.</li>
+<li><strong>Readability for nonspecialists</strong> Acceptable. The manuscript is generally well-written and the logic is easy to follow, but the methods section assumes familiarity with machine learning and structural biology concepts.</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The manuscript addresses a relevant problem and the methodological pipeline is reasonable, but the label definition and evaluation methodology need substantial revision. The authors should provide the missing data, validate their labels, and strengthen their comparisons before the claims can be accepted.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that DBP-CanPred "outperformed most methods" is unsupported without the actual comparison table and statistical tests.</li>
+<li>The claim that "80% of mutations received higher scores" in the independent application is ambiguous without a defined baseline.</li>
+<li>The claim that driver mutations are enriched at protein-DNA interfaces, DNA-binding domains, and structurally dense regions is based on odds ratios reported in text, but the underlying data and statistical significance are not visible.</li>
+<li>The claim that the model "captures patterns associated with cancer-causing variants" is an interpretation that goes beyond the presented evidence, given the label definition concerns.</li>
+<li>The claim that the model's performance is "robust and generalizable" is not supported by the near-identical training and test performance, which is unusual and unexplained.</li>
+</ul></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>

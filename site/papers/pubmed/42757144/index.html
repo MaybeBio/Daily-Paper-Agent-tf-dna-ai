@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BAN-SDBPred: Improving Single-Stranded and Double-Stranded DNA-Binding Protein Prediction Using an Attention Network with Bilinear Convolution and Adaptive Sampling Strategy. · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">6</span>
+    <div>
+      <h1>BAN-SDBPred: Improving Single-Stranded and Double-Stranded DNA-Binding Protein Prediction Using an Attention Network with Bilinear Convolution and Adaptive Sampling Strategy.</h1>
+      <div class="meta">Arshad, Kamran; Arif, Muhammad; Worachartcheewan, Apilak; Yu, Dong-Jun</div>
+      <div class="meta muted">
+        
+        <span class="journal">ACS omega</span>
+        · 2026-09-18
+         · 全文(pmc)
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42757144/">原文</a>
+      </div>
+      <p class="one-liner">该文用双线性注意力网络结合蛋白语言模型特征预测单/双链DNA结合蛋白，属于广义蛋白-DNA互作分类预测，方法可迁移至TF-DNA结合位点预测，但未聚焦TF-DNA特异性结合机制。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">DNA binding proteins play essential roles in numerous biological mechanisms. The DBPs can be either single-stranded binding (SSBs) or double-stranded binding (DSBs) to a DNA molecule. The in-depth identification of SSBs and DSBs has been a hot topic in bioinformatics and is involved in the drug discovery process. Traditional experimental methods failed to characterize the types of DBPs because of high cost and time constraints. While computational prediction of novel SSBs and DSBs has made significant progress, there are still challenges remaining in enhancing overall prediction performance. Methods: Here, we develop a novel BAN-SDBPred (Bilinear Attention Network for Single and Double Stranded DNA-Binding Protein Prediction) method. BAN-SDBPred leverages the evolutionary features by protein language model-based Evolutionary Scale Modeling 2 (ESM2), ProtT5, and a histogram of oriented gradient-based residue pairwise energy content matrix (RECM-HOG)-transformed energy estimation features from sequence alone. Then, the adaptive neighborhood-based sampling (ANBS) algorithm was adopted to solve the imbalance issue. Compared to other deep learning models, the bilinear attention network (BAN) learns the local and global enriched features from the sequences. Extensive experimental results anticipate that BAN-SDBPred outperforms the existing predictors in terms of all performance measures, such as Acc, F1, MCC, etc., on the training and independent test data. Our designed model has significant advantages in discriminating SSBs and DSBs from DBPs with an improved Acc of 2%, Precision of 4.5%, F1 of 21%, MCC of 9%, and area under curve (AUC) of 20%, respectively. We expect this research will help to predict large-scale novel SSBs and DSBs in particular and other binding problems in general. All data and models are available at 10.5281/zenodo.18718092.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">DNA结合蛋白在众多生物机制中发挥着重要作用。DBPs可以是单链结合蛋白（SSBs）或双链结合蛋白（DSBs），与DNA分子结合。对SSBs和DSBs的深入识别一直是生物信息学领域的热点课题，并涉及药物发现过程。传统实验方法因成本高和时间限制，未能表征DBPs的类型。虽然新型SSBs和DSBs的计算预测已取得显著进展，但在提升整体预测性能方面仍存在挑战。方法：在此，我们开发了一种新颖的BAN-SDBPred（双线性注意力网络用于单链和双链DNA结合蛋白预测）方法。BAN-SDBPred利用基于蛋白质语言模型的进化尺度建模2（ESM2）、ProtT5的进化特征，以及基于方向梯度直方图的残基对能量含量矩阵（RECM-HOG）转换的能量估计特征，这些均仅从序列中获得。随后，采用自适应邻域采样（ANBS）算法解决不平衡问题。与其他深度学习模型相比，双线性注意力网络（BAN）从序列中学习局部和全局富集特征。大量实验结果表明，BAN-SDBPred在训练和独立测试数据上，在各项性能指标（如Acc、F1、MCC等）方面均优于现有预测器。我们设计的模型在区分DBPs中的SSBs和DSBs方面具有显著优势，分别提高了Acc 2%、Precision 4.5%、F1 21%、MCC 9%和曲线下面积（AUC）20%。我们期望这项研究将有助于预测大规模的新型SSBs和DSBs，并普遍适用于其他结合问题。所有数据和模型可在10.5281/zenodo.18718092获取。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：BAN-SDBPred: Improving Single-Stranded and Double-Stranded DNA-Binding Protein Prediction Using an Attention Network with Bilinear Convolution and Adaptive Sampling Strategy</li>
+<li><strong>作者</strong>：Arshad, Kamran; Arif, Muhammad; Worachartcheewan, Apilak; Yu, Dong-Jun</li>
+<li><strong>单位</strong>：未提供（据致谢推测含 Mahidol University 及中国国家自然科学基金资助单位）</li>
+<li><strong>期刊/平台</strong>：ACS Omega</li>
+<li><strong>年份</strong>：2026（在线日期 2026-09-18）</li>
+<li><strong>论文类型</strong>：方法学/预测器开发（深度学习）</li>
+<li><strong>领域</strong>：生物信息学；蛋白质-DNA 互作；DNA 结合蛋白（DBP）亚型预测</li>
+<li><strong>关键词</strong>：DNA-binding protein; single-stranded binding (SSB); double-stranded binding (DSB); protein language model; bilinear attention network; class imbalance</li>
+<li><strong>DOI/ID</strong>：10.1021/acsomega.6c04040；PubMed ID: 42757144</li>
+<li><strong>代码</strong>：未提供（数据与模型声明于 Zenodo: 10.5281/zenodo.18718092）</li>
+<li><strong>数据</strong>：UniProt1065（训练集，873 DSB + 183 SSB）、PDB401（独立测试集，124 DSB + 41 SSB）</li>
+<li><strong>阅读日期</strong>：2026-05-14（按当前日期）</li>
+<li><strong>在该课题方向中的位置</strong>：本文属于「蛋白质-DNA 互作 × 深度学习」方向中的<strong>序列-based DBP 亚型（SSB vs DSB）二分类预测</strong>任务。与 TF-DNA 结合机制的直接关系较弱（不涉及结合位点、基序或结构），但其<strong>多模态特征融合（PLM 全局嵌入 + 手工局部描述符）</strong>、<strong>双线性注意力融合机制</strong>、以及<strong>面向极端类别不平衡的自适应采样策略</strong>，对 TF-DNA 结合特异性预测中常见的类别不平衡与多特征融合问题具有直接可迁移性。</li>
+</ul>
+<hr />
+<h2>02 一句话总结</h2>
+<p>本文提出 BAN-SDBPred，用 ESM2 蛋白质语言模型全局嵌入与 RECM-HOG 局部能量描述符作为双模态特征，经双线性注意力网络（BAN）融合，并配合自适应邻域采样（ANBS）缓解 SSB/DSB 类别不平衡（约 4.77:1），在 UniProt1065 训练与 PDB401 独立测试上，以 Acc 84.2%、MCC 0.571、AUC 0.862 超越现有 SSB/DSB 预测器。</p>
+<hr />
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：如何仅从蛋白质一级序列出发，准确区分单链 DNA 结合蛋白（SSB）与双链 DNA 结合蛋白（DSB）？</li>
+<li><strong>为什么重要</strong>：SSB 与 DSB 在 DNA 复制、修复、重组、转录调控等核心生物学过程中功能迥异，且与癌症、HIV/AIDS 等疾病相关。实验方法（X-ray、NMR、cryo-EM）成本高、耗时，无法满足大规模基因组注释需求。</li>
+<li><strong>现有方法不足</strong>：
+  1. 传统机器学习方法依赖手工特征（如氨基酸组成、PSSM），缺乏对长程依赖与全局进化上下文的建模能力；
+  2. 已有深度学习方法多使用单一视图特征（仅 PLM 嵌入或仅手工描述符），未充分利用全局与局部信息的互补性；
+  3. 数据集中 SSB 与 DSB 数量严重不平衡（约 1:4.77），多数模型偏向多数类，导致 SSB 召回率低。</li>
+<li><strong>精确研究问题（Can...?）</strong>：Can a bilinear attention network that fuses ESM2 global evolutionary embeddings with RECM-HOG local structural descriptors, trained with adaptive neighborhood-based sampling, achieve higher accuracy and better class balance than existing SSB/DSB predictors on independent test data?</li>
+</ul>
+<hr />
+<h2>04 背景与发展脉络</h2>
+<blockquote>
+<p>注：以下脉络基于本文引言与相关工作，标注为「仅本文框架」；未经外部核验。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>代表性方法</th>
+<th>优点</th>
+<th>局限</th>
+<th>本文位置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>实验方法</td>
+<td>X-ray 晶体学、NMR、cryo-EM、filter binding assay</td>
+<td>高精度、直接测定</td>
+<td>昂贵、耗时、通量低</td>
+<td>本文旨在替代/补充</td>
+</tr>
+<tr>
+<td>传统机器学习</td>
+<td>SVM、RF + 手工特征（AAC、PSSM、HMM 等）</td>
+<td>可解释、计算快</td>
+<td>特征工程依赖强、无法捕捉长程依赖</td>
+<td>本文用 PLM 替代手工进化特征</td>
+</tr>
+<tr>
+<td>早期深度学习方法</td>
+<td>CNN、LSTM/RNN + 序列编码</td>
+<td>自动特征提取</td>
+<td>单视图特征、忽略全局-局部互补</td>
+<td>本文引入双模态融合</td>
+</tr>
+<tr>
+<td>基于 PLM 的方法</td>
+<td>ESM2、ProtT5 嵌入 + 分类头</td>
+<td>捕捉进化上下文与长程依赖</td>
+<td>单独使用仍缺乏局部结构信息</td>
+<td>本文以 ESM2 为主全局特征</td>
+</tr>
+<tr>
+<td>本文方法</td>
+<td><strong>BAN-SDBPred</strong>：ESM2 + RECU-HOG → 双线性注意力融合 + ANBS 采样</td>
+<td>全局+局部互补、处理类别不平衡、可解释性（SHAP）</td>
+<td>独立测试仍有提升空间；数据规模有限</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>本文主张的位置</strong>：在 SSB/DSB 预测任务上，首次将 PLM 全局嵌入与基于能量估计的局部描述符（RECM-HOG）通过双线性注意力机制融合，并引入边界感知的自适应采样策略，同时解决特征互补性与类别不平衡两个问题。</p>
+<hr />
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>类别严重不平衡</td>
+<td>训练集 DSB:SSB ≈ 873:183 ≈ 4.77:1</td>
+<td>实验注释的 SSB 样本天然稀少；SSB 功能多样性高、难以穷尽注释</td>
+<td>Methods 节 Benchmark Data Sets；Results 节（DSB:SSB ≈ 4.77:1 明确给出）</td>
+</tr>
+<tr>
+<td>单视图特征信息不足</td>
+<td>仅用 PLM 嵌入或仅用手工描述符时，独立测试 Acc/MCC 明显低于融合</td>
+<td>PLM 捕捉全局进化上下文但缺乏局部残基互作细节；手工描述符反之</td>
+<td>Results 表（单特征 vs 双特征对比，如 ESM2-only Acc 80.6 vs ESM2+RECU-HOG 83.6）</td>
+</tr>
+<tr>
+<td>传统采样方法引入噪声</td>
+<td>SMOTE 生成的合成样本在独立测试中提升有限</td>
+<td>SMOTE 基于启发式邻域选择，可能生成不真实的边界样本，破坏生物语义</td>
+<td>Results 节（表 S3：ANBS 优于 SMOTE 在多数指标上）</td>
+</tr>
+<tr>
+<td>手工局部特征区分度弱</td>
+<td>CPSR 与 RECU-HOG 单独使用时 Acc 低（约 67-75%），且特异性差</td>
+<td>组成/物理化学特征与能量估计特征缺乏进化上下文，无法单独区分 SSB/DSB</td>
+<td>Results 表（单特征 CPSR/RECU-HOG 性能）</td>
+</tr>
+<tr>
+<td>模型泛化差距</td>
+<td>5-fold CV 性能（Acc ~95%）远高于独立测试（Acc ~84%）</td>
+<td>训练集与测试集分布差异；独立测试集规模小（165 条）；隐藏的家族水平同源性</td>
+<td>Results 节（表 S6：CV 95.9±2.2 vs 独立测试 84.2）；Discussion 节</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>06 核心思想</h2>
+<p><strong>1) 表面方法</strong>：
+- 双编码器架构：ESM2（3B 参数，36 层 Transformer）提取全局进化嵌入（2560 维，经 mean pooling 与 MLP 投影）；RECU-HOG 从残基能量接触矩阵（RECU）提取 81 维局部梯度直方图特征。
+- 双线性注意力网络（BAN）融合两模态，建模全局-局部高阶交互。
+- 训练前用 ANBS 算法对训练集进行自适应过采样/欠采样，平衡 SSB/DSB 类别。
+- 分类头为全连接层 + softmax 二分类。</p>
+<p><strong>2) 核心洞察</strong>：
+- <strong>全局与局部特征本质互补</strong>：ESM2 嵌入捕捉进化保守性与长程依赖（如 DNA 结合结构域的整体折叠约束），而 RECU-HOG 编码残基对间的预测接触能量分布，反映局部结合界面的物理化学倾向。二者通过双线性池化（而非简单拼接）可建模「哪个全局上下文中的哪个局部基序」对 SSB/DSB 判别最关键。
+- <strong>边界样本比均匀采样更重要</strong>：ANBS 的核心不是简单复制少数类，而是识别靠近决策边界的少数类样本（即与多数类距离近的 SSB），在这些区域合成新样本，从而强化模型对模糊区域的判别能力。
+- <strong>类别不平衡不仅是数据问题，也是特征问题</strong>：作者通过消融证明，仅加采样（ANBS）而不融合特征，提升有限；仅融合特征而不采样，SSB 召回率仍低。两者协同才达到最优。</p>
+<p><strong>3) 可能的普适教训 [Analysis]</strong>：
+- 在蛋白质功能预测中，「全局语义 + 局部物理化学」的双通道设计可能比单一 PLM 微调更鲁棒，尤其在训练数据有限时——PLM 提供先验，局部描述符提供任务特异归纳偏置。
+- 类别不平衡处理不应独立于特征工程：采样策略应与模型架构协同设计，边界感知采样（而非全局均匀过采样）在生物数据中可能更有效，因为生物类别边界往往由少数关键基序决定。
+- 双线性注意力提供了一种比拼接/相加更细粒度的多模态融合范式，其可解释性（注意力权重定位到具体残基-基序对）对生物学验证有额外价值。</p>
+<hr />
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：蛋白质氨基酸序列（长度 L，可变）</li>
+<li><strong>输出</strong>：二分类概率（SSB vs DSB）</li>
+<li><strong>特征提取模块</strong>：
+  1. <strong>ESM2 编码器</strong>：3B 参数模型，36 层，输出每残基嵌入 → mean pooling → 2560 维序列级嵌入 → MLP 投影至 d 维
+  2. <strong>RECU-HOG 编码器</strong>：由序列生成 20×L 的 RECU 矩阵（预测残基接触能量）→ 计算梯度幅值与方向 → 3×3 空间网格 + 每格 9-bin 方向直方图 → 81 维特征 → MLP 投影至 d 维</li>
+<li><strong>融合模块</strong>：双线性注意力网络（BAN），对全局嵌入与局部特征计算成对交互得分矩阵 I_j,m = q^T[σ(U^T h_j^s) ⊙ σ(V^T h_m^i)]，再经双线性池化得到联合表示</li>
+<li><strong>分类模块</strong>：全连接层 + softmax</li>
+<li><strong>训练策略</strong>：</li>
+<li>损失函数：focal loss（α=3, γ=3），进一步缓解类别不平衡</li>
+<li>采样：ANBS 在训练前/训练中迭代执行，合成 SSB 边界样本并移除 DSB 边界样本，目标比例 max_ratio=1.0，最大迭代 50 次</li>
+<li>评估：5-fold 分层交叉验证 + 独立测试集（PDB401）；1000 次 bootstrap 计算 95% CI</li>
+<li><strong>流程</strong>：序列 → 双通道特征提取 → BAN 融合 → 分类 → 评估（Acc/Pre/Sen/Spe/F1/MCC/AUC/AP）</li>
+</ul>
+<hr />
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESM2 编码器</td>
+<td>提取全局进化语义嵌入</td>
+<td>捕捉长程依赖、保守基序、进化约束，是判别 SSB/DSB 的最强单特征</td>
+<td>输入：序列；输出：2560 维嵌入</td>
+<td>Results 表：ESM2 单特征即达 Acc 80.6、MCC 0.489，为所有单特征最优</td>
+<td>预期 Acc 大幅下降（&gt;10%），模型退化为仅依赖局部特征，无法捕捉保守 DNA 结合结构域（实测：单特征 RECU-HOG 仅 Acc 67.3）</td>
+</tr>
+<tr>
+<td>RECU-HOG 编码器</td>
+<td>提取局部残基接触能量梯度模式</td>
+<td>提供 ESM2 缺失的局部物理化学互作信息，特别是结合界面的能量分布</td>
+<td>输入：序列；输出：81 维特征</td>
+<td>Results 表：与 ESM2 融合后 Acc 提升 3%（80.6→83.6），MCC 提升 0.077</td>
+<td>预期 Acc 下降约 3%，且特异性下降（RECU-HOG 单独时 Spe 仅 24.4，融合后 Spe 提升至 68.3）</td>
+</tr>
+<tr>
+<td>双线性注意力网络（BAN）</td>
+<td>建模全局-局部高阶成对交互</td>
+<td>简单拼接无法表达「哪个全局上下文中的哪个局部基序」的细粒度关系；双线性池化可捕捉二阶统计量</td>
+<td>输入：ESM2 嵌入 + RECU-HOG 特征；输出：融合表示</td>
+<td>Results 表：BAN 融合优于拼接（文中对比）；SHAP 分析显示注意力定位到已知 DNA 结合残基</td>
+<td>预期退化为拼接/相加融合，Acc 下降 1-3%，可解释性显著降低</td>
+</tr>
+<tr>
+<td>ANBS 采样模块</td>
+<td>自适应平衡 SSB/DSB 类别</td>
+<td>原始数据 4.77:1 不平衡导致模型偏向 DSB；ANBS 聚焦边界样本合成，比 SMOTE 更精准</td>
+<td>输入：训练集特征；输出：平衡后的训练集</td>
+<td>Results 表 S3：ANBS 优于 SMOTE（Acc 84.2 vs 约 82-83）；表 S4：超参数鲁棒</td>
+<td>预期 SSB 召回率显著下降（无采样时 Sen 可能 &lt;70%），整体 Acc 下降 1-3%</td>
+</tr>
+<tr>
+<td>Focal loss</td>
+<td>训练时进一步降权易分类样本</td>
+<td>即使 ANBS 平衡后，边界样本仍难分类；focal loss 聚焦难例</td>
+<td>输入：预测概率+标签；输出：损失值</td>
+<td>Methods 节（α=3, γ=3 设定）</td>
+<td>预期边界样本分类精度下降，MCC 降低</td>
+</tr>
+<tr>
+<td>分类头（FC+softmax）</td>
+<td>二分类决策</td>
+<td>将融合表示映射为 SSB/DSB 概率</td>
+<td>输入：融合表示；输出：概率</td>
+<td>Methods 节</td>
+<td>预期无法完成分类任务</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>09 关键公式符号</h2>
+<p><strong>1) RECU 矩阵生成（式 1）</strong>
+[
+RECM = [E_{1,1} \cdots E_{1,20}; \cdots; E_{L,1} \cdots E_{L,20}]_{L \times 20}
+]
+- ( E(k, L) )：位置 L 处第 k 种氨基酸的预测接触能量贡献
+- 用途：将序列转化为残基-氨基酸能量矩阵，作为 HOG 的输入</p>
+<p><strong>2) 梯度计算（式 2-5）</strong>
+[
+G_x(i,j) = \begin{cases} R(i+1,j) &amp; i=1 \ R(i+1,j)-R(i-1,j) &amp; 1&lt;i&lt;L \ -R(i-1,j) &amp; i=L \end{cases}
+]
+[
+G_y(i,j) = \begin{cases} R(i,j+1) &amp; j=1 \ R(i,j+1)-R(i,j-1) &amp; 1&lt;j&lt;20 \ -R(i,j-1) &amp; j=20 \end{cases}
+]
+[
+G(i,j) = \sqrt{G_x(i,j)^2 + G_y(i,j)^2}, \quad \Theta(i,j) = \arctan\left(\frac{G_y(i,j)}{G_x(i,j)}\right)
+]
+- 用途：提取 RECU 矩阵中的局部能量变化方向与强度</p>
+<p><strong>3) 双线性交互得分（式 16）</strong>
+[
+I_{j,m} = q^T[\sigma(U^T h_j^s) \odot \sigma(V^T h_m^i)]
+]
+- ( h_j^s \in \mathbb{R}^{d_s} )：ESM2 第 j 个子结构嵌入；( h_m^i \in \mathbb{R}^{d_i} )：RECU-HOG 第 m 个基序特征
+- ( U \in \mathbb{R}^{d_s \times d}, V \in \mathbb{R}^{d_i \times d} )：可学习投影矩阵；( q \in \mathbb{R}^d )：可学习权重向量
+- ( \sigma )：ReLU；( \odot )：Hadamard 积
+- 用途：建模全局-局部成对交互</p>
+<p><strong>4) 双线性池化（式 17）</strong>
+[
+f = \sum_{j=1}^{N} \sum_{m=1}^{M} ((U^T h_j^s) \odot (V^T h_m^i))
+]
+- 用途：聚合所有交互对，得到联合表示</p>
+<p><strong>5) Focal Loss（式 26）</strong>
+[
+L_{focal}(p_t) = -\alpha(1-p_t)^\gamma \log(p_t)
+]
+- ( p_t )：真实类别的预测概率；( \alpha=3 )：类别平衡权重；( \gamma=3 )：聚焦参数
+- 用途：缓解类别不平衡，聚焦难分类样本</p>
+<p><strong>6) 评估指标（式 18-25）</strong>
+- Precision、Accuracy、Sensitivity、Specificity、F1、MCC、AUC、AP 标准定义，此处不赘述。</p>
+<hr />
+<h2>10 实验设计与证据链</h2>
+<p><strong>数据集与协议</strong>：
+- <strong>训练集</strong>：UniProt1065（源自 UniProtKB/Swiss-Prot），经 CD-HIT 去冗余（阈值 0.7），最终 873 DSB + 183 SSB
+- <strong>独立测试集</strong>：PDB401（源自 PDB，PISCES 筛选，分辨率 &gt; 3Å），124 DSB + 41 SSB；与训练集序列相似性 &lt; 30%
+- <strong>验证协议</strong>：5-fold 分层交叉验证（训练）；独立测试集评估泛化
+- <strong>指标</strong>：Acc、Pre、Sen、Spe、F1、MCC、AUC、AP
+- <strong>基线</strong>：Sharma et al.、SDBP-Pred、Wang et al.、CNN-Pred（现有 SOTA SSB/DSB 预测器）
+- <strong>消融</strong>：单特征（ESM2、ProtT5、CPSR、RECU-HOG）× 5 模型（ResNet、LSTM、RNN、CNN、BAN）；有/无 ANBS；ANBS vs SMOTE
+- <strong>硬件</strong>：RTX 5070 Ti GPU（12GB），训练约 13-15 小时/100 epochs，推理 2-3 秒/165 条</p>
+<p><strong>实验表格</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的 claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单特征性能（无 ANBS）</td>
+<td>ESM2 是最优单特征</td>
+<td>4 特征 × 5 模型，5-fold CV + 独立测试</td>
+<td>ESM2+BAN：CV Acc 97.6、独立 Acc 80.6、MCC 0.489、AUC 0.825</td>
+<td>进化 PLM 嵌入显著优于手工特征</td>
+<td>不能说明 ESM2 在所有模型/条件下均最优（LSTM 例外）</td>
+<td>Results 表 1、图 2</td>
+</tr>
+<tr>
+<td>双特征融合（无 ANBS）</td>
+<td>ESM2+RECU-HOG 融合优于单特征</td>
+<td>4 种双特征组合 × 5 模型</td>
+<td>BAN+ESM2+RECU-HOG：独立 Acc 83.6、MCC 0.566、AUC 0.879</td>
+<td>全局+局部特征互补有效</td>
+<td>不能说明融合对所有模型均有效（LSTM 融合后仍差）</td>
+<td>Results 表 2、图 3</td>
+</tr>
+<tr>
+<td>ANBS 效果（单特征）</td>
+<td>ANBS 提升少数类检测</td>
+<td>有/无 ANBS × 4 特征 × 5 模型</td>
+<td>CNN+ESM2+ANBS：独立 Acc 81.2、MCC 0.550、AUC 0.904；Spe 从 46.3 提升至 70.7</td>
+<td>ANBS 对 PLM 特征有效，降低假阳性</td>
+<td>不能说明 ANBS 对所有特征有效（CPSR/RECU-HOG 下降）</td>
+<td>Results 表 3、图 4</td>
+</tr>
+<tr>
+<td>ANBS 效果（双特征融合）</td>
+<td>ANBS + 融合达到最优</td>
+<td>有/无 ANBS × 4 融合 × 5 模型</td>
+<td>BAN+ESM2+RECU-HOG+ANBS：独立 Acc 84.2、Pre 88.9、Sen 90.3、Spe 65.9、F1 89.6、MCC 0.571、AUC 0.862</td>
+<td>采样+融合协同最优</td>
+<td>不能说明 ANBS 优于所有采样方法（仅对比 SMOTE）</td>
+<td>Results 表 4、图 5</td>
+</tr>
+<tr>
+<td>ANBS vs SMOTE</td>
+<td>ANBS 优于传统过采样</td>
+<td>同条件下 ANBS vs SMOTE</td>
+<td>ANBS 在 Acc、MCC、AUC 上优于 SMOTE</td>
+<td>边界感知采样更有效</td>
+<td>未在更大数据集上验证统计显著性</td>
+<td>Results 节、表 S3</td>
+</tr>
+<tr>
+<td>与 SOTA 比较</td>
+<td>BAN-SDBPred 超越现有预测器</td>
+<td>与 Sharma、SDBP-Pred、Wang、CNN-Pred 对比</td>
+<td>BAN-SDBPred 在 Acc、F1、MCC、AUC 上全面领先（独立测试）</td>
+<td>新方法达到 SOTA</td>
+<td>对比模型未重训，可能存在实现差异</td>
+<td>Results 表 5、图 6</td>
+</tr>
+<tr>
+<td>消融：BAN vs 其他融合</td>
+<td>BAN 优于简单拼接/相加</td>
+<td>同特征下 BAN vs concat vs add</td>
+<td>BAN 在 MCC/AUC 上最优</td>
+<td>双线性交互建模有效</td>
+<td>未报告注意力可视化定量评估</td>
+<td>Results 节、表 S5</td>
+</tr>
+<tr>
+<td>鲁棒性（重复 5-fold）</td>
+<td>结果稳定</td>
+<td>5 次重复 × 25 folds</td>
+<td>Acc 95.9±2.2%、F1 97.5±1.5%、MCC 0.862±0.065</td>
+<td>模型训练稳定</td>
+<td>独立测试未做重复采样</td>
+<td>Results 节、表 S6</td>
+</tr>
+<tr>
+<td>校准分析</td>
+<td>概率输出可靠</td>
+<td>Brier score、ECE</td>
+<td>Brier=0.112、ECE=0.068</td>
+<td>概率校准可接受</td>
+<td>未与基线模型校准对比</td>
+<td>Results 节、表 S8</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>11 结论正确解读</h2>
+<p><strong>任务范围</strong>：仅限 SSB vs DSB 二分类，<strong>不涉及</strong> TF 结合位点预测、结合亲和力定量、DNA 序列特异性或结构解析。</p>
+<p><strong>Oracle/真值输入</strong>：训练与测试标签来自 UniProt/Swiss-Prot 与 PDB 的注释，非实验验证的结合活性测定。标签可能存在注释噪声。</p>
+<p><strong>端到端状态</strong>：是端到端可用的序列→类别预测器，但<strong>不是</strong>端到端结构预测或结合机制建模。</p>
+<p><strong>算力成本</strong>：ESM2-3B 为 36 层 Transformer，训练 100 epochs 需 13-15 小时（RTX 5070 Ti）；推理极快（2-3 秒/165 条）。对大规模基因组扫描可行，但 PLM 嵌入提取本身需 GPU。</p>
+<p><strong>历史数据依赖</strong>：训练数据来自 UniProt 历史注释，可能偏向已充分研究的蛋白家族；新发现或非模式生物的 SSB/DSB 可能预测不准。</p>
+<p><strong>模型依赖</strong>：强依赖 ESM2 预训练质量；若 ESM2 对某类蛋白（如膜蛋白、 intrinsically disordered proteins）嵌入质量差，预测会退化。</p>
+<p><strong>最难情形</strong>：独立测试中 Spe 仅 65.9%，说明 DSB 被误分为 SSB 的比例仍较高（约 1/3）；短序列、低复杂度区域、新型折叠的蛋白是难点。</p>
+<p><strong>群体/领域边界</strong>：训练集以球状、可溶蛋白为主；对 intrinsically disordered proteins、膜蛋白、非球状结构适用性未验证。</p>
+<p><strong>不确定性</strong>：bootstrap 95% CI 已提供（Acc 78.8-89.1%），但未提供逐类别的置信区间；单次独立测试集（165 条）规模有限。</p>
+<p><strong>有边界的复述</strong>：BAN-SDBPred 在 UniProt1065/PDB401 数据分布内，以 ESM2 全局嵌入 + RECU-HOG 局部描述符经双线性注意力融合、配合 ANBS 采样，实现了优于现有方法的 SSB/DSB 判别（独立测试 Acc 84.2%、MCC 0.571），但该性能边界受限于数据规模、注释质量与蛋白家族覆盖度，不能外推至所有 DBP 亚型或结合机制预测。</p>
+<hr />
+<h2>12 作者自认局限</h2>
+<table>
+<thead>
+<tr>
+<th>局限</th>
+<th>具体表现</th>
+<th>作者提出的未来方向</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>基准数据集较旧且规模有限</td>
+<td>训练集（UniProt1065）与测试集（PDB401）规模小，SSB 样本尤其稀少（183 条）</td>
+<td>构建更大、更多样化的外部数据集；纳入新注释蛋白</td>
+<td>Discussion 节</td>
+</tr>
+<tr>
+<td>独立测试泛化仍有差距</td>
+<td>独立测试 Acc（84.2%）明显低于 5-fold CV（~96%），Spe 仅 65.9%</td>
+<td>进行家族水平/聚类水平验证；改进特征泛化性</td>
+<td>Discussion 节</td>
+</tr>
+<tr>
+<td>数据分布偏差</td>
+<td>训练与测试序列相似性 &lt;30%，但隐藏家族水平同源性与分类学不平衡无法完全排除</td>
+<td>进行 family-wise 或 cluster-wise 验证</td>
+<td>Discussion 节</td>
+</tr>
+<tr>
+<td>模型可能未捕获所有罕见基序</td>
+<td>极端类别不平衡下，罕见 SSB 基序可能未被充分学习</td>
+<td>结合结构预测与更大 PLM</td>
+<td>Conclusion 节</td>
+</tr>
+<tr>
+<td>基准数据集相对较旧</td>
+<td>未明确说明，但 Discussion 提及「benchmark datasets used are relatively old」</td>
+<td>构建含新注释蛋白的独立测试集</td>
+<td>Conclusion 节</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>独立测试集仅 165 条序列</td>
+<td>性能差异（如 Acc 提升 2-3%）可能在统计上不显著；bootstrap CI 较宽</td>
+<td>小测试集上的 SOTA 声明可能过强</td>
+<td>在更大独立测试集（如 &gt;1000 条）上重验；报告效应量</td>
+<td>Results 节：测试集 124 DSB + 41 SSB</td>
+</tr>
+<tr>
+<td>未与基于结构的方法对比</td>
+<td>AlphaFold 等结构信息可能提供更强判别力；本文仅用序列</td>
+<td>若结构方法更优，本文的序列-only 方案适用性受限</td>
+<td>在相同数据集上对比结构-based 特征</td>
+<td>全文未提及结构方法对比</td>
+</tr>
+<tr>
+<td>ESM2-3B 计算成本未充分讨论</td>
+<td>3B 参数模型对资源受限实验室不友好；推理虽快但嵌入提取需 GPU</td>
+<td>可复现性与实际部署门槛</td>
+<td>报告 CPU-only 推理时间；对比小模型（ESM2-650M）性能</td>
+<td>Methods 节：仅提及 ESM2-3B</td>
+</tr>
+<tr>
+<td>ANBS 与 SMOTE 对比仅在一个数据集</td>
+<td>单一数据集上的采样方法对比可能过拟合特定分布</td>
+<td>采样策略的普适性存疑</td>
+<td>在多个不平衡生物数据集上对比</td>
+<td>Results 节：仅对比 SMOTE</td>
+</tr>
+<tr>
+<td>SHAP 分析仅定性</td>
+<td>未提供注意力权重的定量评估（如与已知 DNA 结合残基的匹配率）</td>
+<td>可解释性声明缺乏量化支撑</td>
+<td>计算注意力权重与已知结合位点的重叠率</td>
+<td>Results 节：SHAP 图仅定性描述</td>
+</tr>
+<tr>
+<td>未报告失败案例</td>
+<td>哪些蛋白被错误分类、错误模式如何，未分析</td>
+<td>了解方法边界对实际应用至关重要</td>
+<td>错误分类蛋白的家族富集分析</td>
+<td>全文未提供</td>
+</tr>
+<tr>
+<td>与 CNN-Pred 对比可能不公平</td>
+<td>对比模型未重训，可能使用不同超参数或特征</td>
+<td>SOTA 声明可能受实现差异影响</td>
+<td>在统一框架下重训所有对比模型</td>
+<td>Results 节：未说明重训细节</td>
+</tr>
+<tr>
+<td>标签噪声未处理</td>
+<td>UniProt/PDB 注释可能含错误或过时标注</td>
+<td>标签噪声会高估或低估真实性能</td>
+<td>人工复核随机抽样的预测结果</td>
+<td>全文未讨论标签质量</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>14 学到什么</h2>
+<blockquote>
+<p>标题：Agent 提炼的知识候选</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>知识候选</th>
+<th>来源（本文）</th>
+<th>可迁移性（面向 TF-DNA 结合机制 × AI/物理模拟）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>全局 PLM 嵌入 + 局部物理化学描述符的双通道设计</strong></td>
+<td>ESM2（全局）+ RECU-HOG（局部）融合显著优于单通道</td>
+<td>对 TF-DNA 结合特异性预测：可用 ESM2 捕捉 TF 的 DNA 结合结构域进化保守性，同时用局部能量/理化特征编码具体结合界面的残基偏好；两者经注意力融合可建模「保守结构域中的哪些残基对 DNA 识别关键」</td>
+</tr>
+<tr>
+<td><strong>双线性注意力（BAN）作为多模态融合范式</strong></td>
+<td>BAN 通过成对交互得分 I_j,m 建模全局-局部高阶关系，优于拼接</td>
+<td>在 TF-DNA 结合位点预测中，可将 TF 序列嵌入与 DNA 序列嵌入做双线性交互，直接建模 TF 残基 × DNA 碱基的成对结合贡献，比拼接更接近物理结合机制</td>
+</tr>
+<tr>
+<td><strong>边界感知采样（ANBS）优于全局均匀过采样</strong></td>
+<td>ANBS 聚焦少数类中靠近决策边界的样本进行合成</td>
+<td>TF 结合数据中，正样本（结合）通常远少于负样本（不结合），且边界样本（弱结合）最有信息量；ANBS 思路可迁移到 TF 结合位点预测中的正样本增强</td>
+</tr>
+<tr>
+<td><strong>Focal loss 与采样协同</strong></td>
+<td>采样解决数据分布，focal loss 聚焦难例，两者叠加效果最佳</td>
+<td>在 TF-DNA 结合亲和力分类中，弱结合与强结合样本难度差异大，focal loss 可防止模型被大量易分类的强结合/不结合样本主导</td>
+</tr>
+<tr>
+<td><strong>消融实验设计范式</strong></td>
+<td>单特征→双特征→加采样→加损失，逐层叠加验证每个组件贡献</td>
+<td>在 TF-DNA 结合预测模型开发中，应系统分离「特征贡献」「融合机制贡献」「采样贡献」「损失函数贡献」，避免整体性能提升无法归因</td>
+</tr>
+<tr>
+<td><strong>SHAP 用于生物学可解释性</strong></td>
+<td>SHAP 值定位到保守残基与结构基序，与已知 DNA 结合残基一致</td>
+<td>对 TF-DNA 结合预测，SHAP 可定位 TF 序列中哪些残基对结合判别贡献最大，与已知 DNA 结合结构域（如 helix-turn-helix、zinc finger）交叉验证，增强生物学可信度</td>
+</tr>
+<tr>
+<td><strong>独立测试集与训练集序列相似性控制</strong></td>
+<td>训练/测试相似性 &lt;30%，降低信息泄漏</td>
+<td>TF-DNA 结合预测中，应确保测试集 TF 与训练集 TF 家族不同源，否则会高估泛化能力</td>
+</tr>
+<tr>
+<td><strong>类别不平衡比例量化</strong></td>
+<td>明确报告 DSB:SSB ≈ 4.77:1</td>
+<td>TF 结合数据中正负比可能更极端（&gt;10:1），应明确报告并针对性设计采样策略</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>ESM2 / ProtT5</strong>：与蛋白质语言模型在功能预测中的应用一致（如 ESM-1b、ProtTrans 系列）。本文验证了 PLM 嵌入在 DBP 亚型判别中的有效性，与 TF-DNA 结合预测中 PLM 特征优于传统 PSSM 的观察一致。</li>
+<li><strong>双线性池化/注意力</strong>：BAN 源于视觉问答（VQA）中的双线性注意力网络（BAN, Kim et al. 2018），本文将其迁移到蛋白质序列双模态融合。该机制可进一步迁移到 TF-DNA 成对序列建模。</li>
+<li><strong>类别不平衡处理</strong>：SMOTE、ADASYN 是经典过采样方法；ANBS 结合了 ADASYN 的自适应合成与边界样本剔除，与「困难样本挖掘」思想一致。在 TF 结合位点预测中，可对比 ANBS 与 SMOTE、Borderline-SMOTE 等。</li>
+<li><strong>RECU（残基能量接触矩阵）</strong>：与蛋白质接触图预测、能量模型（如 Rosetta、FoldX 的残基对能量项）相关。RECU-HOG 将能量矩阵转化为梯度直方图，是一种将物理化学量纲特征适配 CNN 的巧妙做法。</li>
+<li><strong>SHAP 可解释性</strong>：与可解释 AI 在生物序列预测中的应用一致（如 DeepSHAP 用于突变效应解释）。</li>
+<li><strong>DBP 预测领域</strong>：与 DNABIND、DBindR、SDBP-Pred、CNN-Pred 等一脉相承。本文的贡献在于多模态融合 + 采样策略，而非新特征或新结构。</li>
+<li><strong>与 TF-DNA 结合机制的关系</strong>：本文预测的是「是否结合 DNA」及「单链/双链偏好」，不预测结合位点或亲和力。但其「全局进化 + 局部能量」的框架可直接迁移到 TF 结合特异性预测（如预测 TF 的 DNA 基序偏好），以及结合亲和力回归（用双线性交互建模 TF 残基 × DNA 碱基对）。</li>
+</ul>
+<hr />
+<h2>16 研究想法</h2>
+<blockquote>
+<p>标题：Agent 生成的研究候选</p>
+</blockquote>
+<p><strong>候选 1：TF-DNA 结合特异性预测中的双线性跨模态注意力</strong>
+- <strong>名称</strong>：TF-BAN：Transcription Factor-DNA Binding Specificity via Bilinear Cross-Modal Attention
+- <strong>来源局限/观察</strong>：本文 BAN 融合 TF 蛋白序列的全局/局部特征有效，但未建模 DNA 侧信息；TF-DNA 结合特异性本质上是「TF 残基 × DNA 碱基」的成对互作
+- <strong>核心假设</strong>：将 TF 蛋白的 ESM2 嵌入与 DNA 序列的核苷酸嵌入（如 DNABERT）做双线性注意力交互，可捕捉 TF 残基与 DNA 碱基的成对结合贡献，优于分别编码后拼接
+- <strong>初步方法</strong>：TF 序列 → ESM2 嵌入；DNA 序列（如 8-20 bp 候选基序）→ DNABERT 嵌入；双线性注意力计算 TF 残基 × DNA 碱基的交互矩阵；池化后接分类/回归头预测结合强度
+- <strong>验证方式</strong>：SELEX 或 ChIP-seq 数据（如 ENCODE）上的 TF 结合位点预测；与 DeepBind、DeepSEA、BPNet 对比
+- <strong>创新状态</strong>：unverified</p>
+<p><strong>候选 2：边界感知采样在 TF 结合位点预测中的应用</strong>
+- <strong>名称</strong>：Boundary-Aware Sampling for Imbalanced TF Binding Site Prediction
+- <strong>来源局限/观察</strong>：本文 ANBS 在 DBP 亚型不平衡（4.77:1）中有效；TF 结合位点预测中正负比常 &gt;10:1，且弱结合位点（边界样本）最具生物学意义
+- <strong>核心假设</strong>：ANBS 的边界感知合成策略比随机过采样/SMOTE 更能提升弱结合位点的召回率，且不损害强结合位点精度
+- <strong>初步方法</strong>：在现有 TF 结合预测模型（如 BPNet）训练流程中嵌入 ANBS 替代标准采样；对比 SMOTE、ADASYN、随机过采样
+- <strong>验证方式</strong>：ChIP-seq 峰内/峰外分类；弱结合位点（低 ChIP 信号）的召回率
+- <strong>创新状态</strong>：unverified</p>
+<p><strong>候选 3：从 SSB/DSB 判别到单链/双链结合模式的可解释分析</strong>
+- <strong>名称</strong>：Interpretable SSB/DSB Discrimination: What Does the Bilinear Attention Learn?
+- <strong>来源局限/观察</strong>：本文 SHAP 分析显示注意力定位到 helix-turn-helix 和 zinc-finger 残基，但未深入分析 SSB 与 DSB 的判别性残基差异
+- <strong>核心假设</strong>：SSB 与 DSB 的判别性残基在序列位置上存在系统性差异（如 SSB 富集芳香族残基以堆叠单链碱基，DSB 富集带正电残基以结合磷酸骨架），且这些差异可被注意力机制定位
+- <strong>初步方法</strong>：用本文 BAN-SDBPred 的注意力权重，对 SSB/DSB 分别做残基级别贡献分析；与已知结构（PDB 中 SSB/DSB 复合物）比对验证
+- <strong>验证方式</strong>：注意力权重与已知 DNA 结合残基的匹配率；SSB vs DSB 的残基偏好差异的统计检验
+- <strong>创新状态</strong>：unverified</p>
+<p><strong>候选 4：结合结构预测的 DBP 亚型判别</strong>
+- <strong>名称</strong>：Structure-Guided SSB/DSB Prediction: Integrating AlphaFold2 Predicted Structures with Sequence Embeddings
+- <strong>来源局限/观察</strong>：本文仅用序列特征；Discussion 承认未纳入结构信息。AlphaFold2 预测结构可为 DBP 亚型判别提供结合界面几何信息
+- <strong>核心假设</strong>：将 AlphaFold2 预测结构的几何特征（如表面静电势、结合口袋形状）与 ESM2 序列嵌入融合，可进一步提升 SSB/DSB 判别，特别是对低序列相似性的新型 DBP
+- <strong>初步方法</strong>：AlphaFold2 预测结构 → 提取残基接触、静电、疏水特征 → 与 ESM2 嵌入经 BAN 融合；对比序列-only 模型
+- <strong>验证方式</strong>：PDB401 独立测试；对低序列相似性亚组的性能分析
+- <strong>创新状态</strong>：unverified</p>
+<p><strong>候选 5：TF-DNA 结合机制的统一框架：从亚型分类到结合位点预测</strong>
+- <strong>名称</strong>：Unified DBP-TF Framework: Joint Prediction of DNA-Binding Type and Binding Site Specificity
+- <strong>来源局限/观察</strong>：本文仅做 SSB/DSB 二分类；TF-DNA 结合机制研究需要更细粒度的结合位点预测
+- <strong>核心假设</strong>：多任务学习框架可同时预测「是否结合 DNA」「单/双链偏好」「结合位点位置」，共享表示可提升各任务性能
+- <strong>初步方法</strong>：ESM2 嵌入 + 双线性注意力 + 多任务头（分类 + 序列标注）；在 UniProt1065 与 ChIP-seq 数据上联合训练
+- <strong>验证方式</strong>：各任务独立评估 + 任务间迁移增益分析
+- <strong>创新状态</strong>：unverified</p></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion. Figures and tables referenced but not provided. Supplementary material referenced but not provided.</li>
+<li><strong>Assessment boundary</strong> Scientific soundness, methodological clarity, validity of performance claims, reproducibility, and alignment with the stated scope of predicting single-stranded and double-stranded DNA-binding proteins.</li>
+<li><strong>Shared manuscript claim summary</strong> The authors propose BAN-SDBPred, a deep learning framework combining ESM2 and ProtT5 protein language model embeddings with RECM-HOG local structural features, fused via a bilinear attention network, and trained with an adaptive neighborhood-based sampling (ANBS) strategy to address class imbalance. They report improved performance over existing predictors on independent test data.</li>
+<li><strong>Visible evidence base</strong> Text descriptions of methods and results, including numerical performance values for several configurations. No figures, tables, or supplementary material were available for inspection.</li>
+<li><strong>Missing materials affecting confidence</strong> All figures and tables, including the main performance comparison table, ablation tables, UMAP visualizations, calibration curves, and all supplementary tables and notes. Without these, quantitative claims cannot be independently verified.</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> The manuscript addresses a relevant problem in bioinformatics, namely the classification of DNA-binding proteins into single-stranded and double-stranded binding types. The proposed architecture is a reasonable combination of established components, and the authors provide a thorough set of experiments across multiple feature extractors and model architectures. However, the absence of all figures, tables, and supplementary material prevents verification of the central quantitative claims. Several methodological details are also unclear or potentially inconsistent, particularly regarding the RECM-HOG feature dimensionality and the description of the ANBS algorithm. The reported improvements, while plausible, are modest and based on a single benchmark split, which limits the strength of the conclusions.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers working on protein function prediction from sequence, particularly those interested in DNA-binding protein classification, protein language model embeddings, and class imbalance handling in bioinformatics. The work may also be of interest to developers of deep learning architectures for biological sequence analysis.</li>
+<li><strong>Major strengths</strong> The problem is well-motivated and practically relevant. The authors evaluate a wide range of feature extractors and model architectures, providing a systematic comparison. The use of protein language model embeddings is timely. The inclusion of calibration analysis and bootstrap confidence intervals is a positive methodological step. The authors also compare ANBS against SMOTE and perform hyperparameter sensitivity analysis, which strengthens the claims about the sampling strategy.</li>
+<li><strong>Major Concerns</strong> See detailed items below.</li>
+<li><strong>Minor Comments</strong> See detailed items below.</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1, R1-M2, R1-M3, R1-M4, R1-M5.</li>
+<li><strong>Assessment against Nature-style criteria</strong>  </li>
+<li><strong>Originality</strong> Moderate. The combination of ESM2, RECM-HOG, bilinear attention, and ANBS is novel in this specific configuration, but each component is established. The conceptual advance is incremental rather than transformative.  </li>
+<li><strong>Scientific importance</strong> Moderate. Accurate prediction of SSB versus DSB is useful, but the problem is narrow and the performance gains over existing methods are modest. The work does not open a new direction or resolve a long-standing bottleneck.  </li>
+<li><strong>Interdisciplinary readership</strong> Limited. The manuscript is written for a specialist bioinformatics audience. Biologists without deep learning expertise would struggle with the methods section.  </li>
+<li><strong>Technical soundness</strong> Not fully assessable from the provided material. Several methodological details are unclear or potentially inconsistent, and the absence of figures and tables prevents verification of results.  </li>
+<li><strong>Readability for nonspecialists</strong> Below the standard expected for a general journal. The introduction is accessible, but the methods and results sections assume substantial prior knowledge of protein language models, bilinear attention, and sampling techniques.</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The manuscript may become publishable after the authors provide the missing materials, clarify the methodological inconsistencies, and strengthen the evaluation with additional benchmarks and statistical rigor.</li>
+</ul>
+<h3>Major Concerns</h3>
+<ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Evidence integrity</li>
+<li><strong>Claim pointer</strong> The manuscript claims that BAN-SDBPred outperforms existing predictors on independent test data, with specific improvements in Acc, Pre, F1, MCC, and AUC.</li>
+<li><strong>Evidence pointer</strong> Results sections; Table 4; Figure 6 (both referenced but not provided)</li>
+<li><strong>Concern</strong> All figures and tables, including the primary performance comparison table and all ablation tables, are missing from the provided material. Without these, the central quantitative claims cannot be verified. The text provides some numbers, but these are insufficient to assess statistical significance, variance across folds, or the validity of the comparisons.</li>
+<li><strong>Why it matters</strong> The core contribution of the manuscript is a performance improvement. If the supporting data are not available for inspection, the claims are unverifiable and the scientific contribution cannot be assessed.</li>
+<li>
+<p><strong>Resolution test</strong> Provide all figures and tables, including the full performance comparison, ablation results, and calibration curves. Ensure that all values reported in the text match the tables and figures.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M2</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Methodological clarity</li>
+<li><strong>Claim pointer</strong> The RECM-HOG feature is described as producing a fixed 81-dimensional vector, but the RECM matrix is defined as R ∈ R^(L×20), and the HOG transformation is applied to a 20×20 image.</li>
+<li><strong>Evidence pointer</strong> Methods section, "RECM-HOG Transformation" subsection</li>
+<li><strong>Concern</strong> The description of the RECM-HOG feature extraction is internally inconsistent. The RECM is defined as an L×20 matrix, but the HOG transformation is described as operating on a 20×20 image. The equations for gradient computation and the cell partitioning appear to assume a 20×20 input, which contradicts the L×20 definition. It is unclear how a variable-length sequence is converted into a fixed 20×20 matrix, and how the 81-dimensional output is derived from this.</li>
+<li><strong>Why it matters</strong> The RECM-HOG feature is a central component of the proposed method. If the feature extraction is not clearly and correctly described, the method cannot be reproduced or evaluated.</li>
+<li>
+<p><strong>Resolution test</strong> Clarify the exact dimensions of the RECM matrix, the preprocessing steps that convert a variable-length sequence into a fixed-size input, and the precise steps of the HOG transformation. Provide a step-by-step example or pseudocode.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M3</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Methodological clarity</li>
+<li><strong>Claim pointer</strong> The ANBS algorithm is described as "adaptive neighborhood-based sampling" that "iteratively increases the minority class until a balanced configuration is achieved" and "removes majority samples close on both sides of the decision boundary."</li>
+<li><strong>Evidence pointer</strong> Methods section, "Adaptive Neighborhood-Based Sampling (ANBS) Algorithm" subsection; Algorithm 1</li>
+<li><strong>Concern</strong> The description of ANBS is vague and partially contradictory. The text states that the algorithm "increases the minority class" but also "removes majority samples." It is unclear whether ANBS performs oversampling, undersampling, or both. The relationship to ADASYN is mentioned, but the specific modifications are not described. The pseudocode is referenced but not provided. The parameters max_ratio and iter_max are given, but their roles are not fully explained.</li>
+<li><strong>Why it matters</strong> The ANBS strategy is claimed to be a key contribution of the work. Without a clear description of the algorithm, the method cannot be reproduced, and the claimed benefits of ANBS over standard methods cannot be evaluated.</li>
+<li>
+<p><strong>Resolution test</strong> Provide a complete and precise description of the ANBS algorithm, including the pseudocode, the exact steps for selecting and synthesizing samples, the criteria for removing majority samples, and the roles of all parameters.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M4</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Statistical rigor</li>
+<li><strong>Claim pointer</strong> The manuscript reports performance improvements of BAN-SDBPred over existing predictors, including a 21% improvement in F1 and 20% in AUC over CNN-Pred on the independent test set.</li>
+<li><strong>Evidence pointer</strong> Results section, "Performance Analysis of BAN-SDBPred with Existing State-of-the-Art Predictors" subsection; Table 4</li>
+<li><strong>Concern</strong> The reported improvements are based on a single train-test split. No statistical significance testing is reported, and no confidence intervals are provided for the comparison with existing methods. The bootstrap analysis is mentioned for the final model, but it is not clear whether this was applied to the comparisons with other predictors. Given the small size of the independent test set (165 sequences), the reported differences may not be statistically robust.</li>
+<li><strong>Why it matters</strong> The claim of superiority over existing methods is a central conclusion. Without statistical evidence, the observed improvements could be due to chance or to the specific choice of test set.</li>
+<li>
+<p><strong>Resolution test</strong> Report confidence intervals for all performance metrics on the independent test set, and perform statistical significance tests (e.g., McNemar's test) for the comparison with existing predictors. Consider reporting results across multiple random seeds or cross-validation schemes.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M5</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Reproducibility</li>
+<li><strong>Claim pointer</strong> The authors state that "All data and models are available at 10.5281/zenodo.18718092."</li>
+<li><strong>Evidence pointer</strong> Abstract; Data Availability statement (implied)</li>
+<li><strong>Concern</strong> The Zenodo link is provided, but the actual contents of the repository are not described. It is unclear whether the repository contains the training data, the test data, the trained model weights, the source code, or all of the above. Without a clear description of the repository contents and the exact versions of the software dependencies, the work cannot be reproduced.</li>
+<li><strong>Why it matters</strong> Reproducibility is a fundamental requirement for computational research. The authors should provide a clear and complete description of the code and data availability.</li>
+<li><strong>Resolution test</strong> Provide a detailed description of the Zenodo repository contents, including the directory structure, file formats, and software dependencies. Ensure that the code is well-documented and that the data are in a standard format.</li>
+</ul>
+<h3>Minor Comments</h3>
+<ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity</li>
+<li><strong>Affected element</strong> Abstract</li>
+<li><strong>Evidence pointer</strong> Abstract, last sentence</li>
+<li><strong>Issue</strong> The abstract states that BAN-SDBPred achieves improvements of "2%, 4.5%, 21%, 9%, and 20%" in Acc, Pre, F1, MCC, and AUC, respectively. These numbers are presented without context, and it is unclear whether these are absolute or relative improvements.</li>
+<li>
+<p><strong>Required correction</strong> Clarify whether these are absolute or relative improvements, and specify the baseline model for each comparison.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m2</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Terminology</li>
+<li><strong>Affected element</strong> Introduction and Methods</li>
+<li><strong>Evidence pointer</strong> Introduction, paragraph 1; Methods, "Benchmark Data Sets" subsection</li>
+<li><strong>Issue</strong> The terms "SSB" and "DSB" are used throughout, but the full forms "single-stranded DNA-binding protein" and "double-stranded DNA-binding protein" are not consistently used. The abstract uses "SSBs" and "DSBs" without defining them.</li>
+<li>
+<p><strong>Required correction</strong> Define all abbreviations at first use in the abstract and in the main text.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m3</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Completeness</li>
+<li><strong>Affected element</strong> Methods, "Benchmark Data Sets" subsection</li>
+<li><strong>Evidence pointer</strong> Methods, "Benchmark Data Sets" subsection</li>
+<li><strong>Issue</strong> The description of the dataset construction mentions that CD-HIT was used to remove redundancy at a 0.7 threshold, but the final class distribution is only given as a ratio (DSB:SSB ≈ 4.77:1). The exact number of sequences in each class for both training and test sets is not stated in the text.</li>
+<li>
+<p><strong>Required correction</strong> Provide the exact number of sequences in each class for the training and test sets.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m4</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity</li>
+<li><strong>Affected element</strong> Methods, "Bilinear Attention Network for Feature Fusion" subsection</li>
+<li><strong>Evidence pointer</strong> Methods, "Bilinear Attention Network for Feature Fusion" subsection</li>
+<li><strong>Issue</strong> The description of the bilinear attention mechanism is brief. The equations for the interaction score and the pooling operation are provided, but the overall architecture, including the number of attention heads, the dimensions of the projection matrices, and the fusion with the fully connected layers, is not fully described.</li>
+<li>
+<p><strong>Required correction</strong> Provide a more detailed description of the bilinear attention network architecture, including the number of heads, the dimensions of the projection matrices, and the structure of the classification head.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m5</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Presentation</li>
+<li><strong>Affected element</strong> Results, "Performance Analysis of Single Features on 5-Fold-CV and Independent Testing (without ANBS)" subsection</li>
+<li><strong>Evidence pointer</strong> Results, first subsection</li>
+<li><strong>Issue</strong> The text states that "persistent models were unstable with handcrafted features" and gives the example of LSTM with CPSF obtaining 62.3 in Acc. The term "persistent models" is unclear.</li>
+<li>
+<p><strong>Required correction</strong> Replace "persistent models" with a clearer term, such as "recurrent models" or "LSTM-based models."</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m6</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Completeness</li>
+<li><strong>Affected element</strong> Results, "Performance Analysis of BAN-SDBPred with Existing State-of-the-Art Predictors" subsection</li>
+<li><strong>Evidence pointer</strong> Results, final subsection</li>
+<li><strong>Issue</strong> The comparison with existing predictors is limited to four methods. The authors do not discuss why these specific methods were chosen or whether there are more recent methods that should be included.</li>
+<li>
+<p><strong>Required correction</strong> Justify the choice of baseline methods and discuss whether any more recent predictors should be included in the comparison.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m7</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Language</li>
+<li><strong>Affected element</strong> Throughout</li>
+<li><strong>Evidence pointer</strong> Multiple locations</li>
+<li><strong>Issue</strong> The manuscript contains several grammatical errors and awkward phrasings, e.g., "The BAN-SDBPs use the deep representation" in the Conclusion, and "as experimental techniques" at the end of a sentence in the Introduction.</li>
+<li><strong>Required correction</strong> The manuscript should be carefully proofread and edited for grammar and clarity.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that BAN-SDBPred outperforms existing predictors cannot be verified without the missing tables and figures.</li>
+<li>The claim that ANBS improves performance over SMOTE is based on a single comparison and lacks statistical testing.</li>
+<li>The claim that the bilinear attention network provides "biologically interpretable" insights is supported only by a qualitative statement and a reference to SHAP analysis, but no SHAP results are shown in the provided material.</li>
+<li>The claim that the model captures "long-range sequence dependencies and local residue interactions simultaneously" is plausible but not directly demonstrated.</li>
+<li>The claim that the method is "generalizable" is based on a single independent test set and lacks external validation on more recent or diverse datasets.</li>
+<li>The statement that "the benchmark data sets used are relatively old" is acknowledged in the Conclusion, but the authors do not discuss the potential impact of this limitation on the validity of their results.</li>
+</ul></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>

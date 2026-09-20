@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (title, abstract, simple summary, introduction, methods, results, discussion, conclusions) as provided by the user. No supplementary files, figures, or tables were available for inspection.
+- **Assessment boundary** The review is based solely on the text provided. Claims regarding experimental results, statistical analyses, and data interpretation are assessed against the internal consistency and completeness of the described methods and results. No external validation or replication data were available.
+- **Shared manuscript claim summary** The manuscript claims that the transcription factor MAZ transcriptionally activates POLD1, which in turn physically interacts with ATM to promote ATM phosphorylation, thereby enhancing homologous recombination (HR) DNA repair and driving cisplatin resistance in bladder cancer (BC). The authors propose the MAZ-POLD1 axis as a potential therapeutic target.
+- **Visible evidence base** The evidence base described includes: public transcriptomic datasets (GSE188715, GSE13507, GSE32894, GSE48075), in-house RNA-seq of T24 and T24CisR cells, IHC on 62 patient samples, in vitro functional assays (CCK-8, colony formation, transwell, wound healing, flow cytometry), Western blotting, immunofluorescence, comet assays, DR-GFP/EJ5-GFP reporter assays, Co-IP, pull-down, molecular docking, ChIP-PCR, dual-luciferase reporter assays, and a subcutaneous xenograft model in nude mice.
+- **Missing materials affecting confidence** Figures, tables, and supplementary materials (including Supplementary Tables S1 and S2, and all figure panels referenced in the text) were not provided. Statistical details (exact n, effect sizes, variance) are not fully described. The in vivo experiment lacks vehicle-treated control groups, as acknowledged by the authors. No data on drug efflux, intracellular drug accumulation, or apoptosis pathways are presented despite being mentioned as potential mechanisms.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant problem, cisplatin resistance in bladder cancer, and proposes a novel mechanistic axis (MAZ-POLD1-ATM) with potential therapeutic implications. The work is a substantial correlative and functional study, but several technical and conceptual gaps prevent the case from being fully established. The claim that POLD1 directly promotes ATM phosphorylation via physical interaction is supported by Co-IP and pull-down data, but the functional significance of this interaction in vivo is not rigorously demonstrated. The in vivo experiment is underpowered and lacks appropriate controls. The transcriptional regulation of POLD1 by MAZ is supported by ChIP-PCR and luciferase assays, but the physiological relevance in patient samples is only correlative. Overall, the study is promising but requires additional experiments and clarifications to meet the standards of a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in the fields of cancer biology, DNA damage repair, drug resistance mechanisms, and urological oncology would find this study relevant. The identification of a MAZ-POLD1-ATM axis may inform future therapeutic strategies targeting HR repair in cisplatin-resistant bladder cancer. Clinicians involved in bladder cancer management may also be interested in the prognostic biomarker potential of POLD1.
+- **Major strengths** The study addresses a clinically important problem with a clear mechanistic hypothesis. The use of multiple complementary approaches (transcriptomics, functional assays, protein interaction studies, and in vivo models) is commendable. The identification of a non-canonical role for POLD1 in HR repair via ATM interaction is novel. The clinical correlation with patient samples adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The authors claim that POLD1 knockdown suppresses tumor growth under cisplatin chemotherapy in vivo, based on xenograft experiments.
+  - **Evidence pointer** Section 3.4, Figure 4 (not provided)
+  - **Concern** The in vivo experiment only includes cisplatin-treated groups and lacks vehicle-treated control groups. This design cannot distinguish the effect of POLD1 knockdown alone from the combined effect of POLD1 knockdown plus cisplatin. The authors acknowledge this limitation in the Discussion, but the claim that POLD1 knockdown "suppresses tumor growth under cisplatin chemotherapy" is not formally supported without a control group.
+  - **Why it matters** Without vehicle controls, it is impossible to determine whether the observed tumor growth suppression is due to POLD1 knockdown, cisplatin treatment, or an interaction between the two. This weakens the central claim that POLD1 drives cisplatin resistance in vivo.
+  - **Resolution test** The authors should repeat the xenograft experiment with four groups: control + vehicle, control + cisplatin, POLD1 knockdown + vehicle, and POLD1 knockdown + cisplatin. This would allow assessment of the interaction effect and formally establish whether POLD1 knockdown enhances cisplatin sensitivity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The authors claim that POLD1 physically interacts with ATM to facilitate ATM phosphorylation, which triggers HR repair signaling.
+  - **Evidence pointer** Section 3.6, Figure 6 (not provided)
+  - **Concern** While Co-IP and pull-down assays demonstrate a physical interaction, the functional consequence of this interaction on ATM phosphorylation is not directly shown. The authors show that POLD1 knockdown reduces p-ATM levels, but they do not demonstrate that the POLD1-ATM interaction is required for ATM phosphorylation. A mutant POLD1 that cannot bind ATM would be needed to establish causality.
+  - **Why it matters** The claim that POLD1 promotes ATM phosphorylation through direct interaction is central to the proposed mechanism. Without a loss-of-interaction mutant or a rescue experiment, the causal relationship remains correlative.
+  - **Resolution test** Perform a rescue experiment in POLD1-knockdown cells with wild-type POLD1 versus a POLD1 mutant lacking the ATM-binding domain (C-terminal 985-1107 aa). If the mutant fails to restore ATM phosphorylation and HR repair, the direct interaction model is supported.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors state that POLD1 is markedly overexpressed in cisplatin-resistant BC tissues and cells, and that high POLD1 expression correlates with poor prognosis.
+  - **Evidence pointer** Section 3.1, Figures 1 and S1 (not provided)
+  - **Concern** The statistical methods for comparing POLD1 expression between groups are not described in detail. The number of biological replicates, the statistical tests used, and the effect sizes are not reported. The IHC scoring system is described, but the inter-observer variability and the distribution of scores are not provided.
+  - **Why it matters** Without clear statistical reporting, the robustness of the expression and survival analyses cannot be evaluated. This is particularly important for the prognostic claims.
+  - **Resolution test** Provide detailed statistical methods, including the specific tests used, exact p-values, and confidence intervals. For IHC, report the distribution of scores and inter-observer agreement (e.g., kappa statistic).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of MAZ binding
+  - **Claim pointer** The authors claim that MAZ directly binds to the promoter region of POLD1 to transcriptionally activate its expression.
+  - **Evidence pointer** Section 3.7, Figure 7 (not provided)
+  - **Concern** ChIP-PCR and luciferase assays are described, but the specificity of MAZ binding to the POLD1 promoter is not fully established. The authors do not show whether mutation of the predicted MAZ binding site abolishes binding in ChIP assays, and the luciferase assay only tests one site (site1). The functional relevance of the other predicted sites (site2, site3) is not addressed.
+  - **Why it matters** Transcriptional regulation claims require demonstration of specific binding and functional relevance. Without testing all predicted sites and performing ChIP with a negative control region, the claim is incomplete.
+  - **Resolution test** Perform ChIP-qPCR with primers spanning the entire POLD1 promoter region, including negative control regions. Test all predicted MAZ binding sites in luciferase assays with single and combined mutations. Provide evidence that MAZ binding is specific and functionally relevant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Cell line authentication
+  - **Evidence pointer** Section 2.2
+  - **Issue** The manuscript does not state whether the cell lines were authenticated (e.g., by STR profiling) or tested for mycoplasma contamination.
+  - **Required correction** Add a statement on cell line authentication and mycoplasma testing in the Methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** RNA-seq data
+  - **Evidence pointer** Section 2.1
+  - **Issue** The in-house RNA-seq data are provided as Supplementary Table S1, but the raw sequencing data are not deposited in a public repository.
+  - **Required correction** Deposit raw RNA-seq data in a public repository (e.g., GEO) and provide the accession number.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Western blot images
+  - **Evidence pointer** Figures 2, 3, 5, 6, 8 (not provided)
+  - **Issue** The text does not indicate whether Western blot images are representative of multiple independent experiments, and whether molecular weight markers are shown.
+  - **Required correction** State the number of independent replicates for each Western blot and include molecular weight markers in the figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clinical data
+  - **Affected element** IHC analysis
+  - **Evidence pointer** Section 2.3, Supplementary Table S2
+  - **Issue** The clinical cohort of 62 patients is relatively small, and the treatment history (whether patients received cisplatin) is not described.
+  - **Required correction** Provide details on patient treatment history and consider discussing the limitations of the cohort size in the Discussion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Signaling axis"
+  - **Evidence pointer** Title and throughout
+  - **Issue** The term "signaling axis" is used, but the manuscript does not demonstrate a complete signaling cascade beyond MAZ-POLD1-ATM-RAD51. The term may overstate the scope of the findings.
+  - **Required correction** Consider using a more precise term such as "regulatory axis" or "pathway" in the title and text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (in vivo experimental design), R1-M2 (causal role of POLD1-ATM interaction), R1-M3 (statistical reporting), R1-M4 (MAZ binding specificity).
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study presents a novel mechanistic link between MAZ, POLD1, and ATM in cisplatin resistance. While individual components have been studied, the specific axis is not previously described. This is a moderate strength.  
+  - **Scientific importance** Cisplatin resistance is a major clinical problem in bladder cancer. The potential to target this axis is of interest, but the clinical relevance is not yet established. The importance is moderate to high.  
+  - **Interdisciplinary readership** The topic is primarily of interest to cancer biologists and urological oncologists. The mechanistic focus on DNA repair may also appeal to researchers in DNA damage response. The interdisciplinary reach is limited.  
+  - **Technical soundness** The in vitro experiments are generally well-designed, but the in vivo experiment lacks critical controls. The statistical reporting is incomplete. The technical soundness is currently insufficient to fully support the claims.  
+  - **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. However, some sections (e.g., molecular docking) may be challenging for nonspecialists. Overall readability is acceptable.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the in vitro data are promising, but the in vivo experiment and mechanistic causality need to be strengthened. The manuscript is not currently established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that POLD1 knockdown suppresses tumor growth under cisplatin chemotherapy in vivo is not supported due to the lack of vehicle-treated control groups.
+- The claim that POLD1 promotes ATM phosphorylation through direct physical interaction is not fully supported without a loss-of-interaction mutant or equivalent experiment.
+- The claim that MAZ directly binds to the POLD1 promoter is only partially supported, as only one of three predicted sites was functionally tested.
+- The prognostic value of POLD1 expression is based on a small cohort and lacks multivariate analysis.
+- The statement that "targeting this pathway may offer a promising new strategy" is speculative and not supported by any pharmacological inhibition data.

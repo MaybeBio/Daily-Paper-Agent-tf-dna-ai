@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided by the user. No supplementary figures or tables were available for inspection beyond those referenced in the text.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported findings. No assessment of editorial fit or journal-specific policy is made.
+- **Shared manuscript claim summary** The authors characterize four σ32-dependent promoters (PdnaK, PgrpE, PibpA, PclpB) for heat-inducible expression of FAST-PETase-sfGFP in E. coli, identify PdnaK as the strongest performer, dissect its three promoter elements (P1, P2, P3), and use molecular docking to provide structural context for observed activity differences.
+- **Visible evidence base** Main text figures (Figure 1, 2, 3, 4) and referenced supplementary items (Figure S1-S5, Table S1) are described but not directly visible to this reviewer. Methods sections for plasmid construction, culture conditions, protein purification, PET degradation assays, and docking are provided in text.
+- **Missing materials affecting confidence** Actual figure images, supplementary data files, raw numerical data, statistical outputs, and docking score tables were not provided. This limits verification of quantitative claims and visual data interpretation.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and practically oriented comparison of four σ32-dependent promoters for heat-inducible recombinant protein expression, using FAST-PETase-sfGFP as a relevant model. The work addresses a genuine need in bioprocess engineering, namely inducer-free expression systems, and the promoter dissection approach is methodologically sound. However, several technical concerns regarding data presentation, statistical rigor, and the interpretative weight placed on docking results require attention before the conclusions can be fully accepted. The study is competent but incremental, offering useful comparative data rather than a conceptual breakthrough.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and bioprocess development who seek alternative induction systems for recombinant protein production in E. coli. Those working on PET-degrading enzymes and enzymatic plastic recycling would also find the FAST-PETase expression optimization relevant. The promoter element dissection may interest groups studying σ32-dependent transcription regulation.
+- **Major strengths** 1) Systematic comparison of four native σ32-dependent promoters under identical reporter architecture, enabling fair relative assessment. 2) Use of FAST-PETase, an industrially relevant enzyme, as the model protein increases translational value. 3) Promoter element dissection provides mechanistic insight beyond simple promoter ranking. 4) Integration of experimental promoter activity data with molecular docking offers a structural hypothesis for observed differences. 5) Clear practical guidance for selecting heat-inducible promoters based on desired expression characteristics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PdnaK exhibited the strongest heat-inducible expression and was dissected to examine the autonomous and combinatorial behavior of its promoter-derived elements."
+  - **Evidence pointer** Section 2.2, Figure 2E-F; Section 2.3, Figure 3B-E
+  - **Concern** The claim that PdnaK is the "strongest" promoter is based on GFP fluorescence normalized to OD, but the statistical analysis is not clearly described for the comparative promoter screening. The text states "distinct induction kinetics" and "highest expression level" without presenting statistical comparisons between promoters at matched time points. Additionally, the fold induction metric (normalized to 0 h baseline) may be misleading if basal levels differ substantially, as fold change and absolute expression can rank promoters differently.
+  - **Why it matters** The central conclusion of the paper, that PdnaK is the preferred promoter for heat-inducible expression, depends on robust statistical comparison. Without clear evidence of significant differences between promoters, the ranking may not be reliable, and downstream conclusions about promoter element contributions lose their foundation.
+  - **Resolution test** Provide statistical analysis (e.g., ANOVA with post hoc tests) comparing GFP/OD and fold induction across all four promoters at each time point. Report effect sizes and confidence intervals. Clarify whether ranking is based on absolute expression, fold induction, or both, and justify the chosen metric.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Varying the promoter-element composition had no measurable effect on cell growth (Figure 3C)."
+  - **Evidence pointer** Section 2.3, Figure 3C
+  - **Concern** The claim that promoter-element composition has no effect on growth is stated without supporting statistical analysis. Growth curves are typically compared across conditions, but no quantitative metrics (e.g., growth rate, doubling time, area under curve) or statistical tests are reported. Visual inspection of growth curves alone is insufficient to support a claim of "no measurable effect."
+  - **Why it matters** If promoter variants impose differential metabolic burdens, growth differences could confound interpretation of fluorescence data. A rigorous demonstration that growth is unaffected is necessary to attribute observed fluorescence differences solely to promoter activity.
+  - **Resolution test** Report quantitative growth parameters (e.g., specific growth rate, maximum OD) for each construct with statistical comparison. Alternatively, provide a clear statement of the statistical test used and its results for growth curve comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking analysis further supported the experimental observations by showing qualitative agreement between predicted σ32–DNA interactions and promoter performance."
+  - **Evidence pointer** Section 2.4, Figure 4B-C, Figure S5
+  - **Concern** The docking analysis is presented as supporting evidence, but the methodology has limitations that are not fully addressed. HADDOCK scores are relative and depend heavily on input structures and defined active residues. The text acknowledges scores are "relative estimates" but does not discuss whether the differences between P1, P2, and P3 scores are within the noise of the method. No error estimates, replicate docking runs, or statistical comparison of scores are provided.
+  - **Why it matters** The docking results are used to provide "structural context" for experimental findings. If the score differences are not robust, the structural interpretation may be overinterpreted, and the claim of qualitative agreement becomes weak.
+  - **Resolution test** Provide replicate docking runs with standard deviations for HADDOCK scores. Discuss the significance of score differences in the context of known HADDOCK accuracy. Consider alternative scoring metrics or experimental validation (e.g., EMSA) to strengthen the structural claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "These findings provide a comparative characterization of σ32-dependent promoters and identify promoter architectures that may facilitate the development of heat-inducible recombinant enzyme expression systems in E. coli."
+  - **Evidence pointer** Section 3, Discussion
+  - **Concern** The broader applicability of the findings is asserted but not demonstrated. The study uses a single model protein (FAST-PETase-sfGFP) in a single host strain (BL21). The claim that the identified promoter architectures "may facilitate" development of heat-inducible systems implies generalizability, but no data support transferability to other proteins, strains, or culture conditions. The comparison with IPTG-based systems mentioned in the introduction is not experimentally addressed.
+  - **Why it matters** The practical value of the work depends on whether the promoter rankings and design principles hold beyond the specific test case. Without evidence of generalizability, the conclusions remain specific to the tested conditions.
+  - **Resolution test** Acknowledge the limitation explicitly and temper the claim. Alternatively, include preliminary data with a second model protein or different culture conditions to demonstrate broader applicability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods Section 4.2
+  - **Evidence pointer** Section 4.2, location not provided
+  - **Issue** The heat induction protocol is described as "a transient heat shock at 42 °C for 15 min, followed by dilution into 1 mL fresh LB medium." The dilution step is ambiguous. What dilution factor was used? Was the medium pre-warmed? These details affect reproducibility.
+  - **Required correction** Specify the dilution factor and whether fresh medium was pre-warmed to 30 °C or 42 °C before resuspension.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2B
+  - **Evidence pointer** Section 2.2, Figure 2B
+  - **Issue** Basal leakage is shown for all promoters, but the text does not state the growth phase or OD at which basal fluorescence was measured. Basal expression can vary with growth phase, affecting interpretation.
+  - **Required correction** State the time point or OD range at which basal fluorescence was recorded, and justify the choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1, Figure 1C
+  - **Evidence pointer** Section 2.1, Figure 1C
+  - **Issue** The text states induced cultures exhibited "a significant reduction in growth relative to the non-induced control," but the statistical test used is not specified. Given that multiple IPTG concentrations were tested, it is unclear whether all concentrations caused significant reduction or only some.
+  - **Required correction** Specify the statistical test and report which IPTG concentrations differed significantly from the control.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, Figure 4A
+  - **Evidence pointer** Section 2.4, Figure 4A
+  - **Issue** The sequence alignment in Figure 4A is described but the specific conserved residues and their positions are not discussed in the text. The reader cannot assess the significance of the sequence variations without this information.
+  - **Required correction** Briefly describe the key conserved and variable positions in the −35 and −10 regions and relate them to the docking results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.7
+  - **Evidence pointer** Section 4.7, location not provided
+  - **Issue** The docking protocol states active residues were defined but does not specify how the "corresponding −35 and −10 promoter regions" were defined for each element. Were the same length regions used for all elements?
+  - **Required correction** Specify the exact nucleotide ranges used for each promoter element in the docking calculations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical comparison of promoter performance) and R1-M2 (statistical support for no growth effect) are the primary technical issues. R1-M3 (docking robustness) is important but not fully blocking given the qualitative nature of the claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The comparative characterization of σ32 promoters is not conceptually novel, but the systematic dissection of PdnaK elements in a synthetic context offers some new data. The application to FAST-PETase is timely but incremental.
+  - Scientific importance: Moderate. The work provides practical guidance for heat-inducible expression systems, which is useful for the bioprocessing community. However, the findings are largely confirmatory of known σ32 biology and do not reveal new regulatory mechanisms.
+  - Interdisciplinary readership: Limited. The work will primarily interest synthetic biologists and biochemical engineers. The PET-degradation angle may attract environmental biotechnologists, but the core content is specialized.
+  - Technical soundness: Adequate but with gaps. The experimental design is reasonable, but statistical reporting is incomplete, and the docking analysis lacks robustness assessment.
+  - Readability for nonspecialists: Acceptable. The manuscript is clearly written, and the rationale is well explained. However, some methods details and the docking section may be challenging for readers without structural biology background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core experimental work is sound and the comparative data are useful. However, the statistical gaps in promoter ranking and growth analysis must be addressed, and the docking claims need appropriate caveats. Once these are resolved, the manuscript would make a solid contribution to the applied synthetic biology literature.
+
+## Risk / unsupported claims
+- The claim that PdnaK is the "strongest" promoter is not fully supported without statistical comparison across promoters.
+- The claim that promoter-element composition has "no measurable effect" on growth is unsupported without quantitative analysis.
+- The qualitative agreement between docking scores and promoter activity is presented as supportive evidence, but the robustness of the docking scores is not established.
+- The generalizability of the findings to other proteins, strains, or conditions is asserted but not demonstrated.
+- The statement that heat shock "activates the endogenous chaperone system, which could influence the folding and solubility of recombinant proteins" is speculative and not experimentally tested in this study.

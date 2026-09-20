@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods details, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use all-atom classical molecular dynamics and MM/PBSA calculations to show that mutating key arginine residues to glutamic acid in the ZTA transcription factor rewires the protein-DNA interaction network. They report that single and double mutations partially preserve structural stability through compensatory interactions, particularly involving lysine K178, while multisite mutations destabilize the complex. They also report asymmetric monomer contributions despite structural symmetry, and a binding affinity trend of A > E approximately D > C >> B.
+- **Visible evidence base** Abstract text only; no numerical data, structural analyses, simulation protocols, or statistical measures are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, force field details, convergence criteria, error estimates, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially interesting study of how a viral transcription factor compensates for disruptive mutations in its DNA-binding interface. The conceptual framing around interaction network rewiring and load-sharing is attractive and could appeal to a biophysical audience. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the statistical robustness of the binding energy calculations, or the validity of the proposed compensatory mechanism. Several claims are stated without quantitative support, and the relationship between the reported affinity trend and the structural observations is not demonstrated. The work may be of interest to specialists in protein-DNA interactions and viral transcription factors, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying protein-DNA recognition mechanisms, computational biophysicists working on mutation effects in transcription factors, and investigators focused on Epstein-Barr virus biology and antiviral drug development would find this study relevant. The proposed mechanism of interaction network rewiring and compensatory stabilization could inform rational design of inhibitors targeting ZTA or related viral transcription factors.
+- **Major strengths** The conceptual framework of interaction network rewiring and load-sharing is a useful lens for interpreting mutation effects. The use of per-residue binding energy decomposition to connect structural changes to energetic consequences is an appropriate approach. The observation of asymmetric monomer contributions despite structural symmetry is a potentially interesting finding that could have mechanistic implications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "mutations in key arginine residues form new interactions either around the mutation site and/or in the other ZTA monomer" and that "through load-sharing system attempts to counterbalance the interaction load, leading to reorganization of the existing interaction network."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data on the new interactions formed, no metrics for interaction network reorganization, and no statistical measures to support the claim that load-sharing is occurring. It is unclear how "load-sharing" is defined or measured, and whether this is a post hoc interpretation or a pre-registered hypothesis.
+  - **Why it matters** The central mechanistic claim of the paper rests on the demonstration of compensatory interaction rewiring. Without quantitative evidence such as interaction occupancy, hydrogen bond persistence, or contact maps, the claim is not verifiable from the abstract and may not be verifiable from the manuscript if the analysis is purely descriptive.
+  - **Resolution test** Provide quantitative measures of new interactions formed (for example, hydrogen bond occupancy, salt bridge persistence, or contact frequency) for each mutant compared to wild type, with error bars and statistical significance tests. Define the load-sharing metric explicitly and show that it changes systematically with mutation number.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "from single- to double-site mutations, the complex partially maintains its structural stability through additional interactions formed by lysine, particularly K178, while multisite mutations cannot sustain its structural stability, leading to system destabilization."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not report any structural stability metrics such as root mean square deviation, root mean square fluctuation, or radius of gyration. The specific role of K178 is asserted but no data are shown to demonstrate that K178 forms new interactions or that these interactions are responsible for the observed stability. The threshold between "double-site" and "multisite" mutations is not defined.
+  - **Why it matters** The claim that K178 is a key compensatory residue is a specific and testable mechanistic statement. If not supported by direct evidence, the claim is speculative. The distinction between partial stability and destabilization is central to the paper's narrative and must be backed by quantitative structural measures.
+  - **Resolution test** Report structural stability metrics for wild type and each mutant with appropriate error estimates. Show that K178 forms new interactions in single and double mutants but not in multisite mutants, using contact analysis or interaction energy decomposition. Define the number of mutations that constitute "multisite" and justify this threshold.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the binding affinity of the ZTA-DNA complex shows a good correlation with structural and interaction features, following the trend A > E approximately D > C >> B."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No binding affinity values, correlation coefficients, or statistical significance are reported. The trend is presented without numerical support. It is unclear whether the trend refers to computed MM/PBSA energies, experimental binding data, or a combination. The symbol "approximately" and the double greater-than sign suggest qualitative grouping, but the basis for this grouping is not explained.
+  - **Why it matters** The affinity trend is a key quantitative outcome of the study. Without numerical values and error estimates, the trend cannot be evaluated, and the claimed correlation with structural features cannot be assessed.
+  - **Resolution test** Report computed binding free energies for each system with standard errors, and provide correlation coefficients between binding energies and structural metrics. Clarify whether the trend is based on MM/PBSA calculations alone or includes experimental validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that they employed "all-atom classical molecular dynamics" and "the MM/PBSA technique" to compute per-residue binding energies.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are provided, including force field parameters, water model, salt concentration, simulation length, number of replicas, equilibration protocol, or convergence criteria. MM/PBSA results are known to be sensitive to these choices, and the entropy contribution is often neglected or approximated.
+  - **Why it matters** Without these details, the reproducibility of the simulations is questionable, and the reliability of the MM/PBSA estimates cannot be assessed. The absence of convergence checks is particularly concerning for a study that draws mechanistic conclusions from binding energy decomposition.
+  - **Resolution test** Provide full simulation parameters in the methods section, including force field, water model, ion concentration, simulation time, number of replicas, and convergence analysis. State whether entropy contributions were included in the MM/PBSA calculations and how the dielectric constant was treated.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "horizontal line" appears twice in the abstract and appears to be a formatting artifact rather than intentional text.
+  - **Required correction** Remove the extraneous "horizontal line" text and ensure the abstract reads cleanly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the study "will be central to understanding DNA recognition and developing drug therapeutics" is a broad statement of significance that is not supported by the specific findings described in the abstract.
+  - **Required correction** Either temper the significance claim to match the scope of the findings or provide a more specific link between the mechanistic insights and potential therapeutic applications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "A > E approximately D > C >> B"
+  - **Issue** The use of "approximately" and ">>" in the affinity trend is imprecise and could be misinterpreted. It is unclear whether these symbols reflect statistical equivalence or qualitative grouping.
+  - **Required correction** Replace the informal notation with explicit numerical values and statistical comparisons, or state clearly that the grouping is qualitative.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of interaction network rewiring in response to mutations is not entirely new, but the specific application to ZTA and the focus on compensatory mechanisms via lysine residues may offer a fresh perspective. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: The study addresses a relevant question in viral transcription factor biology, and the potential implications for EBV therapeutics are of interest. However, the importance is moderated by the lack of experimental validation and the reliance on computational predictions.
+  - Interdisciplinary readership: The work sits at the interface of computational biophysics, structural biology, and virology. It may appeal to readers in these fields, but the abstract does not make the case for broader interdisciplinary relevance.
+  - Technical soundness: The technical soundness cannot be evaluated from the abstract. Critical details on simulation protocols, convergence, and statistical treatment are missing. The MM/PBSA approach is known to have limitations that are not addressed.
+  - Readability for nonspecialists: The abstract is written in a technical style that assumes familiarity with molecular dynamics and binding energy calculations. The mechanistic narrative is clear in concept but would benefit from more explicit definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible computational framework, but the absence of quantitative data, simulation details, and statistical validation prevents an assessment of whether the claims are supported. The manuscript may become publishable if the full paper provides the missing evidence and addresses the technical concerns raised.
+
+## Risk / unsupported claims
+- The claim that "load-sharing" occurs and that the system "attempts to counterbalance the interaction load" is not supported by any quantitative evidence in the abstract and may be an interpretive framework rather than a measured phenomenon.
+- The specific role of K178 in maintaining structural stability is asserted without supporting data.
+- The binding affinity trend "A > E approximately D > C >> B" is stated without numerical values or statistical support.
+- The claim of "asymmetric monomer contribution" is interesting but is not accompanied by any quantitative measure of asymmetry.
+- The statement that the study "will be central to understanding DNA recognition and developing drug therapeutics" is an unsupported significance claim.
+- All mechanistic claims are based on computational predictions with no experimental validation, which is not disclosed as a limitation in the abstract.

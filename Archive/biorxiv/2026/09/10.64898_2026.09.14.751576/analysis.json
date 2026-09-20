@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.14.751576",
+  "title": "Martini 3 Coarse-Grained Model of DNA for Heterogeneous Molecular Systems",
+  "authors": "Rokas Dargis; Gaurav Arya",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-16",
+  "window": {
+    "start": "2026-09-13",
+    "end": "2026-09-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了Martini 3粗粒化DNA模型，通过贝叶斯优化和Wasserstein度量拟合全原子模拟，并展示其与转录因子结合等蛋白-DNA互作模拟，方法可迁移至TF-DNA体系研究。",
+  "abstract": "DNA often functions in heterogeneous molecular systems containing proteins, lipids, polymers, and other materials. All-atom molecular dynamics simulations can be used to study DNA in these multicomponent systems, but computational cost limits the accessible system sizes and time scales. Coarse-grained models extend these scales, but existing DNA models are generally not designed for interactions with a broad range of other molecular species. To fill this gap, we develop a coarse-grained model of DNA designed for use with the Martini 3 force field. The model was parameterized through an iterative Bayesian optimization workflow, which used a scaled Wasserstein metric to compare distributions of local geometrical features and global structure from coarse-grained simulations against all-atom reference simulations. The optimized model captures key structural and mechanical properties of single- and double-stranded DNA across varying strand lengths and ionic conditions, while retaining compatibility with the broader Martini 3 ecosystem. This compatibility enables DNA to be integrated with a broad range of molecular systems, as we illustrate through simulations of double-stranded DNA bound to a transcription factor, cholesterol-tagged DNA duplex interacting with a lipid bilayer, a crossover-containing DNA nanostructure, and single-stranded DNA adsorbing onto graphene. Together, these results establish a transferable coarse-grained model of DNA for simulations of heterogeneous biomolecular and engineered systems.",
+  "abstract_zh": "DNA通常在含有蛋白质、脂质、聚合物及其他材料的异质分子系统中发挥功能。全原子分子动力学模拟可用于研究这些多组分系统中的DNA，但计算成本限制了可访问的系统规模和时间尺度。粗粒化模型扩展了这些尺度，但现有的DNA模型通常并非为与广泛的其他分子种类相互作用而设计。为填补这一空白，我们开发了一种专为与Martini 3力场配合使用的DNA粗粒化模型。该模型通过迭代贝叶斯优化工作流程进行参数化，该流程使用缩放Wasserstein度量，将粗粒化模拟中的局部几何特征和全局结构分布与全原子参考模拟进行比较。优化后的模型捕获了单链和双链DNA在不同链长和离子条件下的关键结构和机械特性，同时保持与更广泛的Martini 3生态系统的兼容性。这种兼容性使DNA能够与广泛的分子系统集成，我们通过模拟双链DNA与转录因子结合、胆固醇标记的DNA双链体与脂质双层相互作用、含交叉的DNA纳米结构以及单链DNA吸附在石墨烯上进行了说明。综合这些结果，我们建立了一个可转移的DNA粗粒化模型，用于异质生物分子和工程系统的模拟。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751576",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751576",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.14.751576/index.html"
+}

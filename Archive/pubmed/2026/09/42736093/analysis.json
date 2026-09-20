@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42736093",
+  "title": "Deep Learning Based on Magnetic Resonance Imaging for Preoperative Prediction of Pituitary Neuroendocrine Tumors Subtypes.",
+  "authors": "Yang, Zhen; Xiong, Yang; Yu, Xiaohui; Ding, Guangkai; Li, Yanghui",
+  "journal": "Academic radiology",
+  "published_date": "2026-09-15",
+  "window": {
+    "start": "2026-09-13",
+    "end": "2026-09-19"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用MRI影像和深度学习预测垂体神经内分泌肿瘤亚型，仅以转录因子表达作为分类标签，不涉及蛋白质-DNA互作、结合位点或分子机制建模，与本课题无关。",
+  "abstract": "RATIONALE AND OBJECTIVES: Molecular subtyping of pituitary neuroendocrine tumors (PitNETs [pituitary adenoma]) guides treatment but requires postoperative pathology. This study aimed to develop a deep learning model for preoperative noninvasive prediction of PitNET subtypes using magnetic resonance imaging (MRI). MATERIALS AND METHODS: This study retrospectively enrolled patients with pathologically confirmed PitNETs from two centers. Patients were classified into four groups based on the expression of the SF1, PIT1, and TPIT transcription factors as follows: PIT1 lineage, TPIT lineage, SF1 lineage, and no distinct cell lineage. All patients underwent preoperative MRI examinations comprising coronal T1-weighted (T1WI), T2-weighted (T2W1), and contrast-enhanced T1WI sequences, as well as sagittal T1WI and contrast-enhanced T1WI sequences. The YOLOv11 model was trained using either single or combined sequences to achieve subtype classification. Performance was evaluated via internal, temporal external, and multicenter validation using mean average precision (mAP), precision, recall, and F1-score. RESULTS: This retrospective study included a total of 888 patients enrolled between January 2021 and December 2025, with a mean age of 54.32 years; 52.9% of the patients were female. The model performed robustly in the internal validation set, temporal external test set, and multicenter validation cohort, effectively distinguishing among the four molecular subtypes. Among these, sagittal contrast-enhanced T1WI sequences yielded the best predictive results (mAP50-95: 0.901), while coronal T2WI sequences performed relatively poorly (mAP50-95: 0.756). CONCLUSION: MRI-based deep learning enables accurate preoperative PitNET subtyping in retrospective cohorts, warranting investigation as a tool to aid personalized management following prospective validation.",
+  "abstract_zh": "RATIONALE AND OBJECTIVES：垂体神经内分泌肿瘤（PitNETs [垂体腺瘤]）的分子分型指导治疗，但需依赖术后病理。本研究旨在利用磁共振成像（MRI）开发一种深度学习模型，用于术前无创预测PitNET亚型。MATERIALS AND METHODS：本研究回顾性纳入来自两个中心的经病理确诊的PitNET患者。根据SF1、PIT1和TPIT转录因子的表达情况，将患者分为四组：PIT1谱系、TPIT谱系、SF1谱系和无明确细胞谱系。所有患者均接受术前MRI检查，包括冠状位T1加权（T1WI）、T2加权（T2WI）和增强T1WI序列，以及矢状位T1WI和增强T1WI序列。使用单一或联合序列训练YOLOv11模型以实现亚型分类。通过内部验证、时间外部验证和多中心验证，使用平均精度均值（mAP）、精确率、召回率和F1分数评估性能。RESULTS：本回顾性研究共纳入2021年1月至2025年12月期间入组的888例患者，平均年龄为54.32岁；其中52.9%为女性。该模型在内部验证集、时间外部测试集和多中心验证队列中均表现稳健，有效区分了四种分子亚型。其中，矢状位增强T1WI序列取得了最佳预测结果（mAP50-95：0.901），而冠状位T2WI序列表现相对较差（mAP50-95：0.756）。CONCLUSION：基于MRI的深度学习能够在回顾性队列中实现准确的术前PitNET分型，在前瞻性验证后，值得进一步研究作为辅助个性化管理的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42736093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42736093/",
+  "paper_page_path": "papers/pubmed/42736093/index.html"
+}

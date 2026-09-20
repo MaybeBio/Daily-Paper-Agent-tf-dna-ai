@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that two conserved arginine residues, R918 and R921, in the RuvC active site of Francisella novicida Cas12a differentially control cis and trans cleavage, RNA-independent cleavage, and mismatch discrimination. They propose distinct mechanistic roles for each residue based on structural analysis and molecular dynamics simulations, and suggest that modifying these residues could reduce off-target cleavage while improving specificity.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, all experimental data (kinetic traces, cleavage assays, structural models, simulation parameters), statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and mechanistically oriented study of two active-site arginines in Cas12a, with clear claims about their differential roles in cis versus trans cleavage and specificity. The findings are potentially valuable for the genome editing and diagnostics communities. However, the abstract alone does not provide sufficient detail to evaluate the rigor of the biochemical, structural, and computational evidence. Several claims, particularly those regarding mechanistic distinctions and the proposed "lid" conformational change, require direct experimental and simulation data to be assessed. The conclusion that modifying these residues could improve on-target specificity is intriguing but not fully supported by the evidence summarized here.
+- **Who would be interested in the results, and why** Researchers in CRISPR biology, genome editing, and nucleic acid diagnostics would be interested. The work addresses a fundamental question about how active-site residues control nuclease specificity and off-target activity, which is directly relevant to engineering high-fidelity Cas12a variants for therapeutic and diagnostic applications.
+- **Major strengths** The study addresses a clinically and biotechnologically relevant problem, namely off-target and non-specific cleavage by Cas12a. The use of multiple complementary approaches, including mutagenesis, biochemical assays, kinetics, structural analysis, and molecular dynamics simulations, is commendable. The differential effects of R918 and R921 on cis versus trans cleavage and on mismatch discrimination are clearly articulated and potentially mechanistically informative.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "a positive charge at 921 is required for CRISPR RNA-dependent DNA cleavage (cis cleavage), whereas R918 primarily enhances cleavage efficiency" is central to the study.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide quantitative data, such as cleavage rates, kinetic parameters, or statistical comparisons, to support the distinction between "required" and "enhances." Without these data, it is unclear whether the difference between R918 and R921 is qualitative or merely quantitative.
+  - **Why it matters** The central mechanistic claim hinges on this distinction. If the evidence does not robustly separate the two residues' roles, the proposed model of differential control is weakened.
+  - **Resolution test** Provide kinetic parameters (e.g., kcat, KM) and statistical comparisons for each mutant in cis and trans cleavage assays, with appropriate replicates and error analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "R918 assists in the conversion of the lid covering the RuvC active site to an alpha helical form" is presented as a structural finding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the structural method (e.g., X-ray crystallography, cryo-EM) or the resolution of the structures used to support this claim. It is also unclear whether the "lid" conversion was observed directly or inferred from simulations.
+  - **Why it matters** This is a specific structural claim that requires direct experimental evidence. If the evidence is only from molecular dynamics simulations, the claim should be framed as a prediction, not a finding.
+  - **Resolution test** Provide structural data (e.g., electron density maps, model statistics) or clearly state that the lid conversion is a simulation-derived prediction, with appropriate validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "these changes significantly decrease RNA-independent cleavage and improve mismatch discrimination during cis cleavage, especially at PAM-distal sites" is presented as a key outcome.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide quantitative measures of "improvement" or "decrease," nor does it specify the assay conditions, the number of mismatches tested, or the statistical significance of the effects.
+  - **Why it matters** This claim is central to the potential application of the findings for improving Cas12a specificity. Without quantitative data, the magnitude and robustness of the effect cannot be evaluated.
+  - **Resolution test** Provide specificity ratios or fold-changes in cleavage efficiency for matched versus mismatched substrates, with statistical tests and effect sizes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "cis cleavage" and "trans cleavage" without defining them for readers who may not be familiar with Cas12a biochemistry.
+  - **Required correction** Briefly define cis and trans cleavage in the abstract, or use more accessible language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence suggests "the potential of modifying active pocket residues to reduce unwanted DNA cleavage while increasing on-target specificity," but the abstract does not indicate whether the tested mutations actually improve overall editing outcomes in a cellular context.
+  - **Required correction** Clarify whether the specificity improvements were observed only in biochemical assays or also in cell-based experiments, or temper the claim accordingly.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a specific mechanistic question about Cas12a active-site residues, which is a relatively niche but relevant topic. The differential roles of R918 and R921 have not been previously reported, suggesting some originality.
+  - Scientific importance: The findings could inform the design of high-fidelity Cas12a variants, which is of practical importance for genome editing and diagnostics. However, the abstract does not demonstrate a clear advance over existing engineered Cas12a variants.
+  - Interdisciplinary readership: The topic is primarily of interest to biochemists, structural biologists, and CRISPR researchers. The abstract is not framed to attract a broader interdisciplinary audience.
+  - Technical soundness: The abstract does not provide sufficient detail to assess the rigor of the methods or the robustness of the conclusions. The lack of quantitative data and structural details is a significant limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the lack of quantitative results, structural details, and simulation validation prevents a full assessment. The authors should provide the full manuscript with detailed methods and data to support the claims.
+
+## Risk / unsupported claims
+- The claim that R918 and R921 differentially control cis and trans cleavage is not quantitatively supported in the abstract.
+- The structural claim about the lid converting to an alpha helical form is not supported by any presented structural data.
+- The claim that mutations improve mismatch discrimination is not supported by quantitative specificity data.
+- The potential for modifying these residues to improve on-target specificity in practical applications is speculative and not supported by the abstract.

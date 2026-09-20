@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42741841",
+  "title": "A transcription factor regulatory atlas for activity inference and perturbation prediction.",
+  "authors": "Sugimoto, Hikaru; Tsuyuzaki, Koki; Zou, Zhaonan; Oki, Shinya; Ohta, Tazro; Kawakami, Eiryo",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-09-15",
+  "window": {
+    "start": "2026-09-13",
+    "end": "2026-09-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建TF-mRNA调控图谱并用于TF活性推断与扰动预测，虽涉及TF调控网络，但基于转录组与ChIP/基序注释，缺乏三维结构互作建模与AI/物理模拟方法，属于广义TF-DNA调控的工程应用，与本课题的分子互作机制研究关联有限。",
+  "abstract": "Inferring transcription factor (TF) activity from transcriptomes and predicting transcriptome-wide responses to TF perturbations remain challenging, in part because available TF-mRNA resources often face a trade-off between precision and coverage and typically lack signed regulatory information. Here, we present TFActProfiler, a TF-mRNA resource and computational framework that learns signed, quantitative TF-mRNA regulatory coefficients by integrating heterogeneous prior evidence (ChIP-based, motif-based, and curated TF-mRNA annotations) with large-scale bulk and single-cell RNA-seq atlases. TFActProfiler contains 2 606 176 signed TF-mRNA interactions and improves TF activity inference in TF knockdown benchmarks relative to widely used regulon resources while retaining broad TF and target coverage. In addition, because the same learned regulatory coefficients can be used to model downstream transcriptional effects, TFActProfiler enables prediction of transcriptome-wide gene expression responses to TF knockdown without training on task-matched perturbation data. When perturbation datasets are available, TFActProfiler can be further refined to achieve performance comparable to state-of-the-art machine-learning baselines. By providing a direction-aware representation of TF-mRNA regulation for both activity inference and perturbation-response modeling, TFActProfiler supports systematic dissection of gene regulatory programs across diverse cellular contexts.",
+  "abstract_zh": "从转录组推断转录因子（TF）活性，并预测转录组范围内对TF扰动的响应，仍然具有挑战性，部分原因在于可用的TF-mRNA资源常常在精确性和覆盖度之间面临权衡，且通常缺乏带符号的调控信息。在此，我们提出TFActProfiler，一种TF-mRNA资源和计算框架，通过整合异质性先验证据（基于ChIP、基于基序和人工整理的TF-mRNA注释）与大规模批量及单细胞RNA-seq图谱，学习带符号的、定量的TF-mRNA调控系数。TFActProfiler包含2 606 176个带符号的TF-mRNA相互作用，并在TF敲低基准测试中，相对于广泛使用的调控子资源，改善了TF活性推断，同时保持了广泛的TF和靶标覆盖度。此外，由于相同的学习调控系数可用于建模下游转录效应，TFActProfiler能够在无需针对任务匹配的扰动数据训练的情况下，预测TF敲低引起的转录组范围内基因表达响应。当扰动数据集可用时，TFActProfiler可进一步优化，以达到与最先进的机器学习基线相当的性能。通过为活性推断和扰动响应建模提供方向感知的TF-mRNA调控表示，TFActProfiler支持在不同细胞背景下系统解析基因调控程序。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42741841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42741841/",
+  "paper_page_path": "papers/pubmed/42741841/index.html"
+}

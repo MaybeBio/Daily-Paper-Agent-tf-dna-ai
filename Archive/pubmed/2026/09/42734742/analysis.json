@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42734742",
+  "title": "Computational Network Analysis for Defining Transcriptional Programs.",
+  "authors": "Kidder, Benjamin L",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2026-09-14",
+  "window": {
+    "start": "2026-09-13",
+    "end": "2026-09-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于表达数据构建基因调控网络并分析转录程序，虽涉及转录因子与靶基因互作，但缺乏三维结构建模与AI/物理模拟方法，属于广义转录调控网络分析，对本课题方法借鉴有限。",
+  "abstract": "Cancer cell identity is governed by coordinated transcriptional programs that are frequently rewired during tumorigenesis. Systematic identification of cancer type-specific gene regulatory networks provides a framework for understanding oncogenic state transitions and for prioritizing candidate therapeutic targets. Here, we present a reproducible network-based workflow for reconstructing and analyzing transcriptional regulatory programs across human cancer types using publicly available expression datasets. We describe procedures for curating and preprocessing microarray data from the Gene Expression Omnibus, implementing random forest classification, and reconstructing gene regulatory networks using the CellNet platform. Detailed guidance is provided for evaluating classifier performance, quantifying network influence scores, integrating transcription factor, target interaction resources, and performing functional enrichment analyses. In addition, we outline approaches for comparing cancer-specific networks with corresponding normal tissue profiles to identify candidate drivers of malignant cell identity and potential prognostic biomarkers. Together, these protocols provide investigators with a scalable computational framework for defining cancer type-specific transcriptional states and for systematically interrogating regulatory mechanisms underlying tumor heterogeneity.",
+  "abstract_zh": "癌细胞身份的维持依赖于协调的转录程序，这些程序在肿瘤发生过程中经常被重编程。系统性地识别癌症类型特异性的基因调控网络，为理解致癌状态转变及优先确定候选治疗靶点提供了框架。在此，我们展示了一种可复现的基于网络的工作流程，利用公开可用的表达数据集，用于重建和分析人类癌症类型中的转录调控程序。我们详细描述了从Gene Expression Omnibus中筛选和预处理微阵列数据、实施随机森林分类以及使用CellNet平台重建基因调控网络的步骤。提供了评估分类器性能、量化网络影响分数、整合转录因子与靶点相互作用资源以及进行功能富集分析的详细指导。此外，我们概述了将癌症特异性网络与相应正常组织图谱进行比较的方法，以识别恶性细胞身份的候选驱动因素及潜在的预后生物标志物。综合而言，这些协议为研究者提供了一个可扩展的计算框架，用于定义癌症类型特异性的转录状态，并系统性地探究肿瘤异质性背后的调控机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42734742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42734742/",
+  "paper_page_path": "papers/pubmed/42734742/index.html"
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present a new coarse-grained (CG) model of DNA parameterized for the Martini 3 force field, developed via iterative Bayesian optimization with a scaled Wasserstein metric against all-atom reference simulations. The model is claimed to reproduce key structural and mechanical properties of single- and double-stranded DNA across varying strand lengths and ionic conditions, and to retain compatibility with the broader Martini 3 ecosystem. Transferability is illustrated through four application simulations involving a transcription factor, a lipid bilayer, a DNA nanostructure, and graphene.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, parameterization details, validation metrics, simulation protocols, and comparison benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable contribution to the coarse-grained simulation community, addressing a recognized gap in Martini 3 compatibility for DNA. The methodological approach, particularly the use of Bayesian optimization with a Wasserstein metric, is modern and promising. However, the abstract provides no quantitative evidence to support the central claims of accuracy, transferability, or compatibility. The four illustrative applications are listed but not described with any measurable outcomes. As presented, the case for a broadly transferable and validated model is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those using Martini 3 for heterogeneous systems involving DNA with proteins, lipids, or nanomaterials. The model could also interest experimentalists seeking to interpret or design DNA-based nanostructures and biosensors through simulation. The methodological workflow for parameterizing CG models against all-atom references may appeal to method developers.
+- **Major strengths** The abstract identifies a clear and important gap in the Martini 3 ecosystem, namely the lack of a compatible DNA model. The proposed Bayesian optimization workflow with a scaled Wasserstein metric is a rigorous and contemporary approach to parameterization. The demonstration of compatibility across four distinct application contexts suggests an intention toward broad transferability, which is a key requirement for community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "captures key structural and mechanical properties of single- and double-stranded DNA across varying strand lengths and ionic conditions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts accurate reproduction of structural and mechanical properties but provides no quantitative data, no error metrics, and no comparison to experimental or all-atom reference values. No specific properties are named, and no range of strand lengths or ionic conditions is specified.
+  - **Why it matters** Without quantitative validation, the central claim of model accuracy cannot be assessed. The phrase "key properties" is undefined, and the absence of any numerical comparison prevents the reader from judging whether the model meets the standards required for production use in heterogeneous simulations.
+  - **Resolution test** Provide a table or figure comparing CG and all-atom or experimental values for at least bending persistence length, helical twist, and radius of gyration for a range of strand lengths and salt concentrations, with associated uncertainties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "retains compatibility with the broader Martini 3 ecosystem"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** Compatibility with Martini 3 is a central selling point, but the abstract provides no evidence that the DNA model uses standard Martini 3 bead types, interaction parameters, or mixing rules. No details are given on how nonbonded interactions with proteins, lipids, or other Martini 3 molecules are defined or validated.
+  - **Why it matters** Compatibility is not a binary property. Even if the DNA model runs within the Martini 3 framework, its interactions with other Martini 3 molecules must be quantitatively validated. Without such evidence, users cannot trust simulations of heterogeneous systems, which is the stated purpose of the model.
+  - **Resolution test** Show that the DNA model uses standard Martini 3 interaction parameters and provide validation of DNA-protein, DNA-lipid, and DNA-surface interactions against all-atom or experimental reference data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The four application simulations "illustrate" transferability, including DNA bound to a transcription factor, cholesterol-tagged DNA with a lipid bilayer, a crossover-containing DNA nanostructure, and single-stranded DNA on graphene
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract lists four applications but provides no results, no observable outcomes, and no comparison to experimental or all-atom data. It is unclear whether these simulations demonstrate correct behavior or merely that the model runs without crashing.
+  - **Why it matters** The claim of transferability rests entirely on these illustrations. Without quantitative outcomes, such as binding free energies, structural fidelity, or adsorption behavior compared to references, the illustrations do not constitute evidence of transferability.
+  - **Resolution test** For each application, provide a quantitative comparison to experimental or all-atom reference data, such as binding poses, membrane insertion depth, nanostructure stability, or adsorption density.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methodological description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "scaled Wasserstein metric" is introduced without explanation of what is scaled or why this choice is advantageous over other metrics.
+  - **Required correction** Briefly define the scaling and state the rationale for using this metric in the context of CG parameterization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Scope of validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "varying strand lengths and ionic conditions" but does not specify the ranges tested or whether both single- and double-stranded DNA were validated under all conditions.
+  - **Required correction** Specify the ranges of strand lengths and salt concentrations, and clarify the validation matrix for single- versus double-stranded DNA.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No statement is made about availability of the model parameters, scripts, or input files, which is critical for community adoption.
+  - **Required correction** State where the model parameters and workflow scripts will be deposited, for example on a public repository or as a Martini 3 add-on.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking. The abstract provides no quantitative validation, no evidence of Martini 3 compatibility beyond assertion, and no measurable outcomes from the application simulations. Without addressing these, the central claims of accuracy, compatibility, and transferability are unsupported.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as a Martini 3-compatible DNA model fills a recognized gap, and the Bayesian optimization approach is not routine. Scientific importance is potentially high for the simulation community, but the abstract does not demonstrate that the model achieves the accuracy needed for broad use. Interdisciplinary readership is plausible given the range of applications, but the abstract does not provide enough detail to engage nonspecialists. Technical soundness cannot be assessed from the abstract alone, as no methods or data are visible. Readability for nonspecialists is acceptable, but the abstract is heavy on jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the gap is real, but the abstract alone does not support the claims of accuracy, compatibility, or transferability. A full manuscript with quantitative validation and application outcomes would be required to assess the model's value.
+
+## Risk / unsupported claims
+- The claim that the model "captures key structural and mechanical properties" is unsupported by any quantitative data in the abstract.
+- The claim of "compatibility with the broader Martini 3 ecosystem" is asserted without evidence of standard parameter usage or cross-molecule validation.
+- The four application simulations are presented as illustrations of transferability, but no outcomes are reported, making the claim of transferability unassessable.
+- The statement that the model is "transferable" for "heterogeneous biomolecular and engineered systems" is a broad generalization not supported by the visible evidence.

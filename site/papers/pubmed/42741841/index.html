@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A transcription factor regulatory atlas for activity inference and perturbation prediction. · 转录因子–DNA 互作 × AI</title>
+  <link rel="stylesheet" href="/Daily-Paper-Agent-tf-dna-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-Agent-tf-dna-ai/">转录因子–DNA 互作 × AI</a>
+    <nav>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/">本周</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/archive.html">归档</a>
+      <a href="/Daily-Paper-Agent-tf-dna-ai/search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score score-mid">5</span>
+    <div>
+      <h1>A transcription factor regulatory atlas for activity inference and perturbation prediction.</h1>
+      <div class="meta">Sugimoto, Hikaru; Tsuyuzaki, Koki; Zou, Zhaonan; Oki, Shinya; Ohta, Tazro; Kawakami, Eiryo</div>
+      <div class="meta muted">
+        
+        <span class="journal">Nucleic acids research</span>
+        · 2026-09-15
+         · 全文(pmc)
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42741841/">原文</a>
+      </div>
+      <p class="one-liner">该文构建TF-mRNA调控图谱并用于TF活性推断与扰动预测，虽涉及TF调控网络，但基于转录组与ChIP/基序注释，缺乏三维结构互作建模与AI/物理模拟方法，属于广义TF-DNA调控的工程应用，与本课题的分子互作机制研究关联有限。</p>
+    </div>
+  </div>
+  
+  <section>
+    <h2>摘要</h2>
+    <div class="md">Inferring transcription factor (TF) activity from transcriptomes and predicting transcriptome-wide responses to TF perturbations remain challenging, in part because available TF-mRNA resources often face a trade-off between precision and coverage and typically lack signed regulatory information. Here, we present TFActProfiler, a TF-mRNA resource and computational framework that learns signed, quantitative TF-mRNA regulatory coefficients by integrating heterogeneous prior evidence (ChIP-based, motif-based, and curated TF-mRNA annotations) with large-scale bulk and single-cell RNA-seq atlases. TFActProfiler contains 2 606 176 signed TF-mRNA interactions and improves TF activity inference in TF knockdown benchmarks relative to widely used regulon resources while retaining broad TF and target coverage. In addition, because the same learned regulatory coefficients can be used to model downstream transcriptional effects, TFActProfiler enables prediction of transcriptome-wide gene expression responses to TF knockdown without training on task-matched perturbation data. When perturbation datasets are available, TFActProfiler can be further refined to achieve performance comparable to state-of-the-art machine-learning baselines. By providing a direction-aware representation of TF-mRNA regulation for both activity inference and perturbation-response modeling, TFActProfiler supports systematic dissection of gene regulatory programs across diverse cellular contexts.</div>
+  </section>
+  
+  
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">从转录组推断转录因子（TF）活性，并预测转录组范围内对TF扰动的响应，仍然具有挑战性，部分原因在于可用的TF-mRNA资源常常在精确性和覆盖度之间面临权衡，且通常缺乏带符号的调控信息。在此，我们提出TFActProfiler，一种TF-mRNA资源和计算框架，通过整合异质性先验证据（基于ChIP、基于基序和人工整理的TF-mRNA注释）与大规模批量及单细胞RNA-seq图谱，学习带符号的、定量的TF-mRNA调控系数。TFActProfiler包含2 606 176个带符号的TF-mRNA相互作用，并在TF敲低基准测试中，相对于广泛使用的调控子资源，改善了TF活性推断，同时保持了广泛的TF和靶标覆盖度。此外，由于相同的学习调控系数可用于建模下游转录效应，TFActProfiler能够在无需针对任务匹配的扰动数据训练的情况下，预测TF敲低引起的转录组范围内基因表达响应。当扰动数据集可用时，TFActProfiler可进一步优化，以达到与最先进的机器学习基线相当的性能。通过为活性推断和扰动响应建模提供方向感知的TF-mRNA调控表示，TFActProfiler支持在不同细胞背景下系统解析基因调控程序。</div>
+  </section>
+  
+  
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>: A transcription factor regulatory atlas for activity inference and perturbation prediction</li>
+<li><strong>作者与单位</strong>: Sugimoto, Hikaru; Tsuyuzaki, Koki; Zou, Ziyang; Oki, Shinya; Ohta, Tazro; Kawakami, Eiryo（单位未在摘要中提供）</li>
+<li><strong>期刊/预印本平台</strong>: Nucleic Acids Research</li>
+<li><strong>年份</strong>: 2026</li>
+<li><strong>论文类型</strong>: 资源/方法学论文（Resource &amp; Methodology）</li>
+<li><strong>领域</strong>: 计算生物学；转录调控；TF–mRNA 调控网络；扰动预测</li>
+<li><strong>关键词</strong>: transcription factor activity inference; TF–mRNA regulatory network; perturbation prediction; RNA-seq; regulon</li>
+<li><strong>DOI/arXiv 号</strong>: 10.1093/nar/gkag897</li>
+<li><strong>代码</strong>: https://github.com/HikaruSugimoto/tfactprofiler</li>
+<li><strong>数据</strong>: 见 Data availability 节（多个公开数据集，详见第 10 节）</li>
+<li><strong>阅读日期</strong>: 未提供</li>
+<li><strong>在该课题方向中的位置</strong>: 本文属于「TF–DNA 互作 × AI/计算方法」中的<strong>调控网络推断与下游效应预测</strong>分支。它不是直接预测 TF–DNA 物理结合（如 ChIP-seq 或 motif 扫描），而是从转录组共变模式中学习<strong>带符号、定量的 TF→mRNA 调控系数</strong>，并用于 (1) 从表达谱推断 TF 活性；(2) 零样本预测 TF 敲低（KD）后的全转录组响应。其核心可迁移点在于：将先验 TF–DNA 结合信息（ChIP、motif）与大规模转录组整合，转化为可复用的调控先验矩阵，并支持不确定性估计。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文构建了 TFActProfiler——一个包含 2,606,176 条带符号 TF–mRNA 调控系数的资源，通过整合 ChIP/motif 先验与大规模 bulk/single-cell RNA-seq 共变模式，在 TF 敲低基准上提升了 TF 活性推断准确率，并能在无任务匹配训练数据的情况下（零样本）预测 TF 敲低后的全转录组表达响应方向。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>: 如何从转录组数据中准确推断 TF 活性，并在没有匹配扰动训练数据的情况下预测 TF 扰动（如敲低）后的全转录组响应？</li>
+<li><strong>为什么重要</strong>: TF 是基因调控的核心，异常 TF 活性与多种疾病相关。但 RNA-seq 直接测量的只是 TF 的 mRNA 丰度，并不等于 TF 活性（受翻译后修饰、核定位、竞争性结合等影响）。同时，全面扰动实验（如 Perturb-seq）成本高昂，无法覆盖所有 TF × 细胞类型组合。因此，计算推断 TF 活性与预测扰动响应具有重要转化价值（如疾病机制解析、药物靶点发现）。</li>
+<li><strong>现有方法不足</strong>:
+  1. <strong>精度-覆盖度权衡</strong>: 高精度 curated 资源（如 DoRothEA、CollecTRA）覆盖 TF 少；高覆盖资源（如 ChIP-Atlas、共表达网络）含大量间接/非功能性结合，精度低。
+  2. <strong>缺乏符号信息</strong>: 多数资源只给出 TF–mRNA 关联，不标注激活/抑制方向，导致活性推断时符号混淆。
+  3. <strong>缺乏不确定性估计</strong>: 现有方法对推断出的 TF 活性没有可靠性度量，无法判断哪些结果可信。
+  4. <strong>扰动预测依赖任务匹配数据</strong>: 现有模型（如 CPA、scGPT、scFoundation）需要大量扰动训练数据，在常见的小样本 bulk case-control 场景（无匹配扰动数据）下不可用。</li>
+<li><strong>精确研究问题 (Can...?)</strong>: Can a signed, quantitative TF–mRNA regulatory prior, learned by integrating heterogeneous binding/motif evidence with large-scale transcriptomic covariation, enable accurate TF activity inference and zero-shot prediction of transcriptome-wide responses to TF knockdown, without task-matched perturbation training data?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<blockquote>
+<p>注：以下脉络基于本文摘要与引文框架整理，标注为「仅本文框架」；未经外部系统核验。</p>
+</blockquote>
+<ul>
+<li><strong>阶段一：基于 curated 数据库的 regulon 方法</strong>（如 DoRothEA、CollecTRA）</li>
+<li>优点：符号明确、精度较高</li>
+<li>局限：覆盖度有限，依赖人工文献 curation，难以扩展到新细胞类型/物种</li>
+<li><strong>阶段二：基于 ChIP-seq / motif 的高覆盖资源</strong>（如 ChIP-Atlas、ENCODE）</li>
+<li>优点：覆盖广，直接反映 TF–DNA 物理结合</li>
+<li>局限：结合 ≠ 功能调控；缺乏符号信息；含大量非功能性/间接结合</li>
+<li><strong>阶段三：基于共表达的调控网络推断</strong>（如 WGCNA、GENIE3、SCENIC）</li>
+<li>优点：数据驱动，可扩展到任意转录组</li>
+<li>局限：共表达 ≠ 因果调控；符号推断困难；易受混淆因素影响</li>
+<li><strong>阶段四：深度生成模型 / 基础模型</strong>（如 scGPT、scFoundation、CPA、Geneformer）</li>
+<li>优点：可学习复杂非线性关系，扰动预测能力强</li>
+<li>局限：需要大量任务匹配训练数据；在小样本 bulk 场景下性能不稳定；可解释性差</li>
+<li><strong>本文主张的位置</strong>：TFActProfiler 位于阶段二与阶段三之间——以 ChIP/motif 先验定义候选边集（保证覆盖度与生物学相关性），再用大规模转录组共变回归估计符号与权重（补充功能信息），从而在精度与覆盖度之间取得平衡，并额外支持零样本扰动预测与不确定性估计。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>精度-覆盖度权衡</td>
+<td>高精度资源覆盖 TF 少，高覆盖资源精度低</td>
+<td>curated 资源受限于人工 curation 成本；ChIP/共表达资源含大量间接/非功能性关联</td>
+<td>Results 节（TFActProfiler 构建部分）；"existing approaches often face a trade-off between regulator coverage and prediction accuracy"</td>
+</tr>
+<tr>
+<td>缺乏符号信息</td>
+<td>多数资源不区分激活/抑制，导致活性推断方向混淆</td>
+<td>结合数据（ChIP/motif）本身不含功能方向；共表达无法可靠推断因果方向</td>
+<td>Introduction 节；"most lack information about whether a TF activates or represses its target"</td>
+</tr>
+<tr>
+<td>缺乏不确定性估计</td>
+<td>用户无法判断推断出的 TF 活性是否可信</td>
+<td>现有方法未建模先验与数据之间的不一致性</td>
+<td>Discussion 节；"we defined a simple mean-squared-error-based reliability metric"</td>
+</tr>
+<tr>
+<td>扰动预测依赖任务匹配数据</td>
+<td>小样本 bulk 场景下无法使用现有扰动预测模型</td>
+<td>深度模型需要大量扰动数据训练；回归模型需要匹配的 perturbation 数据</td>
+<td>Introduction 节；"often require substantial task-specific training data"</td>
+</tr>
+<tr>
+<td>跨物种迁移困难</td>
+<td>人类训练的调控资源难以直接用于小鼠等模式生物</td>
+<td>缺乏跨物种的系统性迁移策略</td>
+<td>Results 节（小鼠基准）；"orthology-mapped TFActProfiler prior"</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>：整合三类先验（ChIP-Atlas 结合、motif 预测、curated 数据库）构建候选 TF–mRNA 边集，然后在大规模 bulk 和 single-cell RNA-seq 图谱上，对每个候选边做 cluster-wise 岭回归，估计带符号的调控系数；最终得到全局与器官特异性的 TF–mRNA 调控矩阵。下游任务：(a) 用 ulm 等富集方法从表达谱推断 TF 活性；(b) 用线性映射零样本预测 TF 敲低后的表达响应；(c) 用 MSE 度量推断可靠性。</li>
+<li><strong>核心洞察</strong>：<strong>先验定义结构，数据估计参数</strong>——用 ChIP/motif 先验限定候选边（解决覆盖度与生物学相关性），用转录组共变回归估计符号与权重（解决功能方向与定量强度）。这一「结构先验 + 数据参数化」的范式避免了纯数据驱动方法的混淆问题，也避免了纯先验方法的覆盖度限制。</li>
+<li><strong>可能的普适教训 [Analysis]</strong>：在生物网络推断中，<strong>异质先验的整合比单一数据源的深度建模更有效</strong>。本文表明，即使使用简单的线性回归，只要先验边集设计合理（结合多个互补证据源），其性能也能超越复杂的深度模型。这提示在 TF–DNA 互作建模中，<strong>先验质量 &gt; 模型复杂度</strong>。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：</li>
+<li>先验 TF–mRNA 候选边集（来自 ChIP-Atlas、motif 预测、curated 数据库）</li>
+<li>大规模 bulk RNA-seq 图谱（多个公开数据集）</li>
+<li>大规模 single-cell RNA-seq 图谱（用于 cluster-wise 回归）</li>
+<li>用户提供的目标表达矩阵（用于 TF 活性推断或扰动预测）</li>
+<li><strong>输出</strong>：</li>
+<li>TFActProfiler 资源：2,606,176 条带符号 TF–mRNA 系数（全局 + 器官特异性）</li>
+<li>TF 活性评分（每个样本 × 每个 TF）</li>
+<li>零样本扰动预测：TF 敲低后的全转录组表达变化向量</li>
+<li>可靠性评分（MSE-based）</li>
+<li><strong>模块</strong>：
+  1. 先验整合模块：合并 ChIP-Atlas、motif、curated 三类证据，去重、统一基因标识
+  2. 岭回归估计模块：对每个 cluster（细胞类型/组织），以 TF 表达为自变量、mRNA 表达为因变量，拟合稀疏线性模型（系数矩阵 K，非先验边置零）
+  3. 归一化与聚合模块：cluster 内系数归一化，跨 cluster 聚合得到全局与器官特异性共识系数
+  4. TF 活性推断模块：基于 ulm（univariate linear model）等富集方法，将表达矩阵与调控矩阵结合
+  5. 零样本扰动预测模块：给定 TF 敲低幅度 Δx，通过线性映射 Δy = W·Δx 预测下游表达变化
+  6. 可靠性估计模块：计算先验系数与数据重估系数之间的 MSE</li>
+<li><strong>训练/估计流程</strong>：先验边集 → 对每个 cluster 做岭回归 → 系数归一化 → 跨 cluster 聚合 → 得到最终调控矩阵 → 用于下游任务</li>
+<li><strong>工具</strong>：Python；scikit-learn、NumPy、Pandas、Statsmodels、SciPy；decoupleR（用于基准测试）</li>
+<li><strong>假设</strong>：</li>
+<li>TF mRNA 丰度可作为 TF 活性的近似代理（线性关系）</li>
+<li>先验边集覆盖了大部分功能性 TF–mRNA 调控关系</li>
+<li>调控关系在相似细胞类型间可迁移（cluster-wise 聚合）</li>
+<li>线性模型足以捕捉 TF→mRNA 的主要调控效应（一阶近似）</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>先验整合</td>
+<td>合并 ChIP-Atlas、motif、curated 三类证据，构建候选 TF–mRNA 边集</td>
+<td>单一先验源覆盖不全或含噪声；整合可互补</td>
+<td>输入：三类先验数据库；输出：候选边集（含方向先验）</td>
+<td>Results 节（构建部分）；"integrating heterogeneous prior evidence"</td>
+<td>预期影响 [Analysis]：移除后候选边集覆盖度下降，可能遗漏功能性调控关系，导致活性推断召回率降低</td>
+</tr>
+<tr>
+<td>Cluster-wise 岭回归</td>
+<td>在每个细胞类型/组织 cluster 内估计 TF→mRNA 系数</td>
+<td>调控关系具有细胞类型特异性；岭回归处理高维共线性</td>
+<td>输入：cluster 内 TF/mRNA 表达矩阵 + 候选边集；输出：cluster 特异性系数矩阵</td>
+<td>Methods 节（回归部分）；"cluster-wise regularized regression"</td>
+<td>预期影响 [Analysis]：移除后无法捕捉细胞类型特异性调控，全局系数在特定组织中精度下降</td>
+</tr>
+<tr>
+<td>系数归一化与聚合</td>
+<td>将 cluster 内系数归一化，跨 cluster 聚合为共识系数</td>
+<td>不同 cluster 表达量纲不同；需要全局可用的调控矩阵</td>
+<td>输入：cluster 特异性系数；输出：全局 + 器官特异性共识矩阵</td>
+<td>Methods 节（聚合部分）；"coefficients were first normalized within each dataset before aggregation"</td>
+<td>预期影响 [Analysis]：移除后跨数据集系数不可比，全局矩阵质量下降</td>
+</tr>
+<tr>
+<td>TF 活性推断（ulm）</td>
+<td>从表达谱推断 TF 活性评分</td>
+<td>核心下游任务之一</td>
+<td>输入：表达矩阵 + 调控矩阵；输出：TF 活性评分</td>
+<td>Results 节（基准部分）；"TFActProfiler combined with ulm achieved the best overall performance"</td>
+<td>实测效应：替换为无符号资源（如 ChIP-Atlas）后性能下降（Results 图 2B）</td>
+</tr>
+<tr>
+<td>零样本扰动预测</td>
+<td>用线性映射预测 TF 敲低后的表达变化</td>
+<td>无需任务匹配训练数据即可预测扰动响应</td>
+<td>输入：TF 敲低幅度 Δx + 调控矩阵；输出：Δy_pred</td>
+<td>Results 节（扰动预测部分）；"predicted responses using TFActProfiler significantly correlated with the experimental measurements"</td>
+<td>预期影响 [Analysis]：移除后丧失零样本预测能力，需依赖 Perturb-seq 等昂贵实验数据</td>
+</tr>
+<tr>
+<td>可靠性估计（MSE）</td>
+<td>量化先验与数据的一致性</td>
+<td>用户需要判断推断结果的置信度</td>
+<td>输入：先验系数 + 数据重估系数；输出：MSE 评分</td>
+<td>Methods 节（可靠性部分）；"a scale-comparable reliability score was defined as a mean squared error"</td>
+<td>预期影响 [Analysis]：移除后用户无法判断推断结果的可靠性，降低实际应用价值</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<ol>
+<li>
+<p><strong>岭回归估计 TF→mRNA 系数</strong>（Methods 节）：
+   - $Y \approx K \cdot X$
+   - $Y \in \mathbb{R}^{n \times c}$：mRNA 表达矩阵（n 个 mRNA，c 个样本）
+   - $X \in \mathbb{R}^{m \times c}$：TF 表达矩阵（m 个 TF，c 个样本）
+   - $K \in \mathbb{R}^{n \times m}$：TF–mRNA 系数矩阵（行 = mRNA，列 = TF；非先验边置零）
+   - 岭回归目标：$\min_K |Y - KX|_F^2 + \lambda |K|_F^2$（λ 为岭正则化参数）</p>
+</li>
+<li>
+<p><strong>TF 活性推断的线性映射</strong>（Methods 节）：
+   - $x_j \approx W \cdot y_j$
+   - $x_j \in \mathbb{R}^m$：样本 j 的 TF 活性向量
+   - $y_j \in \mathbb{R}^n$：样本 j 的 mRNA 表达向量
+   - $W \in \mathbb{R}^{m \times n}$：TF–mRNA 系数矩阵的转置形式（行 = TF，列 = mRNA；正 = 激活，负 = 抑制，缺失 = 0）</p>
+</li>
+<li>
+<p><strong>零样本扰动预测</strong>（Methods 节）：
+   - $\Delta y = W \cdot \Delta x$
+   - $\Delta x = -\gamma x_k e_k$：TF k 敲低引起的 TF 活性变化（$e_k$ 为标准基向量，$\gamma$ 控制敲低强度）
+   - $\Delta y$：预测的 mRNA 表达变化</p>
+</li>
+<li>
+<p><strong>可靠性评分</strong>（Methods 节）：
+   - $MSE_j = \frac{1}{m} |x_j - W \cdot K \cdot x_j|^2$
+   - 衡量先验系数 W 与数据重估系数 K 的自洽性；值越低表示推断越可靠</p>
+</li>
+</ol>
+<h2>10 实验设计与证据链</h2>
+<p><strong>数据集/群体</strong>：
+- 训练数据：大规模 bulk RNA-seq 图谱（多个公开数据集，具体来源未在摘要中列出）
+- 单细胞数据：PBMC 数据集（decoupleR 分发）、人类睾丸单细胞数据（GSE106487）
+- 基准数据：
+  - 人类 TF 敲低（KD）RNA-seq：4 个细胞系（RPE1、K562、HepG2、Jurkat），共 1,423 个扰动实验（来源：Perturb-seq 相关研究，PRJNA831566、PRJNA1100571）
+  - 小鼠 TF KD RNA-seq：KnockTF 2.0 资源
+  - 磷酸化蛋白质组数据：猴痘病毒（MPXV）感染的人原代成纤维细胞（HFFs）时间序列（0/6/12/24 hpi）
+  - 疾病数据：透明细胞肾细胞癌（ccRCC）bulk RNA-seq（n=157，含复发随访）；特发性肺纤维化（IPF）bulk RNA-seq（n=95 组织芯，10 IPF + 6 对照，GSE124685）
+  - 脂肪生成：人脂肪生成单核 RNA-seq（GSE 未提供）
+  - 小鼠 torpor：GSE117937</p>
+<p><strong>指标</strong>：
+- TF 活性推断：识别被敲低 TF 的排名（rank）或 AUC
+- 扰动预测：预测 Δy 与观测 Δy 的 Pearson 相关系数、MSE
+- 可靠性：MSE 评分与推断准确率的相关性
+- 磷酸化验证：TF 活性轨迹与磷酸化位点变化的相关性
+- 配体-受体推断：AUC（ROC 分析）</p>
+<p><strong>基准/对比方法</strong>：
+- TF 活性推断：CollecTRA、ChIP-Atlas、DoRothEA 等 regulon 资源（经 decoupleR 框架）
+- 扰动预测：scFoundation、scGPT 嵌入 + 线性模型；CellOracle 风格回归模型
+- 消融对照：TFActProfiler−（系数替换为均匀 1，即无定量信息）</p>
+<p><strong>评测协议</strong>：
+- 每个 KD 实验中，计算所有 TF 的活性得分，检查被敲低 TF 的排名是否显著靠前（方向正确）
+- 扰动预测：留一法（leave-one-out）评估未见过的 TF 敲低
+- 跨物种：人类训练的 TFActProfiler 经同源映射后用于小鼠数据</p>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的 claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人类 TF KD 基准（4 细胞系，1,423 实验）</td>
+<td>TFActProfiler 提升 TF 活性推断准确率</td>
+<td>TFActProfiler vs CollecTRA、ChIP-Atlas 等，均用 ulm</td>
+<td>TFActProfiler + ulm 最佳（具体数值未提供）</td>
+<td>定量符号信息提升活性推断</td>
+<td>未提供与非线性方法的对比</td>
+<td>Results 图 2B</td>
+</tr>
+<tr>
+<td>消融实验（TFActProfiler−）</td>
+<td>定量系数贡献</td>
+<td>保留边集、系数置 1</td>
+<td>性能下降</td>
+<td>定量权重 &gt; 二元边集</td>
+<td>未提供具体下降幅度</td>
+<td>Results 节</td>
+</tr>
+<tr>
+<td>小鼠 KnockTF 基准</td>
+<td>跨物种迁移</td>
+<td>人类 TFActProfiler 同源映射 vs CollecTRA 小鼠版</td>
+<td>TFActProfiler 更优（具体数值未提供）</td>
+<td>调控信息跨物种保守</td>
+<td>未提供与小鼠专属资源的全面对比</td>
+<td>Results 节（补充图 S1C、S1D）</td>
+</tr>
+<tr>
+<td>scTF-seq 验证</td>
+<td>TF 活性与实验扰动剂量相关</td>
+<td>TFActProfiler vs CollecTRA 的活性得分与 TF 剂量相关</td>
+<td>TFActProfiler 相关性更强</td>
+<td>活性得分反映真实 TF 活性</td>
+<td>未提供因果性证据</td>
+<td>Results 节（补充图 S1E）</td>
+</tr>
+<tr>
+<td>磷酸化蛋白质组（MPXV 感染 HFFs）</td>
+<td>TF 活性反映磷酸化调控</td>
+<td>TFActProfiler 活性轨迹 vs 磷酸化位点变化</td>
+<td>显著正相关（具体数值未提供）</td>
+<td>活性推断捕获翻译后修饰效应</td>
+<td>相关性不等于因果；样本量小</td>
+<td>Results 图 2D、2E</td>
+</tr>
+<tr>
+<td>配体-受体推断（人类睾丸）</td>
+<td>TF 活性增强 LR 推断</td>
+<td>有/无 TF 活性增强的 LR 评分</td>
+<td>AUC 提升</td>
+<td>下游 TF 活性提供额外信息</td>
+<td>仅在单一组织验证</td>
+<td>Results 图 2H</td>
+</tr>
+<tr>
+<td>ccRCC 复发分析</td>
+<td>TF 活性与临床结局相关</td>
+<td>Cox 比例风险模型</td>
+<td>E2F7、NFYA、NFYB、IRX5 与复发显著相关</td>
+<td>活性推断有临床转化价值</td>
+<td>未做多变量校正或独立验证</td>
+<td>Results 节（补充图 S1G、S1H）</td>
+</tr>
+<tr>
+<td>脂肪生成（TRPS1）</td>
+<td>活性推断复现已知调控因子</td>
+<td>TRPS1 活性在早期脂肪生成中升高</td>
+<td>显著升高（P &lt; .01）</td>
+<td>活性推断可发现已知调控因子</td>
+<td>未验证新因子</td>
+<td>Results 节（补充图 S1K）</td>
+</tr>
+<tr>
+<td>小鼠 torpor（Atf3）</td>
+<td>活性推断识别已知 torpor 调控因子</td>
+<td>Atf3 活性在 torpor 中升高</td>
+<td>显著升高（P &lt; .01）；CollecTRA 未检出</td>
+<td>TFActProfiler 灵敏度更高</td>
+<td>单基因案例</td>
+<td>Results 节（补充图 S1M）</td>
+</tr>
+<tr>
+<td>IPF 逆转筛选</td>
+<td>零样本扰动预测可用于疾病逆转</td>
+<td>预测各 TF 敲低后表达变化与 IPF-健康差异表达的相关性</td>
+<td>SMAD7、HMGB2 排名靠前</td>
+<td>可优先候选 TF 用于实验验证</td>
+<td>仅为 in silico 预测，无实验验证</td>
+<td>Results 节（补充图 S3B）</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：本文的 TF 活性推断与扰动预测均基于<strong>转录组共变</strong>，而非 TF–DNA 物理结合的直接测量。结论仅适用于「TF mRNA 丰度可近似反映 TF 活性」的假设下。</li>
+<li><strong>Oracle/真值输入</strong>：基准测试使用实验 KD 数据作为真值，但 KD 效率、脱靶效应、补偿机制等未完全控制。磷酸化验证使用 curated 磷酸化位点注释（SIGNOR），其覆盖度有限。</li>
+<li><strong>端到端状态</strong>：TFActProfiler 是<strong>预训练资源</strong>，用户需自行运行 ulm 等推断方法；不是端到端的深度学习模型。零样本扰动预测是线性近似，不捕捉非线性调控、反馈回路、表观遗传状态等。</li>
+<li><strong>算力成本</strong>：岭回归在 cluster 级别运行，计算成本远低于深度模型；但大规模图谱的预处理和存储需要一定资源。</li>
+<li><strong>历史数据依赖</strong>：训练数据来自公开 RNA-seq 图谱，存在批次效应、组织覆盖不均、细胞类型偏差。跨物种迁移依赖同源映射的准确性。</li>
+<li><strong>最难场景</strong>：低表达 TF、高共线性 TF 家族、细胞类型特异性调控、翻译后修饰主导的 TF 活性变化。</li>
+<li><strong>群体/领域边界</strong>：主要基于人类数据训练，小鼠验证有限；未覆盖非模式生物。疾病应用（ccRCC、IPF）为回顾性分析，无前瞻性验证。</li>
+<li><strong>有边界的复述</strong>：TFActProfiler 是一个带符号、定量的 TF–mRNA 调控资源，在已测试的人类细胞系和小鼠数据中，其活性推断准确率优于现有 regulon 资源，并能零样本预测 TF 敲低后的表达变化方向；但其预测为线性近似，不适用于需要精确效应量或非线性动力学的场景。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<table>
+<thead>
+<tr>
+<th>局限</th>
+<th>具体表现</th>
+<th>作者提出的未来方向</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>线性近似</td>
+<td>扰动预测是线性映射，无法捕捉非线性调控、反馈回路、动态变化</td>
+<td>整合非线性或动态模型</td>
+<td>Discussion 节；"they are merely linear approximations of regulatory dynamics rather than exact forecasts of expression changes"</td>
+</tr>
+<tr>
+<td>上下文依赖性</td>
+<td>TF–mRNA 调控关系具有高度细胞类型/状态特异性，全局系数可能不适用于特定场景</td>
+<td>扩展至更多细胞类型和生理/病理状态；开发上下文感知的系数估计</td>
+<td>Discussion 节；"expanding to rare cell types and diverse physiological contexts requires more data and context-aware transfer strategies"</td>
+</tr>
+<tr>
+<td>非因果性</td>
+<td>系数来自共变回归，不能证明因果关系；部分符号可能受混淆因素影响</td>
+<td>结合 CRISPR 筛选等因果扰动数据验证</td>
+<td>Discussion 节；"should be interpreted as heuristic consensus estimates rather than definitive causal mode-of-regulation annotations"</td>
+</tr>
+<tr>
+<td>未与其他方法全面对比</td>
+<td>未与非线性深度模型（如 scGPT、scFoundation 全模型）在完全匹配条件下对比</td>
+<td>未来在匹配条件下进行基准测试</td>
+<td>Discussion 节；"A priority for future work is to evaluate our model against nonlinear methods under matched conditions"</td>
+</tr>
+<tr>
+<td>资源非替代品</td>
+<td>TFActProfiler 不替代 CollecTRA 等 curated 资源，后者在文献追溯方面有独特价值</td>
+<td>两者互补使用</td>
+<td>Discussion 节；"TFActProfiler does not replace CollecTRA"</td>
+</tr>
+</tbody>
+</table>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>线性回归估计 TF→mRNA 系数</td>
+<td>共变 ≠ 因果；高共线性 TF 家族（如 AP-1 成员）可能导致系数不稳定或符号翻转</td>
+<td>若系数不可靠，下游活性推断和扰动预测的准确性将受影响</td>
+<td>在合成数据中注入已知调控关系，检验系数恢复能力；或在 TF 家族成员间进行交叉验证</td>
+<td>Methods 节（岭回归部分）</td>
+</tr>
+<tr>
+<td>以 TF mRNA 作为 TF 活性代理</td>
+<td>许多 TF 活性受翻译后修饰（如磷酸化）、核定位、竞争性抑制调控，mRNA 丰度可能严重偏离活性</td>
+<td>这是整个方法的核心假设，若违反则所有推断失效</td>
+<td>在磷酸化数据集中比较 mRNA 丰度与磷酸化位点状态的预测能力</td>
+<td>Results 节（磷酸化验证部分）</td>
+</tr>
+<tr>
+<td>先验整合的边集可能引入偏差</td>
+<td>ChIP-Atlas 和 motif 预测偏向于研究充分的 TF，对未充分研究的 TF 覆盖不足</td>
+<td>可能导致对「已知」TF 的过度拟合，对「未知」TF 的推断能力有限</td>
+<td>按 TF 研究密度分层分析推断准确率</td>
+<td>Results 节（构建部分）</td>
+</tr>
+<tr>
+<td>零样本扰动预测的评估方式</td>
+<td>仅用 Pearson 相关和 MSE 评估，未报告方向准确率（符号一致性）或效应量校准</td>
+<td>相关高但方向错误的情况可能被掩盖</td>
+<td>补充方向准确率、top-k 富集分析等指标</td>
+<td>Results 节（扰动预测部分）</td>
+</tr>
+<tr>
+<td>跨物种迁移的验证有限</td>
+<td>仅验证了小鼠 KnockTF 和 torpor 数据，未覆盖更多物种</td>
+<td>同源映射可能丢失物种特异性调控信息</td>
+<td>在更多物种（如斑马鱼、果蝇）的扰动数据上验证</td>
+<td>Results 节（补充图 S1C、S1D）</td>
+</tr>
+<tr>
+<td>与深度模型的对比不完整</td>
+<td>未与 scGPT、scFoundation 的完整模型（而非仅嵌入）对比</td>
+<td>无法判断线性先验方法是否真的优于深度模型</td>
+<td>在相同基准上运行完整深度模型并对比</td>
+<td>Discussion 节；"A priority for future work is to evaluate our model against nonlinear methods under matched conditions"</td>
+</tr>
+<tr>
+<td>可靠性评分的验证不足</td>
+<td>MSE 评分仅作为启发式指标，未与实验验证的准确率建立定量关系</td>
+<td>用户无法将 MSE 值映射为实际置信度</td>
+<td>在多个数据集中建立 MSE 与准确率的校准曲线</td>
+<td>Methods 节（可靠性部分）</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<blockquote>
+<p>标题：Agent 提炼的知识候选</p>
+</blockquote>
+<ol>
+<li><strong>结构先验 + 数据参数化的范式</strong>：本文最核心的可迁移思路是「用先验定义搜索空间，用数据估计参数」。在 TF–DNA 互作建模中，可借鉴此思路：用 ChIP-seq/motif 先验定义候选 TF–DNA 结合位点，再用大规模转录组/表观基因组数据估计功能性权重，而非直接对所有位点做无差别建模。</li>
+<li><strong>符号信息的重要性</strong>：本文反复强调带符号（激活/抑制）的调控信息对活性推断的关键作用。在 TF–DNA 互作研究中，仅知道「结合」不够，还需知道「结合后是激活还是抑制」。可迁移到 ChIP-seq 数据分析中：结合峰 + 方向性注释（如 H3K27ac vs H3K27me3 共定位）可显著提升下游推断质量。</li>
+<li><strong>不确定性估计的实用价值</strong>：本文提出的 MSE 可靠性评分为用户提供了判断依据。在 AI 辅助的 TF–DNA 结合预测中，类似的不确定性估计（如 ensemble 方差、Bayesian 置信区间）可帮助实验学家优先验证高置信度预测。</li>
+<li><strong>跨物种迁移策略</strong>：通过同源映射将人类调控资源迁移到小鼠，并取得优于小鼠专属资源的效果，说明<strong>调控逻辑的进化保守性</strong>可被利用。在 TF–DNA 结合预测中，可考虑跨物种迁移学习以弥补模式生物训练数据不足的问题。</li>
+<li><strong>线性模型的竞争力</strong>：在扰动预测任务中，简单的线性映射（基于良好设计的先验）可以媲美甚至超越深度模型。这提示在 TF–DNA 互作建模中，<strong>特征/先验设计比模型架构更重要</strong>，不应盲目追求模型复杂度。</li>
+<li><strong>多组学验证框架</strong>：本文的验证策略（KD 基准 + 磷酸化验证 + 单细胞 + 疾病关联）为 TF–DNA 互作模型的评估提供了模板：不仅要在结合预测上评估，还要在下游功能效应（基因表达变化、表型关联）上验证。</li>
+</ol>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似工作</strong>：与 <strong>DoRothEA</strong>（Garcia-Alonso et al.）、<strong>CollecTRA</strong>（Müller-Dott et al.）、<strong>CellOracle</strong>（Kamimoto et al.）同属 regulon-based TF 活性推断方法。本文的差异化在于：整合多源先验 + 大规模数据估计定量系数 + 零样本扰动预测。</li>
+<li><strong>组合方向</strong>：与 <strong>SCENIC+</strong>（Braun-Breton et al.）的 enhancer-based regulon 推断可互补——SCENIC+ 从增强子-基因连接推断 regulon，TFActProfiler 从表达共变估计系数，两者可组合为「增强子-启动子-表达」的端到端调控模型。</li>
+<li><strong>冲突/竞争</strong>：与 <strong>scGPT / scFoundation</strong> 等基础模型的扰动预测能力形成对比。本文表明线性先验方法在小样本场景下可能更优，但未在完全匹配条件下对比，需谨慎解读。</li>
+<li><strong>可迁移领域</strong>：本文的「先验整合 + 岭回归 + 零样本预测」框架可迁移到其他调控层级：(1) <strong>miRNA–mRNA</strong> 调控推断；(2) <strong>增强子–启动子</strong> 互作预测；(3) <strong>TF–TF</strong> 协同调控建模。方法本身不限于转录调控，也可用于蛋白质–蛋白质互作网络的功能权重估计。</li>
+<li><strong>与物理模拟的关联 [Analysis]</strong>：本文方法不涉及 MD 或对接模拟，但其「先验结构 + 数据参数」的思路与<strong>粗粒化分子模拟</strong>中的「已知接触图 + 数据驱动势函数」有方法论上的相似性。在 TF–DNA 结合自由能预测中，可借鉴此思路：用已知晶体结构/接触图定义候选相互作用，再用大规模突变实验数据估计能量参数。</li>
+</ul>
+<h2>16 研究想法</h2>
+<blockquote>
+<p>标题：Agent 生成的研究候选</p>
+</blockquote>
+<ol>
+<li>
+<p><strong>候选名称</strong>：TF–DNA 结合方向性预测器（Directional TF–DNA Binding Predictor）
+   - <strong>来源局限/观察</strong>：本文表明带符号的 TF–mRNA 调控信息显著提升活性推断，但 TF–DNA 结合数据（ChIP-seq）本身不含方向性。现有方法（如 DeepSEA、Basenji）预测结合概率但不预测激活/抑制方向。
+   - <strong>核心假设</strong>：TF–DNA 结合的方向性（激活 vs 抑制）可由局部序列上下文 + 共结合因子 + 表观基因组状态预测。
+   - <strong>初步方法</strong>：以 ChIP-seq 峰为中心，提取序列 + 表观基因组特征（H3K27ac、H3K4me1、H3K27me3），训练一个多任务模型同时预测结合概率和方向性；用 TFActProfiler 的符号系数作为弱监督标签。
+   - <strong>验证方式</strong>：在 TF KD 数据中检验「预测为激活的 TF–DNA 结合」是否对应 KD 后下调的靶基因。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>候选名称</strong>：跨物种 TF 调控迁移学习框架（Cross-species TF Regulatory Transfer）
+   - <strong>来源局限/观察</strong>：本文展示了人类→小鼠的调控迁移有效性，但仅用同源映射，未利用现代迁移学习技术。
+   - <strong>核心假设</strong>：TF–DNA 结合基序和调控逻辑在物种间高度保守，可通过对抗域适应或元学习实现更精准的跨物种调控推断。
+   - <strong>初步方法</strong>：在人类 TF–DNA 结合数据上预训练模型，用小鼠的少量标记数据微调；引入同源基因/同源 TF 作为锚点；比较不同迁移策略（同源映射 vs 域适应 vs 元学习）。
+   - <strong>验证方式</strong>：在小鼠 KnockTF 和 torpor 数据上评估，与本文的同源映射基线对比。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>候选名称</strong>：不确定性感知的 TF 扰动优先级排序（Uncertainty-aware TF Perturbation Prioritization）
+   - <strong>来源局限/观察</strong>：本文的 MSE 可靠性评分是全局的，未用于单 TF 级别的优先级排序。
+   - <strong>核心假设</strong>：对每个 TF，其活性推断的可靠性不同；将可靠性纳入排序可提高实验验证的成功率。
+   - <strong>初步方法</strong>：为每个 TF 计算可靠性评分（基于先验与数据的一致性），在疾病逆转筛选（如 IPF）中，将可靠性作为排序权重；与仅按效应量排序的基线对比。
+   - <strong>验证方式</strong>：在 IPF 和 ccRCC 数据中，检验高可靠性 TF 是否更可能被独立实验验证。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>候选名称</strong>：物理模拟与调控网络联合的 TF 效应预测（Physics-informed TF Effect Prediction）
+   - <strong>来源局限/观察</strong>：本文的线性模型不捕捉 TF–DNA 结合的物理化学细节（如结合亲和力、构象变化），而这些可能影响调控效应。
+   - <strong>核心假设</strong>：将 MD 模拟或对接计算的结合亲和力作为先验特征，可提升 TF 敲低后表达变化的预测精度。
+   - <strong>初步方法</strong>：对目标 TF–DNA 复合物进行短时 MD 模拟，提取结合自由能、接触面积等特征；将这些特征作为岭回归或轻量 ML 模型的额外输入；与纯转录组特征对比。
+   - <strong>验证方式</strong>：在已有 TF KD 数据中，比较加入物理特征前后的预测精度。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>候选名称</strong>：单细胞分辨率下的 TF 活性异质性推断（Single-cell TF Activity Heterogeneity Inference）
+   - <strong>来源局限/观察</strong>：本文的 TF 活性推断主要面向 bulk 数据，但单细胞数据中 TF 活性的细胞异质性对理解细胞命运决定至关重要。
+   - <strong>核心假设</strong>：TFActProfiler 的调控矩阵可迁移到单细胞数据，且能捕获细胞亚群间的 TF 活性差异。
+   - <strong>初步方法</strong>：将 TFActProfiler 的调控矩阵应用于 PBMC 单细胞数据，用 ulm 计算每个细胞的 TF 活性；用 UMAP 可视化 TF 活性景观；比较不同细胞亚群的 TF 活性差异。
+   - <strong>验证方式</strong>：与已知的细胞类型标志 TF 对比，检验推断的 TF 活性是否与细胞类型一致。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+</ol></div>
+  </section>
+  
+  
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript text including abstract, methods, results, discussion, and data availability statements. No figures, tables, or supplementary materials were provided for inspection.</li>
+<li><strong>Assessment boundary</strong> Evaluation is limited to the claims and methods as described in the text. Statistical results, figure contents, and supplementary analyses are referenced but not directly verifiable from the provided material.</li>
+<li><strong>Shared manuscript claim summary</strong> The authors present TFActProfiler, a resource and computational framework that integrates prior TF–mRNA knowledge with large-scale transcriptomic data to learn signed, quantitative TF–mRNA regulatory coefficients. They claim improved TF activity inference relative to existing resources, zero-shot perturbation prediction without task-matched training data, and broad applicability across human and mouse contexts, supported by multiple case studies.</li>
+<li><strong>Visible evidence base</strong> Text descriptions of benchmarks across 1,423 TF knockdown experiments in four human cell lines, mouse knockout benchmarks, scTF-seq validation, phosphoproteomics comparison, ligand–receptor inference improvement, and five case studies. Statistical values are cited in text (e.g., P values, correlations, AUCs) but underlying data, figures, and supplementary tables were not available for review.</li>
+<li><strong>Missing materials affecting confidence</strong> All figures, supplementary figures, supplementary tables, and the Zenodo data repository contents. Detailed benchmark protocols, hyperparameter settings, and exact statistical test configurations are only partially described. The full TFActProfiler coefficient table and its comparison with other resources could not be independently assessed.</li>
+</ul>
+<h2>Reviewer</h2>
+<ul>
+<li><strong>Overall assessment</strong> This manuscript describes a substantial resource-building effort with a clear practical orientation. The integration of multiple prior sources with transcriptomic data to produce signed, quantitative TF–mRNA coefficients is a useful contribution, and the breadth of validation across diverse benchmarks is commendable. However, the current text does not provide sufficient methodological detail or direct evidence to fully evaluate the central claims. Several key comparisons, such as the precise advantage over existing resources and the robustness of the zero-shot prediction framework, are asserted rather than demonstrated in the visible text. The reliability metric is an interesting idea but its interpretation and validation require more careful exposition. The manuscript would benefit from clearer articulation of what is genuinely novel versus what is an incremental engineering contribution, and from a more critical discussion of the limitations of coexpression-based inference for regulatory direction.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers working on TF activity inference from transcriptomic data, particularly those using regulon-based approaches such as decoupleR, VIPER, or SCENIC. The resource could also be of interest to computational biologists studying gene regulatory networks, perturbation prediction, and integrative analysis of bulk and single-cell data. The ligand–receptor inference application may appeal to those studying cell–cell communication. The case studies in cancer, adipogenesis, and torpor provide concrete examples that could attract users from those specific fields.</li>
+<li><strong>Major strengths</strong></li>
+<li>The construction of a large-scale signed TF–mRNA resource (2.6 million interactions) addresses a real gap in the field, where many existing resources lack directional information.</li>
+<li>The validation strategy is broad, spanning multiple species, data types, and biological contexts, which strengthens the generalizability claims.</li>
+<li>The zero-shot perturbation prediction framework is a practical contribution for settings where matched perturbation data are unavailable.</li>
+<li>The reliability metric, while heuristic, addresses an important need for uncertainty awareness in regulon-based inference.</li>
+<li>The manuscript is generally well-written and the conceptual framing around precision-coverage trade-offs is clear.</li>
+<li><strong>Major Concerns</strong></li>
+<li><strong>R1-M1</strong> (Blocking: Yes): The central claim of improved TF activity inference is not fully substantiated in the visible text. The authors state that TFActProfiler outperforms existing resources but do not provide the actual benchmark results, effect sizes, or statistical comparisons in the text. Without seeing the figures or supplementary tables, it is impossible to assess the magnitude of improvement or whether it is consistent across cell types and methods.</li>
+<li><strong>R1-M2</strong> (Blocking: Yes): The zero-shot perturbation prediction framework is described mathematically, but the evaluation criteria are unclear. The authors emphasize Pearson correlation over MSE, which is appropriate for directional agreement, but the text does not specify how significance was determined, what the baseline expectations are, or how the results compare to the previously reported poor performance of other zero-shot methods. The claim that TFActProfiler enables prediction "without training on task-matched perturbation data" needs a clearer demonstration that this is not simply a trivial linear extrapolation.</li>
+<li><strong>R1-M3</strong> (Blocking: Yes): The reliability metric is introduced as a key contribution, but its properties are not rigorously characterized. The authors acknowledge it is heuristic, yet they use it to draw conclusions about the quality of TF activity estimates. It is unclear what constitutes a "good" or "bad" score in absolute terms, how it behaves under different data conditions, and whether it correlates with actual inference accuracy in any validated setting.</li>
+<li><strong>R1-M4</strong> (Blocking: No): The cross-species generalization claim relies on orthology mapping, but the text does not describe how orthology was established, how many TFs were successfully mapped, or whether the performance drop from human to mouse was statistically assessed. The scTF-seq analysis is mentioned but the details of the comparison are not provided.</li>
+<li><strong>R1-M5</strong> (Blocking: No): The ligand–receptor inference improvement is presented as a single application, but the mechanism by which TF activity improves LR scoring is not explained. It is unclear whether the improvement is due to the specific TFActProfiler resource or would be observed with any reasonable TF activity estimate.</li>
+<li><strong>R1-M6</strong> (Blocking: No): The case studies are presented as illustrative, but the statistical rigor varies. For example, the ccRCC analysis identifies several TFs associated with recurrence, but the multiple testing burden is not addressed. The TRPS1 and Atf3 analyses report P values without correction for the number of TFs examined.</li>
+<li><strong>Minor Comments</strong></li>
+<li><strong>R1-m1</strong> (Severity: Minor, Axis: Clarity): The description of the regression model in the Methods section is incomplete. The text mentions ridge-regularized regression but does not specify the exact loss function, the standardization procedure, or how the regularization parameter was chosen for the resource construction.</li>
+<li><strong>R1-m2</strong> (Severity: Minor, Axis: Reproducibility): The authors state that count matrices were used as provided without cross-dataset harmonization. This is a deliberate design choice, but the potential consequences for batch effects and dataset-specific biases are not discussed.</li>
+<li><strong>R1-m3</strong> (Severity: Minor, Axis: Interpretation): The statement that TFActProfiler "is not limited to TFs" and contains cofactors is interesting but the implications for interpretation are not explored. Including cofactors in a TF activity inference framework could conflate distinct regulatory mechanisms.</li>
+<li><strong>R1-m4</strong> (Severity: Minor, Axis: Completeness): The comparison with other zero-shot methods is mentioned in the Discussion but not in the Results. Given the claim that previous methods "were not significantly better than random," it would be helpful to see this comparison directly in the benchmark section.</li>
+<li><strong>R1-m5</strong> (Severity: Minor, Axis: Presentation): The web application and GitHub repository are mentioned, but there is no description of the user interface, the input formats supported, or the computational requirements for running the tool.</li>
+<li><strong>R1-m6</strong> (Severity: Minor, Axis: Statistical reporting): Several P values are reported in the case studies, but the exact statistical tests used are not always specified. For example, the Mann–Whitney U-test is mentioned for the PBMC analysis, but the test used for the TRPS1 temporal analysis is not stated.</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong></li>
+<li>R1-M1: Benchmark results must be shown with appropriate statistical comparisons and effect sizes.</li>
+<li>R1-M2: The zero-shot prediction evaluation needs clearer baselines, significance testing, and a demonstration that the method is not trivially extrapolating.</li>
+<li>R1-M3: The reliability metric requires characterization of its distribution, interpretation, and validation against known ground truth.</li>
+<li>R1-M4: Orthology mapping details and cross-species performance statistics must be provided.</li>
+<li>R1-M5: The mechanism by which TF activity improves LR inference should be explained.</li>
+<li>R1-M6: Multiple testing corrections should be applied or justified in the case studies.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that TFActProfiler "outperforms" existing resources is not verifiable from the text alone; benchmark figures and tables are required.</li>
+<li>The claim that TFActProfiler enables perturbation prediction "without training on task-matched perturbation data" is only partially supported; the evaluation criteria and baselines are not fully described.</li>
+<li>The reliability metric is claimed to be a key contribution, but its validity as a measure of inference quality is not established.</li>
+<li>The cross-species generalization claim is supported only by a reference to supplementary figures; the details of orthology mapping and performance comparison are not visible.</li>
+<li>The statement that TFActProfiler "is one of the most comprehensive and functionally informative TF–mRNA databases to date" is an assertion that requires direct comparison with other resources in terms of coverage, accuracy, and functional annotation.</li>
+<li>The case study conclusions (ccRCC, TRPS1, Atf3) are presented as supportive evidence, but the statistical rigor and multiple testing considerations are not fully addressed in the text.</li>
+<li>The claim that TFActProfiler "captures phosphorylation-driven TF activity dynamics" is based on a single dataset comparison; the generalizability of this finding is unclear.</li>
+</ul></div>
+  </section>
+  
+</article>
+</main>
+</body>
+</html>
