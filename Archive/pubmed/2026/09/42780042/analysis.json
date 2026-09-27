@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42780042",
+  "title": "Joint inference of paired dynamical gene regulatory networks reveals distinct cell-state landscapes of neutrophil reprogramming.",
+  "authors": "Ren, Alex; You, Yukai; Lu, Mingyang",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-09-24",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用NetDes-Duo联合推断两种条件下转录因子调控网络并模拟细胞状态转变，虽涉及TF调控网络但基于scRNA-seq表达数据，缺乏TF-DNA三维互作建模，方法可迁移但非核心匹配。",
+  "abstract": "Disease reprograms cells through changes in gene regulation, yet identifying these changes remains a major challenge. We introduce NetDes-Duo, a computational method that jointly infers transcription factor regulatory network models for two related conditions using scRNA-seq data. The networks are optimized to have minimal topological differences, while the associated ODE models recapitulate single-cell gene expression trajectories for both conditions. On synthetic benchmarks, NetDes-Duo outperformed methods that infer each network independently. NetDes-Duo was applied to neutrophil reprogramming in naive and tumor-bearing mice, and the network-simulated dynamics reproduced the observed cell state transitions. The naive landscape had two well-separated basins, whereas the tumor-bearing landscape was more continuous, with three shallower basins. Perturbation and driving simulations also identified Cebpb as a key driver of the tumor-bearing transition, consistent with emergency granulopoiesis literature. We expect NetDes-Duo to be a broadly applicable framework for uncovering the regulatory logic of disease-associated cell state transitions.",
+  "abstract_zh": "疾病通过基因调控的变化重编程细胞，然而识别这些变化仍是一项重大挑战。我们引入了NetDes-Duo，一种计算方法，利用单细胞RNA测序（scRNA-seq）数据联合推断两种相关条件下的转录因子调控网络模型。这些网络经过优化，具有最小的拓扑差异，同时相关的常微分方程（ODE）模型重现了两种条件下的单细胞基因表达轨迹。在合成基准测试中，NetDes-Duo优于独立推断每个网络的方法。NetDes-Duo被应用于未处理及荷瘤小鼠的中性粒细胞重编程，网络模拟的动态过程再现了观察到的细胞状态转变。未处理状态下的景观具有两个明显分离的盆地，而荷瘤状态下的景观更为连续，具有三个较浅的盆地。扰动和驱动模拟还识别出Cebpb是荷瘤转变的关键驱动因子，这与紧急粒细胞生成文献一致。我们预期NetDes-Duo将成为揭示疾病相关细胞状态转变调控逻辑的广泛适用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42780042/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42780042/",
+  "paper_page_path": "papers/pubmed/42780042/index.html"
+}

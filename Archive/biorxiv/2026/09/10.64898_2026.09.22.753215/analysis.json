@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.22.753215",
+  "title": "A Taxonomy-Informed Sparse DNA Foundation Model for Microbial Genomics",
+  "authors": "Athan Z. Li; Shiyuan Wang; Shupeng Cheng; Yuxuan Du; Ruishan Liu",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-24",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出微生物DNA基础模型MicroGlot，聚焦基因组序列表示与分类，未涉及蛋白质-DNA互作或TF-DNA结合建模，仅属DNA序列大模型，与本课题关联微弱。",
+  "abstract": "Microorganisms are indispensable to terrestrial ecosystems, with their genomic material underpinning critical functions and applications across agriculture, biotechnology, and human health. Although genomic language models have advanced representation learning in DNA sequences, the extensive diversity of microorganisms and imbalanced taxonomic representation in the pretraining corpora pose challenges for effective microbial genomic sequence modeling. Here we present MicroGlot, a taxonomy-informed microbial DNA foundation model pretrained on 3.70 million sequences comprising 378.3 billion nucleotides across 99{,}700 species. MicroGlot encodes the hierarchical relations among taxa through hyperbolic embeddings, incorporating microbial taxonomic knowledge into a sparse mixture-of-experts architecture. Zero-shot evaluation of MicroGlot's layer embeddings demonstrates that the model's representations encode phenotypic traits and taxonomic identity. Comparison with a taxonomy-ablated variant trained under the same pretraining scheme shows that incorporating taxonomic knowledge consistently improves representation quality across the layers of MicroGlot. MicroGlot also combines optimized training techniques with efficient architectural components from modern large language models, achieving leading zero-shot performance across layers and competitive fine-tuning performance with low computational overhead. In a 1000-species set sampled from major cellular domains and viral realms, MicroGlot's routing fingerprints show greater agreement with taxonomic groups than tetranucleotide composition, reflecting taxonomically structured expert routing in multilingual modeling of microbial genomes. Overall, we show that MicroGlot serves as an efficient and effective DNA foundation model for microbial genomic analysis.",
+  "abstract_zh": "微生物对于陆地生态系统不可或缺，其基因组物质支撑着农业、生物技术和人类健康等领域的关键功能与应用。尽管基因组语言模型在DNA序列表示学习方面取得了进展，但微生物的广泛多样性以及预训练语料库中分类学表示的不平衡，对有效的微生物基因组序列建模构成了挑战。在此，我们提出MicroGlot，一种基于分类学信息的微生物DNA基础模型，在包含99,700个物种的370万条序列（总计3783亿个核苷酸）上进行了预训练。MicroGlot通过双曲嵌入编码分类群之间的层级关系，将微生物分类学知识融入稀疏混合专家架构中。对MicroGlot层嵌入的零样本评估表明，该模型的表示编码了表型特征和分类学身份。与在相同预训练方案下训练的分类学消融变体相比，纳入分类学知识持续提升了MicroGlot各层的表示质量。MicroGlot还结合了优化训练技术与现代大型语言模型的高效架构组件，在各层实现了领先的零样本性能，并以较低的计算开销获得了具有竞争力的微调性能。在从主要细胞域和病毒界采样的1000个物种集合中，MicroGlot的路由指纹与分类群的一致性高于四核苷酸组成，反映了微生物基因组多语言建模中分类学结构的专家路由。总体而言，我们表明MicroGlot可作为微生物基因组分析的高效且有效的DNA基础模型。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753215",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753215",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.22.753215/index.html"
+}

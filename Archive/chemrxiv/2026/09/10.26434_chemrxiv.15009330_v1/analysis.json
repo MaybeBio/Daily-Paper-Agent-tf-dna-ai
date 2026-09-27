@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15009330/v1",
+  "title": "Integrative Physics and Machine Learning-Based Optimal Binding Pose Generator for Protein-Ligand Complexes",
+  "authors": "Agastya P Bhati; Jinyu Dong; Sean Black; Shunzhou Wan; Vineeth Gutta; Xibei Zhang; Mateusz Bieniek; Darren V. S. Green; Sunita Chandrasekaran; Eric Stahlberg; Peter V. Coveney",
+  "journal": "ChemRxiv",
+  "published_date": "2026-09-23",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出结合物理与机器学习的蛋白-配体结合姿态生成方法，虽非TF-DNA体系，但蛋白-配体互作建模与姿态预测方法可迁移至TF-DNA结合研究，属广义分子互作建模。",
+  "abstract": "Accurately identifying the optimal protein–ligand binding pose is crucial for reliable binding affinity prediction, as molecular dynamics–based approaches are highly sensitive to the initial structure. However, there is currently no efficient way to predict such poses. Indeed, we assess the capabilities of three proposed AI-based software solutions (AlphaFold3, Boltz and RoseTTAFold All-Atom) and demonstrate their substantial shortcomings in this context. Here, we present a combined physics-and machine-learning-based method that predicts optimal protein-ligand poses in their relaxed states, enabling rapid and cost-effective downstream estimation of binding affinities. We apply our approach to two targets, tankyrase 2 (TNKS2) and the 3C-like protease (3CLPro), using datasets of 10,000 molecules for each system. Evaluation on an external validation set of approximately 3,000 molecules demonstrates the method’s ability to generalize to previously unseen datasets, aligning with the practical needs of high-throughput drug discovery pipelines that iteratively evaluate new molecules. Our method substantially reduces the need for costly calculations by efficiently filtering out poses unlikely to yield favorable binding affinities upon relaxation.",
+  "abstract_zh": "准确识别最优蛋白质-配体结合姿态对于可靠的结合亲和力预测至关重要，因为基于分子动力学 (molecular dynamics) 的方法对初始结构高度敏感。然而，目前尚无高效的方法来预测此类姿态。确实，我们评估了三种基于人工智能的软件解决方案（AlphaFold3、Boltz 和 RoseTTAFold All-Atom）的能力，并展示了它们在此背景下的重大缺陷。在此，我们提出了一种结合物理学和机器学习的方法，用于预测松弛状态下的最优蛋白质-配体姿态，从而实现快速且成本低廉的下游结合亲和力估算。我们将该方法应用于两个靶标，即端锚聚合酶2 (tankyrase 2, TNKS2) 和3C样蛋白酶 (3C-like protease, 3CLPro)，每个系统使用10,000个分子的数据集。在约3,000个分子的外部验证集上的评估表明，该方法能够泛化到未见过的数据集，这与高通量药物发现流程中迭代评估新分子的实际需求相符。我们的方法通过高效过滤掉在松弛后不太可能产生有利结合亲和力的姿态，大幅减少了对昂贵计算的需求。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15009330/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15009330/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15009330_v1/index.html"
+}

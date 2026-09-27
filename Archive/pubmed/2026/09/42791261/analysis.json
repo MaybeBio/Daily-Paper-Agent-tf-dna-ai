@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42791261",
+  "title": "GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference.",
+  "authors": "Skok Gibbs, Claudia; Chen, Angelica; Bonneau, Richard; Cho, Kyunghyun",
+  "journal": "Nature communications",
+  "published_date": "2026-09-26",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用基因组语言模型从序列预测转录因子-靶基因互作，构建GRN推断先验，虽聚焦TF-基因调控而非三维结合机制，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Gene regulatory network inference depends on high-quality prior knowledge, yet curated priors are often incomplete or unavailable across species and cell types. We present GLM-Prior, a genomic language model fine-tuned to predict transcription factor-target gene interactions from nucleotide sequence. We integrate GLM-Prior with PMF-GRN in a dual-stage pipeline that combines sequence-derived priors with single-cell expression data for prior-conditioned GRN inference. Across six cell-line contexts, GLM-Prior performance scales with positive label abundance and TF coverage, showing above-chance agreement with reference networks in well-annotated mammalian settings. Single-species, species-transfer, and multi-species training show that GLM-Prior can construct informative priors across related mammalian species. Compared with accessibility-based priors, GLM-Prior achieves the highest prior performance in four of five mammalian cell lines. These benchmarks show that prior quality largely constrains GRN inference performance, positioning GLM-Prior as a transferable workflow for sequence-derived prior construction when matched experimental assays are unavailable.",
+  "abstract_zh": "基因调控网络推断依赖于高质量的先前知识，然而，跨物种和细胞类型的精选先验知识往往不完整或不可用。我们提出了GLM-Prior，一种经过微调的基因组语言模型，用于从核苷酸序列预测转录因子-靶基因相互作用。我们将GLM-Prior与PMF-GRN集成在一个双阶段流程中，该流程结合了序列衍生的先验知识与单细胞表达数据，用于先验条件下的GRN推断。在六种细胞系背景下，GLM-Prior的性能随阳性标签丰度和转录因子覆盖度的增加而提升，在注释良好的哺乳动物环境中，与参考网络的一致性高于随机水平。单物种、跨物种和多物种训练表明，GLM-Prior能够在相关哺乳动物物种间构建信息丰富的先验知识。与基于可及性的先验相比，GLM-Prior在五种哺乳动物细胞系中的四种中达到了最高的先验性能。这些基准测试表明，先验质量在很大程度上限制了GRN推断性能，使GLM-Prior成为一种可转移的工作流程，用于在缺乏匹配实验测定时构建序列衍生的先验知识。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42791261/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42791261/",
+  "paper_page_path": "papers/pubmed/42791261/index.html"
+}

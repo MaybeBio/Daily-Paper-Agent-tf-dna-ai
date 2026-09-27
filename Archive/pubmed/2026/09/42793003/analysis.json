@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42793003",
+  "title": "Statistical Visibility of Curated TF-Target Regulatory Relationships and Reverse Consistency of Top-Ranked TF-Gene Pairs in Single-Cell Expression Data.",
+  "authors": "Feng, Wenqing; Zhang, Zejun; Wu, Zheng; Yuan, Chengyu; Sun, Jinlei; Wang, Guoqiang; Liu, Yunqing",
+  "journal": "Genes",
+  "published_date": "2026-09-26",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文评估单细胞表达数据中已知TF-靶标关系的统计可见性，虽涉及TF-DNA调控关系但仅基于表达关联统计，无三维互作建模或AI/物理模拟方法，与本课题方法轴不符。",
+  "abstract": "BACKGROUND/OBJECTIVES: Large language models and automated analytical tools show potential for biomedical text understanding, knowledge integration, and single-cell data interpretation, but interpretations of specific gene regulatory relationships still require empirical grounding. For TF-target relationships, one relevant constraint is whether curated regulatory edges show detectable expression-level statistical evidence in the single-cell data being interpreted, because such evidence may vary across cellular states, conditions, and regulatory mechanisms. We therefore evaluated the statistical visibility of known transcription factor (TF)-target relationships in single-cell expression space to aid the interpretation of regulatory inference and automated-tool outputs. METHODS: We performed two complementary analyses: first, testing whether curated TF-target edges showed stronger pair-level associations than matched background gene pairs; and second, assessing whether high-scoring TF-gene pairs corresponded to existing regulatory knowledge and whether their target genes showed pathway coherence. RESULTS: Across four peripheral blood mononuclear cell (PBMC) datasets, four adult tissues, and seven adult cell types, curated TF-target relationships showed weak but reproducible statistical visibility rather than strong separation. For all five association metrics, the mean area under the precision-recall curve (AUPRC) was only slightly above the random-ranking baseline of 0.5. High-scoring pairs were more often supported by curated resources, and their target genes showed context-specific Hallmark pathway coherence. CONCLUSIONS: Single-cell expression associations can provide useful but limited statistical clues for TF-target regulation and should be interpreted as complementary rather than definitive regulatory evidence.",
+  "abstract_zh": "背景/目标：大语言模型和自动化分析工具在生物医学文本理解、知识整合及单细胞数据解读方面展现出潜力，但对特定基因调控关系的解释仍需经验性依据。对于转录因子（TF）-靶基因关系，一个相关约束是，在被解读的单细胞数据中，已整理的调控边是否显示出可检测的表达水平统计证据，因为此类证据可能因细胞状态、条件和调控机制而异。因此，我们评估了已知转录因子（TF）-靶基因关系在单细胞表达空间中的统计可见性，以辅助调控推断和自动化工具输出的解读。方法：我们进行了两项互补分析：第一，测试已整理的TF-靶基因边是否比匹配的背景基因对显示出更强的成对关联；第二，评估高评分的TF-基因对是否对应现有调控知识，以及其靶基因是否表现出通路一致性。结果：在四个外周血单核细胞（PBMC）数据集、四个成体组织和七种成体细胞类型中，已整理的TF-靶基因关系显示出微弱但可复现的统计可见性，而非强烈分离。对于所有五种关联指标，精确率-召回率曲线下面积（AUPRC）的均值仅略高于随机排序基线0.5。高评分对更常得到已整理资源的支持，其靶基因表现出情境特异性的Hallmark通路一致性。结论：单细胞表达关联可为TF-靶基因调控提供有用但有限的统计线索，应被视为补充性而非决定性的调控证据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42793003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42793003/",
+  "paper_page_path": "papers/pubmed/42793003/index.html"
+}

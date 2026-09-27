@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15009259/v1",
+  "title": "EVALUATING MOLECULAR DYNAMICS FRAMES FOR BINDING AFFINITY PREDICTION AND VIRTUAL SCREENING",
+  "authors": "Jakub Poziemski; Pawel Siedlecki",
+  "journal": "ChemRxiv",
+  "published_date": "2026-09-22",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文评估MD构象在蛋白-配体结合亲和力预测中的训练价值，虽非TF-DNA体系，但MD增强采样与打分函数建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "Motivation: Machine-learning scoring functions are typically trained on static crystallographic structures, although protein-ligand recognition is inherently dynamic. It remains unclear whether MD derived conformations provide transferable information or instead shift the training data away from experimentally observed binding geometries. Results: We generated 20 ns molecular dynamics trajectories for 2,502 protein–ligand complexes and evaluated five scoring function architectures trained on crystallographic structures and MD-derived frames using four different sampling protocols. Across the CASF-2016 and CASF-2013 affinity benchmarks, MD-only training generally reduced predictive performance, whereas augmenting crystallographic structures with MD data improved four of the five architectures. Averaged across models, benchmarks, and sampling protocols, augmentation increased PCC by 0.072 and reduced RMSE by 0.165 relative to MD-only training. A nearest-neighbor analysis showed that the benefits of augmen-tation were not restricted to complexes similar to frames, arguing against a simple similarity-based explanation. The results suggest improvements were connected with exposing models to controlled structural perturbations around experimentally observed binding poses. Overall, MD conformations were most effective as augmentation rather than replacement for crystallographic training data. Availability: MD frames used for model training are available at: (https://zenodo.org/ records/20443988).",
+  "abstract_zh": "动机：机器学习评分函数通常在静态晶体结构上训练，尽管蛋白质-配体识别本质上是动态的。目前尚不清楚分子动力学（MD）衍生的构象是否提供可转移的信息，或者反而将训练数据偏离实验观察到的结合几何结构。结果：我们为2,502个蛋白质-配体复合物生成了20纳秒的分子动力学轨迹，并评估了五种评分函数架构，这些架构在晶体结构和MD衍生帧上使用四种不同的采样协议进行训练。在CASF-2016和CASF-2013亲和力基准测试中，仅使用MD训练通常降低了预测性能，而将晶体结构与MD数据增强则改善了五种架构中的四种。跨模型、基准测试和采样协议平均，增强相对于仅MD训练将PCC提高了0.072，并将RMSE降低了0.165。最近邻分析显示，增强的益处并不仅限于与帧相似的复合物，这反驳了简单的基于相似性的解释。结果表明，改进与将模型暴露于实验观察到的结合姿态周围的受控结构扰动有关。总体而言，MD构象作为晶体训练数据的增强而非替代最为有效。可用性：用于模型训练的MD帧可在以下网址获取：（https://zenodo.org/records/20443988）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15009259/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15009259/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15009259_v1/index.html"
+}

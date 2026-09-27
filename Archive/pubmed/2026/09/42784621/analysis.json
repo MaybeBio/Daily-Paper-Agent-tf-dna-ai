@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42784621",
+  "title": "Transcriptomic associations and biomarkers in ANCA‑associated Glomerulonephritis and IgG4‑related Disease: A bioinformatics and machine learning study.",
+  "authors": "Li, Xu; Qiao, Yufeng",
+  "journal": "PloS one",
+  "published_date": "2026-09-24",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于转录组和机器学习识别ANCA相关肾小球肾炎与IgG4相关疾病的共享生物标志物，虽构建了TF-mRNA-miRNA网络，但核心是疾病转录组关联与生物标志物，非蛋白质-DNA互作或TF-DNA结合机制建模，与本课题关联微弱。",
+  "abstract": "INTRODUCTION: Anti-neutrophil cytoplasmic antibody-associated glomerulonephritis (ANCA-GN) and immunoglobulin G4-related disease (IgG4-RD) are rare autoimmune conditions. Although case reports suggest potential clinical and pathophysiological overlaps, the cross-tissue transcriptional associations between these diseases remain largely unexplored. METHODS: We retrieved the ANCA-GN glomerular dataset (GSE104948) and the IgG4-RD labial salivary gland dataset (GSE40568) from the Gene Expression Omnibus. Differentially expressed genes (DEGs) in ANCA-GN were screened via protein-protein interaction networks, least absolute shrinkage and selection operator regression, and the Boruta algorithm. Given tissue heterogeneity and small IgG4-RD sample size, we used expression trend consistency (log-fold change direction) rather than differential validation to explore shared transcriptional features. Receiver operating characteristic curves assessed discriminative potential. Pathway associations were explored using gene set enrichment analysis, and immune infiltration was evaluated with CIBERSORT, single-sample gene set enrichment analysis, and MCPcounter. Transcription factor-mRNA-microRNA networks were also constructed. RESULTS: We identified 305 DEGs (209 upregulated, 96 downregulated) in ANCA-GN, enriched in immune/inflammatory pathways including phosphatidylinositol 3-kinase-Akt and mitogen-activated protein kinase signaling. After machine learning and cross‑trend comparison with IgG4‑RD, ITGAM and CXCL1 were identified as candidate cross‑tissue markers, with ITGAM demonstrating robust predictive performance in both internal and external validation (AUC = 0.921, AUC = 0.844, respectively). CXCL1 showed good internal discrimination (AUC = 0.937) but substantially lower external validity (AUC = 0.622), suggesting limited generalizability. ITGAM therefore emerges as a more reliable cross‑disease biomarker candidate, whereas CXCL1 requires further validation. Both diseases showed increased B‑cell, T‑cell, and monocyte infiltration, but effector profiles differed: neutrophils dominated in ANCA‑GN, while plasma cells/M2 macrophages dominated in IgG4‑RD. Regulatory analysis suggested SPI1 may regulate ITGAM, and CEBPD, NFKB1, and RELA may drive CXCL1 expression under inflammation. CONCLUSION: This study systematically revealed shared differential expression trends and immune‑related pathway enrichment features between ANCA‑GN and IgG4‑RD at the transcriptomic level, and identified ITGAM and CXCL1 as potential cross‑tissue candidate biomarkers, offering novel insights into the transcriptomic‑level cross‑tissue associations between the two diseases. However, these findings are entirely derived from bioinformatics predictions and require further experimental validation. The low AUC value of CXCL1 in the external validation underscores this need.",
+  "abstract_zh": "引言：抗中性粒细胞胞浆抗体相关性肾小球肾炎（ANCA-GN）和免疫球蛋白G4相关性疾病（IgG4-RD）是罕见的自身免疫性疾病。尽管病例报告提示两者可能存在临床和病理生理学上的重叠，但这些疾病之间的跨组织转录组关联仍 largely 未被探索。方法：我们从基因表达综合数据库（Gene Expression Omnibus）获取了ANCA-GN肾小球数据集（GSE104948）和IgG4-RD唇唾液腺数据集（GSE40568）。通过蛋白质-蛋白质相互作用网络、最小绝对收缩和选择算子回归以及Boruta算法筛选ANCA-GN中的差异表达基因（DEGs）。鉴于组织异质性和IgG4-RD样本量较小，我们使用表达趋势一致性（log-fold change方向）而非差异验证来探索共享的转录特征。受试者工作特征曲线评估了判别潜力。通过基因集富集分析探索通路关联，并使用CIBERSORT、单样本基因集富集分析和MCPcounter评估免疫浸润。还构建了转录因子-mRNA-microRNA网络。结果：我们在ANCA-GN中鉴定出305个DEGs（209个上调，96个下调），富集于免疫/炎症通路，包括磷脂酰肌醇3-激酶-Akt和丝裂原活化蛋白激酶信号通路。经过机器学习及与IgG4-RD的跨趋势比较，ITGAM和CXCL1被确定为候选跨组织标志物，其中ITGAM在内部和外部验证中均表现出稳健的预测性能（AUC分别为0.921和0.844）。CXCL1在内部判别中表现良好（AUC = 0.937），但外部有效性显著较低（AUC = 0.622），提示其泛化能力有限。因此，ITGAM成为更可靠的跨疾病生物标志物候选，而CXCL1需要进一步验证。两种疾病均显示B细胞、T细胞和单核细胞浸润增加，但效应细胞谱不同：ANCA-GN中以中性粒细胞为主，而IgG4-RD中以浆细胞/M2巨噬细胞为主。调控分析提示SPI1可能调控ITGAM，而CEBPD、NFKB1和RELA可能在炎症条件下驱动CXCL1表达。结论：本研究在转录组水平上系统揭示了ANCA-GN和IgG4-RD之间共享的差异表达趋势和免疫相关通路富集特征，并鉴定出ITGAM和CXCL1作为潜在的跨组织候选生物标志物，为两种疾病在转录组水平上的跨组织关联提供了新见解。然而，这些发现完全来源于生物信息学预测，需要进一步的实验验证。CXCL1在外部验证中的低AUC值强调了这一需求。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42784621/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42784621/",
+  "paper_page_path": "papers/pubmed/42784621/index.html"
+}

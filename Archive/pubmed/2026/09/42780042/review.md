@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce NetDes-Duo, a computational method for joint inference of paired dynamical gene regulatory networks from scRNA-seq data, and apply it to neutrophil reprogramming in naive versus tumor-bearing mice, reporting distinct cell-state landscapes and identifying Cebpb as a key driver.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full methods, synthetic benchmark details, all figures and tables, code availability, statistical analyses, and any validation of network inference accuracy
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational framework for joint inference of paired gene regulatory networks, with a biological application that could be of broad interest. However, the current evidence base is limited to the abstract, and several key claims regarding performance, landscape topology, and driver identification cannot be evaluated without the underlying methods and results. The work appears promising but is not yet established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and method developers working on gene regulatory network inference, single-cell genomics researchers studying cell-state transitions, and immunologists interested in neutrophil biology and emergency granulopoiesis. The joint inference approach could appeal to those seeking to compare regulatory programs across conditions.
+- **Major strengths** The conceptual advance of jointly inferring paired networks with minimal topological differences is a clear and potentially valuable idea. The application to a clinically relevant biological question, neutrophil reprogramming in tumor-bearing mice, adds translational relevance. The identification of Cebpb as a driver is consistent with existing literature, providing a plausible biological anchor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "On synthetic benchmarks, NetDes-Duo outperformed methods that infer each network independently."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims superior performance on synthetic benchmarks but provides no details on the benchmark design, comparison methods, evaluation metrics, or statistical significance. Without this information, the claim of outperformance cannot be assessed.
+  - **Why it matters** The core methodological contribution hinges on demonstrating that joint inference provides a tangible advantage over independent inference. If the benchmark is limited or the comparison is unfair, the method's value is undermined.
+  - **Resolution test** Provide a detailed description of synthetic data generation, baseline methods, evaluation metrics, and results with error bars or statistical tests in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The network-simulated dynamics reproduced the observed cell state transitions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that simulated dynamics reproduce observed transitions is central to the biological application, but no quantitative measure of agreement is provided. It is unclear whether this is a qualitative visual match or a statistically validated comparison.
+  - **Why it matters** Without a rigorous metric, the claim of reproduction could be subjective or overfitted. The biological conclusions depend on the fidelity of the model to real data.
+  - **Resolution test** Include quantitative comparisons between simulated and observed cell state distributions, such as correlation coefficients, trajectory alignment scores, or statistical tests, with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The naive landscape had two well-separated basins, whereas the tumor-bearing landscape was more continuous, with three shallower basins."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The landscape topology is described qualitatively, but no evidence is shown for how basins were defined, how their number and depth were determined, or whether these differences are statistically significant.
+  - **Why it matters** The distinct landscape topology is a key biological finding. If the basin detection is not robust or the comparison is not quantified, the conclusion of distinct cell-state landscapes is not supported.
+  - **Resolution test** Provide a clear definition of basins, a method for their identification, and statistical comparisons of landscape features between conditions, including sensitivity analyses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Perturbation and driving simulations also identified Cebpb as a key driver of the tumor-bearing transition."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The identification of Cebpb as a key driver is stated without details on the perturbation scheme, the criteria for defining a "key driver," or the robustness of this finding across simulations or parameter choices.
+  - **Why it matters** Driver identification is a strong claim that could be sensitive to model assumptions. Without validation, the finding may be an artifact of the inference procedure.
+  - **Resolution test** Describe the perturbation protocol, define driver criteria, and show that Cebpb identification is robust to parameter variations and alternative analysis choices.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The term "NetDes-Duo" is introduced without explaining the name or the conceptual basis of "paired dynamical" inference, which may confuse readers unfamiliar with the method.
+  - **Required correction** Briefly clarify the method's name and the rationale for joint inference in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract claims broad applicability but does not discuss potential limitations or assumptions of the method, such as data quality requirements or scalability.
+  - **Required correction** Add a sentence on limitations or assumptions to temper the generality claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention how the ODE models are parameterized or whether the inferred networks are validated against known regulatory interactions.
+  - **Required correction** Include a brief note on model parameterization and any validation against known biology.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is high, as the joint inference approach appears novel. Scientific importance is potentially high given the biological application, but the landscape and driver claims are not yet substantiated. Interdisciplinary readership is plausible, but the abstract lacks sufficient detail for nonspecialists to assess the method. Technical soundness cannot be evaluated from the abstract alone, and the lack of quantitative evidence is a major gap. Readability for nonspecialists is adequate but could be improved with clearer method description and limitations.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the key claims require full methods and results to be verified. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of outperformance on synthetic benchmarks is unsupported without benchmark details.
+- The claim that simulated dynamics reproduce observed transitions is unsupported without quantitative metrics.
+- The description of distinct landscape topologies is unsupported without basin definition and statistical analysis.
+- The identification of Cebpb as a key driver is unsupported without perturbation details and robustness checks.
+- The broad applicability claim is not assessable from the abstract alone.

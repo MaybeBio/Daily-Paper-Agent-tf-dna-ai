@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present GLM-Prior, a genomic language model fine-tuned to predict transcription factor-target gene interactions from nucleotide sequence, and integrate it with PMF-GRN in a dual-stage pipeline for prior-conditioned gene regulatory network inference. They report performance scaling with positive label abundance and TF coverage, above-chance agreement with reference networks in mammalian settings, transferability across related mammalian species, and superior prior performance compared with accessibility-based priors in four of five mammalian cell lines. They conclude that prior quality largely constrains GRN inference performance and position GLM-Prior as a transferable workflow for sequence-derived prior construction.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical measures, model architecture details, training configurations, or benchmark protocols are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, model code, training data descriptions, evaluation metrics, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful approach to generating sequence-derived priors for gene regulatory network inference, addressing a real gap in the field. However, the evidence presented is entirely qualitative and lacks the quantitative detail necessary to evaluate the validity, robustness, and generalizability of the claims. The central conclusions about transferability and comparative performance cannot be assessed from the supplied material. The work may be of interest to computational biologists working on GRN inference, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell genomics, and transfer learning in genomics would be interested. The approach addresses the practical problem of incomplete prior knowledge across species and cell types, which is a known bottleneck in GRN inference. Researchers developing foundation models for genomics may also find the fine-tuning strategy relevant.
+- **Major strengths** The problem addressed is well-motivated and practically important. The idea of using a genomic language model to generate sequence-derived priors is timely and aligns with current trends in the field. The proposed dual-stage pipeline integrating sequence-derived priors with expression data is a sensible architectural choice. The inclusion of species-transfer and multi-species training scenarios suggests attention to generalizability.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "GLM-Prior performance scales with positive label abundance and TF coverage, showing above-chance agreement with reference networks in well-annotated mammalian settings"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that performance scales with positive label abundance and TF coverage and shows above-chance agreement, but no quantitative metrics, statistical tests, or effect sizes are reported. It is unclear what "above-chance" means in this context, what the baseline chance level was, and how agreement was measured.  
+  - **Why it matters** Without quantitative evidence, the reader cannot determine whether the observed performance is meaningful or within the range of trivial baselines. The claim of scaling with label abundance could reflect a trivial property of the training data rather than a genuine property of the model.  
+  - **Resolution test** Provide specific performance metrics (e.g., AUROC, AUPRC, precision-recall) with confidence intervals, define the chance baseline explicitly, and report statistical significance tests for the scaling relationship.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Comparative validity  
+  - **Claim pointer** "Compared with accessibility-based priors, GLM-Prior achieves the highest prior performance in four of five mammalian cell lines"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The comparison with accessibility-based priors is stated without any detail on the comparator method, the evaluation metric, the magnitude of differences, or the variability across cell lines. It is unclear whether the comparison is fair, whether the same evaluation protocol was used, and whether the differences are statistically significant.  
+  - **Why it matters** The claim of superiority over existing approaches is central to the paper's contribution. Without details on the comparator and the statistical robustness of the comparison, the claim cannot be verified or contextualized.  
+  - **Resolution test** Describe the accessibility-based prior method in detail, report the evaluation metric and its values for both methods across all cell lines, and provide statistical tests (e.g., paired tests across cell lines) with effect sizes.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability claim  
+  - **Claim pointer** "Single-species, species-transfer, and multi-species training show that GLM-Prior can construct informative priors across related mammalian species"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims transferability across related mammalian species but does not specify which species were used, how "related" was defined, what the performance drop was in transfer settings, or how informativeness was measured. The term "informative" is not operationalized.  
+  - **Why it matters** Transferability is a key selling point of the approach, but the abstract provides no basis for evaluating whether the transfer is successful or limited to closely related species. The claim as stated is too vague to be assessed.  
+  - **Resolution test** Specify the species used in each training scenario, report transfer performance relative to same-species performance, and define the informativeness metric with thresholds for what constitutes an informative prior.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal attribution  
+  - **Claim pointer** "These benchmarks show that prior quality largely constrains GRN inference performance"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract attributes GRN inference performance to prior quality, but no controlled experiments are described that isolate the effect of prior quality from other factors such as model architecture, expression data quality, or hyperparameter choices. The claim appears to be an interpretation rather than a demonstrated result.  
+  - **Why it matters** This is a strong causal claim that, if true, has implications for the field. Without controlled ablation studies, the claim is not supported by the evidence presented.  
+  - **Resolution test** Provide ablation experiments where prior quality is systematically varied while other factors are held constant, and show that GRN inference performance changes accordingly.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not describe what GLM-Prior is built on, what its parameter scale is, or what genomic language model architecture was used as the base.  
+  - **Required correction** Specify the base model architecture and parameter count in the abstract or methods.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Training data description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state what training data were used for fine-tuning, including the source of transcription factor-target gene interaction labels and the genomic sequence context.  
+  - **Required correction** Describe the training data sources and label construction in the methods section.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "above-chance agreement"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "above-chance agreement" is imprecise and could be interpreted in multiple ways.  
+  - **Required correction** Replace with a specific metric and baseline comparison.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Cell line selection  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions six cell-line contexts for one experiment and five for another, but does not explain why the numbers differ or how the cell lines were selected.  
+  - **Required correction** Clarify the cell line selection criteria and the reason for the discrepancy in numbers.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence, comparative details, operationalized transferability metrics, and controlled experiments for causal claims. These are required to establish the validity of the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of using a genomic language model for sequence-derived priors in GRN inference is moderately original and timely, though the abstract does not clearly differentiate it from existing prior construction methods beyond the use of a language model.  
+  - Scientific importance: The problem of incomplete priors is important, and a transferable solution would be valuable. However, the abstract does not demonstrate that the approach solves the problem better than existing methods.  
+  - Interdisciplinary readership: The work sits at the intersection of genomics, machine learning, and systems biology, and would appeal to a broad computational biology audience. The abstract is accessible to nonspecialists in terms of language, but lacks the technical detail needed for expert evaluation.  
+  - Technical soundness: Cannot be assessed from the abstract. No metrics, baselines, or statistical analyses are provided.  
+  - Readability for nonspecialists: The abstract is clearly written and the main ideas are understandable, but the lack of quantitative context limits its usefulness to a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially useful approach, but the absence of quantitative results, comparative details, and controlled experiments means that the central claims cannot be evaluated. The authors should be encouraged to resubmit with full methods and results, at which point the case may become assessable.
+
+## Risk / unsupported claims
+- The claim that GLM-Prior performance scales with positive label abundance and TF coverage is unsupported without quantitative data and statistical tests.
+- The claim of above-chance agreement with reference networks is unsupported without a defined baseline and significance testing.
+- The claim of superiority over accessibility-based priors in four of five cell lines is unsupported without comparator details and statistical comparison.
+- The claim of transferability across related mammalian species is unsupported without species specification and transfer performance metrics.
+- The claim that prior quality largely constrains GRN inference performance is unsupported without controlled ablation experiments.
+- The overall positioning of GLM-Prior as a transferable workflow is not assessable from the abstract alone.

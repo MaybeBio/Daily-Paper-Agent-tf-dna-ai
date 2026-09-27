@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors describe LOOP-TAG, a massively-parallel in vitro method for measuring length-dependent protein-mediated DNA looping probabilities (J-loop values) at single-base-pair resolution. The method uses Tn5 transposase tethered to bead-bound duplex DNA, with loop-dependent tagmentation products quantified by deep sequencing. J-loop values are derived by normalizing loop-dependent counts to fragment length probabilities from free Tnp tagmentation. The authors report that intermediate-length J-loop values are consistent with wormlike chain theory after accounting for sequence-dependence of Tnp, and that DNA loops shift to smaller sizes in the presence of Nhp6A, as predicted.
+- **Visible evidence base** Abstract text only; no experimental details, data, figures, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, sequencing data, normalization details, controls, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually attractive approach to a long-standing problem in DNA biophysics, namely the measurement of protein-mediated DNA looping probabilities as a function of length in a high-throughput format. The methodological logic is clear and the potential utility is substantial. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the method, the validity of the normalization scheme, or the robustness of the reported biological findings. The claims regarding consistency with wormlike chain theory and the Nhp6A-dependent loop size shift cannot be assessed without access to the underlying data and analysis.
+- **Who would be interested in the results, and why** Researchers in DNA biophysics, chromatin biology, and gene regulation would be interested. The method addresses a technical bottleneck in measuring DNA looping, which is central to understanding enhancer-promoter communication, DNA compaction, and the mechanical properties of DNA in protein-DNA complexes. The potential for single-base-pair resolution and massively-parallel measurement would be attractive to groups studying sequence-dependent DNA mechanics and architectural proteins.
+- **Major strengths** The conceptual advance is significant: replacing tedious single-length cyclization kinetics with a massively-parallel tagmentation-based readout is a logical and potentially transformative step. The use of Tn5 transposase as both a loop-capture and readout mechanism is elegant. The normalization strategy, comparing loop-dependent counts to free-Tnp tagmentation length probabilities, is a reasonable approach to control for sequence and length biases. The inclusion of Nhp6A as a test case for architectural protein effects provides a biologically relevant demonstration.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method determines DNA loop length probabilities at single-base-pair resolution for all bead-bound fragments, and J-loop values are directly determined by normalization to free Tnp tagmentation.
+  - **Evidence pointer** Abstract; no methods or data provided
+  - **Concern** The abstract claims single-base-pair resolution and direct determination of J-loop values, but no information is provided on how tagmentation product counts are converted to loop probabilities, how the normalization is performed in practice, or how biases in Tn5 sequence preference are accounted for beyond a general statement of "strong sequence-dependence." The resolution of the method, the dynamic range of detectable loop sizes, and the reproducibility of the measurements are not described.
+  - **Why it matters** The core value of the method rests on the accuracy and precision of the J-loop measurements. If the normalization does not fully correct for Tn5 sequence bias, or if the tagmentation efficiency is not linearly related to loop probability across the relevant length range, the reported J-loop values could be systematically distorted. Without these details, the central quantitative claim cannot be evaluated.
+  - **Resolution test** Provide a detailed description of the data processing pipeline, including how tagmentation product counts are mapped to loop lengths, how the free-Tnp normalization is applied, and how sequence bias is corrected. Include validation experiments, such as comparison to known J-factors from ligation-based cyclization for a set of test sequences, and demonstrate reproducibility across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for biological claims
+  - **Claim pointer** Intermediate length J-loop values are consistent with expectations of wormlike chain theory after accounting for strong sequence-dependence of Tnp. DNA loops are shifted to smaller sizes in the presence of Nhp6A, as predicted.
+  - **Evidence pointer** Abstract; no data or figures provided
+  - **Concern** The abstract reports agreement with wormlike chain theory and a predicted Nhp6A-dependent shift in loop size distribution, but no quantitative data, statistical comparisons, or model fitting results are presented. The phrase "as predicted" implies a prior theoretical framework, but the specific predictions and the degree of agreement are not stated.
+  - **Why it matters** These are the key biological findings of the study. Without quantitative evidence, including error bars, sample sizes, and statistical tests, the reader cannot judge whether the agreement with theory is meaningful or whether the Nhp6A effect is robust. The claims as stated are not falsifiable from the abstract alone.
+  - **Resolution test** Present the J-loop data as a function of DNA length for the two tethering conditions, with and without Nhp6A, overlaid with wormlike chain model predictions. Provide statistical measures of fit quality and confidence intervals. For the Nhp6A effect, show the distribution of loop sizes in the presence and absence of the protein, with appropriate statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The method is demonstrated for Tnp tethered in two ways.
+  - **Evidence pointer** Abstract; no details provided
+  - **Concern** The abstract states that LOOP-TAG is demonstrated for two tethering configurations, but the nature of these configurations, their relative performance, and whether they yield consistent J-loop values are not described. Differences between tethering strategies could introduce systematic artifacts.
+  - **Why it matters** The choice of tethering strategy is a critical design parameter. If the two configurations give different results, this raises questions about the robustness of the method. If they give similar results, this is a useful validation that should be explicitly stated.
+  - **Resolution test** Describe the two tethering strategies in detail, present comparative data, and state whether they produce statistically indistinguishable J-loop values across the tested length range.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "effective local end-end concentrations (J-factors)" is used without defining the relationship between J-factors and J-loop values. The distinction between these two quantities is important for readers unfamiliar with the looping literature.
+  - **Required correction** Briefly define J-loop values in relation to J-factors, or state explicitly that J-loop is the looping analog of the cyclization J-factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of the number of biological or technical replicates, or of the sequencing depth required for reliable loop probability estimates.
+  - **Required correction** State the number of replicates and the sequencing depth used, and comment on the minimum read count required for reliable single-base-pair resolution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of generality
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract implies the method is general for protein-mediated DNA looping, but only one architectural protein (Nhp6A) is tested. The generality of the approach for other looping proteins, such as repressors or enhancer-binding factors, is not demonstrated.
+  - **Required correction** Either temper the claim of generality or state explicitly that the method is demonstrated for one architectural protein and that extension to other systems is anticipated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The method's quantitative accuracy and the biological claims cannot be assessed from the abstract alone. R1-M3 is non-blocking but should be addressed for completeness.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The approach is conceptually novel and addresses a recognized technical gap.
+  - Scientific importance: Potentially high, if the method performs as claimed. The ability to measure length-dependent looping probabilities in a massively parallel format would be widely useful.
+  - Interdisciplinary readership: Moderate to high. The work bridges biophysics, molecular biology, and genomics, and would appeal to a broad readership if the method is robust.
+  - Technical soundness: Not assessable from the abstract. The normalization strategy and the handling of Tn5 sequence bias are critical unknowns.
+  - Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with J-factors and looping concepts. The distinction between J-factor and J-loop could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance is promising, and the authors should be encouraged to submit the full manuscript for review. The abstract alone does not provide sufficient evidence to support the quantitative and biological claims. A supportive recommendation would require the full data, methods, and validation experiments.
+
+## Risk / unsupported claims
+- Single-base-pair resolution of loop length probabilities is claimed but not supported by any data or methodological detail in the abstract.
+- Direct determination of J-loop values by normalization to free Tnp tagmentation is claimed but the normalization procedure is not described.
+- Consistency with wormlike chain theory is claimed but no quantitative comparison or model fitting is presented.
+- The Nhp6A-dependent shift in loop size distribution is claimed as predicted, but the prediction and the data supporting it are not shown.
+- The generality of the method for protein-mediated DNA looping is implied but only one protein is tested.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The study compares the WW1 domain of YAP and the WW domain of TAZ, which share high sequence similarity, and reports that they differ in conformational stability, folded population, and binding behavior toward PPxY motif peptides. The authors propose that these differences contribute to subtle functional preferences between YAP and TAZ despite conserved binding surfaces.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, raw data, statistical analyses, structural coordinates, simulation parameters, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and mechanistically plausible comparison of two WW domains from paralogous Hippo pathway proteins. The combination of biophysical methods (nano-DSF, CD, NMR, SPR) with structural and computational approaches is appropriate for the stated question. However, the abstract alone does not provide sufficient quantitative detail to evaluate the robustness of the claims, particularly regarding the magnitude of stability differences, the interpretation of partially folded states, and the mechanistic link between conformational dynamics and binding selectivity. The conclusions are reasonable but require full experimental evidence to be established.
+- **Who would be interested in the results, and why** Researchers studying Hippo signaling, WW domain structure and function, protein conformational dynamics, and the molecular basis of paralog functional divergence. The findings may also interest those developing peptide or small molecule modulators targeting YAP/TAZ TEAD interactions, as subtle binding preferences could inform selectivity strategies.
+- **Major strengths** The study addresses a biologically relevant question about functional divergence between closely related paralogs. The use of multiple orthogonal biophysical techniques strengthens the claim that observed differences are real. The inclusion of a high resolution crystal structure and molecular dynamics simulations provides a structural and mechanistic framework. The finding that binding differences increase for conformationally plastic ligands is a nuanced and potentially important observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that TAZ(WW) is more thermally stable and has a larger folded population than YAP(WW1), and that both domains populate partially folded or exchanging states in solution.
+  - **Evidence pointer** Abstract text; specific figures and tables not provided
+  - **Concern** The abstract reports qualitative differences in stability and folded population but provides no quantitative values, such as melting temperatures, folded fraction estimates, or free energy differences. Without these numbers, the magnitude and statistical significance of the differences cannot be assessed.
+  - **Why it matters** The central claim of the paper is that the two domains differ in stability and dynamics. If the differences are small or within experimental error, the mechanistic interpretation would be weakened. Quantitative reporting is essential for evaluating whether the observed differences are biologically meaningful.
+  - **Resolution test** Provide numerical values for thermal stability (e.g., Tm from nano-DSF and CD), folded population estimates from NMR, and associated errors or confidence intervals. State whether differences are statistically significant and by what test.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract states that preorganized peptides bind more tightly and less selectively, while flexible peptides incur larger binding penalties that dynamic YAP(WW1) compensates more effectively.
+  - **Evidence pointer** Abstract text; molecular dynamics simulations and SPR data referenced but not shown
+  - **Concern** The mechanistic link between peptide preorganization, binding penalties, and differential compensation by YAP(WW1) is presented as a conclusion, but the abstract does not describe how this was determined. It is unclear whether the simulations directly tested this hypothesis, whether the SPR data support the selectivity differences, and how the conformational dynamics of YAP(WW1) are proposed to compensate for binding penalties.
+  - **Why it matters** This is the most novel and potentially impactful claim of the study. If the mechanistic interpretation is not directly supported by the data, the conclusion would be speculative. The abstract must make clear which observations support each step of the proposed mechanism.
+  - **Resolution test** Describe the simulation design and how peptide preorganization was defined and quantified. Show SPR binding data for multiple peptides with varying flexibility and demonstrate that the observed selectivity differences correlate with peptide conformational properties. Explain the proposed compensation mechanism with explicit structural or dynamic evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract concludes that differences in WW domain stability contribute to subtle YAP/TAZ binding preferences despite conserved binding surfaces and evolutionary relatedness.
+  - **Evidence pointer** Abstract text; no data on other WW domains or full length proteins
+  - **Concern** The study is limited to isolated WW domains and a single LATS2 peptide complex. The relevance of the findings to full length YAP and TAZ in a cellular context is not established. The abstract does not discuss whether the observed differences persist in the context of the full proteins or in the presence of other domains and post translational modifications.
+  - **Why it matters** The conclusion implies a functional role for the observed biophysical differences. Without evidence that these differences translate to cellular or physiological contexts, the broader significance of the findings remains uncertain.
+  - **Resolution test** Add a discussion of limitations or, if available, include data from full length constructs or cellular assays. If such data are not available, temper the conclusion to reflect that the findings apply to isolated domains.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "partially folded or exchanging states" is vague. It is unclear whether this refers to molten globule like states, conformational exchange on the NMR timescale, or a mixture of folded and unfolded populations.
+  - **Required correction** Define the term precisely and describe the experimental evidence that distinguishes between these possibilities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Affinity values
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that SPR measurements show micromolar affinities and "generally modest differences" between the two domains, but no specific values are given.
+  - **Required correction** Report representative KD values for both domains with at least one peptide, and state the range of differences observed across the peptide panel.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Structural context
+  - **Evidence pointer** Abstract text
+  - **Issue** The high resolution LATS2:YAP(WW1) crystal structure is mentioned, but the abstract does not state the resolution or whether a corresponding TAZ structure was obtained.
+  - **Required correction** Provide the resolution of the crystal structure and clarify whether a TAZ complex structure was attempted or obtained.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative or mechanistic evidence to support the central claims. R1-M3 is non blocking but should be addressed to strengthen the broader relevance.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific and relatively underexplored question about WW domain paralog divergence, which is of interest but not highly novel in concept. Scientific importance: The findings could inform understanding of YAP/TAZ functional differences, but the significance is moderate and depends on whether the effects translate to cellular contexts. Interdisciplinary readership: The work bridges biophysics, structural biology, and cell signaling, which may appeal to a broad audience, but the abstract is too specialized for a general readership. Technical soundness: The combination of methods is appropriate, but the abstract does not provide enough detail to assess the rigor of the analyses. Readability for nonspecialists: The abstract is dense and assumes familiarity with WW domains, Hippo signaling, and biophysical techniques, which limits accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a valid question with appropriate methods, but the abstract does not currently provide sufficient quantitative and mechanistic evidence to establish the central claims. Full manuscript review would be required to determine whether the data support the conclusions.
+
+## Risk / unsupported claims
+- The claim that TAZ(WW) is more thermally stable and has a larger folded population than YAP(WW1) is unsupported without quantitative values and statistical analysis.
+- The claim that preorganized peptides bind more tightly and less selectively, and that dynamic YAP(WW1) compensates for flexible peptide binding penalties, is unsupported without detailed simulation and SPR data.
+- The conclusion that WW domain stability differences contribute to YAP/TAZ binding preferences is not established from the abstract alone, as no data on full length proteins or cellular relevance are presented.
+- The statement that both domains populate "partially folded or exchanging states" is not evaluable without definition and supporting spectra or other evidence.

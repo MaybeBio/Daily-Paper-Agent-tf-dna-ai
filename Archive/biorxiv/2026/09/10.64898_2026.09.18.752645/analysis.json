@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.18.752645",
+  "title": "Boltz2-Notebook: An Interactive Google Colab Platform for Diffusion-Based Biomolecular Structure and Binding Affinity Prediction using the Boltz2 model.",
+  "authors": "Atharva Tilewale; Dhaval Patel",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-24",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提供基于Boltz2的Colab平台，用于扩散模型预测生物分子结构及结合亲和力，涵盖蛋白-核酸复合物建模，但核心贡献在平台可用性与工作流自动化，而非TF-DNA特异性互作机制研究。",
+  "abstract": "Recent advances in deep learning-based structure prediction, including AlphaFold3 and the open-source Boltz model family, have extended biomolecular modeling to joint prediction of protein-ligand, protein-nucleic acid, and multi-chain complexes with binding-affinity estimation. Boltz-2 is among the most feature-complete of these open models, but its practical use requires a local CUDA-capable GPU, command-line execution, and manually authored YAML configuration files, limiting accessibility for researchers without dedicated computational infrastructure. We developed Boltz2-Notebook, a Colab-native interface comprising four integrated stages - automated environment setup, interactive parameter-to-YAML generation, execution management, and automated confidence and affinity visualization - together with a manifest-driven batch mode for multi-target screening. All modelling capabilities are inherited unmodified from Boltz-2; Boltz2-Notebook's contributions are limited to accessibility, input construction, and workflow automation. Independent of the software, we curated a benchmark of 317 protein-ligand pairs (122 proteins, 277 ligands) from BindingDB and predicted binding affinity in triplicate using the Boltz-2 command-line engine on high-performance computing infrastructure. Predicted and experimental pIC50 values showed moderate correlation (Pearson r = 0.609 [95% CI 0.540-0.675]; Spearman ρ = 0.625; R 2 = 0.371; MAE = 0.968 pIC50 units), with high triplicate reproducibility (pairwise r = 0.97) but a systematic compression of the predicted affinity range and no measurable relationship between Boltz-2's self-reported confidence metrics and prediction accuracy. Boltz2-Notebook is freely available as open-source software and provides external, reproducible evidence - including a specific confidence-calibration limitation - relevant to interpreting Boltz-2 affinity predictions responsibly.",
+  "abstract_zh": "基于深度学习的结构预测近期进展，包括AlphaFold3和开源Boltz模型系列，已将生物分子建模扩展至蛋白质-配体、蛋白质-核酸及多链复合物的联合预测，并附带结合亲和力估计。Boltz-2是这些开放模型中功能最全面的之一，但其实际使用需要本地支持CUDA的GPU、命令行执行以及手动编写的YAML配置文件，这限制了缺乏专用计算基础设施的研究人员的可及性。我们开发了Boltz2-Notebook，一个Colab原生界面，包含四个集成阶段——自动化环境设置、交互式参数到YAML生成、执行管理以及自动化置信度和亲和力可视化——并附带一个基于清单的批处理模式，用于多靶点筛选。所有建模能力均未修改地继承自Boltz-2；Boltz2-Notebook的贡献仅限于可及性、输入构建和工作流自动化。独立于软件，我们从BindingDB中精选了一个包含317个蛋白质-配体对（122个蛋白质，277个配体）的基准数据集，并使用Boltz-2命令行引擎在高性能计算基础设施上三次重复预测结合亲和力。预测值与实验pIC50值显示中等相关性（Pearson r = 0.609 [95% CI 0.540-0.675]；Spearman ρ = 0.625；R² = 0.371；MAE = 0.968 pIC50单位），三次重复具有高重现性（配对r = 0.97），但预测亲和力范围存在系统性压缩，且Boltz-2自报告的置信度指标与预测准确性之间无显著关系。Boltz2-Notebook作为开源软件免费提供，并提供外部可复现的证据——包括特定的置信度校准局限性——这对于负责任地解读Boltz-2亲和力预测具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752645",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752645",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.18.752645/index.html"
+}

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present Boltz2-Notebook, a Google Colab interface for the Boltz-2 model, and report a benchmark of 317 protein-ligand pairs from BindingDB with predicted binding affinities showing moderate correlation with experimental pIC50 values, high triplicate reproducibility, systematic compression of predicted affinity range, and no relationship between Boltz-2 confidence metrics and prediction accuracy
+- **Visible evidence base** Abstract text only; no methods, figures, tables, code repository contents, or supplementary data were provided
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark dataset details, code repository, visualization outputs, statistical analysis details, and supplementary materials
+
+## Reviewer
+- **Overall assessment** The abstract describes a software contribution with a clearly scoped and honest claim: Boltz2-Notebook adds accessibility and workflow automation to the existing Boltz-2 model without modifying its predictive capabilities. The accompanying benchmark provides an independent evaluation of Boltz-2 affinity prediction, which is a useful contribution to the community. However, the abstract alone provides insufficient detail to assess the technical soundness of the software implementation, the quality of the benchmark curation, or the validity of the statistical claims. The reported correlation values and the confidence-calibration limitation are interesting but require full methodological transparency to be evaluated properly.
+- **Who would be interested in the results, and why** Computational biologists and structural biologists who use or evaluate deep learning-based structure prediction tools, particularly those interested in binding affinity prediction. Researchers without access to high-performance GPU infrastructure would benefit from the accessibility contribution. The benchmark results and the identified confidence-calibration limitation are relevant to anyone interpreting Boltz-2 affinity predictions in drug discovery or enzyme engineering contexts.
+- **Major strengths** The authors clearly delineate the scope of their contribution, explicitly stating that all modelling capabilities are inherited from Boltz-2 and that their work is limited to accessibility, input construction, and workflow automation. The benchmark study provides an independent, external evaluation of Boltz-2 affinity prediction, which is valuable given the rapid adoption of such models. The reporting of a negative result, namely the lack of relationship between confidence metrics and prediction accuracy, is a strength that demonstrates scientific honesty. The software is open-source and freely available.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that Boltz2-Notebook comprises four integrated stages including automated environment setup, interactive parameter-to-YAML generation, execution management, and automated confidence and affinity visualization, together with a manifest-driven batch mode
+  - **Evidence pointer** Abstract only; no code repository, screenshots, or usage documentation provided
+  - **Concern** The abstract describes the software architecture but provides no evidence of its functionality, usability, or robustness. There is no description of how the four stages are implemented, how errors are handled, how the YAML generation ensures valid configurations, or how the batch mode manages multiple targets. No link to the code repository is provided in the abstract beyond a Zenodo DOI in the footnotes, and no usage examples or validation of the interface are described.
+  - **Why it matters** For a software contribution, the central claim is that the tool works as described and provides a reliable interface to Boltz-2. Without any demonstration of the software in action, validation of its outputs against known cases, or description of its implementation, the technical soundness of the contribution cannot be assessed. A reader cannot determine whether the tool is ready for use or whether it introduces errors in configuration generation or execution management.
+  - **Resolution test** Provide the code repository link, a description of the implementation architecture, screenshots or a demonstration video of the interface, and a validation case showing that the notebook produces identical results to the Boltz-2 command-line interface for the same input.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The abstract reports Pearson r = 0.609 [95% CI 0.540-0.675], Spearman ρ = 0.625, R2 = 0.371, MAE = 0.968 pIC50 units, and triplicate reproducibility with pairwise r = 0.97
+  - **Evidence pointer** Abstract only; no methods, dataset description, or statistical analysis details provided
+  - **Concern** The benchmark methodology is not described. The abstract states that 317 protein-ligand pairs (122 proteins, 277 ligands) were curated from BindingDB, but does not describe the selection criteria, the range of experimental pIC50 values, the distribution of protein classes, the ligand property diversity, or how the triplicate predictions were performed. The correlation metrics are presented without information on whether the data met assumptions for Pearson correlation, whether outliers were handled, or whether the confidence intervals were computed using appropriate methods. The statement that there is no measurable relationship between confidence metrics and prediction accuracy is made without specifying which confidence metrics were examined or how the relationship was tested.
+  - **Why it matters** The benchmark results are a key contribution of the paper, providing external evidence about Boltz-2 affinity prediction performance. Without methodological detail, the reader cannot judge whether the benchmark is representative, whether the statistical analysis is appropriate, or whether the conclusions are robust. The reported moderate correlation could be an artifact of the specific dataset composition, the range of affinities included, or the choice of statistical methods.
+  - **Resolution test** Provide a detailed methods section describing dataset curation criteria, the distribution of experimental values, the triplicate prediction protocol, the statistical tests used, and the specific confidence metrics examined. Include scatter plots of predicted versus experimental values and a description of the confidence metric analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract claims that Boltz2-Notebook is freely available as open-source software and provides external, reproducible evidence relevant to interpreting Boltz-2 affinity predictions
+  - **Evidence pointer** Zenodo DOI provided in footnotes; no repository link, version information, or usage instructions in the abstract
+  - **Concern** The abstract states that the software is open-source and provides a Zenodo DOI, but does not provide a direct repository link, software version, or instructions for installation and use. The reproducibility of the benchmark is also not established, as the abstract does not state whether the benchmark dataset, the prediction outputs, or the analysis scripts are made available.
+  - **Why it matters** Reproducibility is a core requirement for scientific software contributions. A reader cannot reproduce the benchmark results or verify the software functionality without access to the code, data, and analysis scripts. The Zenodo DOI suggests that some materials are archived, but the abstract does not specify what is included in the archive.
+  - **Resolution test** Provide the repository URL, specify the software version, and state clearly what materials are archived, including whether the benchmark dataset, prediction outputs, and analysis scripts are included.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract combines the software description and the benchmark study in a single paragraph, making it difficult to distinguish the two contributions. The transition from the software description to the benchmark results is abrupt.
+  - **Required correction** Consider restructuring the abstract to clearly separate the software contribution from the benchmark evaluation, perhaps with distinct sentences or a brief transitional phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that predictions were performed on high-performance computing infrastructure but does not specify the hardware, the runtime per prediction, or the total computational cost. This information would be useful for readers considering using Boltz-2 for similar tasks.
+  - **Required correction** Add a brief statement about the computational resources used and the approximate runtime per prediction or for the full benchmark.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Confidence metric description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract refers to Boltz-2's self-reported confidence metrics without specifying what these metrics are. Readers familiar with Boltz-2 may know these metrics, but the abstract should be self-contained.
+  - **Required correction** Briefly name the confidence metrics used by Boltz-2 or refer to the specific output fields that were examined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Benchmark purpose
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract presents the benchmark as independent of the software contribution, but the relationship between the two is not fully clear. It is not stated whether the benchmark was conducted to validate the software, to evaluate Boltz-2 itself, or both.
+  - **Required correction** Clarify the purpose of the benchmark in relation to the software contribution, for example by stating whether the benchmark was designed to demonstrate the software's batch mode or to provide an independent evaluation of Boltz-2.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Benchmark dataset
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that the benchmark was curated from BindingDB but does not indicate whether the specific dataset, including the list of protein-ligand pairs and the experimental pIC50 values, is publicly available.
+  - **Required correction** State whether the benchmark dataset is deposited in a public repository and provide the accession or DOI if available.
+
+## Risk / unsupported claims
+- The claim that Boltz2-Notebook comprises four integrated stages with specific functionality is unsupported in the abstract, as no implementation details, screenshots, or usage demonstrations are provided
+- The claim that the benchmark shows moderate correlation between predicted and experimental pIC50 values is unverifiable from the abstract alone, as the dataset composition, statistical methods, and analysis details are not described
+- The claim that there is no measurable relationship between Boltz-2 confidence metrics and prediction accuracy is unsupported, as the specific confidence metrics and the statistical tests used are not identified
+- The claim that the software provides reproducible evidence is not fully supported, as the abstract does not specify what materials are archived beyond a Zenodo DOI
+- The claim that the systematic compression of the predicted affinity range is a meaningful finding cannot be evaluated without information on the range of experimental values in the benchmark and the scaling of the predicted values

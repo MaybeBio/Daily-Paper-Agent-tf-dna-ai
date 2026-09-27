@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without supplementary figures, tables, or supporting information
+- **Assessment boundary** Scientific validity, methodological soundness, and claims as presented in the provided text; no assessment of supplementary materials or external reproducibility
+- **Shared manuscript claim summary** The authors present a new coarse-grained (CG) model of DNA parameterized for the Martini 3 force field, developed via iterative Bayesian optimization against all-atom (AA) reference simulations. They claim the model reproduces key structural and mechanical properties of single- and double-stranded DNA across varying lengths and ionic conditions, and demonstrate its transferability in four heterogeneous systems (protein binding, lipid bilayer association, graphene adsorption, and a crossover-containing nanostructure).
+- **Visible evidence base** Main text figures referenced (Figures 1-7), Table 1, and in-text descriptions of simulation protocols and results; supplementary figures and tables mentioned but not provided
+- **Missing materials affecting confidence** Supplementary figures (S1-S5), tables (S1-S3), full parameter values, detailed simulation setup for each application system, and the AA reference simulation details beyond brief description; these are critical for full assessment of parameterization quality and validation claims
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important gap in the Martini 3 ecosystem by providing a DNA model compatible with the broader force field. The Bayesian optimization approach is methodologically sound and well described. However, several technical concerns regarding parameterization details, validation rigor, and the strength of claims drawn from the application demonstrations need to be addressed before the case is fully established. The work is potentially significant for the simulation community, but the current evidence base is incomplete for a definitive assessment.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying DNA in multicomponent systems (e.g., DNA-protein complexes, DNA-membrane interactions, DNA-nanomaterial hybrids); researchers in the Martini force field community; experimentalists using simulations to interpret DNA-related phenomena in heterogeneous environments; developers of CG models seeking methodological advances in Bayesian optimization for force field parameterization.
+- **Major strengths** 1) Addresses a clear gap in the Martini 3 framework, which currently lacks a DNA model despite having RNA, protein, and lipid components. 2) The Bayesian optimization workflow with a scaled Wasserstein metric is a sophisticated and appropriate approach for multi-objective parameter fitting. 3) The validation strategy includes both targeted structural properties and emergent behaviors (persistence length, helical repeat) not directly optimized. 4) The application demonstrations span diverse interaction types, showing potential transferability. 5) The discussion honestly acknowledges limitations (fixed elastic network, salt dependence, ssDNA compactness).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The optimized model captures key structural and mechanical properties of single- and double-stranded DNA across varying strand lengths and ionic conditions"
+  - **Evidence pointer** Results section "Validation of DNA Model"; Figures 4 and 5; location not provided for specific data points
+  - **Concern** The validation of ionic condition dependence is weak. The persistence length results show no clear salt-dependent trend (69.1, 51.3, and 78.8 nm for 0, 150, and 500 mM NaCl, respectively), with large uncertainties that overlap substantially. The authors acknowledge this but do not provide a mechanistic explanation or comparison to experimental salt-dependent behavior beyond a single reference. The claim of capturing properties "across varying ionic conditions" is therefore not well supported by the presented data.
+  - **Why it matters** Ionic strength is a critical variable in DNA biophysics, affecting structure, flexibility, and interactions. If the model cannot reproduce salt-dependent behavior, its utility for heterogeneous systems (which often involve varying ionic environments) is significantly limited. The claim as stated overreaches the evidence.
+  - **Resolution test** Provide a more systematic salt-dependent study with reduced uncertainties (longer simulations, more replicates), compare to experimental persistence length data across a wider salt range, and either demonstrate improved salt response or temper the claim to reflect the model's current limitations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The model was parameterized through an iterative Bayesian optimization workflow, which used a scaled Wasserstein metric to compare distributions of local geometrical features and global structure from coarse-grained simulations against all-atom reference simulations"
+  - **Evidence pointer** Methods section "Bayesian Optimization of Backbone Parameters" and "Structural Observables and Model Scoring"; Figure 3; location not provided for convergence criteria
+  - **Concern** The Bayesian optimization procedure is described but critical details are missing. The text states that 20 batches of 20 parameter sets were evaluated (400 total simulations), but does not specify: (a) the convergence criteria for stopping optimization, (b) how the initial parameter space was sampled, (c) the exact form of the Gaussian process kernel and hyperparameters, (d) how the "best individual score for the corresponding local observable" was determined for mutation candidates, and (e) whether the final model was selected based on the lowest Wtot or on additional criteria. Without these details, the reproducibility of the parameterization is questionable.
+  - **Why it matters** The methodological contribution of this work is the optimization workflow itself. If the procedure is not fully specified, other researchers cannot reproduce or adapt it. This undermines the broader utility of the approach beyond the specific DNA model.
+  - **Resolution test** Provide complete details of the optimization procedure, including convergence criteria, hyperparameter choices, and selection logic for the final model. Consider making the code and optimization trajectories available as supplementary material.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Together, these results establish a transferable coarse-grained model of DNA for simulations of heterogeneous biomolecular and engineered systems"
+  - **Evidence pointer** Results section "Applications in Multicomponent Systems"; Figures 6 and 7; location not provided for quantitative metrics
+  - **Concern** The application demonstrations are largely qualitative. For the λ repressor system, the claim of stable binding is based on visual inspection and RMSD values, but no quantitative measure of binding affinity, contact persistence, or comparison to experimental binding data is provided. For the cholesterol-tagged DNA system, the observation of membrane insertion is described but no free energy or kinetic analysis is presented. The graphene adsorption is described as "spontaneous" but no adsorption free energy or comparison to experimental adsorption data is given. The crossover nanostructure stability is assessed only via RMSD.
+  - **Why it matters** The central claim of transferability rests on these demonstrations. Without quantitative validation against experimental or high-level computational references, the model's predictive utility in heterogeneous systems is not established. The demonstrations show the model "works" in a qualitative sense but do not demonstrate quantitative accuracy.
+  - **Resolution test** Add quantitative analyses for at least one or two application systems, such as binding free energy calculations for the protein-DNA complex, potential of mean force for cholesterol insertion, or comparison of adsorption energies to experimental or AA simulation values. Alternatively, temper the claim to state that the model is "compatible with" rather than "establishes" transferability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The resulting optimized parameters are reported in Table 1, and distributions of the sampled structural observables for the final model are shown in Fig. S1"
+  - **Evidence pointer** Results section "Parameter Optimization"; Table 1; Figure S1 (not provided)
+  - **Concern** The manuscript does not report the uncertainty or sensitivity of the optimized parameters. It is unclear whether the optimization landscape is smooth or contains multiple local minima, and whether the final parameter set is robust to small perturbations. Additionally, the text states that "the final parameter set did not coincide with the lowest local Ws regions for every parameter," but does not quantify the trade-offs or explain how the balance was achieved.
+  - **Why it matters** Parameter uncertainty directly affects the reliability of predictions made with the model. If the parameters are not well-constrained, the model's behavior in new systems may be unpredictable. Understanding the optimization landscape is also important for future refinements.
+  - **Resolution test** Provide an analysis of parameter sensitivity, such as a covariance matrix or bootstrap analysis of the optimization results. Discuss the identifiability of the 18 parameters and whether any are poorly constrained.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract opens with a general statement about DNA function but does not immediately clarify the specific problem being addressed (lack of a Martini 3 DNA model). Nonspecialist readers may not understand the significance of the work until later in the abstract.
+  - **Required correction** Consider revising the first sentence to explicitly state the gap in the Martini 3 framework, e.g., "The Martini 3 coarse-grained force field lacks a DNA model, limiting its application to heterogeneous systems containing DNA."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Bayesian Optimization of Backbone Parameters"
+  - **Evidence pointer** Methods section, equation (1)
+  - **Issue** The acquisition function in equation (1) is described as a "stochastic mean–uncertainty acquisition function" with β sampled from a standard normal distribution. This is an unusual choice, as standard upper confidence bound (UCB) acquisition uses a fixed exploration weight. The stochastic nature of β may lead to inconsistent optimization behavior across runs.
+  - **Required correction** Clarify the rationale for using a stochastic β and discuss its implications for reproducibility. If this is a deliberate design choice, explain why it is advantageous over fixed β.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on limitations
+  - **Issue** The discussion of limitations focuses on the fixed elastic network and salt dependence but does not address potential issues with the representation of DNA sequence dependence. The model uses existing Martini 3 RNA bead types, and it is unclear whether sequence-specific effects are captured.
+  - **Required correction** Add a brief discussion of whether the model captures sequence-dependent properties (e.g., bending preferences, minor groove width variations) and, if not, acknowledge this as a limitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Applications in Multicomponent Systems"
+  - **Evidence pointer** Results section, first paragraph
+  - **Issue** The description of the four application systems is dense and assumes familiarity with each system type. Nonspecialist readers may struggle to understand why these specific systems were chosen and what constitutes a successful demonstration.
+  - **Required correction** Add a brief introductory sentence explaining the rationale for selecting these four systems (e.g., "These systems were chosen to represent the major classes of DNA-containing heterogeneous environments: protein-DNA complexes, membrane-associated DNA, DNA nanostructures, and DNA-nanomaterial interfaces.")
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Simulation Methods"
+  - **Evidence pointer** Methods section, last paragraph
+  - **Issue** The text states that "system-specific details... are summarized in the Supporting Information (Tables S2 and S3)" but does not provide any information about the range of system sizes, simulation lengths, or computational costs. This information is important for assessing the practical utility of the model.
+  - **Required correction** Add a brief summary of the computational cost (e.g., typical simulation speeds, system sizes) in the main text or ensure this is prominently featured in the supplementary material.
+
+## Risk / unsupported claims
+- The claim that the model "captures key structural and mechanical properties... across varying ionic conditions" is not fully supported by the presented data, as the salt-dependent persistence length measurements show no clear trend and have large uncertainties.
+- The claim of "transferable" applicability is based on qualitative demonstrations; quantitative validation is lacking for all four application systems.
+- The statement that the model "maintained stable λ repressor-DNA complex" is based on visual inspection and RMSD only; no quantitative binding metrics are provided.
+- The assertion that the Bayesian optimization workflow is "an effective strategy for coarse-grained force-field development" is supported by the results but would benefit from comparison to alternative optimization approaches.
+- The claim that the model "reproduced structural and mechanical properties that were not explicitly included in the optimization objective" is based on persistence length and helical repeat measurements, but the statistical significance of these comparisons (e.g., to experimental values) is not rigorously assessed.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; full text not available for verification
+- **Shared manuscript claim summary** The authors propose that in Drosophila optic lobe neurogenesis, spatial and temporal patterning inputs converge on shared terminal selector transcription factors through modular enhancers, rather than being partitioned across separate selectors. They support this with two examples: Vsx1 is regulated by the temporal factor BarH1 in Dm2 neurons via a distinct enhancer, and Hbn is placed under spatial control in Mi21 neurons.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full text, all figures and tables, experimental methods, statistical analyses, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant revision of how spatial and temporal patterning inputs are integrated during neurogenesis. The proposed model, in which modular enhancers allow convergent regulation of shared selectors, is compelling and would be of broad interest. However, the abstract alone provides insufficient detail to evaluate the strength of the experimental evidence. Key claims regarding enhancer identification, binding site disruption, and functional specificity cannot be assessed without the full manuscript. The work appears promising but is currently not established from the provided material.
+- **Who would be interested in the results, and why** Developmental neurobiologists studying neural progenitor patterning and neuronal fate specification; researchers interested in cis-regulatory evolution and enhancer logic; computational biologists working on sequence-to-accessibility deep-learning models for regulatory genomics; Drosophila geneticists. The proposed mechanism of convergent patterning inputs on shared selectors has implications for understanding how limited developmental signals generate diverse cell types, which is relevant to both basic neurobiology and stem cell biology.
+- **Major strengths** The conceptual framework is novel and addresses a fundamental question in neurobiology. The use of two reciprocal examples (temporal control of a spatial factor, spatial control of a temporal factor) strengthens the generality of the proposed model. The combination of in vivo reporters with deep-learning-based sequence analysis represents a modern and rigorous approach. The finding that the same selector can be activated by different patterning axes through physically distinct enhancers within the same lineage is a significant conceptual advance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Vsx1 is regulated by the neuroblast temporal TF BarH1 in Dm2 neurons through an enhancer distinct from its domain-specific ones, and that disruption of key binding sites impairs Dm2-specific activity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the authors "identify and disrupt the key binding sites in this enhancer, impairing its Dm2-specific activity," but provides no details on the nature of the disruption, the magnitude of the effect, the specificity of the impairment, or the controls used. Without these details, it is impossible to determine whether the enhancer is truly required for Dm2 expression, whether the effect is specific to Dm2 or affects other neuronal types, or whether the disruption fully recapitulates the loss-of-function phenotype.
+  - **Why it matters** The central claim of the manuscript rests on the functional demonstration that a specific enhancer mediates temporal regulation of Vsx1 in Dm2 neurons. If the enhancer disruption data are incomplete, ambiguous, or not properly controlled, the entire model of convergent regulation is weakened. The distinction between a partial reduction and a complete loss of Dm2-specific activity is critical for interpreting whether this enhancer is the sole mediator of temporal input or one of several redundant mechanisms.
+  - **Resolution test** The full manuscript must provide: (1) quantification of reporter expression before and after enhancer disruption, with appropriate statistical tests; (2) evidence that the disruption does not affect Vsx1 expression in other neuronal types or in the neuroepithelial domain; (3) rescue experiments or complementary approaches (e.g., CRISPR-mediated deletion) to confirm the enhancer's necessity; and (4) demonstration that BarH1 binding to the identified sites is direct and functionally relevant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Hbn acts as a terminal selector in Mi21 neurons independently of its neuroblast temporal window, with its expression placed under dorsoventral spatial control.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that Hbn "acts as a terminal selector in the related neuron Mi21 independently of its neuroblast temporal window," but provides no information on how this was determined. Key questions include: How was independence from the temporal window established? Was Hbn expression examined in mutants where the temporal window is abolished? How was the dorsoventral spatial control demonstrated? What is the nature of the spatial input and through which enhancer does it act?
+  - **Why it matters** This example is presented as the reciprocal case to Vsx1, and together they form the basis for the proposed general model. If the Hbn evidence is correlative rather than functional, or if the independence from temporal control is not rigorously demonstrated, the generality of the model is compromised. The claim of "independence" requires genetic evidence that Hbn expression persists in Mi21 neurons even when the temporal program is disrupted.
+  - **Resolution test** The full manuscript must provide: (1) genetic evidence that Hbn expression in Mi21 is unaffected by perturbations of the neuroblast temporal cascade; (2) identification of the spatial enhancer and demonstration of its requirement for Mi21 expression; (3) loss- and gain-of-function experiments showing Hbn is necessary and sufficient for Mi21 identity; and (4) evidence that the spatial input acts directly on the Hbn enhancer rather than through an intermediate factor.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors state they combined "in vivo reporters with sequence-to-accessibility deep-learning models" to identify and disrupt key binding sites.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the deep-learning model, its training data, its performance metrics, or how predictions were validated experimentally. Sequence-to-accessibility models are powerful but can produce false positives, and the criteria for selecting candidate binding sites for experimental disruption are not stated. The relationship between predicted accessibility changes and actual enhancer function is not established.
+  - **Why it matters** The computational component is presented as a key methodological innovation, but its reliability directly affects the interpretation of the enhancer dissection experiments. If the model predictions are not robustly validated, the identified binding sites may not be the true functional elements, and the conclusions about regulatory logic would be undermined.
+  - **Resolution test** The full manuscript must provide: (1) a description of the model architecture, training data, and validation approach; (2) performance metrics (e.g., AUROC, AUPRC) on held-out data; (3) a clear explanation of how model predictions were used to select binding sites for mutation; and (4) experimental validation showing that predicted sites are indeed required for enhancer activity and that the model accurately predicts the effects of mutations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "Visual system homeobox (Vsx1) spatially patterns a central neuroepithelial domain and later acts as a terminal selector in dozens of neuronal types, most originating exclusively from that domain."
+  - **Issue** The phrase "most originating exclusively from that domain" is ambiguous. It is unclear whether "most" refers to most neuronal types expressing Vsx1 or most neurons within those types, and whether "exclusively" means all neurons of those types originate from the domain or only some.
+  - **Required correction** Clarify the proportion and exclusivity: for example, "in dozens of neuronal types, the majority of which originate exclusively from that domain" or rephrase to specify the exact relationship.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "terminal selector"
+  - **Evidence pointer** Abstract, "terminal selector transcription factors (TFs)" and subsequent usage
+  - **Issue** The term "terminal selector" is used for Vsx1 and Hbn, but the abstract does not specify the criteria used to classify these factors as terminal selectors. In the field, this term has a specific meaning (maintenance of terminal differentiation identity), and it is unclear whether the authors demonstrate this property or use the term more loosely.
+  - **Required correction** Briefly state the criteria for terminal selector status or qualify the usage, for example, "which we show acts as a terminal selector" with a reference to the relevant experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model generality
+  - **Evidence pointer** Abstract, "Patterning inputs therefore need not be partitioned across separate selectors but converge combinatorially on the modular enhancers of shared ones"
+  - **Issue** The abstract presents this as a general conclusion, but only two examples are described. It is unclear whether the authors intend this as a universal principle or as one possible mechanism among several.
+  - **Required correction** Qualify the generality, for example, "these findings reveal a cis-regulatory logic that can re-encode patterning inputs into neuronal diversity" or "suggest that patterning inputs can converge."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental detail to evaluate the central claims. The enhancer identification and disruption experiments, the demonstration of temporal independence for Hbn, and the computational model validation all require full methodological and results sections.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The proposed model of convergent patterning inputs on shared selectors through modular enhancers is a novel conceptual contribution that challenges existing frameworks of separate inheritance of spatial and temporal identity.
+  - Scientific importance: High. If substantiated, this work would reshape understanding of how transient developmental signals generate stable neuronal diversity, with implications for many systems beyond Drosophila.
+  - Interdisciplinary readership: Moderate to high. The work bridges developmental neurobiology, gene regulation, and computational biology, and the conceptual message would appeal to a broad audience.
+  - Technical soundness: Not assessable from the abstract. The experimental and computational approaches are appropriate in principle, but the absence of methodological detail and results prevents evaluation of rigor.
+  - Readability for nonspecialists: Good. The abstract is clearly written and the conceptual framework is accessible, though some domain-specific terms (e.g., "terminal selector," "neuroblast temporal TF") may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is compelling and the work appears potentially significant, but the abstract alone does not provide sufficient experimental detail to evaluate the validity of the central claims. A full review of the manuscript would be required to determine whether the evidence supports the model.
+
+## Risk / unsupported claims
+- The claim that Vsx1 is regulated by BarH1 through a distinct enhancer in Dm2 neurons is unsupported without experimental details on enhancer identification, binding site disruption, and specificity controls.
+- The claim that Hbn acts independently of its neuroblast temporal window in Mi21 neurons is unsupported without genetic evidence of temporal cascade perturbation.
+- The claim that dorsoventral spatial control regulates Hbn expression in Mi21 is unsupported without identification of the spatial input and its mechanism.
+- The general model that patterning inputs converge combinatorially on modular enhancers of shared selectors is presented as a conclusion but is based on only two examples and requires broader validation.
+- The use of sequence-to-accessibility deep-learning models is mentioned but not described, and the reliability of the predictions cannot be assessed.

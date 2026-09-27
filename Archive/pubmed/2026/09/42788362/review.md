@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report de novo determination of the molecular structures of RiboGreen and OliGreen, confirmation of the previously proposed structure of PicoGreen, identification of all three as unsymmetric monomethine cyanine dyes, complete 1H and 13C resonance assignments, photophysical characterization against standardized nucleic acid targets, and identification of two DNA binding modes for RiboGreen via NMR and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR spectral assignments, mass spectrometry data, photophysical measurement protocols, simulation methodology and convergence criteria, and any statistical treatment of results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to nucleic acid probe chemistry by resolving structural unknowns for two widely used commercial dyes. The combination of NMR, mass spectrometry, photophysical characterization, and molecular dynamics is appropriate in principle. However, the abstract alone provides insufficient detail to evaluate the rigor of structure determination, the quality of spectral assignments, the reproducibility of photophysical measurements, or the robustness of the binding mode conclusions. The claim that all three dyes perform similarly despite being marketed toward different nucleic acid types is intriguing but requires quantitative support. The binding mode conclusions for RiboGreen rest on a combination of NMR and simulation evidence that cannot be assessed from the abstract.
+- **Who would be interested in the results, and why** Researchers in nucleic acid detection and quantification, developers of fluorescent probes for molecular biology, biophysical chemists studying dye-nucleic acid interactions, and NMR spectroscopists interested in chemical shift reference sets for cyanine dyes. The structural information could inform rational design of improved fluorogenic dyes and aid interpretation of existing assays that rely on RiboGreen and OliGreen.
+- **Major strengths** The work addresses a genuine knowledge gap, as the structures of these commercial dyes have been unavailable despite their widespread use. The multi-technique approach combining NMR, mass spectrometry, photophysics, and simulation is well suited to the problem. The expansion of chemical shift reference data for unsymmetric cyanine dyes is a practical contribution. The comparative photophysical assessment across standardized nucleic acid targets is a useful design feature.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence sufficiency
+  - **Claim pointer** The authors claim de novo determination of RiboGreen and OliGreen structures and confirmation of the PicoGreen structure using NMR and mass spectrometry.
+  - **Evidence pointer** Abstract only; no spectral data or assignment tables provided
+  - **Concern** The abstract does not provide any indication of the completeness of NMR assignments, the number of observed correlations, the resolution of mass spectrometry data, or the criteria used to distinguish candidate structures. De novo structure determination of a small molecule from NMR and MS requires explicit demonstration that all possible isomers and tautomers were considered and excluded.
+  - **Why it matters** Without evidence of exhaustive structural discrimination, the central claim of the paper cannot be verified. Ambiguity in dye structure would propagate into all downstream interpretations of binding modes and photophysical behavior.
+  - **Resolution test** Provide in the full manuscript the full 1H and 13C assignment tables, key NOE correlations, scalar coupling evidence for the monomethine bridge geometry, high-resolution mass data with calculated versus observed masses, and a description of candidate structure enumeration and exclusion criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Binding mode evidence robustness
+  - **Claim pointer** The authors claim that RiboGreen interacts with double-stranded DNA predominantly by two binding modes, electrostatic interactions with the phosphodiester backbone and pi-pi stacking with accessible nucleobases.
+  - **Evidence pointer** Abstract only; no NMR titration data, no simulation trajectories, no binding affinity measurements
+  - **Concern** The abstract states that NMR and long-timescale molecular dynamics simulations showed these two binding modes, but provides no quantitative information on the population of each mode, the timescales simulated, the force field used, or the NMR observables that report on each interaction. The word "predominantly" implies a population distribution that is not supported by any visible data.
+  - **Why it matters** Binding mode identification is a central mechanistic claim. If the evidence is insufficient, the mechanistic framework proposed for understanding fluorogenic properties is not established. Overinterpretation of simulation data without experimental validation is a common failure mode.
+  - **Resolution test** Provide NMR titration data with chemical shift perturbation mapping, intermolecular NOEs between dye and DNA protons, simulation details including force field, simulation length, convergence metrics, and a quantitative decomposition of binding mode populations. If possible, include a control experiment with a DNA variant lacking accessible nucleobases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative photophysical claim support
+  - **Claim pointer** The authors claim that all three dyes performed similarly upon binding to standardized single- and double-stranded DNA and RNA targets despite being marketed toward different nucleic acid types.
+  - **Evidence pointer** Abstract only; no photophysical parameters, no statistical comparison, no target sequences specified
+  - **Concern** The claim of similar performance is presented without any quantitative photophysical parameters such as fluorescence enhancement factors, quantum yields, dissociation constants, or detection limits. The term "similarly" is undefined and could encompass a wide range of differences that may or may not be biologically meaningful.
+  - **Why it matters** This claim has practical implications for assay design. If the dyes are truly interchangeable, users could select based on cost or availability. If they differ in subtle ways, the claim could mislead. The absence of statistical treatment is particularly concerning.
+  - **Resolution test** Provide a table of photophysical parameters for each dye against each nucleic acid target, including replicates and appropriate statistical tests. Define a threshold for "similar" performance a priori or justify the interpretation of observed differences.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Completeness of chemical shift reference set
+  - **Affected element** Claim of expanding the chemical shift reference set
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that complete assignments enabled expansion of the existing chemical shift reference set, but does not indicate how many new compounds were added or whether the reference set is publicly deposited.
+  - **Required correction** Specify the number of compounds added to the reference set and state where the data are deposited, such as a public NMR database or supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "de novo" for structure determination
+  - **Evidence pointer** Abstract only
+  - **Issue** The term "de novo" is used for RiboGreen and OliGreen but the abstract does not clarify whether any prior partial structural information existed, such as molecular formula or substructure hints from synthesis routes.
+  - **Required correction** Clarify in the methods or introduction what prior information was available and what was determined entirely from spectroscopy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Simulation methodology transparency
+  - **Affected element** Molecular dynamics simulation description
+  - **Evidence pointer** Abstract only
+  - **Issue** The phrase "long-timescale" is vague and could mean anything from hundreds of nanoseconds to milliseconds. The force field and water model are not mentioned.
+  - **Required correction** State the aggregate simulation time, force field, and water model in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural determination must be shown to be unambiguous, and the binding mode evidence must be quantitatively supported. Without these, the central claims of the paper are not established from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a clear gap, as the structures of these commercial dyes have been unknown despite decades of use. This is a novel contribution.
+  - Scientific importance: The importance is moderate to high for the nucleic acid probe community, but the broader biological impact depends on whether the structural and mechanistic insights lead to new capabilities or corrected interpretations of existing data.
+  - Interdisciplinary readership: The work spans chemistry, biophysics, and molecular biology, which could attract a broad readership, but the abstract does not currently convey the broader significance beyond the specialist community.
+  - Technical soundness: Cannot be assessed from the abstract. The multi-technique approach is appropriate, but the evidence for the central claims is not visible.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses technical terms without sufficient context. The significance of unsymmetric monomethine cyanine dyes and the implications of the binding modes are not explained for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is appropriate and the approach is sound in principle, but the abstract does not provide sufficient evidence to establish the structural and mechanistic claims. The full manuscript must demonstrate unambiguous structure determination and quantitatively supported binding mode populations.
+
+## Risk / unsupported claims
+- The claim that all three dyes "performed similarly" is unsupported without quantitative photophysical data and statistical comparison.
+- The claim of "predominantly" two binding modes for RiboGreen is unsupported without population estimates or relative occupancy data.
+- The claim of "de novo" structure determination is unverifiable without evidence of exhaustive isomer and tautomer exclusion.
+- The claim of expanding the chemical shift reference set is unverifiable without details on the number of compounds and deposition location.
+- The general statement that the results "provide a structural and mechanistic framework for understanding the fluorogenic properties of this class of dyes" is an extrapolation that is not directly supported by the visible evidence.

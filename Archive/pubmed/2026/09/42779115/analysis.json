@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42779115",
+  "title": "PURE: An interpretable framework for prioritizing candidate regulators of differential gene expression in plants.",
+  "authors": "Li, Chuanshun; Yang, Leyi; Lin, Kande; Liu, Xiaojian; Long, Zhengbiao; Deng, Qilin; Zhang, You; Li, Yangmeihui; Zhong, Dating; Ma, Chao; Lu, Yuming; Pan, Xiaoyong; Tu, Xiaoyu",
+  "journal": "Plant communications",
+  "published_date": "2026-09-24",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了PURE平台，整合共表达、序列基序和实验结合证据，用梯度提升和SHAP优先排序植物差异表达基因的候选转录因子，但核心是基因表达调控推断而非TF-DNA三维互作建模，方法可迁移但深度不足。",
+  "abstract": "While transcriptomic profiling has become routine, identifying the TFs underlying these expression patterns remains a major challenge, particularly for crops and non-model species lacking efficient transformation systems. To connect expression correlations with candidate regulatory mechanisms, we developed PURE (Plant Unified Regulation Explorer), an interpretable platform that ranks candidate TFs by integrating co-expression patterns with sequence motifs and experimental binding evidence. PURE uses gradient boosting to handle sparse and imbalanced plant regulatory matrices and then applies SHAP feature attribution to convert model behavior into TF-level contribution scores. By integrating ChIP-seq and DAP-seq resources from Arabidopsis, maize, rice, and tomato, PURE projects these reference binding profiles through cross-species relationships to constrain the search space in target species. Benchmarking across 11 species spanning the green lineage showed that PURE feature matrices captured expression contrasts associated with abiotic stress, developmental trajectories, and cell-type specificity, and downstream evidence-filtered attribution scores prioritized TF candidates supported by the integrated regulatory evidence. PURE further supported analyses of the transcriptional plasticity of maize C(4) photosynthesis, the conserved photosystem response across lineages, and the hierarchical metabolic architecture of tomato fruit ripening. As a discovery-oriented test, PURE prioritized the less-characterized tomato light-dark TF SlDOF3, and integrated SlDOF3 ChIP-seq and RNA-seq analyses supported binding and associated expression changes at predicted pathway loci. PURE is accessible as a web resource (https://plantencodedb.sjtu.edu.cn/pure/), enabling experimental biologists to prioritize candidate TFs for downstream experimental analysis.",
+  "abstract_zh": "尽管转录组分析已变得常规，但识别这些表达模式背后的转录因子（TFs）仍是一项重大挑战，尤其是在缺乏高效转化系统的作物和非模式物种中。为了将表达相关性与候选调控机制联系起来，我们开发了PURE（植物统一调控探索器，Plant Unified Regulation Explorer），这是一个可解释的平台，通过整合共表达模式、序列基序和实验结合证据来对候选转录因子进行排序。PURE使用梯度提升（gradient boosting）处理稀疏且不平衡的植物调控矩阵，然后应用SHAP特征归因将模型行为转化为转录因子水平的贡献分数。通过整合拟南芥、玉米、水稻和番茄的ChIP-seq和DAP-seq资源，PURE通过跨物种关系投射这些参考结合谱，以限制目标物种中的搜索空间。在涵盖绿色谱系的11个物种中的基准测试表明，PURE特征矩阵捕获了与非生物胁迫、发育轨迹和细胞类型特异性相关的表达对比，且下游证据过滤的归因分数优先考虑了受整合调控证据支持的转录因子候选。PURE进一步支持了玉米C(4)光合作用转录可塑性、跨谱系保守的光系统响应以及番茄果实成熟的分层代谢架构的分析。作为一项面向发现的测试，PURE优先考虑了较少表征的番茄光暗转录因子SlDOF3，且整合的SlDOF3 ChIP-seq和RNA-seq分析支持了预测通路位点上的结合及相关表达变化。PURE可作为网络资源访问（https://plantencodedb.sjtu.edu.cn/pure/），使实验生物学家能够优先选择候选转录因子进行下游实验分析。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42779115/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42779115/",
+  "paper_page_path": "papers/pubmed/42779115/index.html"
+}

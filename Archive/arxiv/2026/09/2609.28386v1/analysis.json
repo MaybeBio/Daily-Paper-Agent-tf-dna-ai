@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2609.28386v1",
+  "title": "Motif-Vocab: StatisticallyCalibrated Transcription-Factor-Identity Tokenization forGenomic Language Models",
+  "authors": "Liangyu Li; Michael White",
+  "journal": "",
+  "published_date": "2026-09-23",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于TF基序统计校准的DNA分词器Motif-Vocab，将TF身份token融入基因组语言模型，提升TF-DNA结合位点相关下游任务性能，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "Tokenization is a central design choice in genomic language models, yet most deoxyribonucleic acid (DNA) tokenizers use characters, fixed-length k-mers, or frequency-derived subwords without explicitly using prior information about the specificity of DNA-binding regulatory factors. We introduce Motif-Vocab, a biologically informed tokenizer that scans both DNA strands for statistically calibrated motif matches, emits transcription-factor (TF) identity tokens, and applies nucleotide, $k$-mer, or byte-pair encoding (BPE) to unmatched sequence. Motif-specific null distributions put position-weight matrices (PWMs) of different lengths and degeneracy on a common significance scale; deterministic overlap rules make the representation reproducible. In controlled Bidirectional Encoder Representations from Transformers (BERT) pretraining on two billion base pairs, real motif libraries outperform randomized-motif controls on 54 of 55 in-scope downstream tasks. On a motif-disjoint recognition task derived from DART-Eval Task 2, TF-specific tokens improve macro-F1 by 0.040 over a position-matched generic motif token and by 0.033 over a matched no-motif tokenizer (95\\% bootstrap confidence interval: 0.027--0.038). Motif tokens also receive stronger attribution and produce larger occlusion effects than shuffled controls. Dense no-motif tokenizers remain strong general-purpose baselines, including a near-tie on the five-task BERT-base panel. Thus, Motif-Vocab is not a universal accuracy replacement; it is a targeted, interpretable inductive bias for motif-sensitive genomic modeling.",
+  "abstract_zh": "分词（tokenization）是基因组语言模型中的一个核心设计选择，然而大多数脱氧核糖核酸（DNA）分词器使用字符、固定长度的k-mer或频率派生的子词，并未显式利用关于DNA结合调控因子特异性的先验信息。我们引入了Motif-Vocab，这是一种生物学信息感知的分词器，它扫描DNA双链以寻找统计校准的基序匹配，生成转录因子（TF）身份令牌，并对未匹配序列应用核苷酸、$k$-mer或字节对编码（BPE）。基序特异的零分布将不同长度和简并性的位置权重矩阵（PWMs）置于共同的显著性尺度上；确定性重叠规则使表示具有可复现性。在二十亿碱基对上的受控双向编码器表示来自变换器（BERT）预训练中，真实基序库在55项范围内下游任务中的54项上优于随机化基序对照。在源自DART-Eval任务2的基序不相交识别任务中，TF特异令牌在宏F1上比位置匹配的通用基序令牌提高0.040，比匹配的无基序分词器提高0.033（95%自助法置信区间：0.027--0.038）。基序令牌还获得更强的归因，并产生比打乱对照更大的遮挡效应。密集的无基序分词器仍是强大的通用基线，包括在五项任务BERT-base面板上的近乎平局。因此，Motif-Vocab并非通用的准确性替代方案；它是一种针对基序敏感基因组建模的定向、可解释的归纳偏置。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2609.28386v1",
+  "source_url": "https://arxiv.org/abs/2609.28386v1",
+  "paper_page_path": "papers/arxiv/2609.28386v1/index.html"
+}

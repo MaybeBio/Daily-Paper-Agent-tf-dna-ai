@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present SurfGraphPro, a geometric deep learning method that integrates protein language model embeddings with coarse triangulated protein surface representations for binding site prediction. They claim an 18 to 28 fold speedup over a current state-of-the-art surface-based model for proteins of approximately 100 to a few thousand amino acids, with comparable accuracy across diverse binding interfaces including antibody-antigen complexes. They further claim this is the first approach to combine protein language model embeddings with coarse geometric surface representations for this task.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark definitions, baseline specifications, dataset descriptions, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting methodological combination, namely the use of protein language model embeddings on coarse surface meshes for binding site prediction. The claimed speedup is substantial and the removal of multiple sequence alignment dependence is a practical advantage. However, the abstract provides no quantitative evidence to support the central claims of accuracy parity or speed improvement. The novelty claim, while plausible, cannot be verified without a thorough literature comparison. The absence of any numerical results, benchmark descriptions, or methodological details prevents a meaningful assessment of technical soundness. The work may be of interest to the structural bioinformatics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural bioinformaticians and computational biologists working on protein function annotation, drug discovery, and antibody engineering would be interested. The potential for fast binding site prediction without multiple sequence alignments is practically relevant for high-throughput applications and for proteins with few homologs. The methodological combination of protein language models with geometric deep learning may also interest researchers developing surface-based learning architectures.
+- **Major strengths** The proposed approach addresses a practical bottleneck, namely the computational cost of surface-based binding site prediction. The use of protein language model embeddings to replace hand-crafted features and multiple sequence alignments is a sensible and timely direction. The focus on coarse-grained surfaces for speed is a reasonable design choice. The abstract is clearly written and the claims are stated without overstatement.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The method achieves an 18 to 28 fold speedup over current state-of-the-art surface-based models while maintaining comparable accuracy on diverse binding interfaces including antibody-antigen complexes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no numerical results, no benchmark datasets, no baseline identifiers, and no statistical measures to support the speedup and accuracy claims. No figure or table is referenced.
+  - **Why it matters** The central contribution of the work rests on these two quantitative claims. Without supporting data, the reader cannot assess whether the speedup is real, under what conditions it holds, or what "comparable accuracy" means in practice.
+  - **Resolution test** Provide benchmark tables with dataset names, baseline model names, accuracy metrics with confidence intervals, and runtime measurements with hardware specifications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty verification
+  - **Claim pointer** This is the first approach to integrate protein language model embeddings with coarse geometric surface representations for binding site prediction.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The novelty claim is stated without any literature context. No prior work is cited or discussed, so the reader cannot verify whether this combination has been attempted before.
+  - **Why it matters** Novelty is a core component of the contribution. An unsubstantiated first-to-market claim weakens the scientific case and may mislead readers.
+  - **Resolution test** Include a literature review section that surveys existing surface-based and language-model-based binding site prediction methods and explicitly positions the contribution relative to them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method operates on coarse-grained triangulated protein surfaces using solvent-excluded surface meshes downsampled into amino acid residue centered patches, with protein language model embeddings as input features.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The surface construction, downsampling strategy, patch definition, geometric transformer architecture, and embedding integration are all unspecified.
+  - **Why it matters** Without these details, the approach cannot be reproduced, evaluated for design soundness, or compared against alternatives. The technical contribution is therefore not assessable.
+  - **Resolution test** Provide a full methods section with architectural diagrams, hyperparameter choices, and a reproducibility statement.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, speedup claim
+  - **Issue** The phrase "on average 18 to 28 fold speedup" is ambiguous. It is unclear whether this is a range across protein sizes, a confidence interval, or a variation across benchmarks.
+  - **Required correction** Specify the exact meaning of the range and report the underlying distribution or per-benchmark values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope definition
+  - **Affected element** Protein size range
+  - **Evidence pointer** Abstract, speedup claim
+  - **Issue** The protein size range of approximately 100 to a few thousand amino acids is vague. The upper bound is not defined.
+  - **Required correction** Provide a precise size range or a histogram of test protein lengths.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Coarse-graphed"
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "coarse-graphed" appears to be a typographical error for "coarse-grained."
+  - **Required correction** Correct the spelling.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, literature context, and methodological detail means the central claims cannot be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of protein language model embeddings with coarse surface representations is potentially original, but this cannot be confirmed without a literature review. Not assessable from the abstract.
+  - Scientific importance: Fast binding site prediction without multiple sequence alignments is a practically relevant goal. The importance is plausible but not demonstrated with evidence of impact or broad applicability.
+  - Interdisciplinary readership: The topic sits at the intersection of machine learning and structural biology, which has broad appeal. The abstract is accessible to nonspecialists in both fields.
+  - Technical soundness: Not assessable. No methodological or quantitative details are provided.
+  - Readability for nonspecialists: The abstract is clearly written and the core idea is understandable without deep expertise in either field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful idea, but the absence of quantitative results, methodological detail, and literature context prevents any assessment of validity or novelty. A full manuscript with benchmarks, baselines, and methods would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The 18 to 28 fold speedup claim is unsupported by any data.
+- The claim of comparable accuracy on diverse binding interfaces is unsupported by any data.
+- The claim of being the first approach to integrate protein language model embeddings with coarse geometric surface representations is unverifiable without literature context.
+- The claim that learned evolutionary features can replace traditional feature engineering without sacrificing performance is unsupported by any comparative results.

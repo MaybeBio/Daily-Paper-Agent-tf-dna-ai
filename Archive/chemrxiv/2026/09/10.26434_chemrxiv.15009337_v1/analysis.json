@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15009337/v1",
+  "title": "ProtMutMap: Predicting Protein Binding Free Energy Changes Using Multiple-Mutation Networks",
+  "authors": "Kairi Furui; Masahito Ohue",
+  "journal": "ChemRxiv",
+  "published_date": "2026-09-23",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出ProtMutMap方法，通过网络整合多条自由能微扰路径预测蛋白-蛋白界面多突变结合自由能变化，虽非TF-DNA体系，但蛋白-蛋白互作建模与FEP方法可迁移至TF-DNA结合研究。",
+  "abstract": "Predicting changes in binding free energy ΔΔ G caused by multiple mutations at protein−protein interfaces requires accounting for nonadditive interactions between mutations, which an additive approximation based on single mutations cannot capture, and for the dependence on the computational pathway in stepwise approaches that introduce mutations sequentially. Here, we propose ProtMutMap, a method that integrates information from multiple pathways in a network whose nodes represent target variants and variants containing subsets of their mutations, and whose edges represent free energy perturbation (FEP) calculations for residue substitutions. ProtMutMap simultaneously estimates the binding ΔΔ G of each variant from all edge values using Huber loss. We compared ProtMutMap with the additive approximation and the stepwise method at 30 evaluation points, including intermediate variants, using a multiple-mutation dataset comprising 7 protein complex systems derived from SKEMPI2. ProtMutMap achieved a root mean squared error (RMSE) of 1.13 kcal/mol, lower than that of either comparison method. ProtMutMap also yielded lower prediction errors than Rosetta flex ddG. These comparisons with experimental values demonstrate that integrating multiple pathways through variants containing subsets of the target mutations improves binding ΔΔ G predictions for protein variants with multiple mutations.",
+  "abstract_zh": "预测由蛋白-蛋白界面上多个突变引起的结合自由能变化ΔΔG，需要考虑突变之间的非加性相互作用，这是基于单突变的加性近似无法捕捉的，同时也需考虑在逐步方法中顺序引入突变时对计算路径的依赖性。在此，我们提出ProtMutMap，一种整合多条路径信息的方法，其网络中的节点代表目标变体及包含其突变子集的变体，边代表残基替换的自由能微扰（FEP）计算。ProtMutMap利用Huber损失从所有边值同时估计每个变体的结合ΔΔG。我们使用一个包含7个蛋白复合物系统的多突变数据集（源自SKEMPI2），在30个评估点（包括中间变体）上将ProtMutMap与加性近似和逐步方法进行了比较。ProtMutMap实现了1.13 kcal/mol的均方根误差（RMSE），低于两种比较方法。ProtMutMap还产生了比Rosetta flex ddG更低的预测误差。这些与实验值的比较表明，通过包含目标突变子集的变体整合多条路径，可改善多突变蛋白变体的结合ΔΔG预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15009337/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15009337/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15009337_v1/index.html"
+}
