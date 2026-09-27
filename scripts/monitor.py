@@ -23,11 +23,12 @@ import re
 import shutil
 import sys
 import tempfile
+import time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import httpx
 import pandas as pd
+import requests
 import yaml
 
 from pyPaperFlow.preprint.arxiv_fetcher import ArxivFetcher
@@ -48,6 +49,13 @@ PLATFORMS = ["pubmed", "biorxiv", "arxiv", "chemrxiv", "medrxiv"]
 # max_results is unset — a rich OR-query hangs. Cap keeps only the freshest records.
 ARXIV_MAX_RESULTS = 150
 
+# biorxiv/medrxiv retry budget for this unattended job. The library default (3,
+# ~4.5s) is tuned for an interactive tool: fail fast, tell the human, let them
+# re-run. Here nobody is watching and a degraded week is permanent unless re-run,
+# so absorb a longer Europe PMC outage (5 retries, ~22s of backoff) before giving
+# up and marking the week degraded.
+PREPRINT_MAX_RETRIES = 5
+
 _MONTH_ABBR = {
     m: f"{i:02d}"
     for i, m in enumerate(
@@ -65,6 +73,7 @@ def parse_args():
     p.add_argument("--run-date", default=None, help="Run date YYYY-MM-DD (default: today)")
     p.add_argument("--issue-body", default=None, help="Write issue markdown body to this path")
     p.add_argument("--issue-title", default=None, help="Write issue title (one line) to this path")
+    p.add_argument("--platforms", default=None, help="Comma-separated platforms to run (default: all in config)")
     return p.parse_args()
 
 
@@ -172,24 +181,42 @@ ARXIV_NS = {"o": "http://a9.com/-/spec/opensearch/1.1/"}
 
 
 def _arxiv_total_results(search_query):
-    """Return arXiv's totalResults for a built search_query (0 on error/empty)."""
-    try:
-        resp = httpx.get(
-            ARXIV_API,
-            params={"search_query": search_query, "start": 0, "max_results": 1},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
-        el = root.find("o:totalResults", ARXIV_NS)
-        return int(el.text) if el is not None and el.text else 0
-    except Exception:
-        return 0
+    """Return arXiv's totalResults for a built search_query.
+
+    Raises on any API error (HTTP status, timeout, non-XML body) so an outage
+    surfaces as a platform failure instead of a silent empty week. A healthy
+    200 with no matches legitimately returns 0.
+    """
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            # requests (urllib3), not httpx: arXiv's Fastly CDN 406s httpx's TLS
+            # fingerprint on boolean queries.
+            resp = requests.get(
+                ARXIV_API,
+                params={"search_query": search_query, "start": 0, "max_results": 1},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            el = root.find("o:totalResults", ARXIV_NS)
+            return int(el.text) if el is not None and el.text else 0
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+    raise last_error
 
 
 def fetch_platform(platform, cfg, start, end, root_dir):
-    """Return (rows, metas) where rows drives CSV and metas drives Archive JSON."""
+    """Return (rows, metas, degradation).
+
+    rows drives CSV, metas drives Archive JSON, and degradation is a short
+    reason string when the platform silently fell back to a lossy source
+    (None when the results came from every source it was supposed to query).
+    """
     query = cfg["platforms"][platform]["query"]
+    degradation = None
 
     if platform == "pubmed":
         email = (os.environ.get("ENTREZ_EMAIL") or "").strip()
@@ -200,10 +227,10 @@ def fetch_platform(platform, cfg, start, end, root_dir):
         fetcher = PubmedFetcher(root_dir=root_dir, entrez_email=email, api_key=api_key)
         meta = fetcher.query_search(dated)
         if meta.get("count", 0) == 0 or "webenv" not in meta:
-            return [], []
+            return [], [], None
         pmids = fetcher.get_pubmedIDs_from_query(meta, retmax=500)
         if not pmids:
-            return [], []
+            return [], [], None
         papers = fetcher.fetch_from_pmid_list(pmids, output_dir=root_dir)
         rows = [normalize_pubmed(p) for p in papers]
         metas = [
@@ -215,7 +242,7 @@ def fetch_platform(platform, cfg, start, end, root_dir):
             }
             for p in papers
         ]
-        return rows, metas
+        return rows, metas, None
 
     if platform == "arxiv":
         max_results = cfg["platforms"][platform].get("max_results", ARXIV_MAX_RESULTS)
@@ -229,7 +256,12 @@ def fetch_platform(platform, cfg, start, end, root_dir):
         else:
             records = fetcher.search(query=query, max_results=max_results, start_date=start, end_date=end)
     elif platform in ("biorxiv", "medrxiv"):
-        records = BioRxivFetcher(root_dir=root_dir, platform=platform).search(query=query, start_date=start, end_date=end)
+        fetcher = BioRxivFetcher(root_dir=root_dir, platform=platform, max_retries=PREPRINT_MAX_RETRIES)
+        records = fetcher.search(query=query, start_date=start, end_date=end)
+        # The fetcher falls back to Crossref alone when Europe PMC is unreachable,
+        # which drops the strict boolean pass. Surface it rather than letting a
+        # thin week pass for a quiet one.
+        degradation = fetcher.last_search_degraded
     elif platform == "chemrxiv":
         records = ChemRxivFetcher(root_dir=root_dir).search(query=query, start_date=start, end_date=end)
     else:
@@ -245,7 +277,7 @@ def fetch_platform(platform, cfg, start, end, root_dir):
         }
         for r in records
     ]
-    return rows, metas
+    return rows, metas, degradation
 
 
 def _zotero_id(row):
@@ -390,7 +422,12 @@ def run_agent_pipeline(row, cfg, out_dir, window=None):
 
 
 def run_agent_pipeline_all(rows, cfg, out_dir, window=None):
-    """Run the agent pipeline over all rows concurrently; return analyses dict.
+    """Run the agent pipeline over all rows concurrently.
+
+    Returns (analyses, failed): analyses maps (source, id) -> analysis dict for
+    papers whose LLM pipeline succeeded; failed lists "source/id" for those that
+    raised. A failed paper keeps its metadata JSON + fulltext.md but has no
+    analysis.json, so the caller must surface it — otherwise the gap is silent.
 
     The LLM calls are IO-bound (network waits), so a thread pool collapses
     wall-clock time from ~sum(per-paper) to ~max(per-paper) * (n / concurrency).
@@ -399,9 +436,10 @@ def run_agent_pipeline_all(rows, cfg, out_dir, window=None):
     None) and do not abort the batch.
     """
     analyses = {}
+    failed: list[str] = []
     llm_cfg = cfg.get("llm") or {}
     if not llm_cfg or not rows:
-        return analyses
+        return analyses, failed
     concurrency = max(1, int(llm_cfg.get("concurrency") or 8))
     print(f"[agent] running {len(rows)} papers with concurrency={concurrency}")
     with ThreadPoolExecutor(max_workers=concurrency) as ex:
@@ -416,8 +454,10 @@ def run_agent_pipeline_all(rows, cfg, out_dir, window=None):
                 analysis = None
             if analysis is not None:
                 analyses[(row["source"], row["id"])] = analysis
+            else:
+                failed.append(f"{row['source']}/{row['id']}")
             print(f"[agent] {done}/{len(rows)} {row['source']}/{row['id']}", flush=True)
-    return analyses
+    return analyses, failed
 
 
 def issue_title(start, end, total):
@@ -459,6 +499,25 @@ def build_issue(rows_by_platform, start, end, analyses=None, site_base_url=""):
     return "\n".join(lines)
 
 
+def platform_summary_line(kind, names):
+    """monitor.py's closing stderr line for a partial or degraded run.
+
+    backfill.py scrapes these lines out of our stderr, so the format is a
+    contract between the two scripts — keep the list a literal that
+    ast.literal_eval can read back.
+    """
+    return f"Warning: {len(names)} platform(s) {kind}: {names}"
+
+
+def agent_summary_line(ids):
+    """Closing stderr line for papers whose LLM pipeline failed.
+
+    Mirrors platform_summary_line: backfill.py scrapes this line, so keep the
+    list a literal that ast.literal_eval can read back.
+    """
+    return f"Warning: {len(ids)} paper(s) agent-failed: {ids}"
+
+
 def main():
     args = parse_args()
     cfg = load_config(args.config)
@@ -470,6 +529,9 @@ def main():
     start = (dt.date.fromisoformat(run_date) - dt.timedelta(days=window_days)).isoformat()
 
     platforms = [p for p in PLATFORMS if p in cfg.get("platforms", {})]
+    if args.platforms:
+        requested = [p.strip() for p in args.platforms.split(",") if p.strip()]
+        platforms = [p for p in platforms if p in requested]
     if not platforms:
         print("No platforms configured.", file=sys.stderr)
         sys.exit(1)
@@ -478,21 +540,25 @@ def main():
     rows_by_platform = {}
     all_rows = []
     failures = []
+    degraded = []
     try:
         for platform in platforms:
             try:
-                rows, metas = fetch_platform(platform, cfg, start, end, tmp)
+                rows, metas, degradation = fetch_platform(platform, cfg, start, end, tmp)
                 rows_by_platform[platform] = rows
                 all_rows.extend(rows)
                 archived = write_archive(args.out_dir, metas)
                 print(f"[{platform}] {len(rows)} records (archived {archived})")
+                if degradation:
+                    degraded.append((platform, degradation))
+                    print(f"[{platform}] DEGRADED: {degradation}", file=sys.stderr)
             except Exception as e:
                 print(f"[{platform}] FAILED: {e}", file=sys.stderr)
                 failures.append(platform)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
-    analyses = run_agent_pipeline_all(all_rows, cfg, args.out_dir, {"start": start, "end": end})
+    analyses, agent_failed = run_agent_pipeline_all(all_rows, cfg, args.out_dir, {"start": start, "end": end})
 
     csv_path, ids_path, n = write_discovery(args.out_dir, topic, run_date, all_rows)
     print(f"[total] {n} records -> {csv_path} + {ids_path}")
@@ -505,8 +571,18 @@ def main():
         with open(args.issue_title, "w", encoding="utf-8") as f:
             f.write(issue_title(start, end, total) + "\n")
 
+    if agent_failed:
+        print(agent_summary_line(agent_failed), file=sys.stderr)
+
+    if degraded:
+        # Not an exit-non-zero condition: the run produced usable results, just
+        # from fewer sources than configured. backfill.py reads this line, so
+        # keep the list to bare names — the per-platform "[<name>] DEGRADED:"
+        # lines above carry the reason.
+        print(platform_summary_line("degraded", [name for name, _ in degraded]), file=sys.stderr)
+
     if failures:
-        print(f"Warning: {len(failures)} platform(s) failed: {failures}", file=sys.stderr)
+        print(platform_summary_line("failed", failures), file=sys.stderr)
         if len(failures) == len(platforms):
             sys.exit(1)
     sys.exit(0)
