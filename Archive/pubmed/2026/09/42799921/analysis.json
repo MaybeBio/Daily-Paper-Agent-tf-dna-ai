@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42799921",
+  "title": "Rational design of anticancer metallodrugs.",
+  "authors": "Monreal-Corona, Roger; Mestres, Jordi",
+  "journal": "Journal of computer-aided molecular design",
+  "published_date": "2026-09-27",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习预测金属药物的抗癌活性，虽涉及DNA结合机制，但核心是金属配合物药物设计，非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Despite the undeniable clinical success of platinum-based antineoplastic agents, their rational design remains hindered by the inherent difficulties in capturing the quantum chemical electronic nature of their three-dimensional coordination geometries and variable oxidation states of transition metal complexes. To address this fundamental limitation, we introduce a machine learning framework based on density functional theory descriptors to discriminate between drug and non-drug metallocomplexes. A curated dataset of platinum complexes was subjected to conformational sampling and density functional theory geometry optimization. Unsupervised learning via principal component analysis and K-means clustering initially demonstrated that essential electronic parameters naturally segregate metallodrugs from non-drug metallocomplexes. Subsequently, a supervised Random Forest classifier reliably distinguished metallodrugs from structurally similar non-drug metallocomplexes. Crucially, global SHapley Additive exPlanations analysis revealed that local electron density properties, which strictly govern the established mechanisms of intracellular aquation and DNA binding, are the primary drivers of model predictions. The projection of an external test set of active ChEMBL platinum compounds successfully validated the established chemical space, demonstrating the model's ability to generalize to unseen data. This explainable predictive pipeline bridges a major gap in inorganic drug discovery, offering a robust, mechanistic tool for the rational generative design of next-generation metallodrugs.",
+  "abstract_zh": "尽管铂类抗肿瘤药物在临床上取得了不可否认的成功，但其合理设计仍受制于捕捉其三维配位几何结构和过渡金属配合物可变氧化态的量子化学电子本质的固有困难。为应对这一根本性限制，我们引入了一种基于密度泛函理论描述符的机器学习框架，用于区分药物与非药物金属配合物。一个精选的铂配合物数据集经过构象采样和密度泛函理论几何优化处理。通过主成分分析和K均值聚类的无监督学习初步表明，关键电子参数能自然地将金属药物与非药物金属配合物分离。随后，一种有监督的随机森林分类器可靠地区分了金属药物与结构相似的非药物金属配合物。至关重要的是，全局SHapley Additive exPlanations分析揭示，局部电子密度性质——严格支配已确立的细胞内水合和DNA结合机制——是模型预测的主要驱动因素。一个外部测试集（包含活性ChEMBL铂化合物）的投影成功验证了所建立的化学空间，展示了模型对未见数据的泛化能力。这一可解释的预测流程弥合了无机药物发现中的重大空白，为下一代金属药物的合理生成设计提供了一种稳健的机制性工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42799921/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42799921/",
+  "paper_page_path": "papers/pubmed/42799921/index.html"
+}

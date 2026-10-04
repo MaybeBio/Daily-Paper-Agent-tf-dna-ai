@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42808670",
+  "title": "Lightweight CNN recognition of HeLa cell PCNA‑based S‑phase subphases and RFC‑dependent dynamics.",
+  "authors": "Krupa, Maciej; Szymanski, Jedrzej",
+  "journal": "Acta neurobiologiae experimentalis",
+  "published_date": "2026-09-29",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用轻量级CNN分类HeLa细胞PCNA复制模式以区分S期亚阶段，核心是细胞周期表型分析，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Proliferating cell nuclear antigen (PCNA) forms subnuclear replication patterns that report S‑phase progression with a single marker and provide an imaging readout of the replication factor C (RFC)‑PCNA axis. We benchmarked lightweight convolutional neural networks for classifying fixed HeLa cell PCNA images as G1, early S, mid S, or late S, and then applied the best‑performing model to live‑cell RFC control and RFC‑del datasets. MobileNetV2 provided the best balance of accuracy and inference cost in the fixed‑cell benchmark. In live‑cell traces, RFC‑del cells showed prolonged late S‑like PCNA pattern duration, whereas mid S‑like duration and peak‑distance metrics did not show clear group separation. These findings support lightweight PCNA‑pattern classification as a practical tool for quantitative replication‑pattern phenotyping and indicate a possible future application to neurobiological imaging, such as automated quantification of pro liferating cells in neurogenesis studies.",
+  "abstract_zh": "增殖细胞核抗原（PCNA）形成亚核复制模式，通过单一标记报告S期进程，并提供复制因子C（RFC）-PCNA轴的成像读数。我们对轻量级卷积神经网络进行了基准测试，用于将固定的HeLa细胞PCNA图像分类为G1、早期S、中期S或晚期S，然后将性能最佳的模型应用于活细胞RFC对照和RFC缺失数据集。在固定细胞基准测试中，MobileNetV2在准确性和推理成本之间提供了最佳平衡。在活细胞追踪中，RFC缺失细胞表现出延长的晚期S样PCNA模式持续时间，而中期S样持续时间和峰值距离指标未显示明显的组间分离。这些发现支持轻量级PCNA模式分类作为定量复制模式表型分析的实际工具，并表明其在神经生物学成像中的潜在未来应用，例如在神经发生研究中自动量化增殖细胞。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42808670/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42808670/",
+  "paper_page_path": "papers/pubmed/42808670/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42818338",
+  "title": "CIDER: detecting changes in gene regulatory networks that are associated with changes in phenotype.",
+  "authors": "Jung, Wooseok J; Ding, Mingyue; Liao, Shu; Erdenebaatar, Zolboo; Brent, Michael R",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-01",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 5,
+  "one_liner_zh": "提出CIDER方法检测基因调控网络中TF-靶基因边随连续性状的变化，虽涉及TF-DNA调控关系但基于表达统计而非三维互作建模，方法为统计回归而非AI/物理模拟，属广义蛋白-DNA互作边缘相关。",
+  "abstract": "Changes in gene regulatory networks may drive quantitative traits, or may transmit the effects of one trait, such as blood lipid level, on another, such as cardiovascular health. Yet the standard tools, differential correlation and differential network analysis, compare two discrete groups, while the contexts of interest - circulating lipids, inflammation, and blood glucose - vary continuously; applying them forces dichotomization, discarding within-trait variation. We introduce Continuous Interaction-based Differential Edge Regulation (CIDER), which tests whether a gene regulatory network edge, the relationship between a transcription factor and its target gene, varies with a continuous trait: the target gene's expression is modeled as a function of the TF's expression level, the trait, and their interaction, with the interaction coefficient measuring the trait dependence. To limit multiple testing, CIDER tests only the edges of a reference regulatory network. A generalized additive extension detects interactions that change the shape of the relationship, not only its slope, including forms that cannot be expressed as a difference between two correlations. In simulations it outperformed four two-group methods across sample sizes, effect sizes, and noise levels, with most of its advantage from keeping the trait continuous. In whole-blood transcriptomes from four independent human cohorts across ten quantitative health traits, CIDER identified 63 replicated cases in which a TF's regulation of its target varies with the trait, including coupling of the glucocorticoid-receptor (NR3C1) to the granulocyte colony-stimulating-factor receptor (CSF3R) that strengthens as triglycerides rise, and a pair whose regulation reverses direction across the observed range of C-reactive protein.",
+  "abstract_zh": "基因调控网络的变化可能驱动数量性状，或可能将一种性状（如血脂水平）的影响传递给另一种性状（如心血管健康）。然而，标准工具——差异相关分析和差异网络分析——比较的是两个离散组别，而所关注的背景——循环脂质、炎症和血糖——是连续变化的；应用这些工具会强制进行二分法，丢弃性状内的变异。我们引入了基于连续相互作用的差异边调控（CIDER），它检验基因调控网络边（即转录因子与其靶基因之间的关系）是否随连续性状变化：靶基因的表达被建模为转录因子表达水平、性状及其相互作用的函数，其中相互作用系数衡量性状依赖性。为限制多重检验，CIDER仅检验参考调控网络的边。一种广义加性扩展可检测改变关系形状（不仅是斜率）的相互作用，包括无法表示为两个相关性之间差异的形式。在模拟中，它在样本量、效应大小和噪声水平上均优于四种两组方法，其优势主要来自保持性状的连续性。在来自四个独立人类队列的全血转录组中，跨越十种数量健康性状，CIDER识别出63个复制案例，其中转录因子对其靶标的调控随性状变化，包括糖皮质激素受体（NR3C1）与粒细胞集落刺激因子受体（CSF3R）的偶联随甘油三酯升高而增强，以及一对在C反应蛋白观测范围内调控方向反转的基因对。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42818338/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42818338/",
+  "paper_page_path": "papers/pubmed/42818338/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42803614",
+  "title": "Supervised clustering of bacterial promoter identifies two groups with different relevant positions at -10.",
+  "authors": "Cambranis-Boldo, Paulo; Martinez, Gustavo Sganzerla; Farias, Andre Borges; Perez-Rueda, Ernesto",
+  "journal": "Briefings in functional genomics",
+  "published_date": "2026-09-28",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用监督聚类和Shapley值分析细菌启动子序列，识别sigma因子结合位点（-10区）的亚群，虽聚焦序列分类而非三维互作建模，但涉及TF（sigma因子）-DNA识别，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Promoters are DNA sequences responsible for the specific recognition of the transcriptional machinery in all the biological systems. In bacteria, two main groups of promoters have been described, the sigma70-like family, which includes the housekeeping sigma70 and the alternative sigma38, sigma32, sigma28, and sigma24; and the sigma54 family. However, promoter sequences may differ even inside the same family, and this classification may not fully capture the functional diversity of groups. In this work, we explored and classified a collection of bacterial promoters associated with six sigma factor families in the bacterium Escherichia coli K-12 using a Supervised clustering workflow that uses Shapley values. From this analysis, we identified two subgroups of sequences differentiated by the conservation of the -9 to -7 positions upstream the Transcription Start Site, suggesting that this region may be employed in classification frameworks. Finally, a detailed analysis of sigma70 promoter sequences identify five clusters with a conserved signal in the -10, but with different sequence composition. In summary, these signatures could provide more insights into the sigma factor-promoter interaction and the separation of the DNA double-strand.",
+  "abstract_zh": "启动子（promoters）是负责在所有生物系统中特异性识别转录机制的DNA序列。在细菌中，已描述了两类主要的启动子：sigma70样家族，包括持家sigma70及替代性sigma38、sigma32、sigma28和sigma24；以及sigma54家族。然而，即使在同一家族内，启动子序列也可能存在差异，且此分类可能无法完全捕捉各组的 functional diversity（功能多样性）。在本研究中，我们利用一种采用Shapley值的监督聚类工作流程，对与大肠杆菌（Escherichia coli）K-12中六个sigma因子家族相关的细菌启动子集合进行了探索和分类。通过此分析，我们识别出两个序列亚组，其差异在于转录起始位点上游-9至-7位置的保守性，提示该区域可能适用于分类框架中。最后，对sigma70启动子序列的详细分析识别出五个聚类，它们在-10位置具有保守信号，但序列组成不同。总之，这些特征可能为sigma因子-启动子相互作用及DNA双链分离提供更多见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42803614/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42803614/",
+  "paper_page_path": "papers/pubmed/42803614/index.html"
+}

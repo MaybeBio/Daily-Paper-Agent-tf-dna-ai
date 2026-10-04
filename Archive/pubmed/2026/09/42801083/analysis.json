@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42801083",
+  "title": "A cfDNA-based DNA methylation classifier for distinguishing prostate cancer from benign prostatic hyperplasia.",
+  "authors": "Lee, Jong Hoo; Oh, Hye Jin; Koo, Hyo Jeong; Kim, Mee Young; Kim, Choung-Soo; Lim, Bumjin; Lee, Ji Youl; Park, Woong-Yang",
+  "journal": "Prostate international",
+  "published_date": "2026-09-27",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用cfDNA甲基化与机器学习区分前列腺癌和良性增生，虽涉及转录因子活性富集，但核心是表观遗传诊断分类，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Differentiating benign prostatic hyperplasia (BPH) from prostate cancer (PCa) remains a diagnostic challenge due to overlapping clinical features and the limited specificity of prostate-specific antigen (PSA) testing. Recent studies highlight the promise of DNA methylation patterns in cell-free DNA (cfDNA) as non-invasive biomarkers for prostate disease stratification. This study aimed to develop a targeted methylation-based diagnostic model capable of distinguishing PCa from BPH using cfDNA. We hypothesized that specific genomic regions exhibit consistent hyper- or hypomethylation signatures that could serve as robust diagnostic markers. MATERIALS AND METHODS: We applied a custom panel targeting 748 predefined differentially methylated regions (DMRs) to cfDNA from 365 participants (PCa: 230; BPH: 135). Methylation was quantified by targeted enzymatic methyl-sequencing. Following feature selection, a 43 DMR-based model was built using a stacking ensemble framework (Random Forest + XGBoost with stacking). Data were split by stratified sampling into training/test sets and a validation cohort. Uncertainty was quantified via 1,000-iteration non-parametric bootstraps. Functional relevance was assessed by gene ontology (GO) enrichment stratified by genomic context. RESULTS: The diagnostic model exhibited robust discriminative performance across both test and validation cohorts. In the test set, the model achieved an area under the receiver operating characteristic curve (ROC-AUC) of 0.99 and overall accuracy of 0.95, with balanced sensitivity (0.96) and specificity (0.93). Consistent results were observed in the validation set, with a ROC-AUC of 0.98, overall accuracy of 0.93, sensitivity of 0.94, and specificity of 0.93. Importantly, in the validation cohort, the model retained a high sensitivity of 0.94 (95 % CI: 0.84-0.98), underscoring its potential clinical applicability. GO analysis revealed promoter-proximal hypermethylation enriched for developmental programs, transcription factor activity, and chromatin remodeling, whereas gene body hypermethylation mapped to RNA metabolic processes and intracellular transport, supporting biological plausibility. CONCLUSIONS: Integrating cfDNA methylation with machine learning delivers a minimally invasive, clinically actionable assay that robustly differentiates PCa from BPH. These results motivate prospective, multi-center validation and position cfDNA methylation profiling as a scalable strategy for prostate disease stratification.",
+  "abstract_zh": "背景：由于良性前列腺增生（BPH）与前列腺癌（PCa）的临床特征重叠，且前列腺特异性抗原（PSA）检测的特异性有限，区分两者仍是诊断难题。近期研究强调，细胞游离DNA（cfDNA）中的DNA甲基化模式作为非侵入性生物标志物在前列腺疾病分层中具有前景。本研究旨在利用cfDNA开发一种基于靶向甲基化的诊断模型，以区分PCa与BPH。我们假设特定基因组区域表现出一致的超甲基化或低甲基化特征，可作为稳健的诊断标志物。材料与方法：我们应用了一个定制panel，靶向748个预定义的差异甲基化区域（DMRs），对365名参与者（PCa：230；BPH：135）的cfDNA进行分析。通过靶向酶促甲基化测序对甲基化进行定量。在特征选择后，使用堆叠集成框架（随机森林 + XGBoost，采用堆叠策略）构建了基于43个DMR的模型。数据通过分层抽样分为训练集/测试集和验证队列。不确定性通过1,000次迭代的非参数自助法进行量化。功能相关性通过按基因组背景分层的基因本体（GO）富集分析评估。结果：该诊断模型在测试集和验证队列中均表现出稳健的判别性能。在测试集中，模型实现了受试者工作特征曲线下面积（ROC-AUC）为0.99，总体准确率为0.95，灵敏度（0.96）和特异性（0.93）均衡。验证集中观察到一致结果，ROC-AUC为0.98，总体准确率为0.93，灵敏度为0.94，特异性为0.93。重要的是，在验证队列中，模型保持了0.94的高灵敏度（95% CI：0.84-0.98），凸显了其临床应用的潜力。GO分析显示，启动子近端超甲基化富集于发育程序、转录因子活性和染色质重塑，而基因体超甲基化映射至RNA代谢过程和细胞内运输，支持了生物学合理性。结论：将cfDNA甲基化与机器学习相结合，提供了一种微创、临床可操作的检测方法，能稳健地区分PCa与BPH。这些结果推动了前瞻性、多中心验证，并将cfDNA甲基化谱分析定位为前列腺疾病分层的可扩展策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42801083/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42801083/",
+  "paper_page_path": "papers/pubmed/42801083/index.html"
+}

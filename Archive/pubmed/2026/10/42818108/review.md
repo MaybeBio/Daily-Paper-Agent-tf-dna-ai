@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a novel heterozygous de novo germline variant in GABPA (c.509T>G, p.L170R) in a patient with multifocal cutaneous vascular tumors of an unclassified entity. They provide histopathologic characterization, population database frequency analysis, evolutionary conservation assessment, in silico structural predictions, and functional validation in zebrafish to support a disease-causing role for this variant.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, variant calling and filtering criteria, histopathology images, zebrafish experimental protocols and quantifications, structural modeling parameters, and any control data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting case report linking a novel de novo GABPA variant to an unclassified vascular tumor entity. The combination of genetic rarity, conservation, structural prediction, and zebrafish functional data is a reasonable approach. However, the abstract alone provides insufficient detail to evaluate the rigor of the genetic analysis, the specificity of the histopathologic findings, the robustness of the zebrafish phenotype, or the strength of the causal inference. Several claims are made without supporting quantitative data or methodological transparency. The work may be of interest to the vascular anomaly and ETS transcription factor communities, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Clinicians and researchers in vascular anomalies, pediatric dermatology, and developmental biology would be interested. The study potentially expands the genetic spectrum of congenital vascular tumors and implicates GABPA, an ETS family transcription factor, in vascular pathogenesis. This could inform diagnostic considerations for unclassified vascular lesions and stimulate further investigation of ETS family members in vascular development and disease.
+- **Major strengths** The study addresses a clinically relevant and poorly understood entity. The identification of a de novo germline variant in a patient context is a strong starting point for establishing causality. The multi-pronged approach combining genetic rarity, conservation, structural prediction, and functional validation in zebrafish is commendable. The histopathologic distinction from infantile hemangioma via GLUT1 negativity is a useful clinical discriminator.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic evidence strength
+  - **Claim pointer** The abstract states that a novel heterozygous de novo germline variant in GABPA was identified through genomic analysis.
+  - **Evidence pointer** Abstract, "Abstract" section; location not provided
+  - **Concern** The abstract does not specify the sequencing method (e.g., whole exome, whole genome, targeted panel), the coverage and depth at the variant site, the bioinformatic filtering strategy, or how de novo status was confirmed (e.g., parental sample testing, confirmation by Sanger sequencing). Without these details, the reliability of the variant call and the de novo assertion cannot be assessed.
+  - **Why it matters** A de novo germline variant is a central pillar of the causal argument. If the variant calling or parental confirmation is flawed, the entire premise of the study collapses. The abstract's claim of "de novo" requires explicit methodological support.
+  - **Resolution test** Provide sequencing methodology, coverage metrics, confirmation of the variant in proband and absence in both parents by an orthogonal method, and details of the bioinformatic pipeline used for variant calling and annotation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation robustness
+  - **Claim pointer** The abstract states that mosaic stromal expression of GABPA-L170R caused abnormal vascular architecture compared with GABPA-wild-type controls in zebrafish.
+  - **Evidence pointer** Abstract, "Abstract" section; location not provided
+  - **Concern** The abstract provides no quantitative data on the zebrafish phenotype, such as the proportion of embryos affected, the severity or type of vascular abnormality, statistical significance, or the number of independent experiments. It also does not specify the promoter or enhancer used for mosaic expression, the cell type targeted, or whether wild-type GABPA overexpression was an appropriate control for dosage effects.
+  - **Why it matters** The zebrafish experiment is the only direct functional evidence linking the variant to disrupted vascular development. Without quantitative and statistical support, the claim of a "direct link" is not substantiated. Mosaic expression experiments can produce nonspecific artifacts, and the abstract does not rule out overexpression toxicity.
+  - **Resolution test** Provide detailed zebrafish methods, including construct design, injection amounts, imaging and quantification protocols, statistical analysis, and representative images showing the vascular phenotype in GABPA-L170R versus wild-type and uninjected controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural prediction validity
+  - **Claim pointer** The abstract states that structure-based analysis using an AlphaFold-predicted approach, combined with in silico mutagenesis and molecular interaction analyses, revealed that L170R introduces new electrostatic interactions while disrupting native hydrophobic contacts within the PNT domain.
+  - **Evidence pointer** Abstract, "Abstract" section; location not provided
+  - **Concern** The abstract does not describe the structural model quality, the specific residues involved in the predicted new and disrupted interactions, or whether the predictions were validated by any experimental method. AlphaFold models are predictions and may not accurately reflect the native conformation, especially for protein-protein interaction interfaces.
+  - **Why it matters** The structural argument is used to support pathogenicity. If the predicted structural perturbation is not robust or is based on a low-confidence model, this line of evidence is weakened. The abstract does not provide enough detail to judge the reliability of the in silico findings.
+  - **Resolution test** Provide the AlphaFold model confidence metrics (e.g., pLDDT scores), a clear description of the predicted interaction changes, and ideally experimental validation such as co-immunoprecipitation or thermal stability assays comparing wild-type and mutant GABPA.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clinical phenotyping
+  - **Affected element** Histopathologic characterization
+  - **Evidence pointer** Abstract, "Abstract" section; location not provided
+  - **Issue** The abstract states that lesions were capillary-venous and GLUT1-negative, with a prominent alpha-SMA-positive perivascular cell layer. However, it does not specify how many lesions were examined, whether all lesions showed the same features, or what other markers were used to characterize the endothelium and perivascular cells.
+  - **Required correction** Provide details on the number of lesions examined, the full immunohistochemical panel used, and representative images to support the histopathologic description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Population frequency claim
+  - **Affected element** Variant rarity
+  - **Evidence pointer** Abstract, "Abstract" section; location not provided
+  - **Issue** The abstract states the variant is absent from gnomAD, DeCAF, and RGC-MCPS databases. It does not specify the version of these databases or the number of alleles queried, which affects the confidence in the rarity claim.
+  - **Required correction** Specify database versions and allele counts, and state the minor allele frequency threshold used to define "extremely rare."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Variant classification
+  - **Evidence pointer** Abstract, "Abstract" section; location not provided
+  - **Issue** The abstract concludes the variant is "likely disease-causing" but does not apply a formal classification framework such as ACMG/AMP guidelines. The term "likely disease-causing" is ambiguous.
+  - **Required correction** Apply and report an ACMG/AMP classification with the specific criteria met, or clearly state why such a framework was not used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The de novo status and the zebrafish phenotype are the two key pillars of the causal argument, and neither is adequately supported by the abstract alone. R1-M3 is non-blocking but requires clarification to strengthen the structural evidence.
+
+## Assessment against Nature-style criteria
+- **Originality** The identification of a novel GABPA variant in a vascular tumor context is potentially original. However, the abstract does not discuss whether GABPA has been previously implicated in vascular anomalies, which limits the assessment of novelty.
+- **Scientific importance** If the causal link is confirmed, this would expand the genetic basis of congenital vascular tumors and implicate a new transcription factor in vascular pathogenesis. The importance is moderate to high, but the abstract does not place the finding in a broader biological or clinical context.
+- **Interdisciplinary readership** The topic bridges clinical genetics, vascular biology, and developmental biology. The abstract is written in a way that is accessible to these audiences, but the lack of methodological detail may limit its utility for specialists.
+- **Technical soundness** The multi-pronged approach is sound in principle, but the abstract provides insufficient detail to assess the technical execution. The zebrafish experiment, in particular, lacks quantitative rigor as presented.
+- **Readability for nonspecialists** The abstract is generally clear and well-structured. Technical terms are used appropriately, though some (e.g., "Pointed domain," "AlphaFold-predicted approach") may require prior knowledge.
+
+## Risk / unsupported claims
+- The claim that GABPA-L170R is "likely disease-causing" is not fully supported by the abstract alone, given the lack of methodological detail for the genetic and functional analyses.
+- The claim of a "direct link" between the variant and disrupted vascular development is not substantiated without quantitative zebrafish data.
+- The structural prediction claim is unverifiable without details on model confidence and interaction analysis methods.
+- The histopathologic distinction from infantile hemangioma is stated but not supported by comparative data or images.
+- The population frequency claim is unverifiable without database version and allele count details.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that conserved cysteine residues in Neisseria gonorrhoeae MutL are dispensable for ATPase, DNA-binding, and clamp-independent endonuclease activities, but are required for sliding clamp-dependent endonuclease activity on linear DNA duplexes. Molecular dynamics simulations suggest that cysteine substitutions alter CTD conformational dynamics, displacing the catalytic monomer from a productive orientation relative to the sliding clamp.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or simulation parameters provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, simulation protocols, sequence alignment details, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and mechanistically interesting question regarding the role of conserved cysteine residues in a bacterial MMR endonuclease. The finding that cysteine substitutions selectively impair sliding clamp-dependent activity while sparing other functions is potentially significant. However, the abstract alone provides insufficient experimental detail to evaluate the robustness of the biochemical assays, the quality of the molecular dynamics simulations, or the strength of the structural interpretation. The conclusion that cysteines provide conformational rigidity rather than catalytic function is plausible but requires substantially more evidence than is visible here.
+- **Who would be interested in the results, and why** Researchers studying DNA mismatch repair mechanisms, particularly the regulation of MutL family endonucleases; investigators interested in sliding clamp interactions with DNA processing enzymes; and those working on antimicrobial targets in Neisseria gonorrhoeae, given the pathogen's clinical relevance and the potential for structure-guided inhibitor design.
+- **Major strengths** The study addresses a clear gap in understanding the molecular determinants of MutL catalytic regulation. The use of a Cys-free variant with evolutionarily conserved substitutions is a sensible approach to isolate the role of these residues. The combination of biochemical assays with molecular dynamics simulations provides complementary perspectives. The selective loss of clamp-dependent activity is a specific and mechanistically informative phenotype.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that cysteine substitutions lead to an almost complete loss of sliding clamp-dependent endonuclease activity on linear DNA duplexes.
+  - **Evidence pointer** Results section, abstract; specific figure or table not provided
+  - **Concern** The abstract reports a near-complete loss of activity but provides no quantitative data, no statistical comparison, and no indication of the number of independent replicates. It is unclear how "almost complete loss" was defined and whether this effect was dose-dependent or substrate-concentration-dependent.
+  - **Why it matters** Without quantitative rigor, the central phenotypic claim cannot be assessed for reliability. A partial or variable effect would substantially weaken the mechanistic conclusion.
+  - **Resolution test** Provide raw activity values with error bars, statistical tests, replicate numbers, and a clear definition of the threshold for "almost complete loss." Show that the effect is reproducible across independent protein preparations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that molecular dynamics simulations revealed displacement of the catalytically active monomer from its productive orientation relative to the sliding clamp.
+  - **Evidence pointer** Results section, abstract; simulation details not provided
+  - **Concern** No information is given about simulation length, force field, system setup, number of replicas, or convergence criteria. The abstract does not specify how "productive orientation" was defined or quantified, nor whether the observed displacement was statistically significant across independent simulations.
+  - **Why it matters** Molecular dynamics results are only meaningful if the simulations are adequately sampled and the analysis is objective. Without these details, the structural interpretation remains speculative.
+  - **Resolution test** Provide simulation parameters, convergence metrics, and a quantitative definition of the orientation metric used. Show that the displacement is consistent across multiple independent trajectories and is not an artifact of insufficient sampling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The conclusion that cysteine residues provide conformational rigidity required for productive engagement with the sliding clamp.
+  - **Evidence pointer** Conclusions section, abstract
+  - **Concern** The abstract does not discuss alternative explanations for the observed loss of clamp-dependent activity, such as altered protein stability, reduced clamp-binding affinity, or indirect effects on protein folding. The rigidity hypothesis is presented as the sole interpretation without considering or excluding these alternatives.
+  - **Why it matters** The mechanistic conclusion is the main take-home message of the study. If alternative explanations are not experimentally addressed, the conclusion may overreach the data.
+  - **Resolution test** Include experiments or discussion addressing whether cysteine substitutions affect protein stability, clamp binding affinity, or overall fold. If such data exist, they should be summarized in the abstract.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Abstract, Background
+  - **Issue** The term "methylation-independent mismatch repair" is used without brief explanation of how this differs from the canonical methylation-directed pathway, which may confuse readers outside the MMR field.
+  - **Required correction** Add a brief parenthetical clarification, for example noting that this pathway does not rely on daughter-strand methylation marks for strand discrimination.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, Methods
+  - **Issue** The abstract states that "evolutionarily conserved substitutes" were used for cysteine replacement but does not specify which amino acids were chosen or the rationale for these specific choices.
+  - **Required correction** Name the substituting residues and briefly justify their selection, as this is critical for interpreting whether the observed effects are due to loss of cysteine-specific chemistry or to general sequence perturbation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results interpretation
+  - **Evidence pointer** Abstract, Results
+  - **Issue** The abstract does not state whether the cysteine residues are conserved across Neisseria species or across other bacterial MutL homologs, which would strengthen the generalizability of the findings.
+  - **Required correction** Add a sentence indicating the conservation pattern of the targeted cysteines, or explicitly state that conservation data are provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central biochemical phenotype and the structural interpretation both lack sufficient quantitative and methodological detail to be evaluated from the abstract. The alternative explanations noted in R1-M3 should also be addressed to strengthen the mechanistic claim.
+- **Assessment against Nature-style criteria** Originality: The question of cysteine function in MutL regulation is relatively unexplored and the selective loss of clamp-dependent activity is a novel observation. Scientific importance: The findings could inform understanding of MMR regulation in a clinically relevant pathogen, but the broader significance for MMR mechanisms across species is not yet established. Interdisciplinary readership: The topic is primarily of interest to biochemists and molecular biologists; the clinical context adds some breadth but the abstract does not frame the work for a wider audience. Technical soundness: Not assessable from the abstract alone; the blocking concerns above must be resolved. Readability for nonspecialists: The abstract is generally clear but uses field-specific terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses an interesting question and the reported phenotype is potentially significant, but the abstract lacks the quantitative and methodological detail needed to evaluate the central claims. Supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that cysteine substitutions cause "almost complete loss" of clamp-dependent endonuclease activity is unsupported without quantitative data.
+- The molecular dynamics interpretation of monomer displacement is unsupported without simulation details and statistical validation.
+- The conclusion that cysteines provide conformational rigidity rather than participating in catalysis is plausible but not fully established, as alternative explanations are not excluded.
+- The generalizability of the findings to other bacterial MutL homologs is not assessable from the abstract.

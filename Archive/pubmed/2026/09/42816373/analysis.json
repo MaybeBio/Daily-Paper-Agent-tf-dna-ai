@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42816373",
+  "title": "Integration of QSAR modeling and in vitro validation for identification of food-derived Nrf2 activators against arsenic-induced toxicity.",
+  "authors": "Huong, Ngo Thanh; Kodama, Susumu; Ono, Atsushi",
+  "journal": "The Journal of toxicological sciences",
+  "published_date": "2026-09-30",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用QSAR机器学习模型筛选食物源Nrf2激活剂并做细胞实验验证，对象为小分子-蛋白通路而非蛋白质-DNA互作，无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Arsenic exposure is a major public health concern due to its toxicity and carcinogenicity, largely mediated by oxidative stress, and activation of the Nrf2 signaling pathway is considered a promising strategy to mitigate such damage. In this study, a quantitative structure-activity relationship (QSAR) model was developed to identify potential Nrf2 activators from food-derived compounds. Machine learning algorithms, including Random Forest (RF), Support Vector Machine (SVM), Linear Discriminant Analysis (LDA), and a stacking model, were developed and optimized. The optimized RF, SVM, and LDA models were subsequently integrated into a stacking framework, which was selected as the final predictive model for virtual screening based on its robust and balanced predictive performance. The stacking model achieved the highest accuracy during five-fold cross-validation (0.77) and demonstrated competitive performance on the independent test set (0.742 +/- 0.040), with balanced precision, sensitivity, and F-measure. Consequently, the stacking model was selected as the final model for virtual screening. A total of 70,926 compounds retrieved from a food-derived database were filtered based on physicochemical criteria, and QSAR-based virtual screening predicted 920 compounds as potential activators of the Nrf2 signaling pathway, from which 5,7-Dimethylchrysin (FooDB ID: FDB015537) and Demethylvestitol (FooDB ID: FDB012218) were selected for experimental validation. In vitro assays using HepG2 cells demonstrated that 5,7-Dimethylchrysin significantly enhanced cell viability against sodium arsenite (150 muM)-induced cytotoxicity, with an effective concentration (EC50) of 0.54 muM, whereas Demethylvestitol exhibited only limited protective effects. Furthermore, luciferase reporter assays confirmed that 5,7-Dimethylchrysin activated antioxidant response element (ARE)-driven transcription in a concentration-dependent manner, producing a 1.5 to 2.4-fold increase at concentrations ranging from 0.78 to 6.25 muM. Overall, these findings highlight the effectiveness of integrating QSAR modeling with experimental validation to identify food-derived compounds with protective potential against arsenic-induced toxicity, with 5,7-Dimethylchrysin emerging as a promising candidate for further investigation.",
+  "abstract_zh": "砷暴露因其毒性和致癌性而构成重大公共卫生问题，其作用机制主要由氧化应激介导，而激活Nrf2信号通路被认为是减轻此类损伤的有前景策略。本研究开发了一种定量构效关系（QSAR）模型，以从食物来源化合物中识别潜在的Nrf2激活剂。采用机器学习算法，包括随机森林（RF）、支持向量机（SVM）、线性判别分析（LDA）以及堆叠模型，进行开发和优化。优化后的RF、SVM和LDA模型随后被整合到堆叠框架中，该框架因其稳健且均衡的预测性能而被选为虚拟筛选的最终预测模型。堆叠模型在五折交叉验证中达到了最高准确率（0.77），并在独立测试集上表现出竞争性性能（0.742 ± 0.040），且精确率、灵敏度和F值均衡。因此，堆叠模型被选为虚拟筛选的最终模型。从食物来源数据库中检索到的共70,926种化合物，基于理化标准进行过滤，基于QSAR的虚拟筛选预测了920种化合物为Nrf2信号通路的潜在激活剂，从中选取了5,7-二甲基白杨素（FooDB ID: FDB015537）和去甲基维斯提醇（FooDB ID: FDB012218）进行实验验证。使用HepG2细胞的体外实验表明，5,7-二甲基白杨素显著增强了细胞活力，对抗亚砷酸钠（150 μM）诱导的细胞毒性，其有效浓度（EC50）为0.54 μM，而去甲基维斯提醇仅表现出有限的保护作用。此外，荧光素酶报告基因实验证实，5,7-二甲基白杨素以浓度依赖性方式激活抗氧化反应元件（ARE）驱动的转录，在0.78至6.25 μM浓度范围内产生1.5至2.4倍的增加。总体而言，这些发现凸显了将QSAR建模与实验验证相结合以识别具有抗砷诱导毒性保护潜力的食物来源化合物的有效性，其中5,7-二甲基白杨素成为值得进一步研究的有前景候选物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42816373/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42816373/",
+  "paper_page_path": "papers/pubmed/42816373/index.html"
+}

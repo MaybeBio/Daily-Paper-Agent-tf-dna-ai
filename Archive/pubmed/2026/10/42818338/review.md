@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose CIDER, a method for detecting gene regulatory network edges whose strength or form varies with a continuous trait, using interaction terms in regression models and a generalized additive extension. They claim superior performance over four two-group methods in simulations and report 63 replicated trait-dependent regulatory edges across four human cohorts and ten traits, including specific examples involving NR3C1 and CSF3R.
+- **Visible evidence base** Abstract text only; no simulation details, cohort descriptions, statistical thresholds, or replication criteria are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, cohort metadata, preprocessing pipelines, multiple testing correction details, replication definitions, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually motivated approach to a real gap in differential network analysis, namely the handling of continuous traits without dichotomization. The statistical framework is plausible and the reported simulation advantage is consistent with the stated rationale. However, the abstract alone does not provide sufficient detail to evaluate the rigor of the simulations, the validity of the replication claims, or the biological significance of the reported findings. The specific examples are intriguing but lack quantitative support in the provided material.
+- **Who would be interested in the results, and why** Researchers in gene regulatory network inference, statistical genomics, and systems biology, particularly those studying how continuous physiological traits such as lipid levels, inflammation markers, or glucose modulate transcriptional regulation. The method could also appeal to clinicians and epidemiologists analyzing transcriptomic data from cohort studies with continuous phenotypes.
+- **Major strengths** The problem is well motivated and addresses a real limitation of existing tools. The proposed interaction-based framework is statistically sound in principle. The generalized additive extension is a thoughtful addition that captures nonlinear trait-dependent regulation beyond slope changes. The use of a reference network to limit multiple testing is pragmatic. The validation across four independent cohorts is a strong design choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In simulations it outperformed four two-group methods across sample sizes, effect sizes, and noise levels"
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states that CIDER outperformed four two-group methods but provides no details on the simulation design, the nature of the competing methods, the performance metrics used, or the magnitude of the advantage. Without this information, it is impossible to assess whether the comparison was fair, whether the advantage is practically meaningful, or whether it generalizes beyond the specific simulation scenarios chosen.
+  - **Why it matters** The central claim of methodological superiority rests entirely on this simulation result. If the simulation conditions are narrow or the comparison is biased, the conclusion may not hold in real applications.
+  - **Resolution test** Provide full simulation details including data generation models, parameter ranges, the specific four methods and their implementations, performance metrics with confidence intervals, and a discussion of scenarios where CIDER might not outperform.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and statistical rigor
+  - **Claim pointer** "CIDER identified 63 replicated cases in which a TF's regulation of its target varies with the trait"
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract reports 63 replicated cases but does not define what constitutes replication, how multiple testing was controlled across the ten traits and the reference network edges, or what false discovery rate was achieved. The threshold for calling a case "replicated" is critical for interpreting this number.
+  - **Why it matters** Without a clear replication criterion and multiple testing correction, the 63 cases could include a substantial number of false positives, undermining the biological claims.
+  - **Resolution test** Specify the replication definition, the multiple testing correction method, the FDR threshold, and the number of tests performed. Provide a table of all 63 cases with effect sizes and significance levels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** "including coupling of the glucocorticoid-receptor (NR3C1) to the granulocyte colony-stimulating-factor receptor (CSF3R) that strengthens as triglycerides rise, and a pair whose regulation reverses direction across the observed range of C-reactive protein"
+  - **Evidence pointer** Location not provided
+  - **Concern** The two biological examples are presented without effect sizes, confidence intervals, or the specific traits and cohorts in which they were observed. The claim that regulation "reverses direction" is particularly strong and requires clear visualization and statistical support.
+  - **Why it matters** These examples are likely to be highlighted in press coverage and by readers. If they are not robustly supported, they could mislead the community about the biological relevance of the findings.
+  - **Resolution test** Provide plots of the fitted interaction effects for these examples, with confidence bands, and state the cohorts and traits in which they were replicated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "may transmit the effects of one trait, such as blood lipid level, on another, such as cardiovascular health" is vague and could be misinterpreted as implying causal mediation without supporting evidence.
+  - **Required correction** Rephrase to indicate that regulatory network changes may mediate or reflect trait associations, without implying causal direction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not state how the reference regulatory network was obtained or how many edges were tested, which is important for understanding the multiple testing burden.
+  - **Required correction** Add a sentence specifying the source of the reference network and the number of edges tested.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Simulation claim
+  - **Evidence pointer** Abstract, simulation sentence
+  - **Issue** The claim of outperformance "across sample sizes, effect sizes, and noise levels" suggests a comprehensive sweep, but the abstract does not indicate the range of these parameters or whether any scenarios showed comparable or worse performance.
+  - **Required correction** Briefly state the parameter ranges tested and note any scenarios where CIDER did not outperform.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The simulation comparison and the replication claims are the core evidence for the method's utility and must be fully documented. R1-M3, while not blocking, requires additional support to substantiate the highlighted biological examples.
+- **Assessment against Nature-style criteria**  
+  - Originality: The interaction-based approach for continuous traits is a meaningful extension of existing differential network methods, though the underlying statistical idea is not entirely novel. The generalized additive extension adds originality.  
+  - Scientific importance: The problem is relevant to a broad community studying gene regulation in the context of continuous physiological traits. If the claims hold, the method could become a standard tool.  
+  - Interdisciplinary readership: The abstract is accessible to statisticians and biologists, but the lack of methodological detail limits its immediate utility to either group.  
+  - Technical soundness: The statistical framework is plausible, but the absence of simulation and replication details prevents a full assessment.  
+  - Readability for nonspecialists: The abstract is clearly written and the motivation is understandable, though the biological examples would benefit from more context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual contribution is valuable and the validation strategy is appropriate, but the current abstract does not provide enough evidence to establish the method's superiority or the reliability of the reported findings. Full methods and results are required for a definitive assessment.
+
+## Risk / unsupported claims
+- The claim of outperforming four two-group methods is unsupported without simulation details.
+- The report of 63 replicated cases is unsupported without replication criteria and multiple testing correction details.
+- The specific biological examples (NR3C1-CSF3R and the reversing pair) are unsupported without effect sizes and visualizations.
+- The generalizability of the method to other tissues or data types is not addressed and cannot be assessed from the abstract.

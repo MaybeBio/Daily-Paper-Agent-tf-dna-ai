@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, supporting information list)
+- **Assessment boundary** Scientific validity, technical soundness, and evidentiary support of the claims made in the manuscript
+- **Shared manuscript claim summary** The manuscript claims that FABP5 is upregulated in HCC, predicts poor prognosis, drives an immunosuppressive tumor microenvironment via the NF-κB/PD-L1 axis, and that the compound CZS-241 is a promising FABP5-targeting therapeutic candidate
+- **Visible evidence base** TCGA and CCLE expression analyses, HPA protein data, single-cell RNA-seq from TISCH, CIBERSORT immune infiltration, TIDE scores, GO/KEGG enrichment, protein-protein docking, molecular dynamics simulations, in vitro knockdown and overexpression experiments in Huh7 cells, Western blot, qPCR, proliferation and migration assays
+- **Missing materials affecting confidence** Figures and figure legends are not provided. Specific statistical outputs, sample sizes for in vitro experiments, raw data files, and details of the single-cell dataset provenance are not available. The identity and source of the compound CZS-241 are not described. No information is provided on how the drug screening was performed or how candidate drugs were selected.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding the immunoregulatory role of FABP5 in HCC. The bioinformatic analyses are extensive and the in vitro experiments are straightforward. However, the central mechanistic claim that FABP5 drives PD-L1 upregulation through NF-κB is supported by only a single inhibitor experiment in one cell line, and the connection between the computational docking results and the biological claims is weak. The drug screening section is underdeveloped and the therapeutic claim for CZS-241 is not supported by any functional validation. The manuscript would benefit from a more focused experimental design and a clearer separation of correlative bioinformatic findings from causal mechanistic evidence.
+- **Who would be interested in the results, and why** Researchers studying lipid metabolism in cancer, tumor immunology, and immune checkpoint regulation may find the association between FABP5 and the immunosuppressive microenvironment of interest. The prognostic biomarker aspect could appeal to translational researchers in HCC. However, the lack of in vivo validation and the preliminary nature of the drug discovery component limit the breadth of interest.
+- **Major strengths** The study integrates multiple public datasets to establish a consistent correlative picture of FABP5 expression and clinical outcomes. The single-cell analysis adds cell-type resolution that is often missing in bulk transcriptomic studies. The combination of computational docking with MD simulations is a reasonable approach for initial drug-target assessment. The in vitro experiments are clearly described and the choice of Huh7 cells is justified by expression data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The manuscript claims that FABP5 drives PD-L1 upregulation in an NF-κB-dependent manner and that this constitutes the mechanistic basis for the immunosuppressive microenvironment
+  - **Evidence pointer** Section 3.8, Western blot experiments described in text, location not provided
+  - **Concern** The causal claim rests on a single experiment using one NF-κB inhibitor (Bay 11-7082) in one cell line (Huh7). The text states that FABP5 overexpression increased p-IκBα and PD-L1, and that Bay 11-7082 abolished these increases. However, no dose-response data, time-course experiments, or genetic perturbations (e.g., IκBα super-repressor, p65 knockdown) are presented. Bay 11-7082 is known to have off-target effects including direct inhibition of IκBα phosphorylation and effects on other signaling pathways. The claim that FABP5 acts "through" NF-κB requires additional loss-of-function and rescue experiments.
+  - **Why it matters** The NF-κB/PD-L1 axis is the central mechanistic claim of the manuscript and the basis for the proposed therapeutic rationale. Without robust causal evidence, the conclusion that FABP5 regulates immunosuppression through this specific pathway is not established.
+  - **Resolution test** Provide additional experiments including genetic inhibition of NF-κB (e.g., p65 siRNA or IκBα super-repressor), a time-course of PD-L1 induction following FABP5 overexpression, and demonstration that NF-κB activation is necessary and sufficient for FABP5-mediated PD-L1 upregulation. Ideally, chromatin immunoprecipitation showing p65 binding to the CD274 promoter would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Drug discovery claim
+  - **Claim pointer** The manuscript concludes that CZS-241 is a promising FABP5-targeting compound with therapeutic potential for HCC
+  - **Evidence pointer** Sections 3.9 and 3.10, Figures 9A-9N, location not provided
+  - **Concern** The drug screening methodology is not described. The text states that five drugs were screened through the DGIdb database, but the criteria for selection, the source of CZS-241, and its known biological activity are not provided. The docking and MD simulations demonstrate computational binding, but there is no experimental validation of binding affinity (e.g., surface plasmon resonance, isothermal titration calorimetry), no cellular activity data, and no selectivity assessment against other FABP family members. The claim of "therapeutic potential" is not supported by any functional data.
+  - **Why it matters** A therapeutic claim requires evidence that the compound engages the target in cells, produces a phenotypic effect, and shows some degree of selectivity. Computational predictions alone, however thorough, do not establish therapeutic potential.
+  - **Resolution test** Provide experimental validation including binding assays, cellular target engagement, selectivity profiling against FABP3 and FABP4, and functional assays demonstrating that CZS-241 phenocopies FABP5 knockdown effects on PD-L1 expression and proliferation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance
+  - **Claim pointer** The manuscript claims that FABP5 regulates an immunosuppressive microenvironment in HCC and that targeting FABP5 may reverse immunosuppression
+  - **Evidence pointer** Sections 3.6 and 4, location not provided
+  - **Concern** All immune microenvironment analyses are correlative and derived from bulk transcriptomic deconvolution and public single-cell data. The in vitro experiments use a single HCC cell line and do not include co-culture with immune cells. The claim that FABP5 shapes the immunosuppressive microenvironment in vivo is not directly tested. The TIDE score is a computational predictor and does not measure actual response to immunotherapy.
+  - **Why it matters** The title and conclusions make claims about the tumor microenvironment that require in vivo evidence. Correlative bioinformatic analyses cannot distinguish causation from association, and the functional relevance of FABP5 in the immune microenvironment remains untested.
+  - **Resolution test** Provide in vivo experiments using an immunocompetent HCC model with FABP5 knockdown or knockout, including immune cell profiling, T cell function assays, and ideally response to anti-PD-1 therapy. Alternatively, co-culture experiments with macrophages or T cells would provide initial functional evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The manuscript claims that FABP5 knockdown suppresses HCC cell proliferation, colony formation, DNA synthesis, and migration
+  - **Evidence pointer** Section 3.5, Figure 5, location not provided
+  - **Concern** The experiments are performed in a single cell line (Huh7). No data are shown for the efficiency of knockdown at the protein level, and no rescue experiments are performed. The specificity of the siRNA effects is not addressed. The wound-healing assay is described as a migration assay, but the text also mentions proliferation effects, and these two processes are not cleanly separated.
+  - **Why it matters** Single-cell-line data with no rescue experiments leave open the possibility of off-target effects. The distinction between proliferation and migration effects is important for the mechanistic interpretation.
+  - **Resolution test** Include a second HCC cell line, provide Western blot confirmation of knockdown efficiency, perform rescue experiments with siRNA-resistant FABP5, and use a transwell migration assay to separate migration from proliferation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1, Figures 1A-1F
+  - **Evidence pointer** location not provided
+  - **Issue** The text reports p-values for differential expression and survival analyses but does not specify the statistical tests used for each comparison or whether multiple testing corrections were applied in the pan-cancer analysis.
+  - **Required correction** Specify the statistical test for each analysis and state whether multiple testing corrections were applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section 2.1
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript states that analyses were conducted on the ACLBI platform but does not provide the specific code or a link to a repository where the analysis scripts can be accessed.
+  - **Required correction** Provide a link to a public repository (e.g., GitHub, Zenodo) containing the analysis code and any custom scripts.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Single-cell analysis details
+  - **Affected element** Section 2.3
+  - **Evidence pointer** location not provided
+  - **Issue** The single-cell dataset is described only as "published single-cell RNA-seq datasets" from TISCH. The specific dataset identifiers, the number of patients, the number of cells, and the quality control criteria are not provided.
+  - **Required correction** Provide the dataset identifiers, patient numbers, cell numbers, and QC thresholds used in the analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 8 and 9
+  - **Evidence pointer** location not provided
+  - **Issue** The text describes extensive MD simulation results, but without the figures it is not possible to assess the quality of the simulation convergence, the RMSD plots, or the binding free energy calculations.
+  - **Required correction** Ensure that the figures clearly show simulation convergence, replicate consistency, and error bars for the binding free energy calculations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.6
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that "FABP5 relative abundance showed significant positive correlation with M0 macrophages" but FABP5 is a gene expression value, not a relative abundance. The phrasing is imprecise.
+  - **Required correction** Rephrase to "FABP5 expression showed significant positive correlation with M0 macrophage abundance."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Section 4
+  - **Evidence pointer** location not provided
+  - **Issue** The discussion cites several mechanisms for FABP5-mediated immunosuppression from other cancer types, but the relevance of these findings to HCC is not critically evaluated.
+  - **Required correction** Add a brief critical assessment of how findings from other cancer types may or may not translate to HCC.
+- **Technical failings that need to be addressed before the case is established** The causal claim for the NF-κB/PD-L1 axis requires additional genetic and pharmacological validation. The drug discovery claim requires experimental binding and functional data. The in vivo relevance of the immunosuppressive microenvironment claim requires animal model experiments or at minimum immune co-culture studies. The single-cell analysis lacks sufficient methodological detail for reproducibility.
+- **Assessment against Nature-style criteria** Originality: The integration of FABP5 with immune checkpoint regulation in HCC is moderately original, though the individual components have been previously explored. Scientific importance: The potential link between lipid metabolism and immune evasion is of interest, but the current evidence is too preliminary to establish significance. Interdisciplinary readership: The topic bridges metabolism, immunology, and oncology, which could attract a broad audience if the claims were better supported. Technical soundness: The bioinformatic analyses appear sound but are not fully verifiable without code and detailed parameters. The experimental work is technically straightforward but underpowered in scope. Readability for nonspecialists: The manuscript is generally readable, though the methods section contains technical details that may be challenging for non-bioinformaticians.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a large amount of correlative data but the causal claims require substantial additional experimental work. The drug discovery component is particularly underdeveloped and should either be substantially strengthened or removed from the manuscript.
+
+## Risk / unsupported claims
+- The claim that FABP5 drives PD-L1 upregulation in an NF-κB-dependent manner is supported by only a single inhibitor experiment in one cell line and is not fully established.
+- The claim that CZS-241 is a promising FABP5-targeting compound with therapeutic potential is unsupported by any experimental validation.
+- The claim that FABP5 regulates the immunosuppressive microenvironment in HCC is based on correlative bioinformatic analyses and has not been functionally validated in vivo.
+- The claim that high FABP5 expression predicts non-response to immune checkpoint blockade is based solely on TIDE scores, which are computational predictions and not clinical outcomes.
+- The single-cell RNA-seq analysis lacks sufficient methodological detail to assess the quality of the cell type annotations and the robustness of the findings.
