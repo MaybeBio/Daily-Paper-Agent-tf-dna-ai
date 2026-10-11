@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42832937",
+    "doi": "10.1016/j.bios.2026.119295",
+    "title": "Nanopore sensing with machine learning-assisted analysis for real-time single-molecule detection of MDM2-p53TAD interactions."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) play pivotal roles in physiological processes but remain challenging drug targets. Conventional PPI detection methods often suffer from limited sensitivity and require time- and labor-intensive procedures, such as fluorophore labeling, restricting their utility in drug discovery. Here, we present a YaxAB nanopore sensing platform coupled with machine learning-assisted signal analysis for label-free, real-time, single-molecule detection of PPIs between the oncogenic murine double minute 2 (MDM2) protein and p53TAD1. Proteins were efficiently captured into the YaxAB nanopore, and free MDM2 generated ionic current signatures readily distinguishable from those of the MDM2-p53TAD1 complex. To enable rapid and quantitative event analysis, we developed a machine learning-based classification framework that accurately distinguished free MDM2, MDM2-p53TAD1 complexes, and MDM2-drug complexes directly from nanopore current traces. This integrated platform enabled automated interpretation of single-molecule events, real-time monitoring of PPI inhibition by small-molecule MDM2 antagonists, and estimation of drug binding affinity without labeling or ensemble averaging. Taken together, the YaxAB nanopore sensing and machine learning analysis platform provides a versatile approach for single-molecule interaction analysis, with potential applications in drug discovery, diagnostics, including protein probe-biomarker interaction assays.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-mdm2/chemistry/metabolism",
+      "Machine Learning",
+      "*Biosensing Techniques/methods",
+      "*Nanopores",
+      "Animals",
+      "*Tumor Suppressor Protein p53/metabolism/chemistry",
+      "*Protein Interaction Mapping/instrumentation",
+      "Humans",
+      "Protein Binding",
+      "Mice",
+      "*Single Molecule Imaging/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Jinhyung",
+        "Ha, Taeyoung",
+        "Park, Soyoung",
+        "Kang, Dongwoo",
+        "Lee, Sunju",
+        "Lee, Seongwon",
+        "Oh, Sohee",
+        "Chung, Minji",
+        "Chi, Seung-Wook",
+        "Kim, Seung Jun",
+        "Hyon, YunKyong",
+        "Lee, Mi-Kyung"
+      ],
+      "short_names": [
+        "Kim J",
+        "Ha T",
+        "Park S",
+        "Kang D",
+        "Lee S",
+        "Lee S",
+        "Oh S",
+        "Chung M",
+        "Chi SW",
+        "Kim SJ",
+        "Hyon Y",
+        "Lee MK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea.",
+        "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea.",
+        "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea.",
+        "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea.",
+        "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea.",
+        "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea.",
+        "Orphan Disease Therapeutic Target Research Center, Division of A.I. & Biomedical Research, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea.",
+        "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea; Orphan Disease Therapeutic Target Research Center, Division of A.I. & Biomedical Research, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea.",
+        "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea; Orphan Disease Therapeutic Target Research Center, Division of A.I. & Biomedical Research, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi, 16419, Republic of Korea.",
+        "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea.",
+        "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea. Electronic address: hyon@nims.re.kr.",
+        "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea. Electronic address: miki@kribb.re.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Jinhyung",
+        "short_name": "Kim J",
+        "identifiers": [],
+        "affiliations": [
+          "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ha, Taeyoung",
+        "short_name": "Ha T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Soyoung",
+        "short_name": "Park S",
+        "identifiers": [],
+        "affiliations": [
+          "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Dongwoo",
+        "short_name": "Kang D",
+        "identifiers": [],
+        "affiliations": [
+          "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sunju",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Seongwon",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Sohee",
+        "short_name": "Oh S",
+        "identifiers": [],
+        "affiliations": [
+          "Orphan Disease Therapeutic Target Research Center, Division of A.I. & Biomedical Research, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chung, Minji",
+        "short_name": "Chung M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea; Orphan Disease Therapeutic Target Research Center, Division of A.I. & Biomedical Research, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chi, Seung-Wook",
+        "short_name": "Chi SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea; Orphan Disease Therapeutic Target Research Center, Division of A.I. & Biomedical Research, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi, 16419, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Seung Jun",
+        "short_name": "Kim SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hyon, YunKyong",
+        "short_name": "Hyon Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Industrial Mathematics, National Institute for Mathematical Sciences, Daejeon, 34047, Republic of Korea. Electronic address: hyon@nims.re.kr."
+        ]
+      },
+      {
+        "full_name": "Lee, Mi-Kyung",
+        "short_name": "Lee MK",
+        "identifiers": [],
+        "affiliations": [
+          "Critical Diseases Diagnostics Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, 34141, Republic of Korea; Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, 34113, Republic of Korea. Electronic address: miki@kribb.re.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biosensors & bioelectronics"
+    ],
+    "journal_abbrev": [
+      "Biosens Bioelectron"
+    ],
+    "pub_date": "2027 Jan 1",
+    "pub_year": "2027",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/05 23:30",
+    "fetched_at": "2026-10-11 10:31:02"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42832937",
+      "39482865",
+      "34168813",
+      "37015934",
+      "42046448",
+      "27038437",
+      "30191243",
+      "39874057",
+      "41549838",
+      "29364650",
+      "24476585",
+      "42592707",
+      "35929410",
+      "29121928",
+      "40863000",
+      "27826076",
+      "41571381",
+      "42129834",
+      "31383135",
+      "42130345",
+      "42475469",
+      "38134312",
+      "39480992",
+      "42645019",
+      "35362966",
+      "38112538",
+      "41305077",
+      "41076535",
+      "41345436",
+      "20221258",
+      "36897933",
+      "39889505",
+      "42272273",
+      "41575782",
+      "41319394",
+      "40910314",
+      "36475604",
+      "42377063",
+      "33382587",
+      "25493921",
+      "30531896",
+      "27583695",
+      "39718930",
+      "33839740",
+      "42047202",
+      "29671327",
+      "42068607",
+      "41307290",
+      "41712618",
+      "42771793",
+      "25377899",
+      "42185425",
+      "30860364",
+      "42680921",
+      "40331275",
+      "40733263",
+      "39881398",
+      "34443773",
+      "25464845",
+      "29845855",
+      "40009788",
+      "27302609",
+      "26646257",
+      "37276386",
+      "33475355",
+      "42671150",
+      "28626560",
+      "31083925",
+      "39049818",
+      "34709987",
+      "41719081",
+      "28653531",
+      "42164755",
+      "32262648",
+      "42551438",
+      "40045069",
+      "42013577",
+      "41474016",
+      "41533887",
+      "33296461",
+      "30996223",
+      "36004992",
+      "42099004",
+      "41272754",
+      "40795683",
+      "40518639",
+      "40663760",
+      "37211711",
+      "30832340",
+      "38810384",
+      "28062042",
+      "40425414",
+      "35008477",
+      "42620032",
+      "41194469",
+      "26886845",
+      "26415726",
+      "39828598",
+      "42190581",
+      "31473433"
+    ],
+    "review": [
+      "42832937",
+      "39874057",
+      "42592707",
+      "35929410",
+      "40863000",
+      "41571381",
+      "42129834",
+      "42645019",
+      "41076535",
+      "39889505",
+      "41575782",
+      "27583695",
+      "41307290",
+      "40331275",
+      "34443773",
+      "27302609",
+      "34709987",
+      "40045069",
+      "33296461",
+      "42099004",
+      "38810384",
+      "40425414"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0956-5663(26)00928-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

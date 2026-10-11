@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the results of the IBIS community challenge, in which participants built binding specificity models for poorly studied human transcription factors from multi-assay experimental data. Models were tested against a held-out dataset. Deep learning models outperformed positional weight matrices and other machine learning methods, though PWMs performed surprisingly well out of the box. A post-challenge evaluation of additional deep learning methods confirmed the main finding. The authors state that IBIS provides a rich dataset, benchmarking protocols, and a computational framework for fair cross-platform evaluation.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, benchmarking protocols, or model details are available
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, supplementary information, dataset access details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a large-scale community benchmarking effort that addresses a long-standing problem in regulatory genomics. The central claim, that deep learning models outperform PWMs and other methods on held-out data, is plausible and of potential interest. However, the abstract provides no quantitative evidence, no description of the benchmark design, and no details on the held-out dataset or evaluation metrics. The scientific case cannot be assessed from the supplied material. The claim that PWMs performed "surprisingly strong" is intriguing but unsupported without effect sizes or statistical comparisons. The manuscript may be valuable, but the evidence base is insufficient for evaluation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding site prediction, motif discovery, and deep learning applications in genomics. The benchmarking resource and protocols would also interest method developers seeking standardized evaluation frameworks. The community challenge format may appeal to researchers studying reproducibility and crowdsourcing in computational biology.
+- **Major strengths** The community challenge design is a notable strength, as it provides an unbiased, multi-participant comparison of diverse modeling approaches. The focus on poorly studied human transcription factors addresses a gap in existing resources. The inclusion of multi-assay experimental data and a held-out test set suggests a rigorous evaluation framework. The post-challenge validation of additional methods strengthens the generalizability of the main finding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that deep learning models demonstrated a "consistent advantage" over PWMs and other machine learning methods, and that PWMs were "only slightly behind" the best deep learning models.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, effect sizes, confidence intervals, or statistical tests reported. The terms "consistent advantage" and "slightly behind" are qualitative and cannot be evaluated without numerical support.
+  - **Why it matters** The central scientific conclusion depends on the magnitude and statistical significance of the performance differences. Without these data, the reader cannot determine whether the claimed advantage is meaningful or within noise.
+  - **Resolution test** Provide performance metrics (e.g., AUC, correlation coefficients) for all method categories, with confidence intervals and statistical significance tests comparing deep learning models to PWMs and other methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmark design transparency
+  - **Claim pointer** The abstract states that submissions were "rigorously tested against a rich held-out dataset" and that the challenge provides "benchmarking protocols and a computational framework for a fair cross-platform evaluation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the held-out dataset composition, the number of transcription factors, the assays used, the evaluation metrics, or the criteria for "fair" evaluation. Without this information, the rigor of the benchmarking cannot be assessed.
+  - **Why it matters** The validity of the conclusions depends entirely on the quality and appropriateness of the benchmark. If the held-out dataset is small, biased, or not representative of the target problem, the results may not generalize.
+  - **Resolution test** Describe the held-out dataset in detail, including the number of TFs, data types, train/test splits, evaluation metrics, and any measures taken to prevent data leakage or overfitting.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and accessibility
+  - **Claim pointer** The abstract states that IBIS "establishes a rich dataset, benchmarking protocols, and a computational framework for a fair cross-platform evaluation of future models."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on data availability, code availability, or how the benchmarking framework can be accessed or reused by the community. The claim of establishing a resource cannot be verified.
+  - **Why it matters** A key contribution of the work is the resource itself. Without clear availability statements, the community cannot benefit from or validate the claimed resource.
+  - **Resolution test** Provide explicit statements on data and code availability, including repository URLs, accession numbers, and licensing information.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "wisdom of crowds" in the title is not explained in the abstract. It is unclear whether this refers to the aggregation of multiple models, the community challenge format, or a specific ensemble method.
+  - **Required correction** Define or clarify the term in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that deep learning models showed a "consistent advantage" but does not specify whether this held across all transcription factors, all assay types, or only in aggregate.
+  - **Required correction** Clarify whether the advantage was uniform or variable across subsets of the data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate the IBIS results relative to prior benchmarking efforts or existing motif databases, making it difficult to assess novelty.
+  - **Required correction** Add a brief comparison to prior benchmarks or state how IBIS differs from existing efforts.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, benchmark design details, and resource availability statements means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The community challenge approach is not entirely new, but the scale and focus on poorly studied human TFs may offer a novel contribution. This cannot be fully assessed from the abstract.
+  - Scientific importance: The problem of transcription factor binding specificity modeling is of high importance in regulatory genomics. A rigorous benchmark could be valuable, but the importance of the specific findings depends on the magnitude of the reported differences.
+  - Interdisciplinary readership: The work is likely to appeal primarily to computational biologists and bioinformaticians. The abstract does not clearly articulate broader implications for experimental biologists or clinicians.
+  - Technical soundness: Cannot be assessed. No methods, metrics, or statistical analyses are presented.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., "positional weight matrices," "multi-assay experimental data") without definition. The title's "wisdom of crowds" is catchy but unexplained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable resource and a plausible finding, but the absence of quantitative data, benchmark details, and availability statements prevents any substantive evaluation. A full manuscript with methods, results, and resource access information would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim that deep learning models showed a "consistent advantage" over PWMs and other methods is unsupported without quantitative metrics and statistical tests.
+- The claim that PWMs performed "surprisingly strong" is unsupported without effect sizes or comparisons to prior benchmarks.
+- The claim that the held-out dataset is "rich" and the benchmarking is "rigorous" and "fair" is unverifiable without dataset and protocol descriptions.
+- The claim that IBIS "establishes a rich dataset, benchmarking protocols, and a computational framework" is unverifiable without availability statements.
+- The post-challenge assessment of additional deep learning methods is mentioned but not described; its contribution to the findings cannot be evaluated.

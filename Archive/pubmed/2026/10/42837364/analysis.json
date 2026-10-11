@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42837364",
+  "title": "GP-DHT: A dual-head transformer with supervised contrastive learning for shared-gene pretraining and single-cell GRN prediction.",
+  "authors": "Yan, Shuai; Yu, Qingzhi; Dai, Wenfeng; Cheng, Xiang",
+  "journal": "PloS one",
+  "published_date": "2026-10-06",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 7,
+  "one_liner_zh": "提出双头Transformer框架GP-DHT，结合监督对比学习从单细胞数据预测TF-靶基因调控链接，属于TF-DNA互作位点预测的广义蛋白-DNA互作建模，方法上采用AI深度学习，但未涉及三维结构或物理模拟，深度有限。",
+  "abstract": "Gene Regulatory Networks (GRNs) are crucial for understanding cell fate decisions and disease mechanisms. However, inferring GRNs from single-cell RNA sequencing remains challenging due to noise, data sparsity, and species-specific distribution variations. We propose GP-DHT (Gene Pair-Dual Head Transformer), a single-cell GRN inference framework that pre-trains gene representations on a unified shared gene space using the BEELINE datasets of humans and mice. It models gene-cell expression relationships through a multi-relational heterograph and predicts transcription factor (TF)-target regulatory links using a dual-head Transformer. These two heads correspond to complementary task objectives: a classification head for regulatory link prediction and a projection head for gene pair-level supervised contrastive learning. This design enables the model to optimize both prediction accuracy and representation separability in a sparse single-cell setting. The human-mouse shared-gene stage is used to initialize expression-derived gene representations in a harmonized gene space. During dataset-wise supervised training, GenePairSupCon is applied within each training fold to regularize gene-pair representations, followed by fine-tuning and evaluation within each BEELINE dataset. To enhance reproducibility and interpretability, we further clarify the mapping of orthologous genes and gene symbol unification, TF-level data partitioning and leakage control, negative label sensitivity, and quantitative embedding quality assessment. Hard negative example experiments show that negative label construction has a substantial impact on task difficulty, while supervised contrastive learning significantly improves the separability of embeddings, as measured by Silhouette score, Davies-Bouldin index, Calinski-Harabasz score, and inter/intra distance ratio. GP-DHT can also recover prior-supported candidate regulatory modules and provide additional interpretable support through post-hoc pair-level attribution analysis on frozen predictors. In summary, these results support GP-DHT as a robust shared gene representation learning framework for dataset-level single-cell GRN prediction.",
+  "abstract_zh": "基因调控网络（Gene Regulatory Networks, GRNs）对于理解细胞命运决定和疾病机制至关重要。然而，从单细胞RNA测序数据推断GRNs仍面临挑战，原因在于噪声、数据稀疏性以及物种特异性分布差异。我们提出GP-DHT（Gene Pair-Dual Head Transformer），一种单细胞GRN推断框架，该框架利用人类和小鼠的BEELINE数据集，在统一共享基因空间上预训练基因表示。它通过多关系异构图建模基因-细胞表达关系，并使用双头Transformer预测转录因子（transcription factor, TF）-靶基因调控连接。这两个头对应互补的任务目标：一个分类头用于调控连接预测，一个投影头用于基因对级别的监督对比学习。这种设计使模型能够在稀疏单细胞环境中同时优化预测准确性和表示可分性。人-鼠共享基因阶段用于在协调的基因空间中初始化表达衍生的基因表示。在数据集级别的监督训练中，GenePairSupCon在每个训练折内应用以正则化基因对表示，随后在每个BEELINE数据集内进行微调和评估。为增强可重复性和可解释性，我们进一步澄清了直系同源基因映射和基因符号统一、TF级别数据划分和泄漏控制、负标签敏感性以及定量嵌入质量评估。困难负样本实验表明，负标签构建对任务难度有显著影响，而监督对比学习显著提高了嵌入的可分性，通过轮廓系数（Silhouette score）、Davies-Bouldin指数、Calinski-Harabasz分数和类间/类内距离比来衡量。GP-DHT还能恢复先前支持的候选调控模块，并通过在冻结预测器上进行事后配对级别归因分析提供额外的可解释支持。总之，这些结果支持GP-DHT作为数据集级别单细胞GRN预测的稳健共享基因表示学习框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42837364/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42837364/",
+  "paper_page_path": "papers/pubmed/42837364/index.html"
+}

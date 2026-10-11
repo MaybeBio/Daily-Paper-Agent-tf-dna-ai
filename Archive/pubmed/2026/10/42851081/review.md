@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the nuclear receptor PcHR96h regulates ABC transporter genes PcABCA2 and PcABCB2, which contribute to spirodiclofen resistance in Panonychus citri. Evidence cited includes DAP-seq, dual-luciferase, yeast one-hybrid, EMSA, RNAi, subcellular localization, cytotoxicity tests, and molecular docking.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological specifics provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, statistical analyses, and methodological descriptions
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially significant finding linking a nuclear receptor to ABC transporter regulation in acaricide resistance. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the experimental support, the magnitude of resistance effects, or the specificity of the regulatory interactions. The claim that PcHR96h directly regulates PcABCA2 and PcABCB2 is plausible but not fully assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in arthropod toxicology, insecticide and acaricide resistance management, and nuclear receptor biology. The work may also interest those studying transcriptional regulation of detoxification genes and ABC transporter function in agricultural pests.
+- **Major strengths** The study integrates multiple complementary approaches, including genome-wide binding analysis and direct binding assays, followed by functional validation. The focus on a citrus pest with economic importance adds practical relevance. The identification of specific ABC transporter targets for a nuclear receptor provides mechanistic insight beyond correlative associations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that PcHR96h directly binds to the promoters of PcABCA2 and PcABCB2 and that these transporters participate in spirodiclofen resistance.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide quantitative data on binding affinity, transcriptional activation magnitude, or resistance phenotype changes following RNAi. Without these data, the strength and biological relevance of the regulatory relationship cannot be evaluated.
+  - **Why it matters** Direct binding and functional participation are strong claims that require quantitative support. For example, the degree of resistance reduction after knockdown and the specificity of binding relative to other ABC transporters are critical for establishing causality.
+  - **Resolution test** Provide binding affinity values, reporter assay fold changes, and resistance bioassay data with statistical comparisons in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The abstract states that DAP-seq identified ABC transporter genes as significantly enriched targets of PcHR96h.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on DAP-seq quality controls, peak calling thresholds, replicate numbers, or the statistical method used to determine enrichment. These factors strongly influence the reliability of genome-wide binding data.
+  - **Why it matters** DAP-seq results are foundational to the study. If the enrichment analysis is underpowered or improperly controlled, the subsequent focus on ABC transporters may be biased or artifactual.
+  - **Resolution test** Include DAP-seq quality metrics, peak annotation statistics, and enrichment analysis details in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The abstract claims that RNAi, subcellular localization, cytotoxicity tests, and molecular docking confirmed that PcABCA2 and PcABCB2 participate in spirodiclofen resistance.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the direction or magnitude of effects. For instance, whether knockdown increases susceptibility, whether localization data support a transport role, and how docking predictions relate to actual resistance are unclear.
+  - **Why it matters** Functional confirmation requires clear phenotypic outcomes. Without effect sizes and consistency across assays, the conclusion that these transporters are causal in resistance is not established.
+  - **Resolution test** Report resistance ratios before and after knockdown, localization evidence, and docking scores with functional interpretation in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "contribute to resistance" is vague and could imply either a direct causal role or a correlative association.
+  - **Required correction** Specify the nature of the contribution, such as metabolic detoxification or transport-mediated sequestration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methodological description
+  - **Evidence pointer** Abstract, methods list
+  - **Issue** The abstract lists multiple techniques without any indication of experimental design, such as biological replicates or controls.
+  - **Required correction** In the full manuscript, ensure each method includes replicate numbers and appropriate controls.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Conclusion statement
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim of "new insights into HR96-driven detoxification" may overreach if the findings are specific to this pest and acaricide.
+  - **Required correction** Qualify the statement to indicate that broader applicability requires further testing in other species or contexts.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative or methodological detail to assess the core claims of direct regulation and genome-wide target enrichment. R1-M3 is non-blocking but requires clarification of functional outcomes.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the specific regulation of ABC transporters by HR96 in a citrus pest is not previously reported. Scientific importance is relevant for resistance management but may be considered incremental if similar regulatory mechanisms are known in other arthropods. Interdisciplinary readership is limited to toxicology and pest management specialists. Technical soundness cannot be fully assessed from the abstract alone. Readability for nonspecialists is adequate, though the abstract assumes familiarity with the techniques and resistance concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the methodological approach is appropriate, but the abstract alone does not provide enough evidence to establish the claims. Full manuscript review is necessary to assess data quality and effect sizes.
+
+## Risk / unsupported claims
+- The claim that PcHR96h directly binds to the promoters of PcABCA2 and PcABCB2 is unsupported in the abstract due to lack of quantitative binding data.
+- The claim that these transporters participate in spirodiclofen resistance is not assessable without resistance phenotype data.
+- The claim of genome-wide target enrichment is not assessable without DAP-seq quality and statistical details.
+- The broader implication of "new insights into HR96-driven detoxification" is not supported by the abstract alone.

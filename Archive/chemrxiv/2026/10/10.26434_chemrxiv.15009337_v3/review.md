@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose ProtMutMap, a network-based method that integrates multiple free energy perturbation (FEP) pathways to predict binding free energy changes (ΔΔG) for protein variants with multiple mutations. The method is claimed to outperform additive approximation, stepwise approaches, and Rosetta flex ddG on a dataset of 7 protein complex systems from SKEMPI2, achieving an RMSE of 1.13 kcal/mol at 30 evaluation points.
+- **Visible evidence base** Abstract text only; no numerical tables, figures, or methodological details beyond those summarized in the abstract
+- **Missing materials affecting confidence** Full methods, dataset composition and preprocessing details, definition of evaluation points, statistical significance testing, error bars or confidence intervals, comparison protocols for baseline methods, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to a recognized problem in computational protein engineering, namely the nonadditivity of multiple mutations in binding free energy prediction. The network formulation that integrates multiple FEP pathways is a reasonable and potentially valuable idea. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the method, the rigor of the benchmarking, or the statistical significance of the reported improvements. The reported RMSE improvement is modest and no uncertainty quantification is provided. The claim that ProtMutMap outperforms Rosetta flex ddG is made without specifying the comparison protocol or whether the same evaluation points and systems were used.
+- **Who would be interested in the results, and why** Computational biophysicists and protein engineers working on binding affinity prediction, particularly those interested in alchemical free energy methods and their application to multi-site mutagenesis. The work may also be relevant to researchers developing machine learning or network-based approaches for biophysical property prediction, and to experimentalists who need accurate ΔΔG estimates for protein design or variant interpretation.
+- **Major strengths** The problem addressed is well-defined and practically important. The network-based integration of multiple FEP pathways is a novel conceptual contribution that directly targets the nonadditivity issue. The use of Huber loss for robust estimation is a sensible choice. The evaluation includes intermediate variants, which is a more thorough test than evaluating only the final multi-mutant variants.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "ProtMutMap simultaneously estimates the binding ΔΔG of each variant from all edge values using Huber loss"  
+  - **Evidence pointer** Methods section not provided  
+  - **Concern** The abstract does not describe how the network is constructed, how edge values are computed, how the optimization problem is formulated and solved, or how the method scales with the number of mutations. Without this information, the technical validity of the approach cannot be assessed.  
+  - **Why it matters** The core methodological contribution is the network formulation and the simultaneous estimation procedure. If the optimization is ill-posed, computationally intractable, or sensitive to network topology, the method may not generalize beyond the tested cases.  
+  - **Resolution test** Provide a complete description of the network construction, the optimization objective, the solver used, and a complexity analysis. Ideally, include a validation on synthetic data with known ground truth to demonstrate that the method recovers correct ΔΔG values under controlled conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** "ProtMutMap achieved a root mean squared error (RMSE) of 1.13 kcal/mol, lower than that of either comparison method"  
+  - **Evidence pointer** "30 evaluation points" and "7 protein complex systems"  
+  - **Concern** The abstract reports a single RMSE value with no measure of uncertainty, no per-system breakdown, and no statistical test comparing ProtMutMap to the baselines. With only 30 evaluation points across 7 systems, the difference between methods could be within noise.  
+  - **Why it matters** Without uncertainty quantification or significance testing, the claim of superiority over additive and stepwise methods is not established. The modest absolute improvement may not be robust across systems or mutation types.  
+  - **Resolution test** Report per-system RMSE, provide bootstrap confidence intervals or standard errors, and perform a paired statistical test (e.g., Wilcoxon signed-rank test) between ProtMutMap and each baseline. If possible, include leave-one-system-out cross-validation to assess generalization.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Fairness of comparison  
+  - **Claim pointer** "ProtMutMap also yielded lower prediction errors than Rosetta flex ddG"  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The comparison to Rosetta flex ddG is mentioned without specifying whether the same systems, mutations, and evaluation points were used, whether the same input structures and protonation states were employed, or whether flex ddG was run under its recommended protocol.  
+  - **Why it matters** Inconsistent benchmarking protocols can lead to unfair comparisons and misleading conclusions. Rosetta flex ddG has known sensitivity to input preparation and sampling parameters.  
+  - **Resolution test** Describe the exact protocol used for Rosetta flex ddG, including input structures, number of decoys, and any filtering criteria. Confirm that the same evaluation points and experimental references were used for all methods.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dataset representativeness  
+  - **Claim pointer** "a multiple-mutation dataset comprising 7 protein complex systems derived from SKEMPI2"  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not describe the selection criteria for the 7 systems, the number of variants per system, the range of mutation counts, or the diversity of interface types. A small and potentially biased dataset limits the generalizability of the conclusions.  
+  - **Why it matters** If the dataset is dominated by a particular type of complex or mutation pattern, the reported performance may not transfer to other systems.  
+  - **Resolution test** Provide a table describing each system, the number of variants, the number of mutations per variant, and the range of experimental ΔΔG values. Discuss how the dataset compares to the broader SKEMPI2 multiple-mutation subset.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of evaluation points  
+  - **Evidence pointer** "30 evaluation points, including intermediate variants"  
+  - **Issue** The abstract does not clarify what constitutes an evaluation point or how intermediate variants are defined.  
+  - **Required correction** Define evaluation points explicitly, for example as individual variants (including single and multi-mutant variants) for which experimental ΔΔG values are available.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Data and code availability  
+  - **Evidence pointer** Location not provided  
+  - **Issue** No statement about availability of code, data, or trained models is included.  
+  - **Required correction** Add a data and code availability statement, including a repository link if applicable.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Presentation  
+  - **Affected element** Comparison to additive approximation  
+  - **Evidence pointer** "lower than that of either comparison method"  
+  - **Issue** The abstract does not report the RMSE values for the additive and stepwise methods, making it difficult to gauge the magnitude of improvement.  
+  - **Required correction** Report the RMSE for all three methods in the abstract or in a table.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Computational cost  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract does not mention the computational cost of ProtMutMap relative to the baselines, which is relevant for practical adoption.  
+  - **Required correction** Include a brief statement on computational cost or runtime comparison in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (methodological description), R1-M2 (statistical rigor), R1-M3 (fairness of comparison). These three concerns must be resolved before the central claim of improved prediction accuracy can be considered established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The network-based integration of multiple FEP pathways is a novel contribution that has not, to my knowledge, been reported elsewhere. This is a genuine conceptual advance over additive and stepwise approaches.  
+  - Scientific importance: Accurate prediction of multi-mutation effects on binding affinity is important for protein engineering and variant interpretation. The problem is of broad interest to the biophysical community.  
+  - Interdisciplinary readership: The work sits at the interface of computational chemistry, structural biology, and protein engineering. The abstract is written in a way that is accessible to these communities, though some domain knowledge of FEP methods is assumed.  
+  - Technical soundness: Not assessable from the abstract alone. The methodological description is insufficient, and the statistical treatment is inadequate.  
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "free energy perturbation" and "Huber loss" may require prior knowledge. The writing is acceptable for a specialist audience.  
+  Overall, the work has the potential to be of interest to a specialized but not broad readership. The conceptual novelty is present, but the evidence base is currently too thin to support the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising and worth pursuing, but the abstract alone does not provide sufficient methodological detail, statistical rigor, or benchmarking transparency to support the claims of improved accuracy. I would be supportive if the technical concerns are resolved with a full manuscript that includes complete methods, uncertainty quantification, and fair comparisons.
+
+## Risk / unsupported claims
+- The claim that ProtMutMap outperforms Rosetta flex ddG is unsupported because the comparison protocol is not described.
+- The claim of lower RMSE than additive and stepwise methods is unsupported without uncertainty quantification or statistical testing.
+- The generalizability of the method beyond the 7 tested systems is not assessable from the abstract.
+- The computational efficiency or practical usability of the method is not addressed.
+- The robustness of the method to network construction choices or hyperparameters is not discussed.

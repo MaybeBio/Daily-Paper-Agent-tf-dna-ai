@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present SIMORGH, an ensemble-aware SE(3)-equivariant geometric deep learning framework for predicting ligand binding sites from apo-state protein structures and identifying cryptic pockets. The method integrates information across conformational ensembles via a two-stage architecture and is claimed to outperform existing static and dynamics-aware methods across multiple benchmarks while scaling efficiently.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark definitions, dataset descriptions, baseline comparisons, statistical analyses, and code or server documentation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of structure-based drug discovery, addressing a real and timely problem in predicting binding sites from apo-state proteins and cryptic pockets. The conceptual framing is sound and the proposed two-stage architecture is plausible. However, the abstract provides no quantitative evidence, no benchmark results, and no methodological detail sufficient to evaluate the claims. The central assertions of superior performance and scalability are currently unsupported by the supplied material. The manuscript may merit consideration after full review, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists, structural bioinformaticians, and drug discovery researchers working on binding site prediction, cryptic pocket identification, and ensemble-based methods. The work is also relevant to developers of geometric deep learning methods for protein analysis and to those interested in practical applications of apo-state prediction in virtual screening and target identification.
+- **Major strengths** The problem addressed is practically important and clearly motivated. The ensemble-aware approach is conceptually well aligned with the biophysical reality that binding-competent conformations are a subset of the accessible ensemble. The claimed near-linear scaling with protein and ensemble size is attractive for real-world applications. The stated availability through Galaxy Europe supports reproducibility and accessibility.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "SIMORGH consistently outperforms existing static and dynamics-aware methods under the challenging ligand-free setting"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that SIMORGH outperforms existing methods but provides no numerical results, no benchmark scores, no statistical significance measures, and no comparison details. No data are presented to support this central claim.  
+  - **Why it matters** The primary contribution of the work is the claimed performance advantage. Without quantitative evidence, the claim is unverifiable and the scientific case is not established.  
+  - **Resolution test** Provide performance metrics (e.g., DCC, AUC, precision-recall) for SIMORGH and baselines across all benchmarks, with error bars or confidence intervals and statistical tests where appropriate.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "identifying cryptic binding pockets"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim of cryptic pocket identification is made without any definition of how cryptic pockets are defined, how identification is validated, or what success rate is achieved. No results are shown.  
+  - **Why it matters** Cryptic pocket prediction is a distinct and challenging task; the claim requires explicit validation against known cryptic pocket systems with clear criteria for success.  
+  - **Resolution test** Provide a clear definition of cryptic pocket detection, the dataset used, and quantitative results (e.g., fraction of known cryptic pockets recovered) with comparison to relevant baselines.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "scaling near-linearly with both protein and ensemble size" and "scaling efficiently to large multi-chain complexes"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No runtime, memory, or scaling data are provided. The near-linear scaling claim is central to the practical utility of the method but is entirely unsupported.  
+  - **Why it matters** Scalability is a key differentiator for ensemble-based methods, which are computationally expensive. Without empirical scaling measurements, the claim cannot be assessed.  
+  - **Resolution test** Provide runtime and memory measurements as a function of protein size and ensemble size, with fits to scaling models, and demonstrate performance on at least one large multi-chain complex.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** "a structure-level equivariant encoder" and "a lightweight ensemble-level aggregation module"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The architectural description is too brief to assess novelty or soundness. No details are given on the equivariant operations, the aggregation mechanism, the training procedure, or the loss functions.  
+  - **Why it matters** The methodological contribution is a core part of the paper. Without sufficient detail, the approach cannot be evaluated for correctness, novelty, or reproducibility.  
+  - **Resolution test** Provide a full description of the architecture, including equations, layer types, and training details, in the main text or supplementary materials.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Benchmark validity  
+  - **Claim pointer** "the PLINDER apo benchmark, molecular dynamics trajectories spanning more than 200 cryptic-pocket proteins, and established community benchmarks"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The benchmarks are named but not described. No details are given on dataset composition, train-test splits, or how baselines were configured and run.  
+  - **Why it matters** Benchmark results are only meaningful if the evaluation protocol is transparent and fair. Without this information, the reported comparisons cannot be interpreted.  
+  - **Resolution test** Describe each benchmark in detail, including data sources, preprocessing, splits, baseline versions, and hyperparameter settings, and make evaluation scripts available.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Method name  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The method is referred to as "SIMORGH" in the title and abstract but as "Simorgh" in the final sentence. This inconsistency should be resolved.  
+  - **Required correction** Use a single consistent capitalization throughout.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Availability statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states the method is available through Galaxy Europe but does not specify whether the underlying code is open source, under what license, or whether model weights are provided.  
+  - **Required correction** Clarify the availability of source code, model weights, and any usage restrictions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Benchmark description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "established community benchmarks" is vague and does not name the specific benchmarks used.  
+  - **Required correction** Name the specific benchmarks and cite them appropriately.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The absence of quantitative results, methodological detail, and benchmark descriptions means the core claims of performance, cryptic pocket identification, and scalability are not currently supported.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The ensemble-aware approach to binding site prediction is not entirely new, but the specific combination of SE(3) equivariance with ensemble aggregation may offer a novel contribution. This cannot be fully assessed from the abstract.  
+  - **Scientific importance** The problem is important and timely. Reliable apo-state and cryptic pocket prediction would have broad impact on drug discovery. The potential importance is high, but it is contingent on the claims being substantiated.  
+  - **Interdisciplinary readership** The work bridges machine learning, structural biology, and drug discovery. It is likely to appeal to a broad readership if the results are convincing.  
+  - **Technical soundness** Cannot be assessed from the abstract. The architectural description is too brief, and no validation results are provided.  
+  - **Readability for nonspecialists** The abstract is generally clear and accessible, though some terms (e.g., "SE(3)-equivariant") may require background knowledge. The motivation is well explained.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising and the problem is important, but the abstract contains no quantitative results or methodological detail. A full manuscript with rigorous benchmarking, clear architectural descriptions, and scalability measurements would be required to assess whether the claims hold. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that SIMORGH "consistently outperforms" existing methods is unsupported by any quantitative data in the supplied material.
+- The claim of "identifying cryptic binding pockets" is unsupported without a definition of detection criteria and validation results.
+- The claim of "scaling near-linearly" and "scaling efficiently to large multi-chain complexes" is unsupported without runtime or memory measurements.
+- The claim of "strong prediction consistency between paired apo and holo structures" is unsupported without any reported consistency metrics.
+- The overall performance of the method across all benchmarks is unassessable from the abstract alone.

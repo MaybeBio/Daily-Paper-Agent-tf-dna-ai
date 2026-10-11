@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the performance gap of deep learning models in predicting ligand binding poses at allosteric versus orthosteric sites is governed by the magnitude of frustration quenching upon ligand binding and by network topological features of the energy landscape, rather than by algorithmic limitations. They further claim that generative diffusion models outperform single-shot regression due to multi-pose sampling capacity, and that joint receptor-ligand co-adaptation governs local optimization within the funnel.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark descriptions, dataset details, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark definitions, dataset curation details, model architectures, hyperparameters, and any statistical or comparative analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing hypothesis that links a practical problem in computational drug discovery to fundamental biophysical concepts of energy landscape topology. The framing is original and potentially impactful for the fields of structural biology and machine learning. However, the abstract provides no quantitative evidence, no methodological detail, and no comparative data to support the central claims. As presented, the case is not established from the supplied material. The claims are plausible but currently unverifiable without access to the underlying data and analyses.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on protein-ligand interactions would be interested in the proposed physical descriptors for predicting model performance. Machine learning researchers developing docking and co-folding models would find the distinction between generative and regression approaches relevant to model design. Drug discovery scientists targeting allosteric sites would benefit from understanding the intrinsic limitations of current prediction tools. The work could also appeal to physicists studying energy landscapes and frustration in biomolecular systems.
+- **Major strengths** The conceptual framing is novel and intellectually compelling. The authors connect a practical algorithmic limitation to a fundamental biophysical property, which is a refreshing departure from purely empirical benchmark reporting. The proposed distinction between orthosteric and allosteric sites in terms of network centrality and frustration profiles is testable and could provide a predictive framework for model applicability. The comparison between generative and regression paradigms addresses a timely question in the field.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that AI prediction success strongly tracks frustration quenching and that orthosteric pockets act as high-betweenness communication hubs while allosteric sites reside in low-betweenness peripheral regions with fragmented frustration profiles.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The central claim of a quantitative relationship between frustration quenching and prediction accuracy is stated without any numerical support. No correlation coefficients, effect sizes, confidence intervals, or statistical tests are reported. The characterization of orthosteric and allosteric sites in terms of network centrality and frustration profiles is presented as a finding, but no data are shown to substantiate this distinction.
+  - **Why it matters** The entire thesis of the paper rests on this relationship being real and measurable. Without quantitative evidence, the claim is an assertion rather than a demonstrated result. The reader cannot assess the strength of the association, the variability across systems, or whether the effect is robust to different benchmarks and model architectures.
+  - **Resolution test** Provide correlation statistics between frustration quenching magnitudes and prediction success metrics across the evaluated benchmarks. Show distributions of betweenness centrality and frustration scores for orthosteric versus allosteric sites with appropriate statistical comparisons. Include scatter plots or equivalent visualizations that allow the reader to evaluate the strength and consistency of the proposed relationships.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim that comparing generative diffusion with single-shot regression demonstrates that multi-pose sampling capacity is required to cross energy barriers and discover the frustration funnel, whereas joint receptor-ligand coordinate co-adaptation governs local optimization within the funnel.
+  - **Evidence pointer** Abstract only; no model details, training procedures, or evaluation protocols provided
+  - **Concern** The comparative claim between generative and regression approaches is presented as a demonstrated result, but no information is given about which specific models were compared, how they were trained, what datasets were used, or how the distinction between "crossing energy barriers" and "local optimization" was operationalized. The mechanistic interpretation of model behavior in terms of energy landscape features is not supported by any direct observation of sampling trajectories or optimization dynamics.
+  - **Why it matters** The claim that multi-pose sampling capacity is required for barrier crossing is a strong mechanistic statement about model behavior. Without controlled comparisons that isolate the effect of sampling strategy from other architectural differences, the conclusion is not justified. The interpretation of model performance in terms of energy landscape features requires either direct analysis of model internal states or carefully designed ablation studies.
+  - **Resolution test** Describe the specific models compared, including architectural details and training protocols. Provide ablation studies that isolate the effect of multi-pose sampling from other factors. Show evidence that the performance difference between generative and regression approaches is specifically due to barrier crossing rather than other factors such as capacity, regularization, or output representation. If possible, include analysis of sampled poses relative to known energy barriers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and dataset validity
+  - **Claim pointer** The authors claim that the accuracy gap is demonstrated across curated benchmarks and large-scale uncurated datasets.
+  - **Evidence pointer** Abstract only; no dataset descriptions, curation criteria, or scale information provided
+  - **Concern** The claim of evaluation across both curated and uncurated datasets is made without any description of what these datasets contain, how they were curated, what proteins and ligands are included, or how the allosteric and orthosteric sites were defined and validated. The distinction between curated and uncurated is mentioned but no results are shown for either category. The reader cannot assess whether the datasets are representative, balanced, or free from confounding factors.
+  - **Why it matters** The generalizability of the proposed relationship depends on the diversity and quality of the evaluation datasets. If the allosteric sites are predominantly from a particular protein family or if the orthosteric sites are biased toward well-studied systems, the conclusions may not generalize. The lack of dataset description prevents any assessment of potential biases or limitations.
+  - **Resolution test** Provide detailed descriptions of all datasets used, including the number of protein-ligand complexes, the diversity of protein families, the criteria for defining orthosteric and allosteric sites, and the validation of these annotations. Show results separately for curated and uncurated datasets to demonstrate consistency of the proposed relationships across data quality regimes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Definition of frustration quenching
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term "frustration quenching" is used as a central concept but is not precisely defined. The abstract states it is "the degree to which ligand binding relieves local energetic strain to form a steep energy funnel," but the operational definition and computational method for quantifying it are not described.
+  - **Required correction** Provide a clear operational definition of frustration quenching, including the specific computational approach used to quantify it. Specify whether this is based on energy landscape theory, local frustration indices, or a custom metric, and describe how it is calculated for each protein-ligand system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability of network metrics
+  - **Affected element** Network centrality analysis
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The claim that orthosteric pockets act as "high-betweenness communication hubs" and allosteric sites reside in "low-betweenness peripheral regions" is presented without explaining how the residue interaction networks were constructed, what edges represent, or how betweenness centrality was computed.
+  - **Required correction** Describe the network construction methodology, including the definition of nodes and edges, the source of interaction data, and the specific centrality measure used. Clarify whether the networks are static or dynamic and how frustration profiles are integrated into the network representation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision of model categorization
+  - **Affected element** Model taxonomy
+  - **Evidence pointer** Abstract, third paragraph
+  - **Issue** The abstract refers to "generative diffusion" and "single-shot regression" as two model categories but does not specify which specific models fall into each category or whether hybrid approaches exist.
+  - **Required correction** List the specific models evaluated in each category and justify the categorization. Acknowledge any models that do not fit neatly into either category and explain how they were handled in the analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope of the "blind spot" claim
+  - **Affected element** Generalization to all allosteric sites
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The abstract states that the allosteric "blind spot" is reframed as a quantitative property of energy landscape architecture, which implies a universal explanation. However, the abstract does not discuss potential exceptions or cases where allosteric sites might have steep frustration funnels or where orthosteric sites might have fragmented profiles.
+  - **Required correction** Acknowledge the possibility of exceptions and discuss whether the proposed relationship holds universally or only for certain classes of allosteric sites. If exceptions exist, describe them and explain how they inform the proposed framework.
+
+## Risk / unsupported claims
+- The quantitative relationship between frustration quenching magnitude and prediction accuracy is asserted without any reported statistics or data.
+- The characterization of orthosteric versus allosteric sites in terms of network centrality and frustration profile fragmentation is presented as a finding without supporting evidence.
+- The mechanistic claim that multi-pose sampling is required for barrier crossing while joint co-adaptation governs local optimization is not supported by any direct observation or controlled comparison.
+- The claim of evaluation across curated and uncurated datasets is unverifiable without dataset descriptions or results.
+- The general statement that the allosteric "blind spot" is a property of energy landscape architecture rather than a model defect is a broad conclusion that cannot be assessed from the abstract alone.

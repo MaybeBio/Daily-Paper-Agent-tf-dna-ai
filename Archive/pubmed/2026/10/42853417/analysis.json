@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42853417",
+  "title": "Toward FOXM1 inhibitors based on supervised machine learning classification models and similarity-based screening.",
+  "authors": "Kharwar, Ashutosh; Marban-Gonzalez, Alberto; Medina-Franco, Jose L; Velazquez-Martinez, Carlos A",
+  "journal": "Journal of computer-aided molecular design",
+  "published_date": "2026-10-09",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习QSAR模型预测FOXM1转录因子小分子抑制剂活性，虽涉及TF靶点但聚焦药物筛选而非蛋白-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Ovarian cancer remains among the deadliest gynaecological malignancies, with aberrant activation of the Forkhead Box M1 (FOXM1) transcription factor strongly implicated in tumour progression, therapy resistance, and poor prognosis. Given the limited availability of validated FOXM1 inhibitors and the lack of prior dedicated machine learning-based QSAR studies identified in our literature survey, this study employed a supervised machine learning framework to predict the bioactivity of structurally diverse small-molecule inhibitors. A curated dataset of 101 compounds with reported IC(50) values was obtained from the ChEMBL database, and 1444 molecular descriptors were computed and filtered to retain 43 non-redundant features for modelling. Seven regression models, namely multiple linear regression, Ridge, partial least squares, Random Forest, Elastic Net, k-nearest neighbour, and support vector regression, were developed and assessed using training-set fitting, nested cross-validation, and external test-set validation. Among the evaluated models, Random Forest showed the strongest overall external predictive performance, achieving R(2)_external = 0.797, RMSE = 0.333, MAE = 0.250, Q(2)F(1) = 0.801, Q(2)F(2) = 0.797, Q(2)F(3) = 0.785, CCC = 0.875, and MRE = 6.00%, while satisfying the Golbraikh-Tropsha Criterion A. The k-nearest neighbour model also showed strong predictive ability, with R(2)_external = 0.781 and the highest nested cross-validated performance (Q(2)_CV_Nested = 0.728). SHAP analysis indicated that hydrophobic aliphatic features, electronic distribution, molecular rigidity, and hydrogen-bonding related descriptors contribute meaningfully to FOXM1 inhibition. Structural similarity analysis of the five most active compounds using ECFP4 fingerprints and the Tanimoto coefficient revealed substantial scaffold conservation, with similarity values ranging from approximately 64.71% to 99.42%. Bemis-Murcko scaffold analysis identified 59 unique scaffolds from 101 compounds, indicating moderate scaffold diversity, while PCA and t-SNE showed that active compounds occupy defined regions of chemical space. These findings provide an interpretable ML-QSAR framework for FOXM1 inhibitors and a useful computational basis for analysing and prioritizing compounds within the studied chemical space.",
+  "abstract_zh": "卵巢癌仍是最致命的妇科恶性肿瘤之一，其中Forkhead Box M1（FOXM1）转录因子的异常激活与肿瘤进展、治疗耐药和不良预后密切相关。鉴于已验证的FOXM1抑制剂可用性有限，且我们文献调查中未发现先前专门基于机器学习的QSAR研究，本研究采用监督机器学习框架来预测结构多样化小分子抑制剂的生物活性。从ChEMBL数据库获取了包含101种化合物及其报告IC(50)值的精选数据集，计算了1444个分子描述符，并筛选保留43个非冗余特征用于建模。开发了七种回归模型，即多元线性回归、Ridge、偏最小二乘、随机森林、弹性网络、k近邻和支持向量回归，并使用训练集拟合、嵌套交叉验证和外部测试集验证进行评估。在评估的模型中，随机森林表现出最强的整体外部预测性能，达到R(2)_external = 0.797，RMSE = 0.333，MAE = 0.250，Q(2)F(1) = 0.801，Q(2)F(2) = 0.797，Q(2)F(3) = 0.785，CCC = 0.875，MRE = 6.00%，同时满足Golbraikh-Tropsha标准A。k近邻模型也表现出较强的预测能力，R(2)_external = 0.781，并具有最高的嵌套交叉验证性能（Q(2)_CV_Nested = 0.728）。SHAP分析表明，疏水性脂肪族特征、电子分布、分子刚性和氢键相关描述符对FOXM1抑制有显著贡献。使用ECFP4指纹和Tanimoto系数对五种最活跃化合物进行的结构相似性分析揭示了显著的骨架保守性，相似性值范围约为64.71%至99.42%。Bemis-Murcko骨架分析从101种化合物中识别出59个独特骨架，表明骨架多样性适中，而PCA和t-SNE显示活性化合物占据化学空间的特定区域。这些发现为FOXM1抑制剂提供了可解释的ML-QSAR框架，并为在所研究化学空间中分析和优先排序化合物提供了有用的计算基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42853417/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42853417/",
+  "paper_page_path": "papers/pubmed/42853417/index.html"
+}

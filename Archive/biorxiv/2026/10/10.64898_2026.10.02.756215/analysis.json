@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.02.756215",
+  "title": "SIMORGH: Ensemble-Aware Geometric Deep Learning for Apo-State and Cryptic Ligand Binding Site Prediction",
+  "authors": "Omid Mokhtari; Amirhossein Naghsh Nilchi; Björn Grüning; Yasaman Karami; Hamed Khakzad",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-08",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于SE(3)-等变几何深度学习的配体结合位点预测方法，虽聚焦蛋白-配体而非TF-DNA互作，但其构象系综感知与隐式口袋预测策略可迁移至TF-DNA结合位点动态识别研究。",
+  "abstract": "Most computational methods identify protein-ligand binding sites from ligand-bound (holo) protein structures, where the binding pocket is already preorganized. Although convenient for benchmarking, this setting differs from the practical drug discovery scenario, in which binding sites must be inferred from ligand-free (apo) proteins. In fact, binding-competent conformations may represent only a subset of the accessible structural ensemble, while transient and cryptic pockets can emerge through conformational fluctuations. Consequently, prediction from a single static structure is often insufficient. Here we present SIMORGH, an ensemble-aware SE(3)-equivariant geometric learning framework that predicts ligand binding sites by integrating information across protein conformational ensembles. SIMORGH employs a two-stage architecture consisting of a structure-level equivariant encoder that learns geometric representations from individual conformations and a lightweight ensemble-level aggregation module that combines them into residue-level binding predictions while scaling near-linearly with both protein and ensemble size. We evaluate SIMORGH across multiple complementary settings, including the PLINDER apo benchmark, molecular dynamics trajectories spanning more than 200 cryptic-pocket proteins, and established community benchmarks. SIMORGH consistently outperforms existing static and dynamics-aware methods under the challenging ligand-free setting, while identifying cryptic binding pockets, maintaining strong prediction consistency between paired apo and holo structures, and scaling efficiently to large multi-chain complexes. To facilitate reproducible, transparent, and accessible use, Simorgh is available through the Galaxy Europe server (https://usegalaxy.eu).",
+  "abstract_zh": "大多数计算方法从配体结合（holo）蛋白结构中识别蛋白质-配体结合位点，其中结合口袋已预先组织好。尽管便于基准测试，但这种设置与实际药物发现场景不同，后者必须从无配体（apo）蛋白中推断结合位点。事实上，具有结合能力的构象可能仅代表可及结构集合的一个子集，而瞬态和隐蔽口袋可能通过构象波动出现。因此，从单一静态结构进行预测往往不足。在此，我们提出SIMORGH，一种集成感知的SE(3)-等变几何学习框架，通过整合蛋白质构象集合中的信息来预测配体结合位点。SIMORGH采用两阶段架构，包括一个结构级等变编码器，从单个构象中学习几何表示，以及一个轻量级集合级聚合模块，将其组合成残基级结合预测，同时随蛋白质和集合大小近线性扩展。我们在多种互补设置中评估SIMORGH，包括PLINDER apo基准、覆盖超过200个隐蔽口袋蛋白的分子动力学轨迹，以及已建立的社区基准。在具有挑战性的无配体设置下，SIMORGH持续优于现有静态和动力学感知方法，同时识别隐蔽结合口袋，在配对的apo和holo结构之间保持强预测一致性，并高效扩展到大型多链复合物。为促进可重复、透明和可访问的使用，Simorgh可通过Galaxy Europe服务器（https://usegalaxy.eu）获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756215",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756215",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.02.756215/index.html"
+}

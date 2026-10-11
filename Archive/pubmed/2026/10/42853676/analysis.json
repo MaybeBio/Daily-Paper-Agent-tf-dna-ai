@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42853676",
+  "title": "Inferring binding specificities of human transcription factors with the wisdom of crowds.",
+  "authors": "Gryzunov, Nikita; Penzar, Dmitry; Kamenets, Vasilii; Vyaltsev, Valery; Kozin, Ivan; Eliseeva, Irina A; Nozdrin, Vladimir; Vorontsov, Ilya E; Bushuev, Sergey; Strekalovskikh, Vadim; Zinkevich, Arsenii; Andrews, Gregory; Bedarew, Matwej; Blass, Ido; Frolov, Dmitry; Lariushina, Iuliia; Moore, Jill; Orenstein, Yaron; Roev, German; Salimov, Danil; Shimshoviz, Noam; Tziony, Ido; Weng, Zhiping; Bucher, Philipp; Deplancke, Bart; Fornes, Oriol; Grau, Jan; Grosse, Ivo; Jolma, Arttu; Kolpakov, Fedor A; Makeev, Vsevolod J; Hughes, Timothy R; Kulakovskiy, Ivan V",
+  "journal": "Cell reports",
+  "published_date": "2026-10-09",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过大规模社区挑战赛，系统评估了深度学习等方法对人类转录因子DNA结合基序特异性的建模能力，核心聚焦TF-DNA结合位点预测，方法上以AI为主，高度匹配本课题。",
+  "abstract": "DNA motif discovery and, particularly, computational modeling of transcription factor binding motifs, has been a mecca of algorithmic bioinformatics for several decades. Here, we report the results of the largest open community challenge in Inferring BInding Specificities (IBIS), where participants all over the world were invited to construct binding specificity models from multi-assay experimental data for poorly studied human transcription factors. The submissions were rigorously tested against a rich held-out dataset. Benchmarking demonstrated a consistent advantage of properly designed deep learning models over traditional positional weight matrices and other machine learning methods. Yet, the positional weight matrices displayed a surprisingly strong performance out of the box, being only slightly behind the best deep learning models. A post-challenge assessment of a selection of other deep learning methods further solidified this finding. IBIS highlights the power of benchmarking in finding adequate DNA motif representations, emphasizes the pros and cons of various machine learning methods applied to DNA motif modeling, and establishes a rich dataset, benchmarking protocols, and computational framework for a fair cross-platform evaluation of future models of transcription factor binding motifs in DNA sequences.",
+  "abstract_zh": "DNA基序发现，特别是转录因子结合基序的计算建模，数十年来一直是算法生物信息学的圣地。在此，我们报告了最大规模的开放社区挑战——推断结合特异性（IBIS）的结果，该挑战邀请全球参与者基于多实验数据为研究不足的人类转录因子构建结合特异性模型。提交的模型经过严格测试，针对一个丰富的保留数据集。基准测试表明，设计得当的深度学习模型相对于传统位置权重矩阵和其他机器学习方法具有一致的优势。然而，位置权重矩阵在开箱即用的情况下表现出令人惊讶的强大性能，仅略逊于最佳深度学习模型。挑战后对一系列其他深度学习方法的评估进一步巩固了这一发现。IBIS突显了基准测试在寻找合适DNA基序表示中的力量，强调了应用于DNA基序建模的各种机器学习方法的优缺点，并建立了一个丰富的数据集、基准测试协议和计算框架，以公平地跨平台评估未来DNA序列中转录因子结合基序的模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42853676/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42853676/",
+  "paper_page_path": "papers/pubmed/42853676/index.html"
+}

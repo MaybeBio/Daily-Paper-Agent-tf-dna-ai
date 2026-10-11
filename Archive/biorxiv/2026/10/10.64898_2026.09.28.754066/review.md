@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose CLARA, a two-stage hierarchical learning framework for node classification in graph-structured data under class imbalance. The method first applies a coarse subgraph-level classifier to select regions likely to contain minority instances, then a fine-grained node-level predictor within those regions. The authors claim substantial improvements over established imbalance-handling methods on benchmark graph datasets, reporting an F1-score of 88.3%, and state that the same strategy yields significant improvements in protein–ligand binding site prediction.
+- **Visible evidence base** Abstract text only; no quantitative comparisons, dataset descriptions, baseline specifications, or experimental details are provided
+- **Missing materials affecting confidence** Full manuscript, experimental setup, dataset names and statistics, baseline methods and hyperparameters, statistical significance tests, ablation studies, runtime or scalability measurements, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually reasonable two-stage hierarchical approach to address class imbalance in graph-structured data. The motivation, namely that minority nodes are structurally marginalized, is plausible and aligns with known challenges in graph learning. However, the evidence provided in the abstract is insufficient to evaluate the validity, novelty, or robustness of the proposed method. Key experimental details are absent, and the reported performance metrics cannot be interpreted without context. The biological application to protein binding site prediction is mentioned but not substantiated with any specific results. As presented, the case for the method's effectiveness is not established.
+- **Who would be interested in the results, and why** Researchers working on graph neural networks, particularly those addressing class imbalance in node classification tasks, would find the hierarchical decomposition strategy of potential interest. The protein binding site prediction application would appeal to computational biologists and structural bioinformaticians seeking improved predictive methods for functional site annotation. The general framing may also attract researchers in drug discovery and molecular machine learning.
+- **Major strengths** The proposed two-stage design is conceptually clear and addresses a real limitation of GNNs under class imbalance. The idea of filtering irrelevant regions before fine-grained prediction is sensible and could offer computational advantages. The dual evaluation across general graph benchmarks and a biological application suggests potential for broad impact if the results are rigorously validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "substantial gains over established imbalance-handling methods" and reports an F1-score of 88.3%.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No comparative results, baseline names, dataset identifiers, or statistical measures are provided. The single F1-score of 88.3% is presented without context regarding which dataset, which class, or which baseline it is compared against. The claim of "substantial gains" cannot be verified.
+  - **Why it matters** Without explicit comparisons to established methods on named datasets with appropriate metrics, the central claim of improvement is unsupported. The reader cannot assess whether the gain is meaningful, consistent, or statistically significant.
+  - **Resolution test** Provide a table with dataset names, class imbalance ratios, baseline methods, and F1-scores (or other relevant metrics) with standard deviations and significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes a two-stage hierarchical framework but provides no architectural or algorithmic details.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The coarse subgraph-level classifier and the fine-grained node-level predictor are not described in terms of model architecture, training procedure, loss functions, or how the two stages interact. The method cannot be reproduced or evaluated for technical soundness.
+  - **Why it matters** Reproducibility is a core requirement for any methodological contribution. Without sufficient detail, the proposed framework remains a conceptual sketch rather than a validated method.
+  - **Resolution test** Include a methods section with full architectural specifications, training details, hyperparameter choices, and pseudocode or a clear algorithmic description.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support for biological application
+  - **Claim pointer** The abstract states that "the same strategy achieves significant improvements in protein–ligand binding site prediction."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No specific results, dataset details, or performance metrics are given for the protein binding site prediction experiments. The term "significant" is used without statistical backing.
+  - **Why it matters** The biological application is a key part of the claimed broad impact. Without quantitative evidence, this claim is unverifiable and may overstate the method's utility in a domain where evaluation standards are well established.
+  - **Resolution test** Provide a dedicated section with dataset description, evaluation protocol, baseline comparisons, and statistical significance testing for the binding site prediction results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty assessment
+  - **Claim pointer** The abstract implies the hierarchical two-stage approach is a novel contribution.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No related work is discussed, and it is unclear how CLARA differs from existing hierarchical or coarse-to-fine methods in graph learning or from prior imbalance-handling techniques such as reweighting, oversampling, or graph-specific augmentation.
+  - **Why it matters** The scientific contribution depends on clear differentiation from prior art. Without a literature context, the novelty cannot be assessed.
+  - **Resolution test** Add a related work section that explicitly positions CLARA against existing methods and highlights the specific innovations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term "structurally marginalized" is used without definition or illustration.
+  - **Required correction** Define what structural marginalization means in this context, for example with respect to node degree, centrality, or neighborhood composition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Metric reporting
+  - **Affected element** F1-score
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The F1-score of 88.3% is reported without specifying whether it is macro, micro, or weighted, and without indicating the class or dataset.
+  - **Required correction** Specify the F1 variant, the dataset, and the class for which this score is reported.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scalability claim
+  - **Affected element** "maintaining scalability"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The claim of scalability is not supported by any complexity analysis or empirical runtime comparison.
+  - **Required correction** Provide a complexity analysis or runtime experiments on graphs of varying sizes to substantiate the scalability claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of comparative results, methodological detail, and biological application evidence means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality cannot be assessed without a related work discussion. Scientific importance is plausible given the prevalence of class imbalance in graph learning and the relevance of protein binding site prediction, but it is not demonstrated with evidence. Interdisciplinary readership is potentially broad, spanning machine learning and structural biology, but the abstract does not provide enough domain-specific context for either audience. Technical soundness is not assessable from the abstract alone. Readability for nonspecialists is acceptable in terms of prose clarity, but the lack of concrete results and definitions limits comprehension of the method's actual contribution.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is worth considering, but the abstract alone does not provide sufficient support for the claims. A full manuscript with detailed methods, comprehensive experiments, and statistical validation would be required to assess the contribution properly.
+
+## Risk / unsupported claims
+- The claim of "substantial gains over established imbalance-handling methods" is unsupported due to the absence of comparative data.
+- The reported F1-score of 88.3% is uninterpretable without dataset and metric context.
+- The claim of "significant improvements in protein–ligand binding site prediction" is unsupported without specific results.
+- The scalability claim is unsupported without complexity analysis or runtime data.
+- The novelty of the proposed framework is unassessable without a related work section.

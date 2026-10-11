@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report an integrated computational-experimental workflow to identify N-aryl anthranilic acid derivatives that disrupt the c-Myb-CBP/p300 KIX protein-protein interaction, a target relevant to acute myeloid leukemia. Four compounds (C1-C4) were prioritized via virtual screening, molecular dynamics, MM/PBSA, FEL, and ADMET analyses, and experimentally tested using microscale thermophoresis (MST). Compound C3 is reported as the most potent disruptor (IC50 = 16.5 ± 0.8 μM), outperforming the reference inhibitor Naphthol AS-E phosphate (28.8 ± 3.1 μM).
+- **Visible evidence base** Abstract, Introduction, Experimental (Virtual Screening, Molecular Docking, MD Simulations, MM/PBSA, FEL, ADMET, MST), Results and Discussion, Conclusion, Author Contributions, Funding, Ethics, Consent, Conflicts of Interest, Data Availability, Acknowledgments
+- **Missing materials affecting confidence** Figures 1-8 and Tables 1-5 are referenced but not provided. Supporting Information (compound library details) is not provided. No structural coordinates, MD trajectory data, or raw MST data are available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic computational-experimental pipeline for identifying small-molecule disruptors of the c-Myb-KIX interaction. The integration of multiple computational methods with experimental validation is commendable. However, several technical concerns limit the strength of the conclusions. The absence of key figures and tables prevents full evaluation of the data quality. The experimental validation is limited to a single biochemical assay, and the relationship between predicted binding affinity and functional disruption is not fully resolved. The claim that C3 is a "promising lead" requires additional cellular and selectivity data to be substantiated.
+- **Who would be interested in the results, and why** Researchers in the fields of transcriptional regulation, protein-protein interaction inhibitor discovery, and targeted therapy for acute myeloid leukemia would find these results relevant. The study also contributes to the growing literature on computational approaches for prioritizing PPI disruptors, which may interest computational chemists and structural biologists.
+- **Major strengths** The study addresses a clinically relevant target with a clear therapeutic rationale. The computational workflow is multi-layered and incorporates modern techniques (docking, MD, MM/PBSA, FEL, ADMET). The inclusion of experimental validation via MST provides a direct test of the computational predictions. The authors acknowledge the limitations of their approach and propose clear next steps.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "These predictions were validated by microscale thermophoresis (MST)." and "C3 emerged as the strongest predicted disruptor... C3 showed the highest activity with an IC50 of 16.5 ± 0.8 μM"
+  - **Evidence pointer** Section "Microscale Thermophoresis Assay", Figure 8 (not provided)
+  - **Concern** The experimental validation relies solely on a single MST-based inhibition assay. No orthogonal biochemical or biophysical method (e.g., ITC, NMR, SPR, or cellular assays) is used to confirm the disruption of the c-Myb-KIX interaction. The MST assay measures a change in normalized fluorescence, which is interpreted as complex disruption, but the specificity of this signal is not fully established. Additionally, the assay uses a truncated p300 construct (residues 1-672) rather than the isolated KIX domain, which may introduce confounding effects from other p300 regions.
+  - **Why it matters** A single-assay validation is insufficient to establish that these compounds genuinely disrupt the c-Myb-KIX interaction. False positives in MST can arise from aggregation, fluorescence quenching, or nonspecific binding. Without orthogonal validation, the central claim that C3 is a bona fide disruptor is not fully supported.
+  - **Resolution test** Provide orthogonal validation (e.g., ITC or NMR) for at least C3 and the reference compound. Alternatively, demonstrate that the MST signal is specific by showing that a negative control compound (structurally similar but predicted inactive) does not produce a signal change. Cellular assays in AML models would further strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** "The docking results shown in Figure 3 indicate that the four prioritized N-aryl anthranilic acid derivatives are predicted to bind within the same α1/α3 groove..." and "The MM/PBSA decomposition in Table 1 shows..."
+  - **Evidence pointer** Figures 1-8, Tables 1-5 (none provided)
+  - **Concern** All figures and tables are referenced but not included in the manuscript text provided for review. This includes the docking poses, MD trajectories, MM/PBSA energy values, FEL maps, ADMET predictions, and MST binding curves. Without these data, the computational results cannot be independently assessed, and the experimental data cannot be scrutinized for quality.
+  - **Why it matters** The core evidence for the study's conclusions is contained in these missing materials. The reviewer cannot verify that the docking poses are chemically plausible, that the MD simulations reached equilibrium, that the MM/PBSA calculations were converged, or that the MST data are of sufficient quality to support the reported IC50 values.
+  - **Resolution test** Provide all figures and tables in a revised submission. Include representative MD trajectory analyses (RMSD vs time, convergence checks), MM/PBSA convergence plots, and raw MST data with fitted curves and error analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology
+  - **Claim pointer** "The ΔΔGPPI analysis further showed that C3 produced the largest destabilizing effect on the c-Myb-KIX interface (+4.57 kcal/mol)... whereas C1 stabilized the complex (−6.47 kcal/mol)."
+  - **Evidence pointer** Section "MM/PBSA Free-Energy Calculations", Table 1 (not provided)
+  - **Concern** The MM/PBSA method is known to be highly sensitive to parameter choices, including the number of snapshots, the dielectric constant, and the entropy estimation. The manuscript does not report whether entropy contributions were included in the ΔΔGPPI calculations. The standard deviation values reported (e.g., ±9.40 kcal/mol for C1) are large relative to the reported ΔΔGPPI differences, raising questions about the statistical significance of the differences between compounds.
+  - **Why it matters** The ranking of compounds as disruptors versus stabilizers is a central conclusion of the study. If the MM/PBSA calculations are not converged or are dominated by noise, the predicted ranking may not be reliable. The large standard deviations suggest that the differences between compounds may not be statistically meaningful.
+  - **Resolution test** Report whether entropy was included and provide convergence analysis for the MM/PBSA calculations. Perform statistical tests (e.g., bootstrap or block averaging) to assess whether the ΔΔGPPI differences between compounds are significant. Consider using an alternative method (e.g., FEP or TI) to corroborate the ranking.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Selectivity and specificity
+  - **Claim pointer** "C3 outperformed the reference inhibitor Naphthol AS-E phosphate" and "identify C3 as a promising lead"
+  - **Evidence pointer** Section "MST Validates C3 as the Most Potent c-Myb-KIX Disruptor", Figure 8 (not provided)
+  - **Concern** No selectivity data are presented. The KIX domain is a promiscuous interaction hub that binds multiple transcription factors (e.g., c-Myb, MLL, p53, E2F1) at overlapping or distinct sites. It is not shown whether C3 selectively disrupts the c-Myb-KIX interaction or also affects other KIX-mediated interactions. Additionally, the compounds are tested only against the c-Myb-KIX pair; no data are shown for the MLL-KIX interaction, which is also present in the PDB 2AGH structure used for docking.
+  - **Why it matters** For a therapeutic application in AML, selectivity for the c-Myb-KIX interaction over other KIX-mediated interactions is critical. A compound that broadly disrupts KIX interactions would likely have significant toxicity. The claim that C3 is a "promising lead" is premature without selectivity data.
+  - **Resolution test** Test C3 (and ideally C2 and C4) against a panel of KIX interactions (e.g., MLL-KIX, p53-KIX) using MST or a competitive binding assay. If selectivity is observed, this would substantially strengthen the manuscript.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** "Every compound was tested in three independent experiments, and the final results are reported as mean ± SD."
+  - **Evidence pointer** Section "Data Analysis" under "Microscale Thermophoresis Assay"
+  - **Concern** The IC50 values are reported as mean ± SD from three independent experiments. However, the manuscript does not report the number of technical replicates per experiment, the goodness-of-fit parameters for the sigmoidal curves, or the confidence intervals for the IC50 estimates. The large SD for C2 (54.7 ± 22.1 μM) suggests substantial variability between experiments.
+  - **Why it matters** The precision of the IC50 values is important for comparing compounds and for assessing whether the differences between C3, C4, and the reference are statistically significant. Without confidence intervals or statistical tests, the ranking of compounds is not rigorously established.
+  - **Resolution test** Report the full statistical analysis, including the number of replicates, curve-fitting parameters, and 95% confidence intervals for each IC50. Perform a statistical comparison (e.g., ANOVA with post-hoc test) to determine whether the differences between compounds are significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "C3 emerged as the strongest predicted disruptor" but does not mention that C1 was predicted to stabilize the complex. This is a notable finding that should be mentioned in the abstract for completeness.
+  - **Required correction** Add a brief statement in the abstract noting that one compound (C1) was predicted to stabilize the interaction, highlighting the structure-activity insights from the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Virtual Screening section
+  - **Evidence pointer** Section "Virtual Screening"
+  - **Issue** The manuscript states that compounds were filtered using "standard drug-likeness criteria" but does not specify the exact criteria or thresholds used. The number of compounds remaining after each filtering step is not reported.
+  - **Required correction** Provide the specific criteria and thresholds used for drug-likeness filtering, and report the number of compounds remaining at each stage of the funnel.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Molecular Docking section
+  - **Evidence pointer** Section "Molecular Docking"
+  - **Issue** The docking validation section describes a qualitative assessment of pose reproducibility but does not report quantitative metrics such as RMSD between docked poses and the crystallographic/NMR binding mode of the reference ligand.
+  - **Required correction** Provide quantitative validation metrics, such as the RMSD between the top-scoring docked pose and the experimentally determined binding mode of a known ligand, to demonstrate the reliability of the docking protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Section "MD Stability Metrics"
+  - **Issue** The manuscript reports RMSD values for the complexes but does not specify which atoms were used for the fitting and calculation (e.g., protein backbone, ligand heavy atoms). This makes it difficult to interpret the reported values.
+  - **Required correction** Specify the atom selection used for RMSD calculations and consider reporting ligand RMSD relative to the protein binding site.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several studies on c-Myb-KIX inhibitors but does not discuss the potency or limitations of existing inhibitors in detail. This makes it difficult to assess the novelty of the reported compounds.
+  - **Required correction** Briefly summarize the known inhibitors of the c-Myb-KIX interaction, their potencies, and their limitations, to provide a clearer context for the novelty of the present work.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The data availability statement reads "The authors have nothing to report," which is inconsistent with the generation of computational and experimental data in this study.
+  - **Required correction** Provide a proper data availability statement that describes where the data (e.g., MD trajectories, MST data, compound library) can be accessed, or state clearly that data are available upon reasonable request.
+
+## Risk / unsupported claims
+- The claim that C3 "outperformed the reference inhibitor" is based on a single MST assay and requires orthogonal validation.
+- The claim that C1 "stabilizes" the c-Myb-KIX complex is based solely on MM/PBSA calculations and is not experimentally verified.
+- The predicted selectivity of the compounds for the c-Myb binding site over the MLL binding site is not experimentally tested.
+- The statement that the compounds "remained bound within the α1/α3 Myb-facing groove" during MD simulations cannot be verified without the trajectory data or figures.
+- The ADMET predictions are presented as favorable but are entirely computational and require experimental verification.
+- The relevance of the findings to AML is inferred from literature but no cellular or in vivo data are presented.
