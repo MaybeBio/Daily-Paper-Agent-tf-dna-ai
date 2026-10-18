@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42862872",
+  "title": "Understanding cell fate decisions with temporal attention.",
+  "authors": "Burger, Florian; Dias Gomes, Martim; Granada, Adrian E; Moreau, Noemie; Bozek, Katarzyna",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-10-12",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用Transformer从活细胞成像预测细胞命运，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "Understanding non-genetic determinants of cell fate is critical for developing and improving cancer therapies, as genetically identical cells can exhibit divergent outcomes under the same treatment conditions. In this work, we present a deep learning approach for cell fate prediction from raw long-term live-cell recordings of cancer cell populations under chemotherapeutic treatment. Our Transformer model is trained to predict cell fate directly from raw image sequences, without relying on predefined morphological or molecular features. Beyond classification, we introduce a comprehensive explainability framework for interpreting the temporal and morphological cues guiding the model's predictions. We demonstrate that prediction of cell outcomes is possible based on the video only, our model achieves balanced accuracy of 0.94 and an F1-score of 0.93. Attention and masking experiments further indicate that the signal predictive of the cell fate is not uniquely located in the final frames of a cell trajectory, as reliable predictions are possible up to 8 h before the event. Our analysis reveals distinct temporal distribution of predictive information in the mitotic and apoptotic sequences, as well as the role of cell morphology and p53 signaling in determining cell outcomes. Together, these findings demonstrate that attention-based temporal models enable accurate cell fate prediction while providing biologically interpretable insights into non-genetic determinants of cellular decision-making.",
+  "abstract_zh": "理解非遗传性细胞命运决定因素对于开发和改进癌症治疗至关重要，因为在相同治疗条件下，基因相同的细胞可能表现出不同的结果。在本研究中，我们提出了一种深度学习方法，用于从化疗处理下癌细胞群体的原始长期活细胞记录中预测细胞命运。我们的Transformer模型经过训练，可直接从原始图像序列预测细胞命运，无需依赖预定义的形态学或分子特征。除分类外，我们引入了一个全面的可解释性框架，用于解释指导模型预测的时间性和形态学线索。我们证明，仅基于视频即可预测细胞结果，我们的模型实现了0.94的平衡准确率和0.93的F1分数。注意力和掩蔽实验进一步表明，预测细胞命运的信号并非唯一位于细胞轨迹的最终帧中，因为在事件发生前最多8小时即可进行可靠预测。我们的分析揭示了有丝分裂和凋亡序列中预测信息的时间分布差异，以及细胞形态和p53信号在决定细胞结果中的作用。综合这些发现表明，基于注意力的时间模型能够实现准确的细胞命运预测，同时为细胞决策的非遗传性决定因素提供生物学上可解释的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42862872/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42862872/",
+  "paper_page_path": "papers/pubmed/42862872/index.html"
+}

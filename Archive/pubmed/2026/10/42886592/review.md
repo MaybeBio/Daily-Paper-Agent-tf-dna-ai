@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GTGRNS, a supervised learning framework combining GraphSAGE and a Transformer encoder, to infer gene regulatory networks from single-cell RNA sequencing data. The method integrates network topology with gene expression features and captures pairwise dependencies to improve GRN inference. Comparative experiments on benchmark datasets are claimed to demonstrate effectiveness and competitiveness.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset names, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental details, benchmark dataset specifications, performance metrics, baseline comparisons, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological combination for GRN inference, but the claims of effectiveness and competitiveness are unsupported by any quantitative evidence in the supplied material. The novelty relative to existing graph neural network and Transformer based methods is not articulated. The abstract lacks sufficient detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in computational biology, specifically those working on gene regulatory network inference, single-cell transcriptomics analysis, and deep learning applications in genomics. The integration of graph neural networks and Transformers may appeal to method developers seeking to leverage global network structure and pairwise dependencies.
+- **Major strengths** The proposed architecture addresses a recognized limitation in existing methods, namely the focus on pairwise relationships without global regulatory structure. The combination of GraphSAGE for topological integration and Transformer for dependency extraction is conceptually reasonable and potentially scalable to large single-cell datasets.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The comparative experiments on several benchmark datasets demonstrate the effectiveness and competitiveness of the proposed GTGRNS in the task of GRN inference."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims effectiveness and competitiveness but provides no quantitative results, no dataset names, no baseline methods, and no performance metrics. Without these, the claim is unverifiable.
+  - **Why it matters** The central claim of the manuscript rests on experimental validation. The absence of any numerical or comparative evidence in the abstract prevents assessment of whether the method outperforms or matches existing approaches.
+  - **Resolution test** Provide specific performance metrics (e.g., AUROC, AUPRC) on named benchmark datasets with comparison to at least three established GRN inference methods, with statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and positioning
+  - **Claim pointer** "We propose GTGRNS, a supervised learning framework that integrates a graph neural network with a Transformer encoder for GRN inference from scRNA-seq data."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not state how GTGRNS differs from existing graph neural network or Transformer based GRN inference methods. Several such methods have been published in recent years, and the novelty claim is not substantiated.
+  - **Why it matters** Without clear differentiation, the scientific contribution is unclear. Reviewers and readers cannot judge whether the method advances the field or is an incremental combination of existing components.
+  - **Resolution test** Explicitly describe the novel architectural or training contributions relative to at least two prior graph neural network and Transformer based GRN inference methods, and cite them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical reproducibility
+  - **Claim pointer** "We utilize the GraphSAGE model to integrate regulatory network topological information with gene expression features" and "By leveraging the Transformer model, we further extract complex dependencies of gene pairs."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on input features, graph construction, training procedure, hyperparameters, or how the Transformer is applied to gene pairs. These details are essential for reproducibility.
+  - **Why it matters** A supervised learning framework must be described with sufficient precision for others to implement and validate. The current abstract-level description is inadequate for technical assessment.
+  - **Resolution test** Provide a complete methods section with architectural diagrams, input feature definitions, graph construction steps, training loss, and hyperparameter settings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "regulatory levels" is vague and not defined in the abstract.
+  - **Required correction** Define what is meant by regulatory levels, for example, strength of regulation, direction, or confidence scores.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "several benchmark datasets" without naming them or specifying their characteristics.
+  - **Required correction** Name the benchmark datasets and briefly describe their size, species, and ground truth sources.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No statement on code or data availability is included.
+  - **Required correction** Add a data and code availability statement in the abstract or main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (no novelty differentiation), R1-M3 (insufficient technical detail for reproducibility)
+- **Assessment against Nature-style criteria** Originality cannot be assessed from the abstract alone, as the combination of GraphSAGE and Transformer is not contextualized against prior work. Scientific importance is plausible given the relevance of GRN inference, but the abstract does not demonstrate a significant advance. Interdisciplinary readership is limited by the lack of accessible explanation of the method's biological relevance. Technical soundness is not assessable without methodological details and results. Readability for nonspecialists is moderate, but the abstract assumes familiarity with graph neural networks and Transformers without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the claims of effectiveness and competitiveness. A full manuscript with quantitative results, methodological detail, and novelty positioning is required for a substantive evaluation.
+
+## Risk / unsupported claims
+- The claim that GTGRNS demonstrates effectiveness and competitiveness is unsupported by any quantitative data in the abstract.
+- The claim that the method leverages global regulatory structure is plausible but not demonstrated with specific examples or analyses.
+- The novelty of the proposed framework relative to existing graph neural network and Transformer based GRN inference methods is not established.
+- The technical feasibility and performance of the method cannot be evaluated from the abstract alone.

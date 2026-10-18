@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors extend their previously published DeepSEED framework into an AI-driven pipeline that combines deep learning with domain expertise to design and optimize transcription factor-based biosensor-responsive promoters. By fixing core promoter elements, varying TFBS number and position, and optimizing flanking sequences, they report de novo promoter design. They apply this to four metabolite-responsive biosensors and one quorum-sensing environmental sensor, reporting improved sensitivity, expanded dynamic range, and increased maximum output. A naringenin biosensor shows a 32-fold broader dynamic range and 27-fold higher maximum output versus parent. A DeepSEED-designed promoter used for dynamic regulation of a p-coumaric acid pathway boosts production by 117.0%.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical analyses, experimental protocols, or validation details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, statistical details, baseline comparisons, replication data, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable extension of an existing deep learning framework to biosensor promoter engineering, with impressive reported performance gains. However, the evidence base available for this review is limited to the abstract, which precludes verification of the core claims. The reported improvements are substantial and would be of interest to the metabolic engineering and synthetic biology communities, but the lack of methodological detail and validation data means the case is not currently established from the provided material.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and plant natural product bioproduction would be interested because the work addresses a known bottleneck in biosensor development. Those working on deep learning applications in biological sequence design would also find the extension of DeepSEED relevant. The reported dynamic range and output improvements, if reproducible, could enable more sensitive and higher-throughput screening in strain engineering.
+- **Major strengths** The abstract clearly identifies a significant problem in biosensor engineering. The proposed strategy of combining deep learning with domain-specific biological knowledge is conceptually sound and builds logically on prior work. The application across multiple biosensors with different regulatory modes suggests generalizability. The demonstration of utility in a metabolic engineering context strengthens the practical relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The pipeline enables de novo design of promoters and yields biosensors with markedly improved sensitivity, expanded dynamic range, and increased maximum output
+  - **Evidence pointer** Abstract only; no figures, tables, or methods provided
+  - **Concern** The abstract reports large performance improvements but provides no experimental details, statistical analyses, or validation data. It is unclear how many independent replicates were performed, how variability was assessed, and whether the reported fold changes are statistically significant. The de novo design claim requires demonstration that the designed promoters function as intended without iterative empirical tuning.
+  - **Why it matters** Without statistical rigor and methodological transparency, the reported improvements cannot be distinguished from stochastic variation or overfitting. The core value proposition of the work depends on the reliability and reproducibility of the design pipeline.
+  - **Resolution test** Provide full methods, replicate numbers, error bars, statistical tests, and a clear description of the design-to-validation workflow. Show that the improvements are consistent across replicates and that the pipeline outperforms appropriate baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and comparison to existing methods
+  - **Claim pointer** The strategy is systematically applied to a panel of biosensors across different transcription factors and regulatory modes
+  - **Evidence pointer** Abstract only; no comparative data provided
+  - **Concern** The abstract does not specify how the five biosensors were selected, whether they represent a diverse enough set to support generalizability claims, or how the DeepSEED-optimized promoters compare to promoters designed by other methods or to random sequence controls. Without such comparisons, the claim that the strategy is broadly applicable is not supported.
+  - **Why it matters** Generalizability is a central claim of the work. If the method only works for a narrow set of transcription factors or promoter architectures, its practical utility is limited. Comparison to existing optimization approaches is necessary to establish added value.
+  - **Resolution test** Include a detailed description of the biosensor panel, selection criteria, and head-to-head comparisons with state-of-the-art promoter engineering methods or appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The work extends the previously published DeepSEED framework into a powerful pipeline for biosensor optimization
+  - **Evidence pointer** Abstract only; no code, data, or model details provided
+  - **Concern** The abstract references a previously published framework but does not describe what is new in this extension, what specific modifications were made, or how the model was trained and validated. No information is given on data availability, code availability, or model parameters. This prevents independent replication or adaptation by other groups.
+  - **Why it matters** For a computational pipeline to be useful to the community, it must be accessible and reproducible. The lack of detail on the AI model and its training data undermines the practical value of the work.
+  - **Resolution test** Provide full model architecture, training data description, hyperparameters, code repository, and a clear statement of what is new relative to the prior DeepSEED publication.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract reports a 32-fold broader dynamic range and 27-fold higher maximum output for the naringenin biosensor but does not define the baseline or the exact metric used for dynamic range.
+  - **Required correction** Define the dynamic range metric and specify the parent construct used as the baseline.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of results
+  - **Affected element** Biosensor panel results
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that the resulting biosensors exhibit diverse dynamic behaviors but does not summarize the range of improvements across the panel.
+  - **Required correction** Provide a summary table or range of performance metrics for all five biosensors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Metabolic engineering demonstration
+  - **Evidence pointer** Abstract only
+  - **Issue** The 117.0% production increase for p-coumaric acid is reported without context on the production titer or comparison to other dynamic regulation strategies.
+  - **Required correction** Provide absolute production values and compare to relevant literature or alternative approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of statistical validation, comparative baselines, and model details means the central claims cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The extension of an existing deep learning framework to biosensor promoter optimization is incremental rather than conceptually novel, though the specific application and reported results may offer new capabilities.
+  - Scientific importance: Biosensor optimization is a recognized bottleneck in metabolic engineering, so the work addresses a relevant problem. However, the importance of the contribution depends on the robustness and generalizability of the reported results, which cannot be assessed from the abstract alone.
+  - Interdisciplinary readership: The work bridges machine learning, synthetic biology, and metabolic engineering, which could attract a broad readership if the methods and results are presented accessibly.
+  - Technical soundness: Not assessable from the abstract. The reported improvements are large and would require rigorous validation to be credible.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising results, but the lack of methodological detail, statistical validation, and comparative data means the core claims cannot be verified. A full manuscript with complete methods, data, and analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the pipeline enables de novo design of promoters is unsupported without demonstration that designed promoters function without empirical iteration.
+- The claim of markedly improved sensitivity, expanded dynamic range, and increased maximum output across a panel of biosensors is unsupported without quantitative data for all constructs.
+- The specific fold improvements for the naringenin biosensor are unverifiable without baseline definitions and statistical analyses.
+- The 117.0% production increase for p-coumaric acid is unverifiable without absolute titers and experimental context.
+- The generalizability claim across different transcription factors and regulatory modes is unsupported without details on the selection and diversity of the biosensor panel.
+- The extension of DeepSEED is described but the specific novel contributions relative to the prior publication are not defined.

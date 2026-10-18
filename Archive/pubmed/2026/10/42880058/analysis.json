@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42880058",
+  "title": "Integrative multi-omics analysis reveals the PFAS-gut microbiome-FN1 axis in chronic kidney disease: From exposome to therapeutic target.",
+  "authors": "Li, Dandan; Yin, Jingya; Zhou, Hui; Ge, Nan; Wang, Bingling; Wang, Tianyi",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-10-15",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过多组学网络分析结合分子对接与MD模拟，探讨PFAS-肠道菌群-FN1轴在慢性肾病中的作用，虽涉及蛋白-DNA互作网络分析，但核心对象为蛋白-代谢物结合，非TF-DNA体系，方法上仅部分涉及物理模拟，与本课题关联度较低。",
+  "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants associated with chronic kidney disease (CKD), yet the molecular mechanisms linking PFAS exposure to renal fibrosis remain incompletely understood. We developed a Chemical-Microbiome-Metabolite-Target-Pathway-Disease (C-M-M-T-P-D) network framework integrating differential expression analysis of real GEO transcriptomic data (GSE104954, n = 195 kidney biopsies), gene set enrichment analysis across four pathway databases, two-sample Mendelian randomization with four complementary methods, molecular docking and molecular dynamics simulation of deoxycholic acid (DCA) to fibronectin 1 (FN1), and transcription factor and protein-protein interaction network analyses. FN1 was significantly upregulated in CKD (log(2)FC = 0.322, FDR = 6.67e-11), accompanied by elevated COL1A2, VIM, and POSTN, whereas TGFBR3 was downregulated (log(2)FC = -0.746, FDR = 1.67e-14). GSEA identified ECM-receptor interaction (NES = 2.23), interferon gamma response (NES = 2.70), and epithelial-mesenchymal transition (NES = 1.99) as top enriched pathways. MR analysis using real MiBioGen and CKDGen GWAS data (19 SNPs for Akkermansia, 12 SNPs for Desulfovibrio) revealed contrasting findings: Akkermansia to CKD showed no significant genetic association (0/4 methods, all p > 0.30), whereas Desulfovibrio to CKD demonstrated a robust positive genetic association across all four methods (IVW p = 0.008, WM p = 4.70e-04, MR-RAPS p = 1.46e-05, MR-cML p = 2.08e-06), though the significant Egger intercept (p = 0.005) for Desulfovibrio warrants cautious interpretation regarding pleiotropy. Molecular docking and 15-ns MD simulation confirmed stable DCA binding to FN1 (PDB: 2CG7, 1.20 A X-ray; MM/GBSA DeltaG(bind) = -32.4 kcal/mol). The C-M-M-T-P-D network positioned FN1 as the third highest-degree node, bridging metabolite and pathway layers. This integrative multi-omics analysis provides multi-omics evidence supporting the PFAS-gut microbiome-FN1 axis as a hypothesis-generating framework for understanding CKD pathogenesis, supported by transcriptomic, structural, and network-level evidence, with genetic associations warranting further experimental validation.",
+  "abstract_zh": "全氟和多氟烷基物质（PFAS）是持久性环境污染物，与慢性肾脏病（CKD）相关，但PFAS暴露与肾纤维化之间的分子机制仍未完全阐明。我们开发了一个化学-微生物组-代谢物-靶点-通路-疾病（C-M-M-T-P-D）网络框架，整合了真实GEO转录组数据（GSE104954，n=195例肾活检）的差异表达分析、跨四个通路数据库的基因集富集分析、采用四种互补方法的双样本孟德尔随机化、脱氧胆酸（DCA）与纤连蛋白1（FN1）的分子对接和分子动力学模拟，以及转录因子和蛋白质-蛋白质相互作用网络分析。FN1在CKD中显著上调（log(2)FC = 0.322，FDR = 6.67e-11），同时COL1A2、VIM和POSTN升高，而TGFBR3下调（log(2)FC = -0.746，FDR = 1.67e-14）。GSEA鉴定出ECM-受体相互作用（NES = 2.23）、干扰素γ应答（NES = 2.70）和上皮-间质转化（NES = 1.99）为富集程度最高的通路。使用真实MiBioGen和CKDGen GWAS数据（Akkermansia的19个SNP，Desulfovibrio的12个SNP）进行的MR分析揭示了对比性发现：Akkermansia对CKD未显示显著的遗传关联（0/4种方法，所有p > 0.30），而Desulfovibrio对CKD在所有四种方法中均显示出稳健的正向遗传关联（IVW p = 0.008，WM p = 4.70e-04，MR-RAPS p = 1.46e-05，MR-cML p = 2.08e-06），尽管Desulfovibrio的显著Egger截距（p = 0.005）提示在解释多效性时需谨慎。分子对接和15-ns分子动力学模拟确认了DCA与FN1的稳定结合（PDB：2CG7，1.20 Å X射线；MM/GBSA DeltaG(bind) = -32.4 kcal/mol）。C-M-M-T-P-D网络将FN1定位为第三高度节点，桥接代谢物和通路层。这种整合性多组学分析提供了支持PFAS-肠道微生物组-FN1轴作为理解CKD发病机制假设生成框架的多组学证据，并得到转录组、结构和网络层面证据的支持，其中遗传关联有待进一步实验验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42880058/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42880058/",
+  "paper_page_path": "papers/pubmed/42880058/index.html"
+}

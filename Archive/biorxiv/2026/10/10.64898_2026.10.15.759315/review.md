@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present LigRNA, a graph neural network framework for predicting RNA-ligand binding sites. The method jointly encodes RNA via structure-guided language model embeddings and physicochemical features, and ligands via attributed molecular graphs with graph attention networks. A cross-attention mechanism enables ligand-dependent modulation of RNA nucleotide attention. The authors report F1 scores of 0.73 and 0.58 on TE9 and TE18 datasets, respectively, with improvements over GATRsite of 7.4% and 18.4%. Ablation studies identify the RNA residual encoder as the most consistent contributor.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, dataset descriptions, or code verification were available
+- **Missing materials affecting confidence** Full methods, dataset construction and preprocessing details, baseline implementation specifics, hyperparameter settings, statistical significance testing, ablation study details, cross-validation or train/test split procedures, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible and potentially useful computational approach for RNA-ligand binding site prediction. The conceptual contribution of dynamic, ligand-dependent modulation of RNA attention via cross-attention is interesting and distinguishes the work from static feature concatenation approaches. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness of the method or the robustness of the reported performance gains. Key methodological details and validation procedures are absent, and the reported improvements over a single baseline, without statistical significance testing, do not establish the case for the method's superiority. The work is at a stage where the core idea is promising, but the claims are not yet supported by the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and medicinal chemists working on RNA-targeted drug discovery would be interested. The method addresses a practical bottleneck in RNA drug development, namely the identification of small molecule binding sites on RNA. Researchers developing deep learning methods for biomolecular interaction prediction would also find the cross-modal encoding and cross-attention mechanism of interest as a methodological contribution.
+- **Major strengths** The conceptual framing of dynamic chemical complementarity is a clear improvement over static feature concatenation. The use of attributed molecular graphs for ligands, preserving atom-level topology, is chemically sound. The integration of structure-guided language model embeddings with physicochemical features for RNA representation is a reasonable and modern approach. The authors make the source code available, which supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "LigRNA achieves F1 scores of 0.73 and 0.58, improving on GATRsite by 7.4% and 18.4%, respectively"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The reported performance improvements are presented without any indication of statistical significance, variance across runs, or the number of independent trials. The improvement of 7.4% on TE9 could be within run-to-run variance for a deep learning model. Additionally, only a single baseline (GATRsite) is mentioned, which is insufficient to establish the method's relative performance in the field.
+  - **Why it matters** Without statistical rigor and comparison against multiple state-of-the-art baselines, the central claim of high-accuracy prediction cannot be evaluated. The reader cannot determine whether the reported gains are robust or artefactual.
+  - **Resolution test** Provide mean and standard deviation of F1 scores across multiple independent runs, perform statistical significance testing (e.g., paired bootstrap or Wilcoxon signed-rank test) against GATRsite and at least two additional baselines, and report results on the same train/test splits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "LigRNA integrates structure-guided language model embeddings with physicochemical features-solvent-accessible surface area and secondary structure types, to construct comprehensive RNA representations"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how the RNA structure is obtained, whether experimental structures or predicted structures are used, or how the language model embeddings are generated and aligned with the graph structure. The term "structure-guided" is ambiguous. Without this information, the method cannot be reproduced or assessed for potential information leakage between training and test sets.
+  - **Why it matters** The choice of structural input and the embedding strategy directly affect the method's applicability and generalizability. If predicted structures are used, the method's performance may be confounded by structure prediction errors. If experimental structures are used, the method's utility for novel RNA targets is unclear.
+  - **Resolution test** Specify the source of RNA structures, the exact language model used, how embeddings are integrated with graph nodes, and whether the model is trained and evaluated on the same structural input type.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The source code is freely available at https://github.com/WillowWang0216/LigRNA"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that code is available, but the repository contents, documentation, and whether it includes trained models, data preprocessing scripts, and evaluation scripts are not described. The reviewer cannot verify the availability or usability of the code.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without a complete and documented codebase, the reported results cannot be independently verified.
+  - **Resolution test** Provide a detailed description of the repository contents in the manuscript, including dependencies, usage instructions, and a demonstration script that reproduces the reported F1 scores on the TE9 and TE18 datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "dynamic chemical complementarity" in the title is not defined in the abstract. The reader is left to infer its meaning from the cross-attention mechanism description.
+  - **Required correction** Define "dynamic chemical complementarity" explicitly in the abstract, or rephrase the title to reflect the actual methodological contribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The TE9 and TE18 datasets are mentioned but not described. The reader does not know the number of RNA-ligand complexes, the diversity of ligand types, or the evaluation protocol.
+  - **Required correction** Provide a brief description of the datasets, including the number of complexes, the range of ligand chemical space, and the train/test split strategy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Ablation study description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The ablation study is mentioned but the components tested are not specified. The reader cannot determine what "RNA residual encoder" refers to or what other components were ablated.
+  - **Required correction** List the ablated components and their corresponding F1 scores in the abstract or indicate that full ablation details are in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical rigor and baseline comparison), R1-M2 (insufficient methodological detail on RNA structure and embedding), R1-M3 (unverifiable code availability)
+- **Assessment against Nature-style criteria** Originality: The cross-attention mechanism for ligand-dependent RNA attention is a novel contribution, but its novelty relative to existing attention-based methods in the broader protein-ligand prediction literature is not established. Scientific importance: The problem is important for RNA-targeted drug discovery, and a reliable computational method would be valuable. Interdisciplinary readership: The work bridges machine learning, structural biology, and medicinal chemistry, which is appropriate for a broad audience. Technical soundness: Not assessable from the abstract alone; the missing methodological details and lack of statistical testing are significant gaps. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, and the work could become publishable if the technical concerns are resolved with full methodological details, rigorous statistical evaluation, and multiple baseline comparisons. The reviewer would be supportive if these concerns are addressed in a full manuscript.
+
+## Risk / unsupported claims
+- The claim of "high-accuracy prediction" is unsupported without statistical significance testing and comparison against multiple baselines.
+- The claim that the method "captures context-specific interaction patterns" is not directly evidenced by the abstract.
+- The claim that the RNA residual encoder is "the most consistent contributor" is unsupported without detailed ablation results.
+- The generalizability of the method to RNA targets beyond the TE9 and TE18 datasets is not assessable from the abstract.

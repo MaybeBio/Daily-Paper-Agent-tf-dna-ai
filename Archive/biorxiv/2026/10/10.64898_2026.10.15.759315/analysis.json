@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.15.759315",
+  "title": "LigRNA: High-accuracy prediction of RNA-ligand binding sites via dynamic chemical complementarity and language model encoding",
+  "authors": "Xin Wang; Heqin Zhu; Hao Li; Ao Chang; Feng Zhang; Haobin Chen; Chenxi Wang; Ke Chen; S Kevin Zhou; Peng Xiong",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-17",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络预测RNA-配体结合位点，虽非蛋白质-DNA体系，但其跨模态编码与动态化学互补方法可迁移至TF-DNA互作建模，具一定借鉴价值。",
+  "abstract": "RNA-binding small molecules represent a validated therapeutic modality, yet pinpointing their exact RNA binding sites remains critical for mechanistic understanding and drug optimization. Experimental methods, while precise, are costly and low-throughput, necessitating robust computational alternatives. Approaches based on static feature concatenation may overlook input-dependent relationships between RNA residues and ligand functional groups. Here we present LigRNA, a graph neural network framework that predicts RNA-ligand binding sites through joint cross-modal encoding of both molecules. LigRNA integrates structure-guided language model embeddings with physicochemical features-solvent-accessible surface area and secondary structure types, to construct comprehensive RNA representations. Ligands are encoded as attributed molecular graphs via graph attention networks, preserving atom-level chemical topology rather than compressing molecules into fixed fingerprints. A cross-attention mechanism then enables dynamic, ligand-dependent modulation of RNA nucleotide attention, capturing context-specific interaction patterns. Benchmarked on TE9 and TE18 datasets, LigRNA achieves F1 scores of 0.73 and 0.58, improving on GATRsite by 7.4% and 18.4%, respectively. Ablation studies identify the RNA residual encoder as the most consistent contributor across the two benchmarks. The source code is freely available at https://github.com/WillowWang0216/LigRNA.",
+  "abstract_zh": "RNA结合小分子代表了一种经过验证的治疗模式，然而精确定位其确切的RNA结合位点对于机制理解和药物优化仍至关重要。实验方法虽然精确，但成本高昂且通量低，因此需要稳健的计算替代方案。基于静态特征拼接的方法可能忽视RNA残基与配体官能团之间依赖于输入的相互关系。在此，我们提出LigRNA，一种图神经网络框架，通过两种分子的联合跨模态编码来预测RNA-配体结合位点。LigRNA整合了结构引导的语言模型嵌入与物理化学特征——溶剂可及表面积和二级结构类型，以构建全面的RNA表示。配体通过图注意力网络编码为属性分子图，保留原子级化学拓扑结构，而非将分子压缩为固定指纹。随后，交叉注意力机制实现对RNA核苷酸注意力的动态、配体依赖性调节，捕捉上下文特定的相互作用模式。在TE9和TE18数据集上基准测试，LigRNA分别达到F1分数0.73和0.58，相较于GATRsite分别提升7.4%和18.4%。消融研究识别出RNA残基编码器为两个基准中最一致的贡献者。源代码可在https://github.com/WillowWang0216/LigRNA免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759315",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759315",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.15.759315/index.html"
+}

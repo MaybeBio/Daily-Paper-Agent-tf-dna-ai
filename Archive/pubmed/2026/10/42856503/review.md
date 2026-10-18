@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present FOCAL, a computational paradigm that couples state-specific and dynamic gene regulatory networks (GRNs) with outcome-supervised latent factors (LFs) learned via interpretable machine learning, to prioritize regulatory subnetworks underlying cell fate decisions. Application to B and T cells identifies GRN-coupled interpretable factors (GIFs) and regulatory subnetworks, including a novel NFATC2-IRF8 interplay in activated B cells validated by in-vitro and in-vivo perturbations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, validation data, code availability, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing approach that addresses a real limitation in GRN analysis, namely the circularity introduced by topology-based prioritization. The proposed coupling of interpretable machine learning with GRNs is timely and could be of broad interest. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the method, the rigor of the validations, or the strength of the biological claims. The central claim of a novel NFATC2-IRF8 interplay rests on experimental evidence that is described only in passing. The case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing methods for gene regulatory network analysis and cell fate prediction would be interested in the methodological advance. Immunologists studying B cell differentiation, particularly germinal center versus extrafollicular plasmablast fate decisions, would be interested in the NFATC2-IRF8 finding. The approach may also appeal to researchers applying interpretable machine learning to biological systems.
+- **Major strengths** The conceptual framing directly addresses a recognized limitation in the field, namely circularity in topology-based GRN prioritization. The proposed shift from TF nodes to TF-gene linkages is a sensible and potentially impactful reframing. The inclusion of both computational prediction and experimental validation for the NFATC2-IRF8 finding strengthens the biological relevance of the work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** FOCAL prioritizes regulatory subnetworks by coupling state-specific and dynamic GRNs with outcome-supervised LFs learned using interpretable machine learning without reference to network topology.
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** The abstract does not describe how FOCAL integrates GRNs with LFs, what specific interpretable machine learning algorithm is used, how the coupling is operationalized, or how the method avoids topology-based assumptions in the GRN construction itself. The claim of avoiding circularity is central to the paper's contribution, but the mechanism by which this is achieved is not described.
+  - **Why it matters** If the GRNs themselves are constructed using assumptions that embed topological biases, the coupling with LFs may not fully resolve the circularity problem. The methodological novelty and the validity of the central claim depend on the details of this integration.
+  - **Resolution test** Provide a detailed description of the FOCAL algorithm, including the specific machine learning method, the coupling procedure, and a formal or empirical demonstration that the prioritization is independent of network topology assumptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** FOCAL identified transcriptional predisposition to alternative fates within progenitor cell populations before overt differentiation, and uncovered a novel NFATC2-IRF8 interplay in activated B cells validated by in-vitro and in-vivo genetic perturbations.
+  - **Evidence pointer** Abstract, validation data not provided
+  - **Concern** The abstract states that the NFATC2-IRF8 interplay was validated by in-vitro and in-vivo genetic perturbations, but no details are given on the experimental design, the nature of the perturbations, the phenotypic readouts, or the statistical significance of the results. The claim that the two transcription factors act cooperatively to restrain extrafollicular plasmablast differentiation and promote germinal center B cell fate is a strong biological conclusion that requires robust experimental support.
+  - **Why it matters** The biological novelty of the paper rests on this finding. Without details on the validation experiments, the strength of the evidence cannot be assessed, and the claim cannot be distinguished from a preliminary observation.
+  - **Resolution test** Provide full experimental details, including perturbation methods, sample sizes, statistical tests, and effect sizes. Show that the cooperative effect is specific and reproducible across experimental conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** FOCAL identified GIFs and prioritized regulatory subnetworks underlying established states as well as transient regulatory episodes preceding them in B and T cells.
+  - **Evidence pointer** Abstract, data and code not provided
+  - **Concern** No information is provided on the datasets used, the preprocessing steps, the parameters of the method, or the criteria for identifying GIFs and regulatory subnetworks. The reproducibility of the results cannot be assessed without access to the data and code.
+  - **Why it matters** For a computational method, reproducibility is essential. The absence of any information on data availability, code, or parameter choices prevents independent verification of the results.
+  - **Resolution test** Provide a detailed methods section, data availability statement, and code repository. Include parameter settings and any sensitivity analyses.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term GIFs (GRNs coupled to Interpretable latent Factors) is introduced but not defined in the context of how it differs from the general FOCAL output. The relationship between GIFs and the prioritized regulatory subnetworks is unclear.
+  - **Required correction** Clarify the definition of GIFs and how they relate to the subnetworks prioritized by FOCAL.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions current methods reliant on topological metrics but does not specify which methods were compared or how FOCAL performs relative to them.
+  - **Required correction** Include a brief comparison to existing methods, either in the abstract or in the main text, to contextualize the improvement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of validation
+  - **Evidence pointer** Abstract
+  - **Issue** The method is applied to B and T cells, but the abstract does not indicate whether the approach is expected to generalize to other cell types or differentiation contexts.
+  - **Required correction** Add a statement on the expected generalizability of the method or acknowledge limitations in the current scope.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (methodological details), R1-M2 (validation evidence), R1-M3 (reproducibility)
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual approach of coupling interpretable machine learning with GRNs to avoid topology-based circularity appears novel, but the abstract does not provide enough detail to confirm the extent of the methodological advance.
+  - Scientific importance: The problem addressed is important, and the potential to identify regulatory subnetworks underlying cell fate decisions is of broad relevance. The NFATC2-IRF8 finding, if robust, would be a significant contribution to B cell biology.
+  - Interdisciplinary readership: The work bridges computational biology and immunology, and the abstract is written in a way that is accessible to both communities, though the lack of methodological detail limits its utility for computational readers.
+  - Technical soundness: Cannot be assessed from the abstract alone. The central methodological claims and the experimental validations are not described in sufficient detail.
+  - Readability for nonspecialists: The abstract is generally readable, but terms such as FOCAL, GIFs, and LFs are introduced without sufficient context for a nonspecialist to fully grasp the approach.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, and the biological finding is potentially significant, but the abstract alone does not provide the methodological detail, validation evidence, or reproducibility information needed to assess the validity of the claims. A full review of the manuscript with methods, figures, and supplementary materials would be required to determine whether the case can be established.
+
+## Risk / unsupported claims
+- The claim that FOCAL avoids circularity in GRN prioritization is unsupported without details on the method's implementation and its relationship to GRN construction.
+- The claim of a novel NFATC2-IRF8 interplay and its cooperative role in B cell fate decisions is unsupported without details on the experimental validations.
+- The claim that FOCAL identified transcriptional predisposition to alternative fates before overt differentiation is unsupported without details on the datasets and analytical criteria.
+- The generalizability of FOCAL to other cell types or contexts is not assessable from the abstract.

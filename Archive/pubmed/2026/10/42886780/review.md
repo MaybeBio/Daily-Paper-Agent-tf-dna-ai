@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that CaMKIV phosphorylates REST at Ser322, that a phosphomimic mutant at this site reduces REST repressor activity, promotes cytosolic translocation and degradation, and destabilizes the REST-RE1 binding interface as shown by molecular dynamics simulations. They further report that CaMKIV phosphorylation of REST suppresses homeostatic downscaling of EPSC frequency, and that CaMKIV effects on EPSC amplitude require REST. They conclude that CaMKIV regulates REST levels and repressor activity and that CaMKIV and REST interact in homeostatic plasticity.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full methods, all experimental data, statistical analyses, molecular dynamics simulation parameters and validation, electrophysiology protocols, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically coherent story linking CaMKIV phosphorylation of REST to homeostatic plasticity. However, the evidence base available for review is limited to the abstract, which precludes verification of the key claims. The central claims are plausible but not established from the supplied material. Several logical and evidentiary gaps require attention before the case can be considered robust.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, calcium signaling, synaptic plasticity, and homeostatic plasticity. The work may also interest those studying REST in neurological and psychiatric disorders, given REST's broad role in neural gene repression and its relevance to activity-dependent gene expression.
+- **Major strengths** The study addresses a previously unexplored question, namely whether REST is regulated by Ca(2+)-activated kinases. The combination of phosphorylation site identification, functional mutagenesis, molecular dynamics simulation, and electrophysiology provides a multi-level approach. The proposed link between CaMKIV, REST, and homeostatic plasticity is conceptually novel and could have broad implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that CaMKIV phosphorylation of REST at Ser322 suppresses homeostatic downscaling of EPSC frequency in response to hyperactivity.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that phosphorylation of REST by CaMKIV suppressed the downscaling of EPSC frequency, but no experimental detail is given regarding how this was tested. It is unclear whether this was shown via phosphomimic mutants, kinase inhibition, knockdown, or a combination. Without knowing the manipulation and the specificity controls, the causal link between CaMKIV phosphorylation of REST and the EPSC phenotype cannot be evaluated.
+  - **Why it matters** The EPSC frequency result is a central functional claim that bridges molecular phosphorylation to synaptic physiology. If the manipulation was not specific to REST Ser322 phosphorylation, alternative explanations remain.
+  - **Resolution test** Provide experimental details showing that the effect on EPSC frequency is specifically due to phosphorylation at Ser322, including appropriate controls such as phosphodead mutants, kinase-dead CaMKIV, and rescue experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the phosphomimic REST mutant at Ser322 decreased REST repressor activity and caused its transition to the cytosol, followed by degradation.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports decreased repressor activity, cytosolic translocation, and degradation for the phosphomimic mutant, but no quantitative data are presented. It is unclear how repressor activity was measured, what cell types were used, what time course was examined, and whether the degradation was proteasome-dependent or lysosome-dependent. The relationship between cytosolic translocation and degradation is also not mechanistically explained.
+  - **Why it matters** These claims form the mechanistic core of the paper. Without quantitative evidence and mechanistic dissection, the proposed pathway from phosphorylation to functional inactivation remains speculative.
+  - **Resolution test** Provide quantitative data on repressor activity (e.g., reporter assays), subcellular localization (e.g., fractionation or imaging), and degradation kinetics with appropriate inhibitors to identify the degradation pathway.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that molecular dynamics simulations of the phosphomimic REST mutant revealed a sharp decrease in the stability of the REST-RE1 binding interface.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a simulation result but provides no information on the simulation methodology, force field, simulation length, system setup, or how stability was quantified. It is also unclear whether the phosphomimic mutation was modeled as phosphoserine or as a glutamate substitution, which could affect the interpretation.
+  - **Why it matters** The simulation is used to provide a structural rationale for reduced repressor activity. If the simulation setup is not rigorous or the stability metric is not well defined, the structural interpretation is weakened.
+  - **Resolution test** Provide full simulation details, including the specific mutation model, simulation parameters, convergence criteria, and a clear definition of the stability metric used. Ideally, validate with experimental binding data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical consistency
+  - **Claim pointer** The claim that the homeostatic effects of CaMKIV on EPSC amplitude were inhibited in the absence of REST.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that CaMKIV effects on EPSC amplitude require REST, but the relationship between this finding and the earlier claim about EPSC frequency is not clarified. It is unclear whether the frequency and amplitude effects are independent, sequential, or reflect different mechanisms. The abstract also does not specify whether the absence of REST was achieved by knockout, knockdown, or dominant-negative approaches.
+  - **Why it matters** The relationship between the frequency and amplitude findings is important for understanding the overall role of CaMKIV-REST signaling in homeostatic plasticity. Without clarity, the integrative conclusion is difficult to assess.
+  - **Resolution test** Clarify the experimental design and the relationship between the frequency and amplitude effects. Provide data showing whether both effects are mediated by the same phosphorylation event and whether they occur in the same neuronal population.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that REST "homeostatically regulates neural activity" but does not specify the direction or mechanism of this regulation in the context of the current findings.
+  - **Required correction** Briefly clarify whether REST repression is increased or decreased during homeostatic plasticity and how the CaMKIV phosphorylation fits into this framework.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention whether the phosphorylation at Ser322 was confirmed in vivo or only in vitro.
+  - **Required correction** State whether the phosphorylation was demonstrated in native tissue or only in overexpression systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The conclusion states that "an interplay exists between CaMKIV and REST in homeostatic plasticity mechanisms," but the abstract does not define the nature of this interplay beyond a unidirectional phosphorylation event.
+  - **Required correction** Clarify whether the interplay is bidirectional or unidirectional and whether REST also regulates CaMKIV activity or expression.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient experimental detail to verify the central claims. Specifically, the causal link between Ser322 phosphorylation and EPSC frequency changes, the mechanistic basis for reduced repressor activity and degradation, the rigor of the molecular dynamics simulations, and the relationship between the frequency and amplitude findings all require full experimental evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of whether REST is regulated by Ca(2+)-activated kinases appears to be novel, and the proposed mechanism is not previously described. This is a strength.  
+  - Scientific importance: REST is a well-known transcriptional repressor with broad relevance to neural function and disease. Linking its regulation to CaMKIV and homeostatic plasticity could be important, but the significance depends on the robustness of the evidence.  
+  - Interdisciplinary readership: The work spans transcriptional regulation, calcium signaling, structural biology, and synaptic physiology, which could attract a broad readership.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative data prevents evaluation of technical rigor.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context. The logical flow from phosphorylation to synaptic phenotype is understandable but would benefit from clearer articulation of the experimental logic.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting hypothesis, but the evidence base is insufficient to support the central claims. A full manuscript with detailed methods, quantitative data, and appropriate controls would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that CaMKIV phosphorylation of REST at Ser322 suppresses homeostatic downscaling of EPSC frequency is unsupported without experimental details.
+- The claim that the phosphomimic mutant decreases repressor activity and causes cytosolic translocation and degradation is unsupported without quantitative data.
+- The claim that molecular dynamics simulations show a sharp decrease in REST-RE1 binding interface stability is unsupported without simulation methodology.
+- The claim that homeostatic effects of CaMKIV on EPSC amplitude are inhibited in the absence of REST is unsupported without details on the experimental manipulation.
+- The overall conclusion that CaMKIV phosphorylation plays a crucial role in regulating REST levels and repressor activity is not verifiable from the abstract alone.

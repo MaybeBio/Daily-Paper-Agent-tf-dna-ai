@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Full text not provided; only title, author list, journal/platform, date, DOI/ID, URL, and a short abstract paragraph were supplied.
+- **Assessment boundary** Assessment is limited to the supplied abstract and bibliographic metadata. No figures, tables, methods, or main text were available for review.
+- **Shared manuscript claim summary** The abstract claims that low-affinity transcription factor binding sites are functionally important but difficult to map and mechanistically poorly understood. It further claims that Weilert et al. (the subject of this preview) used sequence-to-function deep learning models to systematically map low-affinity pioneer factor binding sites in mouse embryonic stem cells, and that these models revealed how such sites contribute to chromatin opening through "soft-syntax nucleosomal cooperativity."
+- **Visible evidence base** Abstract text only. No methods, results, figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods description, statistical details, model architecture and training details, validation procedures, and any comparison with existing experimental datasets. Without these, the technical soundness and the validity of the central claims cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting preview of a study that applies deep learning to a biologically important problem, namely the functional role of low-affinity transcription factor binding sites. The concept of "soft-syntax nucleosomal cooperativity" is intriguing but is not defined or explained in the supplied material. The claims are plausible at a high level, but the evidence base is entirely absent from the review package. The abstract alone does not permit an evaluation of the originality, technical soundness, or robustness of the findings. The manuscript may be of interest to the chromatin biology and gene regulation communities, but the current submission cannot be assessed for scientific validity.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, chromatin biology, and computational genomics would be interested. The work addresses a known gap in understanding low-affinity binding sites, which are often overlooked due to technical challenges. The use of deep learning to predict and map such sites could provide a new tool for the field. The potential link to nucleosomal cooperativity and chromatin opening would also appeal to those studying pioneer factors and epigenetic remodeling.
+- **Major strengths** From the abstract alone, the following strengths can be inferred: the topic addresses a recognized gap in the field; the use of deep learning is a modern and potentially powerful approach; the focus on mouse embryonic stem cells is a well-characterized system; and the concept of "soft-syntax nucleosomal cooperativity" suggests a novel mechanistic hypothesis. However, these are inferred strengths, not verified from evidence.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that deep learning models "systematically map" low-affinity pioneer factor binding sites and reveal how these sites contribute to chromatin opening.  
+  - **Evidence pointer** Abstract only; no methods or results provided.  
+  - **Concern** The abstract provides no information on the model architecture, training data, validation strategy, or performance metrics. Without these, it is impossible to judge whether the mapping is accurate, whether the model generalizes, or whether the predictions are biologically meaningful.  
+  - **Why it matters** The central claim of the paper rests on the reliability of the deep learning predictions. If the model is not properly validated against experimental data, the conclusions about low-affinity site function and cooperativity are unsupported.  
+  - **Resolution test** Provide details on model architecture, training and test datasets, cross-validation, and comparison with experimental ChIP-seq or ATAC-seq data. Show that the model's predictions are accurate and that the identified low-affinity sites are experimentally confirmed.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Conceptual clarity  
+  - **Claim pointer** The abstract introduces the term "soft-syntax nucleosomal cooperativity" as the mechanism by which low-affinity sites contribute to chromatin opening.  
+  - **Evidence pointer** Abstract only; term is not defined.  
+  - **Concern** The term "soft-syntax nucleosomal cooperativity" is not defined or explained in the abstract. It is unclear what "soft-syntax" refers to, how it relates to nucleosomal positioning, or what specific cooperativity is being described.  
+  - **Why it matters** This is a key mechanistic claim. If the concept is not clearly defined and supported by data, the reader cannot evaluate the novelty or validity of the proposed mechanism.  
+  - **Resolution test** Define the term explicitly in the manuscript, provide a mechanistic model, and present experimental or computational evidence that directly supports the proposed cooperativity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract implies that the deep learning models can be used to "systematically map" low-affinity sites, suggesting a generalizable tool.  
+  - **Evidence pointer** Abstract only; no code, data, or reproducibility details provided.  
+  - **Concern** No information is given on data availability, code availability, or whether the models and pipelines are publicly accessible. Without these, the work cannot be reproduced or extended by others.  
+  - **Why it matters** Reproducibility is a core requirement for computational biology. If the models and data are not available, the claimed utility of the approach is diminished.  
+  - **Resolution test** Provide a statement on data and code availability, and ensure that all necessary resources are deposited in public repositories.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract uses technical jargon such as "pioneer factor" and "soft-syntax nucleosomal cooperativity" without brief definitions. This may limit accessibility for readers outside the immediate field.  
+  - **Required correction** Add a brief explanatory phrase for "pioneer factor" and define "soft-syntax nucleosomal cooperativity" in plain language within the abstract or introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Contextualization  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state how the findings compare with existing experimental methods for mapping low-affinity sites, such as ChIP-seq or SELEX.  
+  - **Required correction** Include a sentence that places the deep learning approach in the context of existing experimental techniques, highlighting advantages and limitations.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (definition and support of the mechanistic concept), R1-M3 (reproducibility). These are all blocking because the core claims cannot be evaluated without addressing them.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The topic is of interest, and the use of deep learning for low-affinity site mapping is not entirely novel but may offer a new angle. The "soft-syntax" concept could be original, but it is not defined, so originality cannot be confirmed.  
+  - **Scientific importance** The problem is important, as low-affinity sites are understudied. If the claims are validated, the work could have significant impact on the field.  
+  - **Interdisciplinary readership** The work would appeal to computational biologists, chromatin researchers, and transcriptional regulation specialists. The abstract is not written for a broad interdisciplinary audience.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. No methods or results are provided.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon without explanation, limiting accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the absence of methods, results, and validation data means that the scientific case is not made. The manuscript may be supportable if the technical concerns are resolved, but this cannot be determined from the supplied material.
+
+## Risk / unsupported claims
+- The claim that deep learning models "systematically map" low-affinity pioneer factor binding sites is unsupported without model details and validation data.
+- The claim that low-affinity sites contribute to chromatin opening through "soft-syntax nucleosomal cooperativity" is unsupported and the term is undefined.
+- Any implication that the approach is generalizable or superior to existing methods is unsupported.
+- The overall significance of the findings cannot be evaluated from the abstract alone.

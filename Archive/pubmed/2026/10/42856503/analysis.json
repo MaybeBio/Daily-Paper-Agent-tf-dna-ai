@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42856503",
+  "title": "Interpretable machine learning coupled to gene regulatory networks uncovers subcircuits underlying cell fate decisions.",
+  "authors": "Rarani, Zarifeh H; Keshari, Swapnil; Sachan, Akanksha; Saini, Ankur; Pease, Nicholas; Fan, Jingyu; Fu, Alayna; Liu, Yuchen C; Gurkar, Aditi U; Delgoffe, Greg M; Singh, Harinder; Das, Jishnu",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-11",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文将可解释机器学习与基因调控网络耦合，优先排序细胞命运决定中的TF-基因调控子回路，虽涉及TF调控但未聚焦TF-DNA三维互作建模，方法可迁移至TF-DNA结合位点预测，属广义蛋白-DNA调控网络分析。",
+  "abstract": "Gene regulatory networks (GRNs) model causal linkages that control cell fate decisions and differentiation transitions. Prioritizing regulatory subnetworks underlying cell state differences is of critical importance, but current methods including those reliant on topological metrics introduce circularity as the metrics prioritizing TFs are computed from the same networks whose assumptions they inherit. Separately, interpretable machine learning methods can identify latent factors (LFs) that discriminate cellular states with formal statistical guarantees but do not model regulatory linkages. Here, we present FOCAL (Factor-Outcome Coupling for Assessment of Linkages), a paradigm to prioritize regulatory subnetworks by coupling state-specific and dynamic GRNs with outcome-supervised LFs learned using interpretable machine learning without reference to network topology. This shifts GRN focus from macroscopic TF nodes to state-specific and dynamic TF-gene linkages. In B and T cells, FOCAL identified GIFs (GRNs coupled to Interpretable latent Factors), prioritized regulatory subnetworks underlying established states as well as transient regulatory episodes preceding them. By coupling LFs learnt from perturbation experiments of lineage-defining TFs, FOCAL identified transcriptional predisposition to alternative fates within progenitor cell populations before overt differentiation. This uncovered a novel NFATC2-IRF8 interplay in activated B cells, that was validated by in-vitro and in-vivo genetic perturbations. The two transcription factors act cooperatively to restrain extrafollicular plasmablast differentiation and promote germinal center B cell fate.",
+  "abstract_zh": "基因调控网络（GRNs）建模了控制细胞命运决定和分化转变的因果联系。优先考虑细胞状态差异背后的调控子网络至关重要，但当前方法（包括依赖拓扑度量的方法）引入了循环性，因为用于优先排序转录因子（TFs）的度量是从同一网络中计算得出的，而这些网络继承了其假设。另一方面，可解释机器学习方法能够识别具有正式统计保证的区分细胞状态的潜在因子（LFs），但不建模调控联系。在此，我们提出FOCAL（因子-结果耦合用于联系评估），这是一种通过将状态特异性和动态GRNs与使用可解释机器学习学习的结果监督LFs耦合来优先排序调控子网络的范式，而不参考网络拓扑。这将GRN的关注点从宏观TF节点转向状态特异性和动态TF-基因联系。在B细胞和T细胞中，FOCAL识别了GIFs（与可解释潜在因子耦合的GRNs），优先排序了已建立状态背后的调控子网络以及其前的瞬时调控事件。通过耦合从谱系定义TFs的扰动实验中学习的LFs，FOCAL在前体细胞群体中识别了在明显分化之前对替代命运的转录倾向。这揭示了活化B细胞中一种新颖的NFATC2-IRF8相互作用，并通过体外和体内遗传扰动得到验证。这两种转录因子协同作用，抑制滤泡外浆母细胞分化并促进生发中心B细胞命运。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42856503/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42856503/",
+  "paper_page_path": "papers/pubmed/42856503/index.html"
+}

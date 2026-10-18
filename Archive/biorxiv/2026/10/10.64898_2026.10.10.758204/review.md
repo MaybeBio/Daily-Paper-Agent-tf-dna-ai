@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that biological properties can be represented as linear directions, termed Concept Activation Vectors (CAVs), in the embedding spaces of biological foundation models. They claim that CAVs recover Gene Ontology and Enzyme Commission annotations, localize Pfam domains, reveal novel structural relationships, capture DNA-binding and protein-interaction interface specificity in protein embeddings, and isolate cancer-associated expression transitions in single-cell embeddings, with gene variation along these axes agreeing with conventional differential-expression analysis.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation statistics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, and any quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing and potentially impactful idea: that biological concepts can be represented as reusable linear directions in foundation model embeddings. The breadth of claimed applications is impressive, spanning protein structure, function, and single-cell transcriptomics. However, the abstract provides no quantitative evidence, no methodological specifics, and no comparison to existing baselines. The central claims are therefore plausible but entirely unverified from the supplied material. The work could be of broad interest if the technical execution is sound, but the current evidence base is insufficient to assess its validity or significance.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on biological foundation models, protein function prediction, and single-cell analysis would be interested. The promise of a unified, interpretable representation for diverse biological properties could appeal to those seeking to move beyond task-specific prediction heads. Additionally, experimental biologists using embedding-based tools for hypothesis generation might find the concept of manipulable directions useful.
+- **Major strengths** The core idea is elegant and timely, addressing a recognized limitation of foundation models, namely the lack of interpretability. The proposed approach, using CAVs, is methodologically simple and potentially generalizable across modalities. The breadth of applications, from protein annotations to single-cell state transitions, suggests a unifying framework that could have wide utility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that CAVs "recover Gene Ontology and Enzyme Commission annotations, localize Pfam domains, reveal novel structural relationships, and capture DNA-binding and protein-interaction interface specificity" and that in single-cell embeddings, CAVs "isolate cancer-associated expression transitions."
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The abstract makes multiple strong performance claims without reporting any numerical results, such as accuracy, precision, recall, or correlation coefficients. There is no indication of how "recovery" or "localization" was measured, nor any comparison to existing methods or baselines.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the proposed method performs adequately, let alone whether it offers advantages over existing approaches. The claims as stated are unfalsifiable from the provided material.
+  - **Resolution test** Provide performance metrics for each claimed application, including comparisons to relevant baselines (e.g., supervised classifiers, existing annotation tools) and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract describes the CAV approach as distinguishing examples representing a concept from a background set using a linear model, but provides no details on how concepts are defined, how background sets are constructed, or how the linear model is trained and validated.
+  - **Evidence pointer** Abstract only; methods section not provided
+  - **Concern** The methodological description is too brief to evaluate the soundness of the approach. Key questions include: How are positive and negative examples selected for each concept? How is the dimensionality of the embedding space handled? Are the CAVs stable across different random seeds or background sets? How is the significance of a CAV determined?
+  - **Why it matters** The validity of the entire framework depends on these methodological choices. Without this information, the results cannot be reproduced or critically evaluated.
+  - **Resolution test** Provide a detailed methods section describing concept definition, background set construction, model training, validation, and statistical testing procedures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and comparison
+  - **Claim pointer** The abstract claims that CAVs "reveal novel structural relationships" and that the approach is a "distinct computational approach" compared to differential-expression analysis.
+  - **Evidence pointer** Abstract only; no comparison to existing literature or methods
+  - **Concern** The abstract does not situate the work within the existing literature on interpretable embeddings or concept-based explanations. It is unclear what is genuinely novel about applying CAVs to biological embeddings, given that CAVs are an established technique in machine learning interpretability. The claim of "novel structural relationships" is not substantiated with examples.
+  - **Why it matters** For a Nature-style audience, the novelty and significance of the contribution must be clearly articulated. Without a comparison to prior work and concrete examples of new discoveries, the impact of the work is unclear.
+  - **Resolution test** Include a literature review demonstrating the gap this work fills, and provide specific examples of novel relationships discovered that were not previously known.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and robustness
+  - **Claim pointer** The abstract claims that CAVs work across "protein embeddings" and "single-cell embeddings," implying generalizability across modalities and models.
+  - **Evidence pointer** Abstract only; no details on which specific foundation models were used
+  - **Concern** The abstract does not specify which foundation models were used, how many were tested, or whether the results are consistent across different model architectures and training data. The generalizability of the approach is therefore unverified.
+  - **Why it matters** If the approach only works with specific models or requires extensive tuning, its practical utility is limited. The claim of a "common representation" implies broad applicability.
+  - **Resolution test** Specify the models tested, report results across multiple models, and discuss any limitations or model-specific behaviors.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "rich information about protein structure, function, and cellular state" is vague and could apply to any embedding model.
+  - **Required correction** Specify the types of information and the models used, or rephrase to be more precise.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, CAV description
+  - **Evidence pointer** Abstract
+  - **Issue** The description of the CAV approach is too brief to be reproducible, even at a conceptual level.
+  - **Required correction** Provide a more detailed description of the method, including the linear model type and the nature of the background set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Abstract, agreement claim
+  - **Evidence pointer** Abstract
+  - **Issue** The claim that gene variation along CAV axes "substantially agrees" with differential-expression analysis lacks a quantitative measure of agreement.
+  - **Required correction** Report a specific statistic, such as correlation or overlap coefficient, and define what constitutes "substantial" agreement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Abstract, final sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The claim that CAVs enable biological features to be "compared, localized, and manipulated" is broad and not supported by specific examples in the abstract.
+  - **Required correction** Provide concrete examples of comparison, localization, and manipulation, or temper the claim to match the evidence presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient methodological detail), R1-M3 (lack of novelty contextualization and comparison)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of applying CAVs to biological embeddings is not entirely new, but the breadth of applications across protein and single-cell domains could be original. However, the abstract does not demonstrate what is genuinely novel beyond the application of an existing technique.
+  - Scientific importance: If the claims are substantiated, the work could provide a unified framework for interpreting biological embeddings, which would be important for the field. The potential to compare and manipulate biological features in a common space is significant.
+  - Interdisciplinary readership: The work bridges machine learning, protein biology, and single-cell genomics, which could attract a broad audience. However, the abstract is written at a level that assumes familiarity with both CAVs and biological embeddings, which may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results is a major concern.
+  - Readability for nonspecialists: The abstract is concise but uses jargon (e.g., "CAV," "embedding space") without sufficient explanation. It would benefit from a brief intuitive description of the approach.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising, but the abstract alone does not provide sufficient evidence to support the claims. A full manuscript with detailed methods, quantitative results, and comparisons to existing approaches is required to evaluate the work. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that CAVs "recover" Gene Ontology and Enzyme Commission annotations is unsupported without quantitative performance metrics.
+- The claim that CAVs "localize Pfam domains" is unsupported without localization accuracy or examples.
+- The claim that CAVs "reveal novel structural relationships" is unsupported without specific examples or validation.
+- The claim that CAVs "capture DNA-binding and protein-interaction interface specificity" is unsupported without specificity or sensitivity measures.
+- The claim that CAVs "isolate cancer-associated expression transitions" is unsupported without a definition of "isolation" or quantitative evidence.
+- The claim of "substantial agreement" with differential-expression analysis is unsupported without a specific statistic.
+- The generalizability of the approach across "protein embeddings" and "single-cell embeddings" is unverified without specifying the models used.

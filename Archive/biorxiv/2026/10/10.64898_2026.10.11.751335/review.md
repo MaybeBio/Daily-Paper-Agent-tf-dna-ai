@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that hydrogen mass repartitioning (HMR) accelerated molecular dynamics (MD) with endpoint free energy calculations can prioritize immunogenic neoantigens for cancer vaccines by computing peptide HLA binding free energies. They report concordance with experimental data for six of seven single nucleotide variant (SNV) neoantigen pairs, comparable values for frameshift neoantigens, structural stability of peptide HLA complexes, and a distinctive binding signature for the PIK3CA E545K pair. They conclude that this approach is a practical refinement step for neoantigen prioritization.
+- **Visible evidence base** Abstract text only; no numerical data, statistical analyses, methodological details, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, experimental datasets, and validation protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of an established computational technique to a clinically relevant problem. The reported concordance rate is encouraging, but the absence of methodological detail, quantitative results, and validation metrics prevents a rigorous evaluation of the claims. The work addresses a real need in neoantigen prioritization, yet the evidence base as presented is insufficient to establish the method as reliable or broadly applicable.
+- **Who would be interested in the results, and why** Computational immunologists and structural biologists developing neoantigen prediction pipelines would be interested in the methodological advance. Cancer vaccine researchers and clinical translational teams seeking improved prioritization tools would value the practical implications. The work also speaks to the broader community interested in reducing computational costs of MD based free energy calculations for protein peptide systems.
+- **Major strengths** The study targets a clinically meaningful problem with a computationally pragmatic solution. The use of HMR to enable a 4 fs time step is a sensible strategy to reduce computational burden. The inclusion of both SNV and frameshift neoantigens, the use of multiple replicas, and the attempt to identify the shortest reliable trajectory length indicate a thoughtful experimental design. The structural analysis of the PIK3CA E545K pair provides a mechanistic hypothesis for differential binding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "Free energy calculations reproduced experimental concordance for six of seven SNV pairs" and that the method can "prioritize immunogenic neoantigens."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports concordance for six of seven pairs but provides no quantitative definition of concordance, no statistical significance measures, no error estimates for the free energy calculations, and no comparison against alternative prediction methods. The claim of prioritization capability is not supported by any benchmark against existing tools or experimental validation beyond the stated concordance.
+  - **Why it matters** Without quantitative metrics and statistical rigor, the reported concordance could arise from chance, particularly with a small sample size of seven pairs. The claim that the method can prioritize neoantigens requires demonstration that it adds predictive value over existing affinity based approaches, which is not shown.
+  - **Resolution test** Provide the free energy values with standard deviations across replicas, define the concordance threshold explicitly, report a statistical test for the concordance rate, and include a comparison with NetMHC or similar established predictors on the same dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that complexes were "built de novo using AlphaFold3 and propagated with a 4 fs HMR time step" and that "mean binding free energy was computed across ten replicas per complex."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No methodological details are provided for the MD protocol, force field parameters, HMR implementation, solvation conditions, temperature and pressure coupling, equilibration procedure, or the endpoint free energy method used (e.g., MM/PBSA, MM/GBSA, LIE). The criteria for selecting bound frames are not described. Without these details, the results cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The choice of endpoint method and analysis protocol can substantially affect free energy estimates and rankings. The absence of these details undermines confidence in the reported outcomes.
+  - **Resolution test** Provide a complete methods section with software versions, force field parameters, simulation conditions, free energy calculation protocol, and analysis scripts or a clear description of the bound frame selection criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "RMSD and RMSF metrics agreed with one another and with the free energy rankings" and that the PIK3CA E545K pair showed "the largest free energy separation in the panel."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No numerical values for RMSD, RMSF, or free energy differences are reported. The claim of agreement between structural metrics and free energy rankings is qualitative and cannot be assessed. The statement about the largest free energy separation is unsupported without the actual values and the distribution across replicas.
+  - **Why it matters** Quantitative agreement between independent metrics strengthens the validity of the computational results. Without numbers, the reader cannot judge whether the observed differences are meaningful or within noise.
+  - **Resolution test** Report RMSD and RMSF values with standard deviations, the free energy differences for all pairs with confidence intervals, and a statistical comparison showing that the PIK3CA E545K separation is significantly larger than others.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Frameshift neoantigen analysis
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that three frameshift neoantigens were "analyzed as unpaired references" and that they "yielded comparable values," but the purpose of this comparison and the interpretation of "comparable" are unclear.
+  - **Required correction** Clarify what "comparable" means in this context, whether it refers to binding affinity magnitude, stability, or ranking, and explain how the frameshift results inform the prioritization claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** TP53 R8H inconclusive result
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract notes that the TP53 R8H pair was "inconclusive" but does not explain why or what this means for the method's applicability.
+  - **Required correction** Provide a brief explanation for the inconclusive result, such as high variance across replicas, structural instability, or experimental ambiguity, and discuss whether this represents a limitation of the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with existing methods
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not compare the proposed approach with existing neoantigen prioritization tools or affinity based methods, which limits the assessment of its added value.
+  - **Required correction** Include a comparison with at least one established prediction method on the same dataset, or explicitly state why such a comparison is not feasible.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 must be resolved. Specifically, quantitative free energy results with error estimates, a complete methodological description, and numerical structural metrics are required before the claims can be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of HMR accelerated MD to neoantigen prioritization is a reasonable incremental advance, but the underlying methods are established. The novelty lies in the specific application context rather than in a new technique.
+  - Scientific importance: Potentially high if the method proves reliable, given the clinical relevance of neoantigen selection. However, the current evidence does not establish this reliability.
+  - Interdisciplinary readership: The topic bridges computational biology, immunology, and oncology, which could attract a broad audience. The abstract is accessible but lacks the technical depth needed for expert evaluation.
+  - Technical soundness: Not assessable from the abstract alone. The absence of methodological detail and quantitative results prevents any judgment of technical rigor.
+  - Readability for nonspecialists: The abstract is clearly written and the central concept is understandable. However, the lack of context on existing methods and the absence of quantitative outcomes limit its accessibility for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach with an encouraging preliminary result, but the absence of quantitative data, methodological detail, and validation against existing tools means the case is not yet made. A full manuscript with complete methods and results would be required to assess whether the claims hold.
+
+## Risk / unsupported claims
+- The claim that HMR accelerated MD can "prioritize immunogenic neoantigens" is unsupported because no comparison with existing prioritization methods or experimental validation beyond the stated concordance is provided.
+- The claim of concordance for six of seven SNV pairs is unverifiable without quantitative free energy values, error estimates, and a defined concordance threshold.
+- The claim that RMSD and RMSF metrics "agreed with one another and with the free energy rankings" is unsupported without numerical data.
+- The claim that the PIK3CA E545K pair showed "the largest free energy separation in the panel" is unverifiable without the actual values and statistical context.
+- The statement that frameshift neoantigens "yielded comparable values" is ambiguous and unsupported without quantitative results.
+- The overall conclusion that the method is "a practical refinement step for neoantigen prioritization" is not established from the evidence presented in the abstract.

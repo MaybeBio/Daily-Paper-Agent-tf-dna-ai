@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42860077",
+  "title": "Mechanistic interpretability of a plant genomic foundation model: Data probes, causal interventions, and motif-grounded features.",
+  "authors": "Kendiukhov, Ihor",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-10-11",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文对植物基因组基础模型进行机制可解释性分析，虽涉及DNA序列与转录因子基序特征，但核心是模型内部表征而非TF-DNA互作建模，方法上以探针和因果干预为主，与课题关联有限。",
+  "abstract": "Foundation models trained on plant DNA are increasingly used across plant-biology pipelines, yet their internal representations remain opaque, and existing interpretability claims - based on attention visualization, small synthetic evaluations, or single-number benchmark gains - are vulnerable to GC-content and composition confounds. I present a reproducible, composition-controlled protocol for interpreting plant genomic foundation models: six annotated, chromosome-split benchmarks (80,000 windows) together with GC-matched, realistic-negative and repeat-masked variants of them, learned-from-scratch baselines, phylogenetic residualization, sparse autoencoders tested against JASPAR/PlantTFDB motifs, and per-component causal interventions. It is developed on Plant-DnaGemma and re-run, in its probing, control, sparse-autoencoder and block-ablation stages, on Plant DNABERT and AgroNT. Plant-DnaGemma exceeds a 4-mer logistic baseline by 12 percentage points and a DanQ-style convolutional network by 8 on 5-way region-type classification, but merely ties task-supervised convolutional networks on the binary transcription-start-site and promoter tasks. Against a random background almost every sparse-autoencoder feature matches some plant transcription-factor motif, which shows chiefly that such a background is too weak a control; against a dinucleotide-composition-matched background only four in five (245 of 299) retain a specific motif preference. Species classification reaches 67.5% on a GC-matched four-species subset (25% chance) and region discrimination survives repeat-masking, so those signals are not composition artefacts - but across twelve angiosperms, representational distance correlates with divergence time only because it correlates twice as strongly with GC, and the phylogenetic correlation is zero once GC is residualized out. Per-component ablations indicate that no individual attention head is necessary for the splice-site signal, whereas zeroing a single early-middle feed-forward block can cost a quarter of the classifier's accuracy; at whole-block resolution attention and feed-forward blocks contribute comparably, so the redundancy sits within the attention block rather than across it. The protocol is designed to be model-agnostic and is demonstrated here on three plant genomic foundation models.",
+  "abstract_zh": "基于植物DNA训练的基础模型正日益广泛地应用于植物生物学流程中，但其内部表示仍不透明，且现有的可解释性主张——基于注意力可视化、小型合成评估或单一数字基准提升——易受GC含量和组成混杂因素的影响。我提出了一种可复现、组成受控的协议，用于解释植物基因组基础模型：六个带注释、按染色体分割的基准（80,000个窗口），连同其GC匹配、现实负样本和重复序列掩蔽变体，从零学习的基线模型，系统发育残差化，针对JASPAR/PlantTFDB基序测试的稀疏自编码器，以及逐组件因果干预。该协议在Plant-DnaGemma上开发，并在其探测、对照、稀疏自编码器和块消融阶段，在Plant DNABERT和AgroNT上重新运行。Plant-DnaGemma在五类区域类型分类中，超过4-mer逻辑回归基线12个百分点，超过DanQ风格卷积网络8个百分点，但在二元转录起始位点和启动子任务上仅与任务监督的卷积网络持平。相对于随机背景，几乎每个稀疏自编码器特征都匹配某种植物转录因子基序，这主要表明此类背景作为对照过于薄弱；相对于二核苷酸组成匹配的背景，仅有五分之四（299个中的245个）保留特定基序偏好。物种分类在GC匹配的四物种子集上达到67.5%（随机概率为25%），且区域判别在重复序列掩蔽后仍能存活，因此这些信号并非组成伪影——但在十二种被子植物中，表示距离与分化时间的相关性仅因其与GC的相关性更强两倍，且一旦将GC残差化后，系统发育相关性为零。逐组件消融表明，剪接位点信号不依赖任何单个注意力头，而将单个中早期前馈块置零可能使分类器准确性损失四分之一；在整块分辨率下，注意力块和前馈块贡献相当，因此冗余存在于注意力块内部而非跨块。该协议设计为模型无关，并在三种植物基因组基础模型上进行了演示。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42860077/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42860077/",
+  "paper_page_path": "papers/pubmed/42860077/index.html"
+}

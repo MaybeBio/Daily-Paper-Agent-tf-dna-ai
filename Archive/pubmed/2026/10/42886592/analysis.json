@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42886592",
+  "title": "Inferring gene regulatory networks from single-cell transcriptomics jointly through graph neural networks and Transformer.",
+  "authors": "Gan, Yanglan; Liu, Tao; Xu, Guangwei; Guo, Wenjing; Zou, Guobing",
+  "journal": "IEEE transactions on computational biology and bioinformatics",
+  "published_date": "2026-10-16",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络与Transformer从单细胞转录组推断基因调控网络，虽涉及TF-靶基因关系，但基于纯表达数据，缺乏蛋白-DNA三维互作建模，方法可迁移但非核心聚焦。",
+  "abstract": "Inferring gene regulatory networks (GRNs) is crucial for understanding the complex regulatory relationships that govern gene expression in cells. Recently, several computational methods have been proposed for reconstructing GRNs from single-cell RNA sequencing (scRNA-seq) data. However, most of these methods primarily focus on pairwise regulatory relationships between genes, failing to leverage the global regulatory structure of GRNs, which is crucial for exploring the complex regulatory interactions between transcription factors (TFs) and their target genes. To address these limitations, we propose GTGRNS, a supervised learning framework that integrates a graph neural network with a Transformer encoder for GRN inference from scRNA-seq data. Specifically, we utilize the GraphSAGE model to integrate regulatory network topological information with gene expression features, facilitating the learning of gene representations. By leveraging the Transformer model, we further extract complex dependencies of gene pairs, which are crucial for determining regulatory levels. The comparative experiments on several benchmark datasets demonstrate the effectiveness and competitiveness of the proposed GTGRNS in the task of GRN inference.",
+  "abstract_zh": "推断基因调控网络（GRNs）对于理解细胞中调控基因表达的复杂调控关系至关重要。近年来，已提出多种计算方法用于从单细胞RNA测序（scRNA-seq）数据重建GRNs。然而，这些方法大多主要关注基因间的成对调控关系，未能充分利用GRNs的全局调控结构，而这一结构对于探索转录因子（TFs）与其靶基因之间的复杂调控相互作用至关重要。为解决这些局限性，我们提出了GTGRNS，一种监督学习框架，该框架将图神经网络与Transformer编码器相结合，用于从scRNA-seq数据推断GRNs。具体而言，我们利用GraphSAGE模型整合调控网络拓扑信息与基因表达特征，促进基因表示的学习。通过利用Transformer模型，我们进一步提取基因对的复杂依赖关系，这对于确定调控水平至关重要。在多个基准数据集上的对比实验证明了所提出的GTGRNS在GRN推断任务中的有效性和竞争力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42886592/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42886592/",
+  "paper_page_path": "papers/pubmed/42886592/index.html"
+}

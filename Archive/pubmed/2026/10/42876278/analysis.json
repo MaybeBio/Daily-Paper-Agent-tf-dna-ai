@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42876278",
+  "title": "A Hybrid Machine Learning Ensemble for Predicting Genetic Predisposition to Lung Cancer Based on Polymorphisms in the Mismatch DNA Repair Genes.",
+  "authors": "Bagla, Abhay; Singh, Sidhartha; Kansal, Heena; Gupta, Anup Kumar; Sharma, Siddharth; Gupta, Puneet; Gupta, Vivek",
+  "journal": "Environmental and molecular mutagenesis",
+  "published_date": "2026-10-15",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习集成模型基于DNA错配修复基因多态性预测肺癌遗传易感性，虽涉及DNA修复基因但无蛋白质-DNA互作建模或结合机制研究，仅纯序列统计与临床风险预测，与本课题无关。",
+  "abstract": "The application of machine learning approaches has shown promising results in cancer prediction. In the present study, data for nine gene-based features that include MLH1 (rs1800734), MSH3 (rs26279), MSH6 (rs3136228), and several variants within MSH2 (rs2303423, rs4987188, rs17217772, rs63749993, rs2303426, and rs2303428), along with four additional features (Age, Gender, Smoking, and Pack Years) were used as input to develop a predictive model for assessing individual susceptibility to lung cancer. NumPy, Pandas, Scikit-learn, and Matplotlib were major libraries used during the modeling process. The models included CatBoost, XGBoost, gradient boosting, random forest, support vector machine (SVM), K-nearest neighbors (KNN), Gaussian Naive Bayes, and logistic regression, with their performance evaluated using stratified 5-fold cross-validation. The highest accuracy in predicting cancer predisposition was achieved by CatBoost (0.831 +/- 0.014), with Pack Years (27.94%), Age (10.75%), and MLH1 (9.97%) as the major predictors. Precision, recall, and F1-score were also used to assess performance, and all were within the range of 0.83-0.84. The models were further tested for performance across histological subtypes, gender, and smoking status. Gradient Boosting (0.868 +/- 0.028) and Random Forest (0.902 +/- 0.020) yielded the highest accuracy as histological subtype classifiers in ADCC and SCLC, respectively. When modeled using sex-stratified and smoking-status-specific models, the ensemble methods significantly outperformed logistic regression and Gaussian Naive Bayes, with MMR gene variants (MLH1, MSH2) emerging as key modulators of histology and risk stratification. This highlights the potential of ensemble methods to bridge the gap between genetic epidemiology and molecular pathology, enabling more accurate risk assessment.",
+  "abstract_zh": "机器学习方法在癌症预测中的应用已展现出令人鼓舞的结果。在本研究中，基于九个基因特征的数据，包括MLH1 (rs1800734)、MSH3 (rs26279)、MSH6 (rs3136228)以及MSH2内的多个变异（rs2303423、rs4987188、rs17217772、rs63749993、rs2303426和rs2303428），连同四个额外特征（年龄、性别、吸烟状况和吸烟包年数）被用作输入，以开发一个评估个体肺癌易感性的预测模型。NumPy、Pandas、Scikit-learn和Matplotlib是建模过程中使用的主要库。模型包括CatBoost、XGBoost、梯度提升、随机森林、支持向量机 (SVM)、K近邻 (KNN)、高斯朴素贝叶斯和逻辑回归，其性能通过分层5折交叉验证进行评估。在预测癌症易感性方面，CatBoost达到了最高准确率（0.831 +/- 0.014），其中吸烟包年数（27.94%）、年龄（10.75%）和MLH1（9.97%）是主要预测因子。精确率、召回率和F1分数也用于评估性能，所有指标均在0.83-0.84范围内。模型进一步在不同组织学亚型、性别和吸烟状态下的性能进行了测试。梯度提升（0.868 +/- 0.028）和随机森林（0.902 +/- 0.020）分别在ADCC和SCLC的组织学亚型分类器中取得了最高准确率。当使用按性别分层和按吸烟状态特异的模型进行建模时，集成方法显著优于逻辑回归和高斯朴素贝叶斯，其中MMR基因变异（MLH1、MSH2）成为组织学和风险分层的关键调节因子。这突显了集成方法在弥合遗传流行病学与分子病理学之间差距方面的潜力，从而实现更准确的风险评估。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42876278/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42876278/",
+  "paper_page_path": "papers/pubmed/42876278/index.html"
+}

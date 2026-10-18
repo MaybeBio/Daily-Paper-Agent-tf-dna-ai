@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that RecO actively displaces full-length wild-type SSB from a defined ssDNA substrate, reducing occupancy from 67% to 29%, as measured by atomic force microscopy. They further report that displacement efficiency decreases upon deletion of the C-terminal tip of SSB (DeltaC8) or addition of a single alanine at the C-terminus (A179). Molecular dynamics simulations suggest that A179 retains a native RecO contact but additionally engages a non-native surface, producing an over-engaged complex. The authors conclude that RecO-driven SSB clearance is governed by the protein-protein interface rather than by ssDNA-binding affinity alone, acting as a checkpoint against indiscriminate SSB removal.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation parameters, statistical analyses, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding RecO-mediated displacement of SSB from ssDNA, with a clear central claim and a plausible mechanistic hypothesis. However, the evidence base available for review is limited to the abstract, which prevents verification of the quantitative results, the statistical robustness of the occupancy measurements, the appropriateness of the molecular dynamics methodology, and the strength of the causal link between the observed protein-protein interactions and the displacement outcome. The conclusion that the protein-protein interface governs SSB clearance is plausible but not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in homologous recombination, DNA repair, and genome maintenance would be interested, as the work addresses a long-standing question about how SSB is cleared to allow RecA loading. The study also has relevance for those studying protein-mediated handoff mechanisms on nucleic acid substrates and for users of atomic force microscopy and molecular dynamics in protein-DNA interaction studies.
+- **Major strengths** The study addresses a mechanistically important and previously unresolved question, namely whether RecO directly displaces full-length SSB from ssDNA. The use of atomic force microscopy to directly visualize occupancy changes on a defined substrate is a strong approach. The inclusion of two SSB variants (DeltaC8 and A179) provides a systematic test of the role of the C-terminal region. The combination of experimental and computational methods is appropriate for the question.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that RecO actively displaces full-length wild-type SSB from ssDNA, reducing occupancy from 67% to 29%, is central to the manuscript.
+  - **Evidence pointer** Abstract only; no figure or table location provided
+  - **Concern** The abstract reports a single occupancy reduction from 67% to 29% but provides no information on the number of independent experiments, the variability across replicates, the statistical significance of the difference, or the conditions under which the measurements were made. Without these details, the robustness of the central quantitative claim cannot be assessed.
+  - **Why it matters** The entire conclusion that RecO drives SSB displacement rests on this single quantitative comparison. If the occupancy difference is not statistically robust or is sensitive to experimental conditions, the central claim would be weakened.
+  - **Resolution test** Provide the number of independent replicates, the standard deviation or confidence interval for each occupancy measurement, the statistical test used, and the p-value or equivalent measure of significance. Also specify the buffer conditions, SSB and RecO concentrations, and incubation times used in the displacement experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The conclusion that RecO-driven SSB clearance is governed by the protein-protein interface rather than by ssDNA-binding affinity alone.
+  - **Evidence pointer** Abstract only; no figure or table location provided
+  - **Concern** The abstract does not report any measurements of SSB-ssDNA binding affinity for the wild-type, DeltaC8, or A179 variants. Without such measurements, the claim that displacement efficiency is not governed by ssDNA-binding affinity is not directly supported. The reduced displacement observed for DeltaC8 and A179 could be due to altered ssDNA binding rather than to changes in the protein-protein interface.
+  - **Why it matters** The central mechanistic conclusion distinguishes between two possible determinants of displacement efficiency. If binding affinity differences are not measured and ruled out, the conclusion is not established.
+  - **Resolution test** Include measurements of SSB-ssDNA binding affinity for all three variants under the same conditions used in the displacement experiments. Show that the variants do not differ significantly in binding affinity, or that any differences do not correlate with displacement efficiency.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The molecular dynamics simulations show that A179 retains its native RecO contact but additionally engages a non-native surface, producing a specific, over-engaged complex.
+  - **Evidence pointer** Abstract only; no figure or table location provided
+  - **Concern** The abstract provides no details on the simulation system, force field, simulation length, number of replicas, or how the "over-engaged complex" was defined and identified. Without this information, the reliability and significance of the simulation result cannot be evaluated.
+  - **Why it matters** The simulation result is used to propose a mechanistic explanation for the reduced displacement efficiency of A179. If the simulation methodology is not robust or the analysis is not clearly defined, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide full simulation details, including system construction, equilibration protocol, production run length, force field parameters, and the criteria used to define native versus non-native contacts. Show that the over-engaged complex is reproducibly observed across multiple independent simulations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of DeltaC8
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract refers to "deleting the C-terminal tip of SSB (DeltaC8)" but does not specify which residues are deleted or whether this deletion affects the ssDNA-binding domain.
+  - **Required correction** Specify the exact residues deleted in DeltaC8 and clarify whether the deletion is confined to the C-terminal tail or includes any residues from the DNA-binding core.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of A179
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states "adding a single alanine at the C-terminus of SSB (A179)" but does not clarify the position of this addition relative to the native C-terminal residue.
+  - **Required correction** Specify the native C-terminal residue and the exact position of the added alanine, and clarify whether this is an insertion or a substitution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "checkpoint"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "checkpoint" is used to describe the proposed regulatory role of the protein-protein interface in SSB clearance. This term is typically used in cell cycle and DNA damage response contexts and may be misleading here.
+  - **Required correction** Consider using a more neutral term such as "regulatory mechanism" or "control point" to avoid confusion with established checkpoint biology.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. R1-M1 requires statistical validation of the central occupancy measurement. R1-M2 requires direct measurement of SSB-ssDNA binding affinity for all variants to rule out an alternative explanation. R1-M3 is non-blocking but requires methodological transparency for the simulation component.
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim that RecO directly displaces full-length SSB from ssDNA is presented as novel, and the abstract suggests this has not been shown before. This is a potentially original contribution.
+  - Scientific importance: The question of how SSB is cleared to allow RecA loading is central to homologous recombination and genome maintenance. The work addresses a gap in understanding this handoff mechanism.
+  - Interdisciplinary readership: The work bridges single-molecule biophysics, protein biochemistry, and computational simulation, which could appeal to a broad readership in molecular biology and biophysics.
+  - Technical soundness: The technical soundness cannot be fully assessed from the abstract alone. The atomic force microscopy approach is appropriate, but the lack of statistical detail and binding affinity measurements weakens the current case.
+  - Readability for nonspecialists: The abstract is concise and generally clear, though some terms such as "over-engaged complex" and "checkpoint" may require additional context for nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The central quantitative claim requires statistical validation, and the mechanistic conclusion requires ruling out binding affinity differences. The study is potentially interesting and the approach is appropriate, but the evidence as presented in the abstract is insufficient to support the conclusions.
+
+## Risk / unsupported claims
+- The claim that RecO actively displaces full-length wild-type SSB from ssDNA is not fully supported without statistical details and replicate information.
+- The claim that displacement efficiency is governed by the protein-protein interface rather than by ssDNA-binding affinity is unsupported because no binding affinity measurements are reported.
+- The claim that the A179 variant produces a specific, over-engaged complex is not assessable without simulation methodology details.
+- The generalizability of the findings to in vivo conditions or to other SSB-interacting proteins is not addressed and cannot be evaluated from the abstract.

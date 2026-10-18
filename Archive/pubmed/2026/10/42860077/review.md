@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The author presents a protocol for interpreting plant genomic foundation models, using composition-controlled benchmarks, sparse autoencoders, and causal interventions, applied to three models. Key claims include: (1) the protocol is reproducible and model-agnostic; (2) Plant-DnaGemma outperforms baselines on some tasks but not others; (3) GC-matched controls reveal that motif matches and species classification are not composition artefacts, but phylogenetic signal is confounded by GC; (4) causal ablations identify a specific feed-forward block as critical for splice-site signal, with redundancy within attention blocks.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or data descriptions beyond those summarized in the abstract
+- **Missing materials affecting confidence** Full methods, benchmark construction details, model architecture specifications, hyperparameters, statistical tests, all quantitative results beyond the few cited numbers, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract describes a carefully designed interpretability protocol that addresses a real and important problem, namely composition confounds in plant genomic foundation model interpretation. The inclusion of multiple control conditions, multiple models, and causal interventions is commendable. However, the abstract alone provides insufficient detail to verify the central claims. Several results are presented without effect sizes, confidence intervals, or statistical tests. The phylogenetic analysis appears to contain an internal tension that is not fully resolved. The claim of model-agnosticism is plausible but not demonstrated beyond the three models tested. The work is potentially significant for the plant genomics and interpretability communities, but the evidence base provided is too thin to establish the case.
+- **Who would be interested in the results, and why** Researchers developing or applying genomic foundation models in plants and other taxa; computational biologists working on model interpretability; plant molecular biologists interested in regulatory genomics and transcription factor binding; method developers in machine learning for genomics who need robust evaluation protocols.
+- **Major strengths** The protocol explicitly addresses composition confounds, a known and underappreciated issue in genomic model evaluation. The use of multiple control conditions (GC-matched, realistic-negative, repeat-masked) is rigorous. The multi-model validation across three architectures strengthens generalizability claims. The combination of probing, sparse autoencoders, and causal interventions provides complementary evidence. The finding that naive motif matching against random background is a weak control is an important methodological caution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The abstract reports performance differences (12 percentage points over 4-mer logistic baseline, 8 over DanQ-style CNN) and classification accuracies (67.5% species classification) without any measure of variance, significance, or replication.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** No confidence intervals, standard errors, or statistical tests are reported for any of the quantitative claims. It is unclear whether the reported differences are stable across seeds, chromosome splits, or model initializations.
+  - **Why it matters** Without variance estimates, the reader cannot assess whether the reported advantages are meaningful or within noise. This is particularly important for the negative results (tying on TSS and promoter tasks), where a null result requires power analysis to be interpretable.
+  - **Resolution test** Provide confidence intervals or standard deviations for all reported metrics, state the number of replicates, and report appropriate statistical tests (e.g., paired tests across chromosome splits) for each comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim consistency
+  - **Claim pointer** The abstract states that "representational distance correlates with divergence time only because it correlates twice as strongly with GC, and the phylogenetic correlation is zero once GC is residualized out," while also claiming that "species classification reaches 67.5% on a GC-matched four-species subset (25% chance)."
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** These two claims appear to be in tension. If species classification is well above chance on a GC-matched subset, then some species-discriminative signal remains after GC matching. Yet the phylogenetic analysis claims zero correlation with divergence time after GC residualization. The abstract does not explain how these findings are reconciled.
+  - **Why it matters** The resolution of this tension determines whether the protocol's central conclusion, that phylogenetic signal is a GC artefact, is actually supported. If species are classifiable after GC matching, the phylogenetic null result may reflect a different analytical choice rather than a true absence of signal.
+  - **Resolution test** Clarify the relationship between the GC-matched species classification result and the residualized phylogenetic correlation. Specify whether the GC-matched subset and the twelve-angiosperm analysis use the same features, models, and controls. If they differ, explain why the conclusions are consistent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence completeness
+  - **Claim pointer** The abstract claims that "per-component ablations indicate that no individual attention head is necessary for the splice-site signal, whereas zeroing a single early-middle feed-forward block can cost a quarter of the classifier's accuracy."
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract reports a single ablation result without describing the ablation methodology, the number of components tested, the variance across components, or the criteria for "necessary." It is unclear whether the feed-forward block finding is robust across layers, seeds, or model variants.
+  - **Why it matters** Causal intervention results are highly sensitive to methodology. Without details on how ablations were performed (zeroing vs. noise injection, retraining vs. no retraining), the reader cannot assess whether the finding reflects a genuine causal role or an artefact of the intervention procedure.
+  - **Resolution test** Describe the ablation protocol in detail, report results across all components tested, and provide variance estimates. If possible, validate the key ablation finding with an independent intervention method.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The abstract mentions "six annotated, chromosome-split benchmarks (80,000 windows)" but does not specify the window size, the genomic features annotated, or the species represented.
+  - **Required correction** Provide the window size, annotation types, and species list for the benchmarks in the abstract or indicate where this information is available.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract, model description; location not provided
+  - **Issue** The abstract does not state whether the three models (Plant-DnaGemma, Plant DNABERT, AgroNT) are publicly available or whether the author's fine-tuned versions will be released.
+  - **Required correction** State model availability and, if applicable, where the code and trained weights can be accessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Realistic-negative" controls
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The term "realistic-negative" is not defined. It is unclear what makes these negatives realistic relative to other negative controls.
+  - **Required correction** Define "realistic-negative" explicitly, for example by describing how these sequences were generated and what biological property they are designed to control for.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Motif matching results
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The abstract reports that "only four in five (245 of 299) retain a specific motif preference" under the dinucleotide-matched background, but does not state the threshold for "specific motif preference" or the false discovery rate.
+  - **Required correction** Specify the matching threshold, the multiple-testing correction used, and the false discovery rate for the motif assignments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor) and R1-M2 (claim consistency) must be resolved. The absence of variance estimates and the apparent tension between the species classification and phylogenetic results prevent the central conclusions from being evaluated.
+- **Assessment against Nature-style criteria** Originality: the protocol is a synthesis of existing techniques applied to a new problem, which is moderately original. Scientific importance: the problem of composition confounds is important and the protocol could be influential if fully validated. Interdisciplinary readership: the work bridges machine learning and plant genomics, which is of interest to both communities. Technical soundness: cannot be fully assessed from the abstract; the design is thoughtful but the statistical reporting is insufficient. Readability for nonspecialists: the abstract is dense but generally accessible; the terminology is appropriate for the target audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The protocol addresses a genuine need and the design is promising, but the current evidence base, as presented in the abstract, is insufficient to establish the central claims. The author must provide full statistical reporting and reconcile the apparent tension between the species classification and phylogenetic results.
+
+## Risk / unsupported claims
+- The claim that the protocol is "reproducible" is unsupported without code or data availability statements.
+- The claim that "no individual attention head is necessary" is unsupported without details on the ablation methodology and variance across heads.
+- The claim that "the redundancy sits within the attention block rather than across it" is a strong architectural conclusion that requires more evidence than a single ablation result.
+- The phylogenetic null result (zero correlation after GC residualization) is not fully supported given the apparent tension with the GC-matched species classification result.
+- The generalizability claim ("model-agnostic") is plausible but only demonstrated on three models, all of which are DNA language models; the claim should be scoped accordingly.

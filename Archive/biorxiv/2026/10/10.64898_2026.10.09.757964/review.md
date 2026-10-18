@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered regions (IDRs) flanking the homeodomain (HD) in Drosophila Ubx and AbdA Hox proteins influence the usage of conserved protein motifs near the HD, and that this influence is context dependent, based on in vivo functional assays and coarse-grained molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental details, simulation parameters, statistical analyses, or figure references are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation protocols, experimental data, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis that IDRs modulate motif usage in Hox proteins in a context dependent manner. However, the current evidence base is insufficient to evaluate the robustness of the claims. Key experimental and computational details are absent, and the abstract does not provide enough quantitative or qualitative support to assess whether the conclusions are fully established. The work addresses a timely question in transcription factor biology, but the case is not yet convincing from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying Hox protein function, transcription factor specificity, intrinsically disordered regions, and developmental biology would find these results relevant. The work could also appeal to computational biologists interested in protein dynamics and to those investigating how sequence divergence translates into functional diversity in conserved protein families.
+- **Major strengths** The study targets a biologically important question about how poorly conserved IDRs contribute to functional specificity in a conserved transcription factor family. The combination of in vivo functional assays with coarse-grained molecular dynamics simulations is a potentially powerful approach. The focus on a closely related Hox pair (Ubx and AbdA) provides a controlled system for comparative analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that conserved protein motifs close to the HD are differently used in Ubx and AbdA, and that swapping IDRs alters protein functions and switches motif dependency in some biological situations.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that motif usage differs and that IDR swapping alters function, but no specific data are presented. It is unclear which motifs were examined, how usage was measured, which biological situations showed a switch, and what the magnitude or reproducibility of the effects was.
+  - **Why it matters** Without quantitative or qualitative evidence, the central claim of differential motif usage and IDR dependent switching cannot be assessed. The reader cannot determine whether the effects are robust, specific, or generalizable.
+  - **Resolution test** Provide specific experimental data showing motif usage differences, including statistical comparisons, and demonstrate that IDR swapping leads to reproducible functional changes in defined assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that coarse-grained molecular dynamics simulations identify a large set of intra-molecular interactions involving poorly conserved disordered regions upstream and downstream the HD.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given about the simulation method, force field, system setup, sampling length, or how interactions were defined and quantified. The claim of a large set of interactions is not supported by any metrics or validation.
+  - **Why it matters** The simulation results are a key pillar of the proposed mechanism. Without methodological details and evidence of convergence or robustness, the interaction set cannot be evaluated, and the link between simulations and functional outcomes remains speculative.
+  - **Resolution test** Describe the simulation protocol, show representative interaction maps or quantitative summaries, and provide evidence that the identified interactions are stable across simulations and relevant to the functional assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract concludes that IDRs influence protein motif usage in a context dependent manner.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The conclusion of context dependence is stated but not substantiated. The abstract mentions some biological situations but does not specify which contexts were tested, how many were examined, or whether the effects were consistent or variable.
+  - **Why it matters** Context dependence is a strong claim that requires demonstration across multiple conditions. Without this, the conclusion may overreach the data.
+  - **Resolution test** Present results from multiple biological contexts showing that IDR swapping effects on motif usage vary in a defined and interpretable manner.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "using a wide range of in vivo function" is grammatically unclear and likely intended to mean a wide range of in vivo functional assays.
+  - **Required correction** Revise to "using a wide range of in vivo functional assays" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "conserved protein motifs close to the HD" is vague. It is not specified which motifs are meant or how close is close.
+  - **Required correction** Specify the motifs by name or sequence feature and define the distance range relative to the HD.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not mention the number of biological replicates, the statistical tests used, or the criteria for defining a switch in motif dependency.
+  - **Required correction** Add brief methodological statements covering replicates, statistics, and criteria for functional switching.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of experimental data, simulation details, and contextual scope prevents evaluation of the core claims.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the idea that IDRs modulate motif usage in Hox proteins is a fresh angle on a well studied family. Scientific importance is potentially high for developmental biology and transcription factor research, but the current evidence does not yet establish the significance. Interdisciplinary readership is plausible, given the blend of in vivo genetics and computational simulation, but the abstract does not make the cross disciplinary appeal explicit. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable, though some terms such as coarse-grained molecular dynamics and motif usage may require more context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient support. A revised manuscript with full experimental and computational details could change this assessment.
+
+## Risk / unsupported claims
+- The claim that conserved motifs are differently used in Ubx and AbdA is unsupported without data.
+- The claim that IDR swapping alters protein function and switches motif dependency is unsupported without experimental results.
+- The claim that simulations identify a large set of intra-molecular interactions is unsupported without methodological and quantitative details.
+- The conclusion that IDRs influence motif usage in a context dependent manner is not evaluable from the abstract.

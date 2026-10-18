@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.11.751335",
+  "title": "Accelerating Molecular Dynamics with Hydrogen Mass Repartitioning to Prioritize Immunogenic Neoantigens for Cancer Vaccines through Peptide HLA Binding Free Energy Calculations",
+  "authors": "Diego Alfredo Amaya-Ramirez; Jorge Bruce Florez-Suarez; Juan Diego Mora-Fonseca; Carlos Alberto Parra-Lopez",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-17",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用HMR加速MD和AlphaFold3建模计算肽-HLA结合自由能来优先排序免疫原性新抗原，虽涉及蛋白-肽结合而非TF-DNA，但MD/自由能方法可迁移至TF-DNA互作研究。",
+  "abstract": "Personalized neoantigen based vaccines have progressed from concept to clinical evidence for some of the most aggressive human tumors, yet a key challenge remains: determining which candidates should be prioritized for vaccine inclusion. Public neoantigens, shared across tumor subtypes and patient populations, offer potential as off the shelf candidates for broad spectrum immunotherapy. Candidate selection relies on in silico pipelines that estimate binding; however, binding affinity alone is an imperfect marker of immunogenicity. Molecular dynamics (MD) combined with endpoint free energy methods estimates binding free energy directly from simulated trajectories, and hydrogen mass repartitioning (HMR) mitigates the computational cost of hydrogen involving bond vibrations. This study assessed whether HMR accelerated MD can prioritize immunogenic neoantigens through peptide HLA binding free energy calculations and quantified the trade off between accuracy and computational cost. Ten immunogenic public neoantigens (seven paired with their wild type counterparts and three frameshift neoantigens analyzed as unpaired references) were modeled in complex with their HLA I alleles, built de novo using AlphaFold3 and propagated with a 4 fs HMR time step. Mean binding free energy was computed across ten replicas per complex, and each SNV pair was scored concordant with experimental data when the neoantigen formed a more favorable complex than its wild type. Free energies were recomputed at 100 to 500 ns to identify the shortest trajectory preserving reliable ranking. Free energy calculations reproduced experimental concordance for six of seven SNV pairs and were inconclusive for TP53 R8H. Frameshift neoantigens yielded comparable values. Most complexes retained both peptide termini anchored to the HLA groove throughout, and RMSD and RMSF metrics agreed with one another and with the free energy rankings. The PIK3CA E545K (E11K) pair showed the most distinctive signature: the peptides engaged the groove almost identically over P1 to P8, with the entire difference confined to the C terminal pocket, where loss of the wild type's anchor also disrupted its backbone anchor. This pair showed the largest free energy separation in the panel, and restricting analysis to bound frames confirmed a substantial electrostatic and van der Waals advantage favoring the neoantigen. These findings support HMR accelerated binding free energy MD as a practical refinement step for neoantigen prioritization and its application to assessing public neoantigens for cancer vaccine design.",
+  "abstract_zh": "基于个性化新抗原的疫苗已从概念进展到针对某些最具侵袭性人类肿瘤的临床证据，但一个关键挑战仍然存在：确定哪些候选抗原应优先纳入疫苗。公共新抗原，在肿瘤亚型和患者群体中共享，作为广谱免疫治疗的现货型候选抗原具有潜力。候选选择依赖于估计结合的计算机模拟流程；然而，仅结合亲和力是免疫原性的不完美标志。分子动力学 (molecular dynamics, MD) 结合终点自由能方法直接从模拟轨迹估计结合自由能，而氢质量再分配 (hydrogen mass repartitioning, HMR) 减轻了涉及氢的键振动带来的计算成本。本研究评估了HMR加速MD是否可通过肽-HLA结合自由能计算来优先排序免疫原性新抗原，并量化了准确性与计算成本之间的权衡。十个免疫原性公共新抗原（七个与其野生型对应物配对，三个移码新抗原作为未配对参考进行分析）与其HLA I等位基因复合物建模，使用AlphaFold3从头构建，并以4 fs HMR时间步长传播。每个复合物的平均结合自由能在十个重复中计算，每个SNV对在当新抗原形成比野生型更有利的复合物时，被评分为与实验数据一致。自由能在100至500 ns范围内重新计算，以识别保留可靠排序的最短轨迹。自由能计算再现了七个SNV对中六个的实验一致性，而对TP53 R8H结果不确定。移码新抗原产生可比值。大多数复合物在整个过程中保持肽两端锚定在HLA沟槽内，RMSD和RMSF指标彼此一致，并与自由能排序一致。PIK3CA E545K (E11K) 对显示出最独特的特征：肽在P1至P8区域几乎相同地接合沟槽，全部差异局限于C端口袋，其中野生型锚定的缺失也破坏了其骨架锚定。该对在面板中显示出最大的自由能分离，限制分析于结合帧确认了有利于新抗原的显著静电和范德华优势。这些发现支持HMR加速结合自由能MD作为新抗原优先排序的实用细化步骤，及其在评估用于癌症疫苗设计的公共新抗原中的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.751335",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.11.751335",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.11.751335/index.html"
+}
