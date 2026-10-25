@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods details, or supporting information were provided
+- **Shared manuscript claim summary** The authors report that the heterocyclic amine AαC forms stable non-covalent minor-groove complexes with three B-DNA dodecamers, as determined by molecular docking and explicit-solvent molecular dynamics simulations, and that these poses are not oriented for C8-guanine covalent adduct formation without local DNA distortion or nitrenium ion involvement
+- **Visible evidence base** Abstract text only; no structural figures, trajectory analyses, energy decomposition tables, or methodological parameters beyond those named in the abstract
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation input files, force field parameter details, docking scoring function outputs, RMSD time series, hydrogen bond occupancy data, and any statistical or convergence analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a relevant question in chemical carcinogenesis, namely the non-covalent pre-association of AαC with DNA. However, the evidence base provided is insufficient to evaluate the technical soundness of the docking and simulation protocols, the statistical robustness of the binding energy estimates, or the validity of the structural conclusions. The central claim that the complexes are stable and groove-bound is asserted without supporting trajectory or energetic data. The conclusion regarding poor orientation for covalent attack is interesting but under-supported given the limited sampling and the absence of any analysis of DNA conformational dynamics at the reactive site.
+- **Who would be interested in the results, and why** Researchers in chemical carcinogenesis, DNA damage and repair, and computational biophysics would be interested. The work addresses the poorly understood pre-covalent binding step of a dietary mutagen, which is relevant to understanding the mechanism of AαC-induced DNA adduct formation and to designing intervention strategies. Computational chemists studying ligand-DNA interactions and nitrenium ion reactivity may also find the proposed starting structures useful.
+- **Major strengths** The study addresses a mechanistically important and under-explored question. The use of multiple DNA structures and explicit-solvent MD with a standard force field is appropriate. The authors acknowledge the limitation that neutral AαC poses are not oriented for covalent attack, which is a nuanced and honest interpretation. The proposed use of the complexes as starting points for quantum-mechanical studies is a reasonable and potentially valuable next step.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AαC bound in the minor groove of all three dodecamers with global binding energies of -50.08, -53.41 and -45.22 kcal/mol, and that atomic van der Waals terms contributed -16.41 to -18.36 kcal/mol
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The binding energies are reported as single values with no error estimates, no indication of the number of independent simulations or replicates, and no description of how these energies were computed. The abstract does not state whether these are docking scores, MD-derived free energies, or end-point estimates such as MM-PBSA or MM-GBSA. The van der Waals contributions are presented without context regarding other energetic terms or their variability over the simulation trajectories.
+  - **Why it matters** Without error bars, replicate information, or a clear methodological basis, the reported energies cannot be assessed for statistical significance or physical meaning. The claim of stable binding rests on these numbers, and their reliability is central to the paper's conclusions.
+  - **Resolution test** Provide the method used to compute the binding energies, the number of replicates or independent trajectories, and the standard deviation or confidence intervals. Show a decomposition of the energy terms and demonstrate convergence of the estimates over the simulation time.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that in the simulations AαC remained bound with a low, stable backbone RMSD, whereas the DNA backbone fluctuated considerably more
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract provides no quantitative RMSD values, no time series, no comparison of ligand versus DNA RMSD over the simulation, and no indication of whether the ligand RMSD was computed relative to the starting docked pose or to a reference structure. The statement that the DNA backbone fluctuated considerably more is vague and unsupported by any metric.
+  - **Why it matters** The stability of the ligand-DNA complex is a core claim. Without quantitative RMSD data and a clear definition of the reference frames, the reader cannot verify that the ligand remained bound in a meaningful sense or that the DNA fluctuations are relevant to the binding mode.
+  - **Resolution test** Provide RMSD time series for the ligand and the DNA backbone, with clear definitions of the reference structures and the atoms included in the calculation. Report mean and standard deviation values and discuss whether the ligand remained in the minor groove throughout the simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the minor-groove poses were poorly oriented for covalent attack when the base pairs were intact and canonical, and that local DNA distortion or the charged nitrenium ion may be required
+  - **Evidence pointer** Abstract, Conclusions section; location not provided
+  - **Concern** The abstract does not describe any analysis that directly assesses the orientation of the ligand relative to the C8 position of guanine. No distances, angles, or reactive criteria are reported. The conclusion that the poses are poorly oriented appears to be a qualitative visual assessment rather than a quantitative measure. Furthermore, the suggestion that local DNA distortion or the nitrenium ion may be required is speculative and not tested in this study.
+  - **Why it matters** This conclusion is the main mechanistic insight of the paper. If it is not supported by quantitative geometric analysis, the claim is not established. The speculation about DNA distortion or nitrenium ion involvement is reasonable but should be clearly framed as a hypothesis, not a finding.
+  - **Resolution test** Provide a quantitative analysis of the distance and angle between the AαC amine group and the C8 atom of the target guanine in each complex, over the simulation trajectories. Show whether any conformational sampling brings the ligand into a reactive orientation. Clearly label the statements about DNA distortion or nitrenium ion as hypotheses.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, Background section
+  - **Evidence pointer** Abstract, Background section; location not provided
+  - **Issue** The abstract assumes familiarity with the term "nitrenium ion" and its role in AαC activation. A brief explanatory phrase would improve accessibility.
+  - **Required correction** Add a short clause such as "a reactive electrophilic species formed by metabolic oxidation" when first mentioning the nitrenium ion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, Methods section
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The abstract states that simulations were run for 1BNA for 10 ns and 2Z2G for 50 ns, but no simulation time is given for 2HKC. This is an inconsistency that may reflect an omission.
+  - **Required correction** Specify the simulation time for the 2HKC complex or state if it was not simulated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The hydrogen bonds are described as being to thymine, guanine or adenine oxygen atoms, but the abstract does not specify which residues or positions in the DNA sequence are involved. This limits the interpretability of the interaction.
+  - **Required correction** Identify the specific nucleotide residues and atoms involved in the hydrogen bonds, or state that this information is provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The binding energy estimates lack statistical and methodological detail, the stability claim lacks quantitative trajectory data, and the orientation claim lacks geometric analysis. These are essential to establish the central conclusions.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of pre-covalent binding of AαC to DNA is relatively underexplored, and the study offers a potentially novel perspective. However, the abstract does not demonstrate how this work advances beyond existing computational studies of heterocyclic amine-DNA interactions.
+  - Scientific importance: The topic is relevant to understanding dietary carcinogen mechanisms, but the significance of the findings is limited by the preliminary nature of the evidence and the speculative conclusions.
+  - Interdisciplinary readership: The work could appeal to both computational chemists and cancer biologists, but the abstract is written in a way that assumes significant domain knowledge, which may limit broader accessibility.
+  - Technical soundness: The methods are named but not described in sufficient detail to assess their correctness. The lack of error estimates, convergence analysis, and quantitative structural metrics is a major weakness.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terminology without explanation. The logical flow is clear, but the evidence is presented as assertions rather than demonstrated results.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study with potentially interesting findings, but the lack of quantitative data, methodological detail, and statistical rigor prevents assessment of the claims. The authors should provide the full manuscript with figures, trajectory analyses, and energy calculations to support the conclusions.
+
+## Risk / unsupported claims
+- The global binding energy values (-50.08, -53.41, -45.22 kcal/mol) are unsupported as reported, with no indication of the calculation method, error estimates, or replicate information.
+- The claim that AαC remained bound with a low, stable backbone RMSD is unsupported without quantitative RMSD data or time series.
+- The claim that the minor-groove poses were poorly oriented for covalent attack is unsupported without geometric analysis of the ligand relative to the C8-guanine position.
+- The suggestion that local DNA distortion or the charged nitrenium ion may be required for adduct formation is speculative and not tested in the reported work.
+- The hydrogen bond distances (2.2-2.8 Å) are reported without context on their persistence or occupancy over the simulation trajectories.

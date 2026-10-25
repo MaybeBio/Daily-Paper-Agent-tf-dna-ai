@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text data, figures, tables, or methods were available for evaluation
+- **Shared manuscript claim summary** The authors report that gut symbionts, specifically *Enterococcus mundtii* SC1, promote chlorantraniliprole resistance in *Spodoptera frugiperda* by upregulating the host P450 gene *SfCYP6B39* through the transcription factors CncC and BR-C, and that this regulatory axis can be disrupted by microbiota removal and restored by recolonization
+- **Visible evidence base** Abstract statements only; no numerical data, statistical analyses, experimental protocols, or supplementary materials were provided
+- **Missing materials affecting confidence** Full text, all figures and tables, methods section, statistical details, strain information, RNAi validation data, transgenic *Drosophila* results, docking and simulation parameters, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically ambitious narrative linking gut microbiota to insecticide resistance via host transcriptional regulation. The proposed microbe-host regulatory axis is conceptually interesting and potentially significant for pest management. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key experimental validations, quantitative data, and methodological details are absent, and several logical gaps remain unaddressed. The work is promising but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in insect toxicology, pest management, microbiome-host interactions, and evolutionary adaptation would find these results relevant. The work bridges microbial ecology and insecticide resistance, which is of growing interest for sustainable agriculture and for understanding how symbiotic communities shape host phenotypes.
+- **Major strengths** The study addresses a timely and important question with a multi-level approach spanning microbiome analysis, gene expression, functional genetics, and computational modeling. The use of both RNAi and transgenic *Drosophila* to validate *SfCYP6B39* function adds credibility. The identification of specific transcription factors (CncC and BR-C) provides a plausible mechanistic link between symbiont presence and host gene regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that *E. mundtii* SC1 promotes *SfCYP6B39* overexpression via CncC and BR-C, forming a microbe-host regulatory axis
+  - **Evidence pointer** Abstract, mechanistic statement; location not provided
+  - **Concern** The abstract states that CncC and BR-C mediate the effect of *E. mundtii* on *SfCYP6B39* expression, but no experimental evidence is described to support this regulatory relationship. It is unclear whether these transcription factors were identified through knockdown, overexpression, binding assays, or other approaches.
+  - **Why it matters** The central mechanistic claim of the paper rests on this regulatory axis. Without direct evidence linking the symbiont to these transcription factors and then to *SfCYP6B39*, the proposed mechanism remains speculative.
+  - **Resolution test** Provide experimental data showing that CncC and BR-C are necessary and sufficient for *E. mundtii*-mediated *SfCYP6B39* upregulation, such as transcription factor knockdown or reporter assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The abstract claims that resistant populations exhibited elevated P450 activity and widespread upregulation of detoxification genes, and that microbiota disruption reduced resistance and P450 activity
+  - **Evidence pointer** Abstract, results summary; location not provided
+  - **Concern** No quantitative data are provided for resistance levels, P450 activity measurements, or gene expression changes. Effect sizes, statistical significance, and variability are entirely absent.
+  - **Why it matters** Without numerical data, the magnitude and reliability of the reported effects cannot be assessed. The claim that microbiota disruption "reduced resistance" could represent a minor or major effect, and this distinction is critical for interpreting biological significance.
+  - **Resolution test** Include effect sizes, confidence intervals, and statistical tests for all key comparisons in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The abstract claims that RNAi and transgenic *Drosophila* identified *SfCYP6B39* as a key gene contributing to resistance
+  - **Evidence pointer** Abstract, functional analyses; location not provided
+  - **Concern** The abstract does not specify the phenotypic outcomes of RNAi knockdown or *Drosophila* overexpression. It is unclear whether resistance was reduced, increased, or unchanged, and to what degree.
+  - **Why it matters** The identification of *SfCYP6B39* as a key resistance gene depends on clear phenotypic readouts. Without these, the gene's contribution cannot be evaluated.
+  - **Resolution test** Report resistance phenotypes (e.g., LC50 values) for RNAi-treated and control insects, and for transgenic versus wild-type *Drosophila*.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational evidence
+  - **Claim pointer** The abstract claims that molecular docking and molecular dynamics simulations revealed stable binding of chlorantraniliprole to SfCYP6B39
+  - **Evidence pointer** Abstract, computational analyses; location not provided
+  - **Concern** The abstract does not provide binding affinities, simulation timescales, or comparison with negative controls. Stable binding is asserted without quantitative support.
+  - **Why it matters** Computational predictions are only suggestive and require validation. Without binding parameters or experimental confirmation, this claim adds limited weight to the mechanistic story.
+  - **Resolution test** Provide binding free energies, RMSD trajectories, and ideally experimental evidence of metabolism or binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "microbiota-mediated adaptation" is broad and could be misinterpreted as a general phenomenon rather than a specific case in this system.
+  - **Required correction** Specify that this refers to gut symbiont-mediated adaptation in *S. frugiperda*.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Strain information
+  - **Evidence pointer** Abstract, *E. mundtii* SC1
+  - **Issue** The strain designation SC1 is mentioned but no context is given for its isolation or relevance relative to other strains.
+  - **Required correction** Provide strain origin and any comparative data with other *E. mundtii* isolates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that these findings suggest "microbiome-targeted strategies for sustainable pest management" is speculative without evidence that such strategies are feasible or effective in field settings.
+  - **Required correction** Soften the claim or add a caveat that field validation is needed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The mechanistic link via transcription factors, the quantitative basis for resistance and P450 changes, and the functional validation of *SfCYP6B39* are all essential to the central claims and are not supported by the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of gut symbionts regulating host detoxification genes via specific transcription factors is novel and extends current understanding of microbiota-insecticide interactions.  
+  - Scientific importance: The work has potential implications for pest management and for understanding host-microbe co-adaptation, which is of broad interest.  
+  - Interdisciplinary readership: The topic bridges microbiology, toxicology, and molecular biology, which could attract a diverse audience if the evidence is robust.  
+  - Technical soundness: Cannot be assessed from the abstract. The absence of quantitative data and methodological detail prevents evaluation of experimental rigor.  
+  - Readability for nonspecialists: The abstract is clearly written and accessible, though some terms (e.g., CncC, BR-C) are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the work may be publishable in a specialized journal, but the abstract alone does not provide sufficient evidence to support the mechanistic claims. A full review would be required to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that *E. mundtii* SC1 promotes *SfCYP6B39* overexpression via CncC and BR-C is unsupported by any described experimental evidence.
+- The claim that microbiota disruption "reduced resistance" and "suppressed P450 activity" is unquantified and cannot be evaluated.
+- The claim that *SfCYP6B39* is a key resistance gene is not supported by phenotypic data from RNAi or transgenic experiments.
+- The claim of stable binding between chlorantraniliprole and SfCYP6B39 is unsupported by numerical or comparative data.
+- The suggestion of microbiome-targeted pest management strategies is speculative and not supported by field or applied evidence.

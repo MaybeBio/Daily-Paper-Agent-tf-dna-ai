@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that a KNOX transcription factor (PyKNOX) from the red alga *Pyropia yezoensis* recruits a histone deacetylase (PyHDAC2) to form a transcriptional repressor complex that suppresses expression of *PyCAND1*, a component of the SCF ubiquitin ligase pathway, thereby maintaining the sporophyte phase during the alternation of generations.
+- **Visible evidence base** Abstract text only; methods named include AP-MS, in vitro and in vivo interaction assays, DAP-seq, Y1H, EMAS, molecular docking, and spatiotemporal expression profiling
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, raw data, and supplementary information; no sequence information, no binding data, no expression quantifications, no negative controls described
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel regulatory mechanism for life cycle control in a red alga, with a plausible link between epigenetic repression and ubiquitin-proteasome pathway components. However, the evidence as summarized is insufficient to establish the central claims. Several key assertions are presented without quantitative support, and the logical chain from molecular interaction to developmental phenotype is incomplete. The work may be of interest to the algal development and plant evolution communities, but the current abstract does not provide enough detail to assess technical rigor or biological significance fully.
+- **Who would be interested in the results, and why** Researchers studying alternation of generations in plants and algae, particularly those interested in the evolution of transcriptional regulatory networks; investigators working on KNOX transcription factors, histone deacetylase complexes, or SCF ubiquitin ligase regulation; and the nori (Pyropia) aquaculture community, given the stated practical implications for seedling industry.
+- **Major strengths** The study addresses an under-explored area, namely KNOX function in basal photosynthetic eukaryotes, which could provide evolutionary context for land plant development. The combination of multiple orthogonal methods (AP-MS, DAP-seq, Y1H, EMAS, docking) is commendable in principle. The identification of a specific DNA motif and a direct target gene with a plausible functional link to the ubiquitin-proteasome pathway is a coherent hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PyKNOX physically recruits the histone deacetylase PyHDAC2 to assemble a transcriptional repressor complex"
+  - **Evidence pointer** Methods named: AP-MS, in vitro and in vivo interaction assays; location not provided
+  - **Concern** The abstract states that PyKNOX recruits PyHDAC2 based on AP-MS and interaction assays, but no quantitative data, controls, or stoichiometric information are provided. It is unclear whether the interaction is direct or mediated by other proteins, and whether the complex is stable under physiological conditions.
+  - **Why it matters** The central model depends on a physical and functional interaction between PyKNOX and PyHDAC2. Without evidence for direct binding and for the functional consequence of that binding (e.g., histone deacetylation at target loci), the repressor complex claim is not established.
+  - **Resolution test** Provide co-immunoprecipitation or pull-down data with appropriate controls, demonstrate direct interaction using purified recombinant proteins, and show that the interaction correlates with histone deacetylation at target promoters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link
+  - **Claim pointer** "PyKNOX directly targets and binds to the promoter of PyCAND1" and "the PyKNOX-PyHDAC2 complex suppresses expression of the SCF component CAND1 in sporophytic development"
+  - **Evidence pointer** Methods named: Y1H, EMAS, molecular docking, spatiotemporal expression profiling; location not provided
+  - **Concern** The abstract reports binding of PyKNOX to the PyCAND1 promoter and a negative correlation between complex expression and PyCAND1 expression. However, correlation does not establish causation. No functional assays (e.g., reporter assays, knockdown or overexpression of PyKNOX or PyHDAC2) are described that would demonstrate that the complex directly represses PyCAND1 transcription.
+  - **Why it matters** The central conclusion that the complex suppresses PyCAND1 expression requires direct evidence of transcriptional repression, not merely binding and correlative expression patterns. Without perturbation experiments, alternative explanations (e.g., indirect regulation, feedback loops) remain plausible.
+  - **Resolution test** Perform reporter assays with wild-type and mutated PyCAND1 promoters, or show that knockdown or overexpression of PyKNOX or PyHDAC2 alters PyCAND1 expression and histone acetylation status at the promoter.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Phenotypic link
+  - **Claim pointer** "demonstrated its essential role in maintaining the sporophyte phase"
+  - **Evidence pointer** Not specified in abstract; location not provided
+  - **Concern** The abstract claims an essential role for PyKNOX in sporophyte maintenance, but no phenotypic data (e.g., loss-of-function or gain-of-function studies, developmental observations) are described. The only supporting evidence mentioned is expression profiling showing upregulation during sporophyte stages.
+  - **Why it matters** The title and central narrative hinge on a developmental role. Expression correlation alone is insufficient to establish function. Without genetic or knockdown evidence, the claim of an essential role is unsupported.
+  - **Resolution test** Provide loss-of-function or knockdown data showing that reduced PyKNOX or PyHDAC2 activity leads to aberrant sporophyte development or altered phase transition, with appropriate phenotypic quantification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title contains a grammatical error: "suppresses the CAND1 expression is involved" is a fragment that obscures the intended meaning.
+  - **Required correction** Revise to a grammatically correct form, for example "KNOX-HDAC2 complex suppresses CAND1 expression and is involved in sporophytic development of Pyropia yezoensis."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** DAP-seq analysis
+  - **Evidence pointer** "Genome-wide binding landscape analysis via DNA affinity purification sequencing (DAP-seq)"
+  - **Issue** The abstract states that DAP-seq identified a "TGAG" core motif and enrichment of target genes in the SCF complex, but no information is provided on the number of binding sites, statistical significance thresholds, or how the motif was validated.
+  - **Required correction** Provide the number of identified peaks, the significance criteria used, and validation of the motif (e.g., EMSA or mutagenesis) in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "EMAS"
+  - **Evidence pointer** Methods list in abstract
+  - **Issue** The abbreviation "EMAS" is not defined and is not a standard acronym in this context. It is unclear what technique this refers to.
+  - **Required correction** Define the abbreviation at first use and ensure it is a recognized method or provide a full description in the methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Expression correlation
+  - **Evidence pointer** "showing a strong negative correlation with the PyCAND1 expression"
+  - **Issue** The abstract claims a strong negative correlation but does not report the correlation coefficient, sample size, or statistical significance.
+  - **Required correction** Report the correlation statistic, p-value, and number of biological replicates in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (interaction evidence), R1-M2 (causal repression), R1-M3 (phenotypic role). These three concerns collectively mean that the central model is not currently established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The work addresses a novel question in an understudied organism, which is a point in its favor. Scientific importance: The potential evolutionary insight into KNOX function in red algae is interesting, but the significance for broad plant biology is not yet clear from the abstract. Interdisciplinary readership: The topic may appeal to developmental biologists, phycologists, and evolutionary biologists, but the abstract does not frame the findings in a way that would engage a broad audience. Technical soundness: The use of multiple methods is promising, but the lack of quantitative detail and functional validation prevents assessment of technical rigor. Readability for nonspecialists: The abstract is dense with jargon and abbreviations, and the grammatical error in the title does not help; it would benefit from clearer framing of the biological question and significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the key claims of complex formation, direct transcriptional repression, and developmental function require additional evidence. I would be supportive if the full manuscript provides the missing functional and quantitative data.
+
+## Risk / unsupported claims
+- The claim that PyKNOX is "essential" for sporophyte maintenance is unsupported without loss-of-function or perturbation data.
+- The claim that the PyKNOX-PyHDAC2 complex "suppresses" PyCAND1 expression is unsupported without direct transcriptional repression assays.
+- The claim of a "coordinated epigenetic and transcriptional network" is an interpretation that extends beyond the correlative evidence presented.
+- The practical implication for the "nori seedling industry" is stated without any data or mechanistic link to aquaculture outcomes.
+- The evolutionary significance claim ("provides evolutionary insights") is speculative without comparative analyses across species.

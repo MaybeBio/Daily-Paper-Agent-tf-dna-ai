@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose scHGNN, a heuristic graph neural network method for inferring gene regulatory networks from single-cell RNA sequencing data. The method integrates multi-order neighbor topological information via a unified heuristic matrix and link prediction modules to balance local and global regulatory signals. The authors claim superior performance over existing methods on benchmark networks of varying gene scales and origins, and report validation rates of 76% to 84% for target gene predictions of TP53, OTX2, and FOXP1 in the hTFtarget database.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark descriptions, baseline comparisons, or validation details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark dataset specifications, baseline method list, evaluation metrics and values, statistical significance tests, hTFtarget validation protocol, code availability, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of graph neural networks to gene regulatory network inference, with a stated emphasis on balancing local and global regulatory information. However, the current evidence base is insufficient to evaluate the technical soundness or the validity of the performance claims. The reported validation rates are not contextualized with baselines or statistical measures, and the methodological novelty relative to existing GNN-based GRN inference tools is not clearly articulated. The abstract alone does not establish the case for the method's superiority or its practical utility.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on single-cell transcriptomics and gene regulatory network inference would be the primary audience. Researchers developing graph-based machine learning methods for biological network prediction may also find the heuristic matrix and link prediction integration of interest. Clinically oriented researchers studying transcription factor targets in disease contexts could be interested if the validation claims hold under rigorous assessment.
+- **Major strengths** The abstract addresses a relevant problem in single-cell biology, namely the integration of local and global regulatory signals in GRN inference. The proposed combination of heuristic matrices with learnable weights and link prediction is a reasonable design concept. The inclusion of external database validation for key transcription factors is a positive step toward biological interpretability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "consistently outperforms existing mainstream methods on key evaluation metrics" across benchmark networks of varying gene scales and origins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are reported. The abstract does not specify which benchmarks were used, which baseline methods were compared, which evaluation metrics were employed, or the magnitude of improvement. Without these details, the claim of consistent superiority cannot be assessed.
+  - **Why it matters** Performance claims in method papers require reproducible comparisons against established baselines on standardized benchmarks. The absence of any numerical evidence prevents verification and undermines the core contribution of the work.
+  - **Resolution test** Provide a table or figure with benchmark names, baseline methods, evaluation metrics, and values with variance or confidence intervals. Include statistical significance tests where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieved validation rates of 76% to 84% for target gene predictions of TP53, OTX2, and FOXP1 in the hTFtarget database.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The validation rate is reported without context. It is unclear how many predictions were made, how the validation set was constructed, whether the rate reflects precision or recall, and how this compares to baseline methods or random expectation. The choice of these three transcription factors and the generalizability to other TFs are not justified.
+  - **Why it matters** External validation is only meaningful if the protocol is transparent and the metric is interpretable. Without a clear definition and baseline comparison, the reported rates could be misleading.
+  - **Resolution test** Specify the number of predicted targets per TF, the definition of validation rate, the criteria for a positive hit in hTFtarget, and provide comparison with a baseline method or a null model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The method integrates multi-order neighbor topological information into learnable weights through a unified heuristic matrix and link prediction modules, balancing local and global regulatory relationships.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain how the heuristic matrix is constructed, how it differs from existing graph-based GRN inference methods such as GRNBoost2, GENIE3, or GNN-based approaches like DeepSEM or GRN-GNN, and what specific novelty is introduced. The term "heuristic" is not defined in this context.
+  - **Why it matters** For a method paper, the novelty must be clearly delineated from prior work. Without this, the contribution is not assessable.
+  - **Resolution test** Include a methods section that formally defines the heuristic matrix, the learning procedure, and a comparison of design choices against at least two existing GNN-based GRN inference methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method is named scHGNN and is described as a model for GRN inference.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is provided on data preprocessing, hyperparameter selection, training procedure, computational cost, or code availability. The abstract does not state whether the method requires a predefined gene network or constructs one from scratch.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without implementation details, other researchers cannot apply or benchmark the method.
+  - **Resolution test** Provide a detailed methods section, a public code repository, and a description of the computational environment and runtime.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "unified heuristic matrix" is introduced without explanation, and the distinction between "local direct regulatory signals" and "global multi-step regulatory pathways" is not formally defined.
+  - **Required correction** Define these terms in the abstract or rephrase to avoid jargon that is not self-explanatory to a broad readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Claim of "significant application value"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of significant application value in elucidating disease mechanisms is not supported by any disease-specific results or case studies in the abstract.
+  - **Required correction** Either remove the disease-related claim or provide a specific example with data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "benchmark networks of varying gene scales and diverse origins" is vague. It is unclear whether these are simulated, curated, or real datasets.
+  - **Required correction** Specify the benchmark datasets by name and source in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, validation protocol details, methodological novelty, and reproducibility information means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: not assessable from the abstract; the heuristic matrix concept may be novel but is not defined. Scientific importance: the problem is relevant, but the significance of the contribution is not demonstrated. Interdisciplinary readership: the abstract is written for a specialized computational biology audience and does not frame the work for a broader scientific readership. Technical soundness: not assessable without methods and results. Readability for nonspecialists: the abstract uses field-specific terminology without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the performance claims or the methodological novelty. A full manuscript with detailed methods, benchmark results, and validation protocols would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of consistent outperformance over existing methods is unsupported due to the absence of any quantitative comparison.
+- The validation rates of 76% to 84% are uninterpretable without a defined metric, prediction count, and baseline comparison.
+- The methodological novelty of the heuristic matrix and its integration with link prediction is not assessable without a formal definition.
+- The claim of "significant application value" for disease research is unsupported by any disease-specific evidence.
+- The generalizability of the method across "varying gene scales and diverse origins" is not verifiable without benchmark specifications.

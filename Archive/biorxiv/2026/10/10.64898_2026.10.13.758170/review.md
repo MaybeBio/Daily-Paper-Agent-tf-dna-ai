@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, limitations, methods summary)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text. Experimental details in Methods are summarized but not fully available.
+- **Shared manuscript claim summary** The authors present DeepD, a phylogeny-informed sparse mixture-of-experts genome foundation model operating at single-nucleotide resolution over a 1-million-token context. They claim efficient long-context modeling, broad sequence-to-function prediction across species, interpretable expert routing that captures genomic features, and controllable generation of chromosome-scale and megabase-scale sequences via a Context–Anchor–Body strategy.
+- **Visible evidence base** Abstract, Introduction, Results sections (Figures 1–8 referenced), Discussion, Limitations, Code/data availability statement. Full Methods details, supplementary figures, and experimental protocols are referenced but not provided in full.
+
+## Reviewer
+- **Overall assessment** This manuscript describes an ambitious and technically sophisticated genome foundation model with claims spanning efficient architecture design, phylogeny-aware representation learning, zero-shot variant effect prediction, and controllable long-context sequence generation. The scope is broad and the potential impact is high if the claims are fully supported. However, the provided text is largely descriptive and many quantitative results are presented without sufficient methodological detail or statistical context. Several core claims, particularly regarding generation quality and biological validity, require substantially more evidence than is visible in the current submission. The manuscript is promising but the case is not yet fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists developing genome foundation models, researchers in regulatory genomics and variant effect prediction, synthetic genomics groups interested in chromosome-scale design, and plant and microbial genomics communities. The combination of efficient long-context modeling with controllable generation across diverse taxa would be of broad interest if validated.
+- **Major strengths** The architecture design is thoughtful, combining sparse mixture-of-experts with a species-informed router and multi-scale attention to address a real computational bottleneck in genome modeling. The use of unselected whole-genome data across all domains of life is a principled choice that distinguishes this work from gene-centric or human-centric models. The CAB generation strategy is a novel contribution that directly addresses a known limitation of autoregressive long-sequence generation. The experimental validation of generated maize promoters is a strong and commendable step beyond purely computational evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DeepD performs well in human protein fitness and disease variants effect prediction, such as BRCA1 and BRCA2, with particular strength in regulatory regions, such as promoter and transcription-factor binding sites."
+  - **Evidence pointer** Results section, Figure 4A–D; location not provided
+  - **Concern** The manuscript reports AUROC values for several variant effect prediction benchmarks but does not provide confidence intervals, statistical significance tests, or details on the evaluation protocol. For example, DeepD achieves AUROC 0.934 on ClinVar SNVs, but it is unclear how the test set was constructed, whether variants overlapping the training genomes were excluded, and how calibration was performed. The comparison to AlphaGenome is particularly problematic because AlphaGenome was trained on human functional genomics data, and the claim that DeepD outperforms it on zero-shot tasks requires careful control for data leakage and task alignment.
+  - **Why it matters** Variant effect prediction is a clinically relevant claim. Without rigorous evaluation details, the reported performance cannot be independently assessed or reproduced, and the comparison to specialized models may be misleading.
+  - **Resolution test** Provide full evaluation protocols, including train/test splits, variant filtering criteria, calibration methods, and statistical significance testing. Report confidence intervals for all AUROC and correlation values. Clarify whether any test variants or their linkage disequilibrium proxies appear in the pretraining data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DeepD also generates experimentally validated core promoters with specified transcriptional strengths."
+  - **Evidence pointer** Results section, Figure 6A–D; location not provided
+  - **Concern** The promoter generation experiment is a key validation of the model's regulatory grammar learning. However, the text reports only that "about 76% of the evaluated High SCPs exhibited activity above the High-activity threshold, whereas approximately 83% of the evaluated Low SCPs fell below the Low-activity threshold." The number of tested promoters is not stated, the choice of thresholds is not justified, and no statistical comparison to a negative control (e.g., random or shuffled promoters) is described. The claim that the model "translates coarse activity labels into experimentally measurable differences" requires a more rigorous experimental design.
+  - **Why it matters** This is the only direct experimental validation of the generation capability. If the effect sizes are small or the thresholds are permissive, the conclusion may not hold. The absence of a negative control makes it impossible to determine whether the observed activity differences are due to the model's learned regulatory grammar or to generic sequence properties.
+  - **Resolution test** Report the number of tested SCPs per condition, the distribution of measured activities, and the statistical test used to compare High and Low conditions. Include a negative control set (e.g., shuffled or random promoters) and demonstrate that the model-generated promoters perform significantly better than this control. Justify the activity thresholds with reference to the native data distribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DeepD also generates complete yeast chromosome sequences and megabase-scale Arabidopsis segments, preserving gene structure and order while introducing variations within natural ranges."
+  - **Evidence pointer** Results section, Figures 7 and 8; location not provided
+  - **Concern** The chromosome-scale generation results are described qualitatively. The text states that generated yeast chromosomes have "coding-gene number (138 to 140 versus 139 in S288C), tRNA number (10 versus 10 in S288C), protein-length distribution (median range from 392.50 to 400.50 aa versus 392.60 aa in S288C), and the number of genes with Pfam hits (129 to 131 versus 130 in S288C)." These aggregate statistics do not demonstrate that gene order, intergenic structure, or regulatory elements are preserved. The claim that variations "mirror natural yeast pangenomic diversity" is supported only by a phylogenetic analysis based on synonymous SNPs, which is not described in sufficient detail. For Arabidopsis, the recovery rate of 99.2% for core genes is reported, but the criteria for "recovery" are not defined, and the functional consequences of the 3,076 novel SNPs and 9 novel SVs are not assessed.
+  - **Why it matters** The central claim of the paper is controllable, coherent long-context generation. If gene order or regulatory structure is not preserved, the generated sequences may be of limited biological utility. The current evidence is insufficient to distinguish coherent generation from sequence assembly that happens to preserve local statistics.
+  - **Resolution test** Provide detailed alignment statistics between generated and natural sequences, including gene order conservation, intergenic distance distributions, and regulatory motif preservation. Define the criteria for gene recovery and report false positive and false negative rates. Assess the functional impact of novel variants, particularly stop-gain mutations and SVs, and compare the distribution of variant effects to that observed in natural populations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "DeepD-60B was trained on nucleotide sequences spanning eukaryotes, archaea, bacteria, and viruses, including 5.39 Tb from 5,434 eukaryotic species, 12.09 Gb from 6,932 archaeal species, 452.60 Gb from 136,485 bacterial species, and 45.22 Gb from 2,917,521 viral species."
+  - **Evidence pointer** Results section, Figure 1A; location not provided
+  - **Concern** The data composition is described but the source databases, quality filtering criteria, and species selection procedures are not specified. The imbalance between eukaryotic (5.39 Tb) and prokaryotic (452.60 Gb) data is striking and may bias the model's representation. The text states that "soft-masked repetitive bases remain in their native sequence context, although their contribution to the training loss is reduced," but the masking strategy and loss weighting are not described.
+  - **Why it matters** Data composition is a primary determinant of model behavior. Without detailed documentation of data sources, filtering, and masking, the model cannot be reproduced and the interpretation of taxon-specific performance is ambiguous.
+  - **Resolution test** Provide a complete data card including source databases, version numbers, quality filters, species list, and the fraction of soft-masked bases. Describe the loss weighting scheme for masked positions and justify the data balance across domains of life.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Expert routing captures exon–intron boundaries, transposable elements, and distal cis-regulatory elements."
+  - **Evidence pointer** Results section, Figure 5A–E; location not provided
+  - **Concern** The interpretability analysis using gating weights is interesting but the evaluation is incomplete. The text reports AUPRC values for human CDS and repeat categories but does not describe the classification task in detail, including how positive and negative examples were defined, how class imbalance was handled, and how the best-performing layer was selected. The claim that routing captures distal cis-regulatory elements is based on the maize tb1 locus example, which is a single anecdotal case.
+  - **Why it matters** Interpretability claims are increasingly important for model trust and biological discovery. If the classification protocol is not rigorous, the conclusion that routing reflects genomic organization is not well supported.
+  - **Resolution test** Provide full details of the probing classification tasks, including dataset construction, train/test splits, and baseline comparisons. For the maize example, provide quantitative evidence that the routing signal at the Hopscotch element is significantly stronger than at matched control loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "reducing active computation" without quantifying the reduction. The phrase "performs well" is vague and does not convey the magnitude of the reported effects.
+  - **Required correction** Provide a specific number for the active parameter reduction (e.g., "activating approximately 1 billion of 63 billion parameters per token") and replace "performs well" with specific benchmark results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, Figure 1
+  - **Evidence pointer** Results section, Figure 1A; location not provided
+  - **Issue** The text states "including 5.39 Tb from 5,434 eukaryotic species" but the abstract states "5.90 Tb of nucleotide sequence." The discrepancy between 5.90 Tb and the sum of the listed components (5.39 Tb + 12.09 Gb + 452.60 Gb + 45.22 Gb) is not explained.
+  - **Required correction** Reconcile the total data volume with the component volumes and explain any additional data sources or filtering steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The Methods section is presented as a summary with pointers to "METHODS DETAILS" that are not included in the provided text. Key details on model architecture, training hyperparameters, and evaluation protocols are therefore unavailable.
+  - **Required correction** Ensure the full Methods are included in the submission for review, or provide a detailed supplementary methods document.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Limitations section
+  - **Evidence pointer** Limitations of the study; location not provided
+  - **Issue** The text contains a typographical error: "Aradopsis" should be "Arabidopsis."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Code and data availability; location not provided
+  - **Issue** The statement "During peer review, DeepD will be available to editors and reviewers through anonymous APIs" is vague. It is unclear what functionality the API provides and whether it allows full reproduction of the reported results.
+  - **Required correction** Clarify the API scope and provide instructions for reviewers to access the model and reproduce key results.
+
+## Risk / unsupported claims
+- The claim that DeepD "enables efficient genome modeling" is supported by computational cost comparisons, but the specific efficiency metrics are not fully reported.
+- The claim that generated yeast chromosomes "can hardly be distinguished from sequences of the natural yeast population" is not supported by quantitative similarity metrics in the provided text.
+- The claim that DeepD "captures" distal cis-regulatory elements is based on a single anecdotal example and requires systematic evaluation.
+- The claim that generated Arabidopsis sequences "preserving gene structure and order" is not supported by detailed alignment statistics.
+- The claim that DeepD "outperforms" AlphaGenome on BRCA1 and BRCA2 requires careful interpretation given AlphaGenome's different training objective and data.
+- The novelty of the CAB strategy relative to existing inpainting and infilling approaches in language models is not clearly delineated.

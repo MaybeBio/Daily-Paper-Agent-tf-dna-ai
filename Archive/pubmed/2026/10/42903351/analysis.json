@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42903351",
+  "title": "Variant-informed multimodal tissue-state modeling reveals an NRF2 stress niche and dependency axis in KEAP1/NFE2L2-altered cancer.",
+  "authors": "Kong, Mowei; Li, Qiuing; Zhao, Xingwei; Wang, Yu; Luo, Yamei; Yu, Yang; Zhang, Chunxiang",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-10-22",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发VISTA多模态框架整合基因组、转录组和病理图像建模KEAP1/NFE2L2突变肿瘤的NRF2应激状态，虽涉及转录因子NFE2L2但无蛋白-DNA互作建模或结合机制研究，方法为多组学整合而非AI/物理模拟聚焦互作，与本课题关联微弱。",
+  "abstract": "INTRODUCTION: Cancer genotypes influence transcriptional programs, spatial organization, histopathology, and treatment-response states, yet these molecular and tissue-level features are often analyzed separately in public-data studies. VISTA was developed as a variant-informed, multimodal framework for modeling genotype-linked tissue states and prioritizing validation-ready biological hypotheses. METHODS: VISTA integrates somatic variants, protein-region and AlphaMissense-informed priors, RNA-state scoring, whole-slide image embeddings, immunotherapy cohorts, spatial and single-cell references, cell-line dependency maps, and pharmacogenomic screens. We evaluated the framework in KEAP1/NFE2L2-altered lung cancer and melanoma, using the NRF2 stress axis as a biologically defined test case. Analyses incorporated project-adjusted modeling, bootstrap confidence intervals, permutation testing, leave-project sensitivity analyses, independent tumor-level validation cohorts, fixed-effect external meta-analysis, model-system analyses using DepMap/CCLE, tissue-context analyses, immunotherapy cohorts, and exploratory whole-slide image analyses. RESULTS: In TCGA LUAD, LUSC, and SKCM pilot cohorts, KEAP1 and NFE2L2 alterations were consistently associated with NRF2 stress activation across project-adjusted models and sensitivity analyses. Independent analyses of CPTAC LUAD, CPTAC LSCC, and non-TCGA LUAD cohorts reproduced higher NRF2-state scores in KEAP1/NFE2L2-altered tumors. Fixed-effect external meta-analysis supported associations with both KEAP1 mutation and combined KEAP1-or-NFE2L2 alteration status. DepMap/CCLE analyses provided complementary model-system evidence: KEAP1/NFE2L2-mutant models had higher NRF2 scores, while NRF2-high or KEAP1/NFE2L2-mutant contexts showed stronger NFE2L2 dependency. Tissue-context analyses positioned NRF2 stress near hypoxic, stromal, myeloid, and immune programs. Immunotherapy cohorts supported the relevance of NRF2-associated states to treatment-response biology, while also indicating limited utility for static pan-cancer prediction. Exploratory whole-slide image analyses using pathology foundation-model embeddings identified morphology associations with myeloid, hypoxic, and CAF/TGF-beta barrier programs. DISCUSSION: VISTA provides an evidence-layered approach to variant-informed tissue-state modeling. By integrating genomic, transcriptomic, imaging, spatial, cellular, dependency, and pharmacogenomic evidence, it can help prioritize genotype-linked cancer states and validation-ready hypotheses. VISTA is not intended to function as a stand-alone clinical predictor; its claims are bounded by the evidence available in each data layer and by the biological and clinical context of the analyzed cohorts.",
+  "abstract_zh": "引言：癌症基因型影响转录程序、空间组织、组织病理学及治疗反应状态，然而这些分子和组织层面的特征在公共数据研究中常被分开分析。VISTA被开发为一种基于变异信息的多模态框架，用于建模基因型关联的组织状态并优先排序可验证的生物学假设。方法：VISTA整合了体细胞变异、蛋白质区域及AlphaMissense信息先验、RNA状态评分、全切片图像嵌入、免疫治疗队列、空间和单细胞参考、细胞系依赖性图谱及药物基因组学筛选。我们在KEAP1/NFE2L2改变的肺癌和黑色素瘤中评估了该框架，以NRF2应激轴作为生物学定义的测试案例。分析包括项目调整建模、自举置信区间、置换检验、留项目敏感性分析、独立肿瘤水平验证队列、固定效应外部荟萃分析、基于DepMap/CCLE的模型系统分析、组织背景分析、免疫治疗队列及探索性全切片图像分析。结果：在TCGA LUAD、LUSC和SKCM试点队列中，KEAP1和NFE2L2改变在项目调整模型和敏感性分析中一致与NRF2应激激活相关。对CPTAC LUAD、CPTAC LSCC和非TCGA LUAD队列的独立分析重现了KEAP1/NFE2L2改变肿瘤中更高的NRF2状态评分。固定效应外部荟萃分析支持与KEAP1突变及KEAP1或NFE2L2联合改变状态的关联。DepMap/CCLE分析提供了互补的模型系统证据：KEAP1/NFE2L2突变模型具有更高的NRF2评分，而NRF2高或KEAP1/NFE2L2突变背景显示更强的NFE2L2依赖性。组织背景分析将NRF2应激定位于缺氧、基质、髓系和免疫程序附近。免疫治疗队列支持NRF2相关状态与治疗反应生物学的相关性，同时也表明其在静态泛癌预测中的效用有限。使用病理基础模型嵌入的探索性全切片图像分析识别了与髓系、缺氧及CAF/TGF-β屏障程序相关的形态学特征。讨论：VISTA提供了一种基于证据分层的变异信息组织状态建模方法。通过整合基因组、转录组、影像、空间、细胞、依赖性和药物基因组学证据，它有助于优先排序基因型关联的癌症状态和可验证的假设。VISTA并非旨在作为独立的临床预测工具；其主张受限于每个数据层中可用证据及所分析队列的生物学和临床背景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42903351/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42903351/",
+  "paper_page_path": "papers/pubmed/42903351/index.html"
+}

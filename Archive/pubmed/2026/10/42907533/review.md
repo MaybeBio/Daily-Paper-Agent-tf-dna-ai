@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present DynaVelo, a generative neural ODE model that learns joint dynamics of gene expression and TF motif activity from single-cell multiome data. They claim the model recovers wild-type GC B cell bifurcating dynamics, predicts perturbation-induced changes under Arid1a and Ctcf heterozygosity, identifies rescue targets (Ctcf, Stat3, Bcl6) for Arid1a loss, and that in vivo experiments confirm rescue in all three cases with multiome validation for Arid1aHet;CtcfHet.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, methods description, all figures and tables, statistical details, experimental protocols, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and ambitious framework that integrates dynamical modeling with perturbation prediction in a clinically relevant immunological context. The conceptual advance of learning a functional vector field that can be perturbed in silico is timely and potentially impactful. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the model, the rigor of the validation, or the statistical strength of the in vivo claims. The central claims of rescue and validation rest on experimental data that are not described in sufficient detail to assess their robustness. The work is potentially significant but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists developing dynamical models of single-cell data, immunologists studying germinal center reactions and B cell fate decisions, and researchers interested in epigenetic regulation of cell state transitions. The framework for in silico perturbation and rescue prediction would also appeal to those working on therapeutic target identification in complex tissues.
+- **Major strengths** The model architecture is conceptually novel in that it learns a functional form of the vector field, enabling in silico perturbation rather than mere trajectory inference. The integration of gene expression and TF motif activity from multiome data is a natural and potentially powerful design. The inclusion of in vivo validation for predicted rescue targets is a strong feature that goes beyond typical computational-only studies. The identification of specific rescue targets and their experimental confirmation adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DynaVelo learns a functional form of the vector field, such that the model can be perturbed in silico"
+  - **Evidence pointer** Abstract only; methods not provided
+  - **Concern** The abstract does not describe how the vector field is parameterized, how perturbations are implemented in the model, or how the model is trained and regularized. Without this information, it is impossible to assess whether the in silico perturbation scheme is biologically meaningful or mathematically well-posed.
+  - **Why it matters** The central novelty of the work rests on the ability to perturb the learned dynamics. If the perturbation scheme is not carefully designed, the predicted rescue targets may be artifacts of the model rather than biologically relevant predictions.
+  - **Resolution test** Provide a detailed methods section describing the neural ODE architecture, the perturbation mechanism, and any validation of the perturbation scheme against known biological perturbations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "In vivo experiments in double-heterozygous mice confirmed rescue of the Arid1aHet dark-zone phenotype in all three cases"
+  - **Evidence pointer** Abstract only; experimental details not provided
+  - **Concern** The abstract states that rescue was confirmed in all three cases but provides no information on sample sizes, number of replicates, statistical tests used, effect sizes, or how "rescue" was defined and quantified. The claim of rescue in all three cases is strong and requires robust statistical support.
+  - **Why it matters** The in vivo validation is the key evidence that the model predictions have biological relevance. Without adequate statistical detail, the claim of rescue cannot be evaluated and may be based on underpowered or improperly analyzed experiments.
+  - **Resolution test** Provide full experimental details including sample sizes, statistical methods, and quantitative definitions of the dark-zone phenotype and its rescue.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation completeness
+  - **Claim pointer** "multiome profiling of Arid1aHet;CtcfHet GCs validated the predicted shift toward wild-type dynamics"
+  - **Evidence pointer** Abstract only; validation data not provided
+  - **Concern** The abstract claims validation of the predicted shift toward wild-type dynamics but does not describe what metric was used to assess this shift, how it was compared to the model prediction, or whether the shift was statistically significant. The term "validated" is used without specifying the criteria for validation.
+  - **Why it matters** The validation of the model prediction is a critical step in establishing the utility of the framework. Without clear validation criteria, the claim of validation is ambiguous and cannot be independently assessed.
+  - **Resolution test** Provide a quantitative comparison between model predictions and experimental observations, including statistical measures of agreement and any thresholds used for declaring validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "multiomic velocities" in the title is not defined in the abstract and may be confusing to readers unfamiliar with the concept of RNA velocity.
+  - **Required correction** Define "multiomic velocities" in the abstract or provide a brief explanation of how the model extends the concept of velocity to multiome data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract
+  - **Issue** No mention is made of data or code availability, which is important for a computational methods paper.
+  - **Required correction** Include a data and code availability statement in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not situate DynaVelo relative to existing dynamical models of single-cell data, such as RNA velocity methods or other neural ODE approaches.
+  - **Required correction** Add a brief statement in the abstract or introduction that distinguishes DynaVelo from prior work.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail, statistical rigor, and clear validation criteria prevents the core claims from being fully assessed.
+- **Assessment against Nature-style criteria** Originality is high, as the concept of a perturbable functional vector field for multiome data is novel. Scientific importance is potentially high given the relevance to B cell biology and therapeutic target identification. Interdisciplinary readership is likely, spanning computational biology, immunology, and genomics. Technical soundness cannot be assessed from the abstract alone and requires full methods. Readability for nonspecialists is moderate, as the abstract uses specialized terminology without sufficient context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance and the inclusion of in vivo validation are promising, but the current abstract does not provide enough detail to establish the case. A full review of the manuscript with methods and figures is necessary to determine whether the claims are fully supported.
+
+## Risk / unsupported claims
+- The claim that DynaVelo "recovers the bifurcating in vivo dynamics" is unsupported without details on the comparison method and metrics.
+- The claim that in silico perturbation "yields dynamic and cell-state-specific GRNs" is unsupported without a description of how GRNs are inferred and validated.
+- The claim that "Ctcf, Stat3 and Bcl6" are identified as rescue targets is unsupported without details on the perturbation scoring scheme.
+- The claim of in vivo rescue confirmation in all three cases is unsupported without statistical details.
+- The claim of multiome validation of the Arid1aHet;CtcfHet shift is unsupported without quantitative validation criteria.

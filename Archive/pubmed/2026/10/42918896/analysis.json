@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42918896",
+  "title": "scHGNN: A single-cell gene regulatory network inference method based on heuristic graph neural networks.",
+  "authors": "Zhang, Tianjiao; Teng, Xiaopeng; Zhang, Hongfei; Zhao, Zhongqian; Li, Yang; Dong, Benzhi; Wang, Guohua",
+  "journal": "Functional & integrative genomics",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用启发式图神经网络从单细胞转录组推断基因调控网络，虽涉及转录因子靶基因预测，但核心是基因调控网络而非蛋白质-DNA三维互作建模，方法可迁移至TF-DNA结合位点预测，故给6分。",
+  "abstract": "The construction of gene regulatory networks based on single-cell transcriptomics (scRNA-seq) data provides crucial technical support for decoding cell fate determination mechanisms at the single-cell level, elucidating molecular mechanisms underlying disease progression, and developing targeted therapeutics. Existing methods for constructing GRNs often rely excessively on gene expression features, struggling to achieve an effective balance between local direct regulatory signals and global multi-step regulatory pathways. This imbalance results in insufficient utilization of topological information within the network structure. Therefore, this study proposes a heuristic graph neural network-based GRN inference model (scHGNN). scHGNN integrates multi-order neighbor topological information into learnable weights through unified heuristic matrix and link prediction modules, thereby balancing local and global regulatory relationships. This approach effectively fuses gene expression features with network structural information to achieve precise inference of latent regulatory links within gene regulatory networks. Across GRN inference tasks using benchmark networks of varying gene scales and diverse origins, scHGNN consistently outperforms existing mainstream methods on key evaluation metrics. Furthermore, in target gene prediction cases for key transcription factors such as TP53, OTX2, and FOXP1, the model achieved validation rates as high as 76%-84% in the hTFtarget database. This not only supports its accuracy in identifying known regulatory relationships but also indicates its potential to identify high-confidence candidate regulatory interactions for further biological investigation. Collectively, these results demonstrate that scHGNN holds significant application value in elucidating gene regulatory mechanisms and exploring the molecular basis of related diseases.",
+  "abstract_zh": "基于单细胞转录组学（scRNA-seq）数据构建基因调控网络，为在单细胞水平解码细胞命运决定机制、阐明疾病进展的分子机制以及开发靶向治疗策略提供了关键技术支撑。现有构建GRN的方法往往过度依赖基因表达特征，难以在局部直接调控信号与全局多步调控通路之间实现有效平衡，导致网络结构中的拓扑信息利用不足。为此，本研究提出了一种基于启发式图神经网络的GRN推断模型（scHGNN）。scHGNN通过统一的启发式矩阵和链接预测模块，将多阶邻居拓扑信息整合到可学习权重中，从而平衡局部与全局调控关系。该方法有效融合了基因表达特征与网络结构信息，以实现对基因调控网络中潜在调控链接的精确推断。在采用不同基因规模及多样来源的基准网络进行的GRN推断任务中，scHGNN在关键评估指标上始终优于现有主流方法。此外，在针对关键转录因子（如TP53、OTX2和FOXP1）的靶基因预测案例中，该模型在hTFtarget数据库中实现了高达76%-84%的验证率。这不仅支持了其在识别已知调控关系方面的准确性，也表明其具有识别高置信度候选调控相互作用的潜力，以供进一步生物学研究。综合来看，这些结果表明scHGNN在阐明基因调控机制和探索相关疾病分子基础方面具有重要应用价值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42918896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42918896/",
+  "paper_page_path": "papers/pubmed/42918896/index.html"
+}

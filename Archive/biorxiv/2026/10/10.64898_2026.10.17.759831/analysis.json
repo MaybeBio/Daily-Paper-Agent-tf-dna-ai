@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.17.759831",
+  "title": "Network organization of protein binding-site landscapes across scales",
+  "authors": "G. Giordano; A. Chernomoretz",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-19",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型嵌入与网络分析研究配体结合位点的多尺度组织，虽涉及蛋白-配体互作而非TF-DNA体系，但方法可迁移至蛋白-DNA结合位点建模，故给予中档分。",
+  "abstract": "Studying protein binding sites helps explain ligand recognition and selectivity, informing drug development and repurposing. Here, we combine protein language model embeddings with network analysis to investigate how local recognition environments organize across scales. We represented 121,673 non-redundant, experimentally identified binding sites using ProtT5 embeddings of ligand-contacting residues and constructed a mutual nearest-neighbor network. Embedding proximity was associated with local structural similarity, supporting the structural relevance of network relationships. Globally, the network exhibited ligand-related organization. At the mesoscopic scale, communities revealed heterogeneous landscapes within established protein classifications, with InterPro categories ranging from compact neighborhoods to dispersed recognition environments. Focusing on kinases, a major class of drug targets, we found that communities within individual proteins distinguished separate binding regions and resolved recurrent residue-defined microenvironments within broad structural classes. Local similarities also connected sites in proteins with low sequence identity and non-overlapping InterPro annotations, suggesting shared recognition features across distant proteins. Together, these results show how network organization captures both diversification within protein categories and local similarities across their boundaries. This multiscale framework complements conventional protein classifications and provides a basis for prioritizing structural and biochemical investigations of ligand cross-reactivity, selectivity, and repurposing opportunities.",
+  "abstract_zh": "研究蛋白质结合位点有助于解释配体识别与选择性，为药物开发和再利用提供信息。在此，我们将蛋白质语言模型嵌入与网络分析相结合，探讨局部识别环境如何跨尺度组织。我们使用配体接触残基的ProtT5嵌入表示121,673个非冗余、实验鉴定的结合位点，并构建了相互最近邻网络。嵌入邻近性与局部结构相似性相关，支持网络关系的结构相关性。在全球范围内，该网络表现出与配体相关的组织。在介观尺度上，群落揭示了既定蛋白质分类中的异质景观，其中InterPro类别从紧凑邻域到分散识别环境不等。聚焦于激酶（药物靶点的主要类别），我们发现单个蛋白质内的群落区分了不同的结合区域，并在广泛结构类别中解析了重复的残基定义微环境。局部相似性还连接了序列同一性低且InterPro注释不重叠的蛋白质中的位点，提示远缘蛋白质间存在共享识别特征。综合来看，这些结果展示了网络组织如何捕捉蛋白质类别内的多样化及其边界间的局部相似性。这一多尺度框架补充了传统蛋白质分类，并为优先开展配体交叉反应性、选择性和再利用机会的结构与生化研究提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759831",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759831",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.17.759831/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report that specific histone modifications (H3K27ac, H3K27me3, H3K9me3) directly affect the binding of seven human transcription factors to nucleosomes, with mark-dependent effects on monomer versus dimer binding for FOXA1 and PAX7, and a general impairment of internal nucleosome binding with enhanced end-binding preferences for most TFs under H3K27ac.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that histone modifications may directly modulate TF binding to nucleosomes, which could extend current models of cis-regulatory encoding. However, the evidence base is limited to a brief summary with no methodological detail, no quantitative results, and no statistical support. The central claims are plausible but currently unverifiable from the supplied material. The work would benefit from a full manuscript review to assess technical rigor and biological significance.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, transcription regulation, and epigenomics would be interested, as the findings could inform how histone marks influence TF access to nucleosomal DNA, with implications for understanding cell fate decisions and gene regulatory mechanisms.
+- **Major strengths** The study addresses a relevant and under-explored question about the direct role of histone modifications in TF binding. The use of a diverse nucleosome library and multiple TFs suggests a systematic approach. The distinction between monomer and dimer binding preferences is a nuanced observation that could have functional relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that histone marks directly modulate TF binding to nucleosomes
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no experimental details on how binding was measured, how the nucleosome library was constructed, or how direct effects were distinguished from indirect effects. Without this information, the claim of direct modulation cannot be assessed.
+  - **Why it matters** Direct modulation implies a causal and physical mechanism, which requires rigorous controls to rule out indirect effects such as changes in nucleosome stability or TF availability. The current evidence is insufficient to support this strong claim.
+  - **Resolution test** Provide methods for binding assays, controls for nucleosome integrity, and evidence that observed effects are due to the histone mark itself rather than secondary changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that H3K27ac impairs TF binding at internal nucleosome regions and enhances end-binding preferences for most TFs
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data, effect sizes, or statistical significance are reported. The phrase "most of the assayed TFs" is vague and does not specify which TFs or the magnitude of the effect.
+  - **Why it matters** Without quantitative support, the reader cannot evaluate the robustness or biological relevance of the observed preferences. The claim may be based on weak or variable effects.
+  - **Resolution test** Include effect sizes, confidence intervals, and statistical tests for each TF and histone mark condition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that H3K27me3 and H3K9me3 influence monomer versus dimer binding for FOXA1 and PAX7
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify whether these effects are specific to certain marks or TFs, nor does it provide any validation or replication details.
+  - **Why it matters** Specificity and reproducibility are critical for establishing a general principle. The current description is too brief to determine if these are robust findings or isolated observations.
+  - **Resolution test** Provide replicate data, statistical comparisons across marks and TFs, and a clear description of how monomer versus dimer binding was distinguished.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "directly modulate" is used without defining what "direct" means in this context, which could be ambiguous.
+  - **Required correction** Clarify the definition of direct modulation, such as whether it refers to physical interactions or immediate biochemical effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** TF selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain why these seven TFs were chosen or whether they represent diverse structural classes.
+  - **Required correction** Add a brief rationale for TF selection to help assess generalizability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Biological significance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims an "additional layer of cis-regulatory encoding" but does not discuss how this might integrate with known mechanisms.
+  - **Required correction** Provide a brief discussion of potential implications or testable predictions to strengthen the conceptual framing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of direct modulation and positional effects lack methodological and quantitative support. R1-M3 is non-blocking but requires additional detail for full assessment.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of direct histone mark effects on TF binding is not entirely new, but the specific focus on monomer versus dimer preferences and positional effects may offer a fresh angle. However, originality cannot be fully judged without seeing the full context of prior work.
+  - Scientific importance: If substantiated, the findings could have broad implications for understanding how chromatin state influences TF access, which is relevant to gene regulation and development. The importance is potentially high but depends on the robustness of the evidence.
+  - Interdisciplinary readership: The topic would appeal to molecular biologists, biochemists, and computational biologists, but the abstract does not currently frame the work in a way that would attract a wide interdisciplinary audience.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms like "monomer versus dimer" and "cis-regulatory encoding" may require some background knowledge. It is readable for a specialist audience but not fully accessible to nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological and quantitative detail prevents a supportive recommendation. A full manuscript review is necessary to evaluate the technical rigor and biological significance.
+
+## Risk / unsupported claims
+- The claim that histone marks directly modulate TF binding is unsupported without experimental controls and mechanistic evidence.
+- The claim that H3K27ac impairs internal binding and enhances end-binding for most TFs is unsupported without quantitative data.
+- The claim that H3K27me3 and H3K9me3 influence monomer versus dimer binding is unsupported without specific data and validation.
+- The broader claim of an "additional layer of cis-regulatory encoding" is speculative and not directly evidenced in the abstract.

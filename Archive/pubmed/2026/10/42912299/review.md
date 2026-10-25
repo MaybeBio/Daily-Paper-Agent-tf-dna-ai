@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supporting information were provided
+- **Shared manuscript claim summary** The authors report a high-throughput synthesis and screening workflow with machine-learning-assisted optimization to identify random hybrid polypeptides (RHPs) that modulate immune signaling. A lead candidate, IDP-IMP, suppresses CpG-TLR9 signaling through moderate, promiscuous interactions rather than strong nucleic acid scavenging or receptor antagonism. Efficacy is demonstrated in a collagen-induced arthritis rat model with no detectable systemic toxicity.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, statistical analyses, or figure/table references
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supporting information, raw data, statistical details, and experimental protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that combines combinatorial polymer chemistry with machine learning to address immunomodulation. The central claim that weak, multivalent, dynamic interactions, rather than strong binding, drive functional activity is thought-provoking and potentially significant. However, the abstract provides insufficient quantitative evidence to evaluate the robustness of the screening workflow, the validity of the machine-learning optimization, the mechanistic interpretation, or the in vivo efficacy claims. The case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biomaterials, immunology, polymer chemistry, and drug delivery would be interested. The work speaks to the design of immunomodulatory polymers, the role of multivalent weak interactions in biological signaling, and the application of machine learning to materials discovery. Clinically oriented immunologists may also find the arthritis model results relevant.
+- **Major strengths** The combination of high-throughput synthesis, screening, and machine-learning optimization is a modern and potentially powerful approach. The conceptual shift from strong binding to weak, promiscuous interactions as a design principle is original and could have broad implications. The inclusion of an in vivo disease model adds translational relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that machine-learning-assisted optimization identified a lead RHP, IDP-IMP, that suppresses CpG-TLR9 signaling.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no details on the size of the library, the screening metrics, the machine-learning model architecture, training data, validation strategy, or the criteria for selecting IDP-IMP. Without these, the claim that machine learning meaningfully guided optimization cannot be assessed.  
+  - **Why it matters** The novelty of the workflow depends on demonstrating that machine learning added predictive value beyond random screening. If the optimization was not properly validated, the central methodological contribution is unsubstantiated.  
+  - **Resolution test** Provide details on library size, screening readouts, model training and validation, and a comparison of machine-learning-selected candidates versus random or heuristic selection.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic evidence  
+  - **Claim pointer** The authors claim that IDP-IMP acts through moderate binding to both CpG and TLR9, leading to reduced intracellular colocalization, rather than through strong scavenging or receptor antagonism.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that stronger CpG binding did not correlate with inhibitory activity, but no quantitative binding data, affinity values, or colocalization measurements are provided. The mechanistic distinction between moderate binding and strong scavenging is asserted without supporting data.  
+  - **Why it matters** The central conceptual claim depends on demonstrating that the mechanism is distinct from known nucleic acid scavengers or TLR9 antagonists. Without quantitative binding and functional data, the mechanism remains speculative.  
+  - **Resolution test** Provide binding affinities or association constants for IDP-IMP with CpG and TLR9, dose-response inhibition data, and quantitative colocalization analyses with appropriate controls.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** In vivo evidence  
+  - **Claim pointer** The authors claim that IDP-IMP attenuated inflammation and joint pathology in a collagen-induced arthritis rat model without detectable systemic toxicity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative outcomes are reported, such as arthritis scores, cytokine levels, histopathology grades, or body weight changes. The statement of no detectable systemic toxicity is unsupported by any specific toxicity endpoints.  
+  - **Why it matters** The translational relevance of the work rests on the in vivo efficacy and safety claims. Without quantitative data and statistical analysis, these claims cannot be evaluated.  
+  - **Resolution test** Provide numerical results for disease severity, inflammatory markers, histopathology, and toxicity endpoints with statistical comparisons to appropriate controls.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and characterization  
+  - **Claim pointer** The authors claim that IDP-IMP is a defined lead RHP with specific functional properties.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No information is given on the composition, sequence distribution, molecular weight, polydispersity, or batch-to-batch reproducibility of IDP-IMP. Random hybrid polypeptides are inherently heterogeneous, and the lack of characterization data raises questions about reproducibility.  
+  - **Why it matters** For a polymer-based therapeutic candidate, compositional reproducibility is essential for any further development or validation. Without characterization, the identity of the lead compound is ambiguous.  
+  - **Resolution test** Provide full polymer characterization including composition, molecular weight distribution, and reproducibility data across multiple syntheses.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term IDP-IMP is defined as intrinsically disordered protein-inspired immunomodulatory polypeptide, but the abstract does not explain how the polymer mimics intrinsic disorder or what specific features confer this property.  
+  - **Required correction** Clarify the structural or dynamic features that justify the intrinsically disordered protein-inspired designation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Screening workflow  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions a high-throughput synthesis and screening workflow but does not specify the throughput, the assay format, or the number of candidates evaluated.  
+  - **Required correction** Provide quantitative details on the scale of the library and the screening throughput.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** In vivo data  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No statistical information is provided for the in vivo experiments, including group sizes, replicates, or significance thresholds.  
+  - **Required correction** Include statistical details for all in vivo and in vitro experiments.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative or methodological detail to support the central claims of machine-learning-guided discovery, mechanistic distinction, or in vivo efficacy.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of using weak, promiscuous interactions in random polypeptides for immunomodulation is original and potentially novel.  
+  - Scientific importance: If substantiated, the findings could influence polymer design for immune modulation and broaden understanding of multivalent interactions in signaling.  
+  - Interdisciplinary readership: The work bridges polymer chemistry, immunology, and machine learning, which could appeal to a broad audience.  
+  - Technical soundness: Not assessable from the abstract alone; the lack of quantitative data and methodological detail prevents evaluation.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting, and the work could be supportive if the technical concerns are resolved with full experimental details and quantitative data.
+
+## Risk / unsupported claims
+- The claim that machine-learning-assisted optimization identified the lead candidate is unsupported without details on model training and validation.
+- The mechanistic claim that moderate binding, rather than strong scavenging or antagonism, underlies activity is unsupported without quantitative binding and functional data.
+- The claim of in vivo efficacy and absence of systemic toxicity is unsupported without quantitative outcome measures and statistical analysis.
+- The claim that the findings demonstrate a high-throughput approach is unassessable without details on throughput and library scale.
+- The claim that IDP-IMP is intrinsically disordered protein-inspired is not substantiated by any structural or dynamic evidence.

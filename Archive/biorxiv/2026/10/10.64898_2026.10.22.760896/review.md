@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors report that c-di-AMP directly binds mycobacterial RadA at a non-catalytic site, suppresses its DNA-stimulated ATPase activity, and propose a structural model for this interaction based on modelling and molecular dynamics simulations
+- **Visible evidence base** Isothermal titration calorimetry (ITC) data, ATPase activity assays, structural modelling and MD simulations, all referenced but not shown
+- **Missing materials affecting confidence** Full methods, all primary data figures, simulation parameters and trajectories, structural model coordinates, statistical analyses, and any experimental replicates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that c-di-AMP directly targets RadA in mycobacterial homologous recombination, which would extend the known regulatory scope of this second messenger beyond RecA. However, the evidence as described is insufficient to establish the central claims. The key functional result, suppression of DNA-stimulated ATPase activity, is presented without quantitative data or controls. The structural claims rely entirely on modelling and simulations with no experimental validation, and the abstract contains an internal inconsistency regarding the c-di-AMP binding location that must be resolved. The work is at a preliminary stage and the case is not currently established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying bacterial second messenger signalling, particularly c-di-AMP biology, and those investigating DNA damage response and homologous recombination in mycobacteria. The work may also interest structural biologists studying AAA+ ATPase family proteins and their allosteric regulation. The potential connection between nucleotide signalling and genome maintenance is of broad relevance to microbial physiology and tuberculosis research.
+- **Major strengths** The study addresses a clear gap in understanding how c-di-AMP regulates homologous recombination beyond RecA. The use of ITC to provide direct biophysical evidence for a RadA-c-di-AMP interaction is appropriate and strengthens the case relative to prior genetic inferences. The design of the ATP-analogue competition experiment to distinguish binding sites is a sound approach. The identification of specific residues involved in c-di-AMP binding provides a testable framework for future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** "c-di-AMP reduces MsRadA DNA-dependent ATPase activity"
+  - **Evidence pointer** Functional assays, data not shown
+  - **Concern** The abstract states that c-di-AMP reduces DNA-dependent ATPase activity but provides no quantitative information, such as the magnitude of inhibition, the concentration dependence, or the c-di-AMP concentration required for half-maximal effect. No comparison is made to related nucleotides such as c-di-GMP or cAMP, which would be essential controls to establish specificity.
+  - **Why it matters** The functional suppression of ATPase activity is the central biological claim of the study. Without quantitative data and specificity controls, it is impossible to assess whether the observed effect is biologically meaningful or a non-specific nucleotide effect. The claim as stated cannot be evaluated.
+  - **Resolution test** Provide dose-response curves for c-di-AMP inhibition of ATPase activity, including the IC50 value, and show that related nucleotides do not produce the same effect. Include statistical analysis with replicates and appropriate error measures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** "c-di-AMP is stably bound in the central channel of the RadA hexamer, non-covalently engaged with the DNA-binding residues Arg197, Lys226, and Arg234" and "c-di-AMP was predicted at a peripheral site near, but distinct from, the ATP-binding pocket"
+  - **Evidence pointer** Structural modelling and MD simulations, data not shown
+  - **Concern** The abstract describes two different predicted binding locations for c-di-AMP. The first is in the central channel of the hexamer engaging DNA-binding residues, and the second is at a peripheral site near the ATP-binding pocket in the quaternary complex. These are not obviously compatible descriptions, and the abstract does not explain how these two models relate to each other or which one represents the functional binding mode.
+  - **Why it matters** The structural model is a major component of the study's contribution. An internal inconsistency in the predicted binding site undermines confidence in the modelling approach and leaves the reader uncertain about the actual location of c-di-AMP binding. The distinction between the two sites is critical for interpreting the functional data and for designing validation experiments.
+  - **Resolution test** Clarify whether these are two alternative models or a single model viewed at different levels of detail. Provide a unified structural description with clear figures showing the relationship between the two proposed sites. If both sites are proposed to be occupied, explain the stoichiometry and functional relevance of each.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation of structural model
+  - **Claim pointer** "c-di-AMP is stably bound in the central channel of the RadA hexamer, non-covalently engaged with the DNA-binding residues Arg197, Lys226, and Arg234"
+  - **Evidence pointer** Structural modelling and MD simulations, data not shown
+  - **Concern** The structural claims are based entirely on computational modelling and MD simulations. No experimental validation is presented, such as mutagenesis of the proposed binding residues followed by binding or activity assays. The abstract does not report whether mutations at Arg197, Lys226, or Arg234 affect c-di-AMP binding or ATPase inhibition.
+  - **Why it matters** Computational predictions of binding sites, particularly for a relatively small ligand like c-di-AMP on a large hexameric assembly, are prone to error. Without experimental validation, the structural model remains speculative. The identification of specific residues provides a clear opportunity for validation that has not been exploited in the presented work.
+  - **Resolution test** Perform site-directed mutagenesis of Arg197, Lys226, and Arg234 and test the variants for c-di-AMP binding by ITC and for c-di-AMP-dependent ATPase inhibition. If the model is correct, these mutations should abolish or reduce both binding and functional effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Experimental design
+  - **Affected element** Magnesium independence claim
+  - **Evidence pointer** ITC experiments, data not shown
+  - **Issue** The abstract states that c-di-AMP binding is independent of magnesium ions, but the experimental conditions are not described. Many ATPase proteins require magnesium for nucleotide binding, and the absence of this information makes the claim difficult to contextualize.
+  - **Required correction** Specify the buffer conditions used in the ITC experiments, including whether magnesium was present or absent and at what concentrations. If both conditions were tested, report the binding affinities for each.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** ATP-analogue competition experiment
+  - **Evidence pointer** ITC experiments with ATP analogue, data not shown
+  - **Issue** The abstract states that prior occupancy of the ATP-binding site by the ATP analogue does not affect c-di-AMP binding, which is interpreted as evidence for a distinct binding site. However, the abstract does not report whether the ATP analogue itself binds to RadA under the conditions used, which is a necessary control for this interpretation.
+  - **Required correction** Report the binding affinity of the ATP analogue for RadA and confirm that it occupies the ATP-binding site under the conditions of the competition experiment. If the analogue does not bind, the competition experiment is uninformative.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Quaternary complex model
+  - **Evidence pointer** Structural modelling, data not shown
+  - **Issue** The abstract mentions a "modelled RadA-ATP-c-di-AMP-DNA quaternary complex" but does not describe how this complex was assembled or what conformational state of RadA it represents. The relationship between this complex and the hexamer model described earlier is unclear.
+  - **Required correction** Describe the modelling procedure for the quaternary complex, including the source of the initial coordinates and the docking approach used. Clarify whether this complex represents a biologically relevant state and how it relates to the hexamer model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalization to mycobacteria
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract opens with a statement about mycobacteria broadly but uses M. smegmatis RadA as the sole model. The abstract does not discuss whether the key residues are conserved in M. tuberculosis RadA or other mycobacterial species.
+  - **Required correction** Add a statement on sequence conservation of Arg197, Lys226, and Arg234 across mycobacterial RadA orthologs, or explicitly limit the claims to M. smegmatis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional evidence without quantitative data or specificity controls), R1-M2 (inconsistent structural models), R1-M3 (no experimental validation of the proposed binding site)
+- **Assessment against Nature-style criteria** Originality: the finding that c-di-AMP directly targets RadA would be a novel contribution, as prior work has focused on RecA. Scientific importance: the potential link between c-di-AMP signalling and homologous recombination is significant for understanding DNA damage responses in mycobacteria, but the importance is currently limited by the lack of functional validation and the preliminary nature of the structural model. Interdisciplinary readership: the topic bridges bacterial signalling and DNA repair, which could attract readers from both fields, but the abstract is written in a way that is accessible to specialists in either area. Technical soundness: the ITC approach is appropriate, but the functional assays lack quantitative detail and the structural claims are not experimentally validated. Readability for nonspecialists: the abstract is generally clear but the inconsistent structural descriptions and the lack of quantitative context for the functional data make it difficult for a non-specialist to assess the strength of the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential and the ITC binding data, if robust, would be a valuable contribution. However, the functional claim requires quantitative support and specificity controls, and the structural model requires experimental validation and internal consistency. The authors should be encouraged to resubmit with the full dataset and additional experiments.
+
+## Risk / unsupported claims
+- The claim that c-di-AMP reduces DNA-dependent ATPase activity is unsupported in the abstract because no quantitative data, concentration dependence, or specificity controls are provided.
+- The structural claim that c-di-AMP binds in the central channel engaging Arg197, Lys226, and Arg234 is unsupported because it relies solely on modelling and MD simulations with no experimental validation.
+- The claim that c-di-AMP binds at a site distinct from the ATP-binding pocket is partially supported by the ATP-analogue competition experiment, but the interpretation depends on the unverified assumption that the analogue binds RadA under the tested conditions.
+- The claim that c-di-AMP binding is independent of magnesium is not evaluable without buffer condition details.
+- The biological relevance of the findings for mycobacterial DNA damage responses is not established, as no in vivo or cellular experiments are described.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose a computational framework combining committor-based enhanced sampling with spectral analysis of the infinitesimal generator to characterize ligand binding and unbinding pathways. Applied to benzamidine (BEN) and para-amino benzamidine (PAB) with trypsin, the framework reportedly reveals distinct binding pathways, a previously uncharacterized BEN binding site, a common rotational bottleneck for unbinding, computed unbinding free energies consistent with experiment, and residence times and kinetic rate constants consistent with experimental data and independent OPES flooding simulations at reduced computational cost.
+- **Visible evidence base** Abstract text only; no figures, tables, methods descriptions, or numerical results were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, simulation parameters, error estimates, comparison datasets, and computational cost benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable methodological advance in simulating protein–ligand binding and unbinding kinetics. The combination of committor-based sampling with spectral analysis of the infinitesimal generator is conceptually interesting and could offer a new route to extracting kinetic quantities from enhanced sampling simulations. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or generalizability of the claims. Several assertions, particularly the discovery of a new binding site and the quantitative agreement with experimental kinetics, require detailed methodological and numerical support that is not visible here. The work is likely to interest computational chemists and biophysicists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on enhanced sampling methods, protein–ligand binding kinetics, and drug discovery would be interested. The proposed framework addresses a known bottleneck in ligand characterization, namely the calculation of binding and unbinding kinetics, and offers a potential route to resolving multiple binding sites and pathways. Researchers developing or applying committor-based methods and spectral analysis of dynamical operators would find the methodological combination relevant.
+- **Major strengths** The conceptual combination of committor-based enhanced sampling with spectral analysis of the infinitesimal generator is novel and potentially powerful. The application to a well-studied benchmark system (BEN–trypsin) with a congeneric ligand (PAB) allows for comparative analysis. The claim of reduced computational cost relative to independent simulations is practically important if substantiated. The focus on both binding and unbinding pathways, including a rotational bottleneck, addresses a realistic complexity of ligand dynamics.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The framework "reveals distinct and multifaceted binding pathways for the two ligands, uncovering a previously uncharacterized BEN binding site that competes with the crystallographic site"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts the discovery of a previously uncharacterized binding site for BEN that competes with the crystallographic site, but no structural, thermodynamic, or kinetic evidence is presented to support this claim. It is unclear how the site was identified, how its competition with the crystallographic site was quantified, or whether this site has any experimental or computational precedent.  
+  - **Why it matters** A new binding site claim is a strong and potentially high-impact assertion. If unsupported or an artifact of the method, it could mislead subsequent studies. The competition between sites also underpins the interpretation of binding pathways and kinetics, so the entire narrative depends on this being correct.  
+  - **Resolution test** Provide structural characterization of the proposed site, occupancy or free energy estimates relative to the crystallographic site, and validation against independent simulations or experimental data. Show that the site is not a sampling artifact and that its identification is robust to methodological parameters.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative validation  
+  - **Claim pointer** "The computed unbinding free energies closely agree with experimental measurements" and "residence times and kinetic rate constants that agree with available experimental data and with independent OPES flooding simulations"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports quantitative agreement with experimental data for unbinding free energies, residence times, and rate constants, but no numerical values, error bars, or statistical measures are provided. It is impossible to assess the quality of agreement, the precision of the estimates, or whether the agreement is within acceptable tolerances.  
+  - **Why it matters** Quantitative agreement with experiment is a central pillar of the paper's significance. Without numbers, uncertainties, and a description of how the comparison was made, the claim cannot be evaluated. Overstated or understated agreement could misrepresent the method's accuracy.  
+  - **Resolution test** Present a table or figure comparing computed and experimental values with explicit uncertainties, and describe the statistical treatment. Include convergence checks and sensitivity analyses for the kinetic estimates.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological reproducibility  
+  - **Claim pointer** The approach "combines committor-based enhanced sampling with spectral analysis of the infinitesimal generator" and "requires substantially less computational effort"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the specific committor-based method, the construction of the infinitesimal generator, the basis set or discretization used, or the protocol for extracting residence times and rate constants. The computational cost claim is made without any benchmark details.  
+  - **Why it matters** Reproducibility is essential for a methodological paper. Without a clear description of the algorithm and its parameters, other researchers cannot implement or test the approach. The computational cost claim, if not quantified, is unverifiable and could be misleading.  
+  - **Resolution test** Provide a detailed methods section with algorithmic steps, parameter choices, convergence criteria, and a benchmark comparing computational cost against OPES flooding or other reference methods on the same system and hardware.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** "This approach offers a privileged perspective to resolve the complexity of protein–ligand binding-unbinding process, with potential applications to ligand screening and the characterization of multiple binding sites"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract generalizes from a single protein–ligand pair (BEN–trypsin) and one congener (PAB) to broad applicability in ligand screening and multiple binding site characterization. No evidence is presented that the method scales to larger, more flexible, or more complex systems, or that it is robust across different protein families.  
+  - **Why it matters** The stated potential applications are ambitious. If the method is only demonstrated on a small, well-behaved system, the generalizability claim is speculative and could overstate the method's readiness for practical use.  
+  - **Resolution test** Discuss limitations explicitly and, if possible, include a second application to a different system or a clear argument for why the method should transfer. Avoid overclaiming in the abstract if only one system is studied.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "eventful journey"  
+  - **Issue** The title and phrasing are informal and do not convey the methodological rigor of the work.  
+  - **Required correction** Use a more precise and descriptive title that reflects the methodological advance and the system studied.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "committor-based enhanced sampling"  
+  - **Evidence pointer** Abstract, first sentence of methods description  
+  - **Issue** The term is not defined, and it is unclear whether this refers to a specific existing method or a new variant.  
+  - **Required correction** Briefly define the approach or cite the relevant method in the abstract, and provide full details in the main text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison with OPES flooding  
+  - **Evidence pointer** Abstract, "independent OPES flooding simulations"  
+  - **Issue** The abstract mentions agreement with OPES flooding but does not state whether the OPES simulations were performed by the authors or taken from the literature.  
+  - **Required correction** Clarify the origin of the OPES flooding data and the nature of the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (new binding site claim unsupported), R1-M2 (quantitative agreement not shown), R1-M3 (methodological details and cost benchmark missing). These are the primary technical gaps that prevent the case from being established from the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of committor-based sampling with spectral analysis of the infinitesimal generator appears novel and could represent a meaningful methodological contribution. However, the abstract does not clearly distinguish this from prior work on spectral methods or committor-based approaches, so the degree of novelty is not fully assessable.  
+  - **Scientific importance** The problem of computing binding and unbinding kinetics is of high importance in drug discovery and biophysics. If the method delivers accurate kinetics at reduced cost, it would be a significant advance. The importance is therefore potentially high, but it is contingent on the validity of the quantitative claims.  
+  - **Interdisciplinary readership** The work bridges computational chemistry, biophysics, and drug discovery, and could appeal to a broad readership if presented accessibly. The abstract is reasonably accessible but uses specialized terms without definition.  
+  - **Technical soundness** Not assessable from the abstract. The methodological details, convergence, error analysis, and validation are not visible. The technical soundness is therefore unverified.  
+  - **Readability for nonspecialists** The abstract is readable but assumes familiarity with enhanced sampling and spectral methods. The informal title and phrasing may obscure the technical content for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the system choice is appropriate, but the abstract alone does not provide sufficient evidence to support the central claims of a new binding site, quantitative agreement with experiment, and reduced computational cost. A full manuscript with detailed methods, numerical results, and validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The existence of a previously uncharacterized BEN binding site that competes with the crystallographic site is unsupported by any visible evidence.
+- The claim of close agreement between computed and experimental unbinding free energies is unquantified and therefore not assessable.
+- The claim of agreement between computed residence times and rate constants with experimental data and OPES flooding simulations is unquantified and not assessable.
+- The claim of substantially reduced computational cost is made without any benchmark data.
+- The general applicability to ligand screening and multiple binding site characterization is speculative given the single-system demonstration implied by the abstract.
